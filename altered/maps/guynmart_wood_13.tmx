@@ -198,7 +198,7 @@
    eJyllMsNgDAMQ7MC6qmLwwbswChIYRfEASnqJ3UcXyqhvNptQkXm0iry1H71ZGsYfsR9ugDO2yvKRzOv+HvjOCVz/8pkZzkN3lt75hW3F5GjcL5n6b9ZX+bsox5F542d798/0y/rHd2rrc/844hmbwvqzd5V5k3zMnq8EgySGfVF8iN1kZkYzeKKZ3tq9QIpAn/C
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="30" visible="0">
+ <layer id="4" name="Walkable" width="15" height="30">
   <data encoding="base64" compression="zlib">
    eJytlMENACAIA53C/VdgQ/3wIRRahYQPcpaAYnstu+5mm/fMPF4xFdvxiEX1x5oUU3QrruPj2aSuYpFR+ewOlWPfSsex9U31bKrnHmNZJZ/VZzVRL1+1Wf7nfyD+5e386jJ7oaqx28PKjFCO2iu0yxROnUuWx+4Sjx1g6n0o
   </data>
@@ -244,7 +244,7 @@
   </object>
   <object id="14" name="forestwolf2" type="spawn" x="224" y="704" width="224" height="224">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwolf2"/>
    </properties>
   </object>
@@ -256,7 +256,7 @@
   </object>
   <object id="16" name="forestbeetle" type="spawn" x="0" y="224" width="160" height="736">
    <properties>
-    <property name="quantity" value="10"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="forestbeetle"/>
    </properties>
   </object>

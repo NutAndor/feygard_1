@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="22">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="24">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,7 +193,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1j0LwjAQBuCjex06FPLDpT8pzo6V0q1g1VVw8zI1HOaj8ObSwXe6IfDkcgmECBvbb/WlD6/bm3NTx41lbvTdgc2FnUeFfq1wnJuaC9oduf4A+50C+9eare/PkdmG9onKr9n6KeXnzLaEnTvbpyF6GYyZ+25LmjEXacv7FHu3yH5T99hP2xGdOl0X2avLm52bZ61c3xP2FdTzHhsded5atuz5CLZGjnTeWv8daWu5LjX+s9L9v2d9u+Zf3uULcahkIg==
+   eJzN1k0KwjAQBeChe11UKPTg6l28QNUjWEp3gn9bwZ2TlcNgfgovk7xVFoWvk5dAiLAZut/62Pm/W5ptU8YNZW7s3T2bV3YeBeYdlOPcWC9o98LrD3DeyfP/Vt1Kfw506/tPVP51K5PLT+k2h53a7bMnevUYM/Xe5jRDLtLW5yl0b5Hzxs6xzKolWre2rpz1AJj5zc4orDuvbxH7DNrrJbbLCeS66P2O2ajomWuwLVLTflu9d7Rt5bqUeM9q16pj7Vratd3nkm/53YboC9U+Zn8=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -203,14 +203,26 @@
  </layer>
  <layer id="5" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdbBQjXhyXWnLsxGU+re0l1T20tpcU8aFkL3qY4gpjWtmLjol1JzXtp1QdrcBA2j8Y/D0Qdo76d/jZO1Lz0SgYBaNgFIyCwQ0A9m81pA==
+   eJxjYCAdbBQjXhyXWnLsxGU+re0l1T20tpcU8aFkL3qY4gpjWtmLjol1JzXtp1QdrcBA2j8Y/D0Qdo76d/jZO1LzEcz+UTAKRsEoGAWDD4DKZwBcJjcy
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents" visible="0">
-  <object id="21" name="east" type="mapchange" x="928" y="512" width="32" height="256">
+  <object id="21" name="east" type="mapchange" x="928" y="576" width="32" height="352">
    <properties>
-    <property name="map" value="guynmart_wood_14"/>
+    <property name="map" value="guynmart_wood_16"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="22" name="north" type="mapchange" x="32" y="0" width="736" height="32">
+   <properties>
+    <property name="map" value="guynmart_wood_18"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="23" name="south" type="mapchange" x="512" y="928" width="416" height="32">
+   <properties>
+    <property name="map" value="guynmart_wood_15"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
