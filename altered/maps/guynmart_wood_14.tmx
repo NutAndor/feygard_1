@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="14" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="14" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,17 +190,27 @@
  </layer>
  <layer id="2" name="Objects" width="14" height="30">
   <data encoding="base64" compression="zlib">
-   eJyVVDsOwjAMtQQXSIBIVIL7X4ELUMrIgGiZYCi/MsCA6EYqGuE6dhMsWW7cZ/s5TlJNAe5Wqz9tI/ibrmcaYK59/1NDR9y/XAGUBuAs6MX4uRz+ZkCUK4qNwdNYir+ory2s782oJA5fkz6c3Zt+/BHtm4tZWy4vUr9mONA5cfUxJlX8nCuyLhXfK449MGcAC+6rUP1cQ4J5DhKAYdKNzQnfhfL7H9mYsdWJ1Uzoj6sn8ZTuS9/+x8TH5OByZhH1SzIHGhMSiTO9+3h/ae6N/vkK1Z+XziFjOHL4EzP/UE+rlstO+3OnNm2xjV0Kd8rtC80fw5/j3LwJ3Iw57NZiH8J7zPlCZzTmfIfsB8II9DM=
+   eJyVVDsOwjAMtQQXSIBIVIL7X4ELUMrIgGiZYCi/MsCA6EYqGuE6dhMsWW7cZ/s5TlJNAe5Wqz9tI/ibrmcaYK59/1NDR9y/XAGUBuAs6MX4uRz+ZkCUK4qNwdNYir+ory2s782oJA5fkz6c3Zt+/BHtm4tZWy4vUr9mONA5cfUxJlX8nCuyLhXfK449MGcAC+6rUP1cQ4J5DhKAYdKNzQnfhfL7H9mYsdWJ1Uzoj6sn8ZTuS9/+x/YeysHFZhH1SzIHGhMSqWd69/H+0twb/fMVqj8vnUPGcOTwJ2b+oZ5WLZed9udObdpiG7sU7pTbF5o/hj/HuXkTuBlz2K3FPoT3mPOFzmjM+Q7ZD94s8ig=
   </data>
  </layer>
  <layer id="3" name="Above" width="14" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNU8ENwCAIvDW6/xTdpZ2iHUD7ICEE4YI8SkKICh7cKQBcB3BPF7PrbD8768j/q8kclXk6OLP4kZY6h8GP8HZ6ZWu/+Ex/CX47dIh48Xj0cJm/s9KI0VDsJPH12tawvFRrVnsMl7pfpidW/1V/3h07WjL4GY6ncYcO2VzM+85i1QYtsJzk
+   eJxjYGBguCPJwHAXiGEAnU9InJAcNdQPVgDzBzn+oUaYoduPLy6R1RBjPz77KHErsXpB9Gcg/kJE+FIjHvCFC7ZwxGYvJXmHmDiEgZ1E2o/MR9dDCODyM7F6cIkRE5bI7iXGTcTGPy73YTODmLgktuzEpxeXHmxxTI14IOQvYtI3IZpcAAA6rJr5
   </data>
  </layer>
- <layer id="5" name="Walkable" width="14" height="30">
+ <layer id="10" name="Top" width="14" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNk9ENACEIQ53C/Vdww8v9EaL0FX9sQqKGAhZYc4zVsB/xnO/VOSLHVHB8X8ZOT5d741/1NXOUr5PPqdXViMwr5RAQrtoJlZfsG+lhfHO5p/xKl1Mcxcn1kbhdHbszXc2aqoH2SnGrPI4u7j9VbVSfnX3JVJnr
+   eJzbxMnAsGkUj+IRir+LMzBoSDAw/BAnTY8mUA8IqJOglxOqBwZ+EqmPHahPEqpXHEhzSBDvVpBeCRL1jOJRPFAYAEalKr4=
+  </data>
+ </layer>
+ <layer id="11" name="Top1" width="14" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGHgAABpAAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="Walkable" width="14" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNk9EJACEMQ53i9l/BDY/7K0WTPO/HQEGlaWOq8xljHsSHuu57ta7oNR1I7s1Y+Um5f/LVXDvH5ZJ+RCv1KHmvKSdBwnV/wvVVesgM6xnl7v6782VXx3G6vqQu8fHkjSl9dJbprBxX9SG+0Hs6bak/q3gBTeiYXQ==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
@@ -222,8 +232,29 @@
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object id="6" name="feygard_fogmonster_check" type="script" x="320" y="448" width="128" height="128">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0"/>
+ <objectgroup id="12" name="Spawn">
+  <object id="4" name="guynmart_fogmonster" type="spawn" x="352" y="480" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="guynmart_fogmonster"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="9" name="Replace" visible="0"/>
+ <objectgroup id="13" name="Replace" visible="0">
+  <object id="5" name="feygard_nondisplay:1" type="replace" x="0" y="0" width="448" height="960">
+   <properties>
+    <property name="Top" value="Top1"/>
+    <property name="requireId" value="feygard_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

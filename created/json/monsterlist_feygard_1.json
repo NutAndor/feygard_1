@@ -1,0 +1,22 @@
+[
+    {
+        "id":"guynmart_fogmonster",
+        "name":"Foggerlump",
+        "iconID":"monsters_tometik8:26",
+        "maxHP":220,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":8,
+            "max":20
+        },
+        "phraseID":"guynmart_fogmonster",
+        "droplistID":"guynmart_fogmonster",
+        "attackCost":6,
+        "attackChance":140,
+        "blockChance":150,
+        "damageResistance":10
+    }
+]

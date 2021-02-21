@@ -1,0 +1,5 @@
+[
+	{	"id":"guynmart_fogmonster",
+		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":10, "max":20 } }]
+	}
+]

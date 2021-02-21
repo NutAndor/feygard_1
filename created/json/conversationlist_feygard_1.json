@@ -1,0 +1,48 @@
+[
+    {
+        "id":"guynmart_fog",
+        "message":"You can't get through this dense fog here."
+    },
+    {
+        "id":"guynmart_fogmonster",
+        "message":"Stay a while - stay for ever!",
+        "replies":[
+            {
+                "text":"I rather fight to warm up a bit. It is cold in the fog, you know?",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster_check_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"guynmart_fogmonster",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplay",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster_check_1",
+        "message":"As soon as you lower your weapon, the fog begins to vanish.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplay",
+                "value":1
+            }
+        ]
+    }
+]
