@@ -230,6 +230,7 @@
     <map id="guynmart_wood_16" x="39" y="191"/>
     <map id="guynmart_wood_17" x="8" y="175"/>
     <map id="guynmart_wood_18" x="8" y="144"/>
+    <map id="guynmart_wood_19" x="8" y="128"/>
     <map id="waytolake12" x="678" y="174"/>
     <map id="arulirmountain1" x="817" y="94"/>
     <map id="arulirmountain2" x="848" y="96"/>
@@ -246,7 +247,7 @@
     <map id="mywild19" x="192" y="459"/>
     <map id="mywild20" x="217" y="455"/>
     <map id="mywildcave" x="192" y="480"/>
-      <namedarea id="crossglen" name="Crossglen" type="settlement"/>
+    <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
     <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
