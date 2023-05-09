@@ -4,10 +4,10 @@
         "name":"feygard nondisplay",
         "showInLog":0,
         "stages":[
-            {
-                "progress":1,
-                "logText":"1=Fog has lifted"
-            }
+            { "progress":1, "logText":"1=Fog has lifted" 
+			},
+            { "progress":2, "logText":"2=Roadguard noticed fog" 
+			}
         ]
     }
 ]

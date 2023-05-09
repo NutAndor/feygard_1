@@ -44,5 +44,26 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"guynmart_roadguard_12",
+        "message":"The fog over there is very dangerous.",
+        "replies":[
+            {
+                "text":"Which fog? Do you ever look up?",
+                "nextPhraseID":"guynmart_roadguard_30"
+            }
+        ]
+    },
+    {
+        "id":"guynmart_roadguard_30",
+        "message":"Oh ... Forget it. I feel rather stupid now. Bye.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guynmart_roadguard",
+                "mapName":"guynmart_wood_13"
+            }
+        ]
     }
 ]
