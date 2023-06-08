@@ -4,7 +4,7 @@
         "message":"You can't get through this dense fog here."
     },
     {
-        "id":"guynmart_fogmonster",
+        "id":"guynmart_fogmonster1",
         "message":"Stay a while - stay for ever!",
         "replies":[
             {
@@ -14,19 +14,19 @@
         ]
     },
     {
-        "id":"feygard_fogmonster_check",
+        "id":"feygard_fogmonster1_check",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster_check_1",
+                "nextPhraseID":"feygard_fogmonster1_check_1",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"guynmart_fogmonster",
+                        "requireID":"guynmart_fogmonster1",
                         "value":1
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"feygard_nondisplay",
+                        "requireID":"feygard_fog",
                         "value":1,
 						"negate":true
                     }
@@ -35,13 +35,141 @@
         ]
     },
     {
-        "id":"feygard_fogmonster_check_1",
+        "id":"feygard_fogmonster1_check_1",
         "message":"As soon as you lower your weapon, the fog begins to vanish.",
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"feygard_nondisplay",
+                "rewardID":"feygard_fog",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster2_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster1_check_2",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"guynmart_fogmonster2",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster2_check_1",
+        "message":"As soon as you lower your weapon, the fog begins to vanish.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster3_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster1_check_3",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"guynmart_fogmonster3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster3_check_1",
+        "message":"As soon as you lower your weapon, the fog begins to vanish.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster4_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster1_check_4",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"guynmart_fogmonster4",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster4_check_1",
+        "message":"As soon as you lower your weapon, the fog begins to vanish.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster5_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster5_check_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"guynmart_fogmonster5",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster5_check_1",
+        "message":"As soon as you lower your weapon, the fog begins to vanish.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":5
             }
         ]
     },

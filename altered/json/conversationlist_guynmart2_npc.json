@@ -13,7 +13,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"feygard_nondisplay",
+                        "requireID":"feygard_fog",
                         "value":1
                     }
                 ]
@@ -30,7 +30,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"feygard_nondisplay",
+                        "requireID":"feygard_fog",
                         "value":1
                     }
                 ]
