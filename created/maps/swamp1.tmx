@@ -198,7 +198,7 @@
    eJy7I8nAcBeIcYE7BOQJ6dlJol5aA3L8Q4qZlJpPC/dRGwxmNwIANfUQKw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="9" visible="0">
+ <layer id="4" name="Walkable" width="20" height="9">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJFEjA0QowZZHT6Abg46m1hArNtJNYMcc0kxBxebFHMIuY9cc6jlHmx+pAYGAFOfXII=
   </data>
@@ -217,10 +217,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn uniques" visible="0">
-  <object id="3" name="tinlyn_lostsheep3" type="spawn" x="64" y="64" width="512" height="512"/>
- </objectgroup>
- <objectgroup id="7" name="Spawn monsters" visible="0">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="96" y="96" width="480" height="480">
    <properties>
     <property name="quantity" value="2"/>

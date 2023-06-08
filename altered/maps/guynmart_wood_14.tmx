@@ -203,7 +203,7 @@
    eJxjYBgFo2AUjIJRMAoGHgAABpAAAQ==
   </data>
  </layer>
- <layer id="10" name="Top1" width="14" height="30" visible="0">
+ <layer id="10" name="Top1" width="14" height="30">
   <data encoding="base64" compression="zlib">
    eJzV000KgCAUBGB35Qm0E1jX73LVLgUXau9nMAwacBPvY0zUmHFx3hjfLGR+jmu39ZIMNa+5y/GGc1oX57SuPzvkTCiHdH3hjvh9jfs/He6S2fJdDtkizvrnDOKm6BZfn3ebUPxDa8s3RaX3vnCdo97fG6ftVYrUKUXq1MJZJJRFk6z0HtDuniR7A95LmJk=
   </data>
@@ -213,7 +213,7 @@
    eJxjYBgFo2AUjIJRMAoGHgAABpAAAQ==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="14" height="30">
+ <layer id="5" name="Walkable" width="14" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNk1EKwDAIQ3uK3f8KveHYn8hM8rqfBYS2JBrU7mutfRAP6rnf1bmi53Qg3D/jrZ9U+4Wv5to1jkvqEa+0R8m+ppoEidb9CVdX+SEzrG9UO/1315cpj9N0f0le0seTHVP+6CzTWTmtqjNpU27ieeI4vypuOUmWzw==
   </data>
