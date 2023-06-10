@@ -200,7 +200,7 @@
  </layer>
  <layer id="3" name="Above" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAIB3Awu4AAE=
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgFBAL9kjS3o4zWOwAAIFCAbs=
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="30">
@@ -258,7 +258,7 @@
   <object id="7" name="feygard_fogmonster3" type="spawn" x="640" y="160" width="32" height="32">
    <properties>
     <property name="quantity" value="1"/>
-    <property name="spawngroup" value="guynmart_fogmonster3"/>
+    <property name="spawngroup" value="feygard_fogmonster3"/>
    </properties>
   </object>
   <object id="15" name="feygard_fogmonster3_check" type="script" x="576" y="96" width="160" height="160">

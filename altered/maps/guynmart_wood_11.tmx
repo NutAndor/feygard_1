@@ -264,7 +264,7 @@
   <object id="24" name="south" type="mapchange" x="768" y="928" width="128" height="32">
    <properties>
     <property name="map" value="swamp1"/>
-    <property name="place" value="west"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

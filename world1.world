@@ -1,0 +1,69 @@
+{
+    "maps": [
+        {
+            "fileName": "created/maps/swamp3.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "guynmart_wood_14.tmx",
+            "height": 960,
+            "width": 448,
+            "x": -480,
+            "y": -992
+        },
+        {
+            "fileName": "guynmart_wood_13.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 0,
+            "y": -992
+        },
+        {
+            "fileName": "created/maps/swamp2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 832,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/swamp1.tmx",
+            "height": 288,
+            "width": 640,
+            "x": 1824,
+            "y": 0
+        },
+        {
+            "fileName": "created/maps/swamp4.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 0,
+            "y": 512
+        },
+        {
+            "fileName": "created/maps/swamp5.tmx",
+            "height": 640,
+            "width": 800,
+            "x": -832,
+            "y": 832
+        },
+        {
+            "fileName": "created/maps/swamp6.tmx",
+            "height": 800,
+            "width": 800,
+            "x": -832,
+            "y": 0
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1504,
+            "y": -992
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

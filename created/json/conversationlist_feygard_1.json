@@ -4,12 +4,43 @@
         "message":"You can't get through this dense fog here."
     },
     {
-        "id":"guynmart_fogmonster1",
-        "message":"Stay a while - stay for ever!",
+        "id":"feygard_fogmonster9",
+        "message":"Me and my brothers watch over the ruler of the swamp.",
         "replies":[
             {
-                "text":"I rather fight to warm up a bit. It is cold in the fog, you know?",
-                "nextPhraseID":"F"
+                "text":"Not for long, your brothers have left the area already. Attack!",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"So I'm going to have to talk to your brothers.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -21,7 +52,7 @@
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"guynmart_fogmonster1",
+                        "requireID":"feygard_fogmonster1",
                         "value":1
                     },
                     {
@@ -49,11 +80,11 @@
         "id":"feygard_fogmonster2_check",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster1_check_2",
+                "nextPhraseID":"feygard_fogmonster2_check_1",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"guynmart_fogmonster2",
+                        "requireID":"feygard_fogmonster2",
                         "value":1
                     },
                     {
@@ -81,11 +112,11 @@
         "id":"feygard_fogmonster3_check",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster1_check_3",
+                "nextPhraseID":"feygard_fogmonster3_check_1",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"guynmart_fogmonster3",
+                        "requireID":"feygard_fogmonster3",
                         "value":1
                     },
                     {
@@ -113,11 +144,11 @@
         "id":"feygard_fogmonster4_check",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster1_check_4",
+                "nextPhraseID":"feygard_fogmonster4_check_1",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"guynmart_fogmonster4",
+                        "requireID":"feygard_fogmonster4",
                         "value":1
                     },
                     {
@@ -149,7 +180,7 @@
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"guynmart_fogmonster5",
+                        "requireID":"feygard_fogmonster5",
                         "value":1
                     },
                     {
