@@ -205,6 +205,10 @@
         ]
     },
     {
+        "id":"feygard_swamp_sign",
+        "message":"Go away - while you still can!"
+    },
+    {
         "id":"guynmart_roadguard_12",
         "message":"The fog over there is very dangerous.",
         "replies":[

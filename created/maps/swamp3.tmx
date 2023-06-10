@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="30">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="31">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,22 +188,22 @@
  </tileset>
  <layer id="9" name="Base" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUk4SZeInHlNjxlYeBQQhkhjAmBol/46HcDmYgfgQ056AwJgaJM1LBHzA7XkgzMLxEwq+kqW/Hd6CZP5DwTxLsOAHFhOzAhQnZcQINY7ODFYg/8eDGbDjsQDcbnx3kpl1izKcWpocdwx0DAD/q/KI=
+   eJzbyMnAsHEUk4SZeInHlNjxlYeBQQhkhjAmBol/46HcDmYgfgQ056AwJgaJM1LBHzA7XkgzMLxEwq+kqW/Hd6CZP5DwTxrYgQtTww5WIP7EgxuzUcEOWqfdUTw4MACydvrW
   </data>
  </layer>
  <layer id="1" name="Ground" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFVM0uBEEQrhDEWJKZkcxOdhMuTi4OeAHsE+AJ8AB4AryHuHD0DLjOzV9kXXZJrJ9ExI2J+DpTna3u6Z6tpNJdXdXfV1X9Q9SXh5BoMiKaigr7CeM19D4sbDV+pKY9A/9sRE555Lir1O3PeP0P+y8YV42XaXnUON+I3Y2J9qD7selvY38vKnO2RX6n2HMWc/5ivcvzO875ADGH0KO4H9PhmJ+EaL4+WH+Tcs26d1o+Q/d6rW7aC9OF2pKDo4Nau9CMMWRPJK/dU5vDJ7mjDi1Z6PcpkRxz6OVxk2hlCOc4Wsxtjp7jzqzDt8G6mZj13UYmxziwzxl3eKw/r6pD4a8J3yrzqLN5C806Tkaq61Uc76InOneNXxP3qWXl4zuPRlDmkLIs7Bz9aHo4VE8DcDRcGpj2BOfyFZU5pCxifcfyvfIe1z1U8uz5L7aAsw1dsvBa4sxvPHvt91PFL7m02jVoycT7rMKTObx43rRcc/2bg/BdMa5/Us//AfBgcNk=
+   eJyFVM1KAzEQHhQV1x9IKralil48efHnCbRPoD6B+lqC+AQePavXvVVbpCC0Sq1SEPGmizppJuzs7Oz6wZDJZPb7MplsAAAGBsZ4wHHBAixaP3/CsYXWoXU3tle9hfkarq9T/hjkn7HYbR1UxBT/sSnvNcZu6vkx8Hxi7qPxe70y2fUuzoc2r9llexmZ1G+xeJ/8Nq0PWF5Aj3K+qgCbtf/tu5rn6Ajed6PH52vZ+daSN4kENXpYax8tJg5+JlxXnqnUKEKi1BEQK+fEwTU2KgDnKwDNCezjtPelxpD4eP8O0D8kOxJ34t5mNWaR+5J4J2dSP2gk/K4y/n3Huextj3Rcb95Mto6LqfJ6ncYv0wh75/zBmqJHRf1oRHkNjl2Fm2uM2JlGqNHQLMrO52gvH7ZcYxvjp6KOV/eGVPR76PCs9MDhGHN3FJ2g4bjuCr7VUKTvdE6EyRoC+D8lId+I8A+/FPzTPJZ7N0v2W5ajvZPB/wMh5IHp
   </data>
  </layer>
- <layer id="2" name="Objects" width="25" height="15" visible="0">
+ <layer id="2" name="Objects" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7JsvAcG0UD2qMDYzaMXB2jOJRPBQwAFb8UQk=
+   eJy7JsvAcI0E/EaSgeGtJGl6iMEHgWYeooG5wwFjA6N2DJwdyFiai/bxP1zsGMX0xQDIl06T
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbLMmAFWxGEt8IZG+SxE0jq08SZmBIFkbVd1gSu9nI4geB7GnCEPqQJCaNrL4IqK4YiEuEsbt9MIGLQDdfwhKW6ABbmILAQ3bs5j7CIQ4CyGEGA5txhCkIfMRh1icc4puxuB8EDmNxPyFwWAxC2wPj0gEpPtHTDDLA5j984BLUDn+g+QFUTDMWggwM0lwQGgb+C+HXw4PDflxhCgIgO0gBMjjsOIwnHZJqBzLAFef44onUdEIozrGZR2o6wQc2Ysk3hNyALU/j8zcx7kVXgy1Pw9gAPIdQ3g==
+   eJzFkzEOgCAMRd2cNdGEm3ht5QTKCXRw1xvo7CAMJlj/V4gmvqXkU0ppi1YJRHt6bdeN4lb6y3NG7B2+Une0VuvU1T75S5DvH/Q2jwHUUoJq6phSHHf29Mn6z94ZVBNNaupYyB0r0VGvHQbk/4QpeSwG6zljIHe8pcrONoQtxzqr6ZcYModj8S4u6/ldn2LnJKTnMmbsnITEjnkT+tN37w7JV/qgP32sdw2PUPA=
   </data>
  </layer>
  <layer id="13" name="Top" width="25" height="15" visible="0">
@@ -223,7 +223,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9VEEOwCAM2iv8/xf6w51m1ABCDyPxIEagWq3xTNTYB+K6A6GEd5oF6Smfk0fZVPY/4J4rm9/0Po55retJXsSznMzj5Fh9qg7Fs+xuvyqNm7byce/Y1WfvwIX79tjeTv90/pLUP6nB0UuBtBx9dKesV17LtIHS
+   eJzNk8ENwCAMAzsF+6+QDfsClco2l74aKRI4wnaA1LhW1NhTYV9TRQXtrhfFp9ZO/49B79XtT3wTc1rPesevwp1Pp/HGXH+pj4Q77/S/prrzTuaCvjHlJ3NAe+rOdqqfznT1Eh/RShyUsxOKh3CrN3V/5QY3yX62
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
@@ -247,10 +247,11 @@
   </object>
   <object id="28" name="south" type="mapchange" x="32" y="448" width="736" height="32">
    <properties>
-    <property name="map" value="swamp5"/>
+    <property name="map" value="swamp4"/>
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object id="30" name="feygard_swamp_sign" type="sign" x="224" y="320" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="160" y="352" width="384" height="64">

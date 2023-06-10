@@ -210,7 +210,7 @@
  </layer>
  <layer id="11" name="Top1" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9lUEKhDAMRbvTnqDxBKPX93Iz7jQMH0JpTTTGwMfde/yU1pTOp1BKZMxECqzDHY+s2ZbB6CwXuZqz9jzJlx45W3mWj0R2qB1RHeCI7ABHZAdOdAdOdIc3HN8S62D+QjEOZs/05/N8ju/P6QETWRpvobdLFszWv8DbBTsHu3UPMHc84Gu78OwMO9LusZwrXeSOtHfi7vlnw456DksX6zn0HPDMHZfkexy16+x+eR2WsTh2m4VlGg==
+   eJy1lVEOwyAMQ/nrOAHsBFuvv8u1+xtIi2ShJrgEIuWrqh92UhqCXSmHkMl+5o6Yovso/YlcbyQz3dTtMVvOTH3kYH3TXH3plR5axioPwljpQRgrPdS2PByF/S7PTucZNA9Vf//v3cvJ0Rhx0l7Xs2rv4jc6uhOShXW+beDOwjnOyho1pfeLu9C7uzi7q3+B14tknoxcpUY4uN9WFp7MIrl3WHe8YEa9vRudfyQy0hiMF3YOGkM42l2I+h5Gy7K+Ly+DKYbxA3m4XPw=
   </data>
  </layer>
  <layer id="12" name="Top0" width="25" height="25">
@@ -223,7 +223,7 @@
    eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="19" name="east1" type="mapchange" x="768" y="32" width="32" height="416">
    <properties>
     <property name="map" value="swamp3"/>
@@ -248,7 +248,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="64" y="96" width="192" height="224">
    <properties>
     <property name="quantity" value="2"/>
