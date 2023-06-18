@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexaN4FA8pDABNFsYq
@@ -190,17 +193,17 @@
  </layer>
  <layer id="1" name="Ground" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+   eJxjYKAtuCZLW7NhmNbm08IOdPNH7Rg4O7CZP2rHwNmBy55ROwbODmz2DFU70O2hJaCHHaNg5AIAM7dQsA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+   eJytVNsJwzAM9HfJADbJCNn/v52n3aEJbaEY6R5BgpAgS3eyTlFrnj1Ha6+Rv+e4vecYCg/jj/AdHhTr1u6eLV/8++F/DB7v8M0cSm6mYeaPOKK7uHiz/9RhB71SebK4+Q4s1jn7N8ThzCqKV7WIMNhM/L7R3Co1qjGboTmz7K5Md1Qn8imzFfU28qFcVxPVsn9oK+gXm4tbz3nYrkA5aG9FOEwLdY+t/fNcNXc3VGM6e9TFq9p7V+up7K0639X2Bk+GqTE=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBTCwR5L2dpyhgh0A0i4Buw==
+   eJy1VUsWgCAI5Brc/wS1blPrjlB3yY3vmU8+ozCbXiMMIohEfzxM9DKpkGwqv6KxYqvZza5thd/Zb4/YIL49J511/9/uf5QLqjfiz/K9WNe34mj6lu5sbVvUHFY0EHs0J6sntLrP7jEiDw+8Pef1tzg095Gfp+fQmniB5KH5z2h6ZoiXl+JKd1E6f2ReRiNDN/JtXLlLGXMv491HtBDNI6FfetwBMT7rRJzu
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="25">
@@ -218,12 +221,12 @@
    eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="25">
+ <layer id="4" name="Walkable" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+   eJzFVFsOwCAI8xTe/wq74X4XM/sCI8k+NmuhBTaGF8/Ez4pDHEoelj/hqGBTXe5Zt74kp9rb77uiU52Vqi8Mq9bNzit9SDk65kPpA/Ko4lk3hoVbu1ID+ubq+rvXuUtuODrQ/YQz2bXEK8bPenHKe1TTDc6OPd/hb/z3UqzKdWoOdvECwwSEJw==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="19" name="east1" type="mapchange" x="768" y="32" width="32" height="416">
    <properties>
     <property name="map" value="swamp3"/>
@@ -248,7 +251,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="4" name="fieldcritter_2" type="spawn" x="64" y="96" width="192" height="224">
    <properties>
     <property name="quantity" value="2"/>

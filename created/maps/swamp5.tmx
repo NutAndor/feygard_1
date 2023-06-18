@@ -181,7 +181,7 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7449" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_transition_2.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="25" height="20">
   <data encoding="base64" compression="zlib">
@@ -195,12 +195,12 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+   eJxjYKAfyJFkYMiVJF0OWR5ZHSE9lNpJSB0lbiHWbnLcRS392MIcnz5izSNXnBphhs0sapqLzXx66qWVGaSmBVLcRYvwpxcg5B9q5R1sagci3KhtJy3z+GAA9PYPAJv6LeU=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgewEaS9nb40MGOUTAKRsEoGAWjgBwAAPw2ALs=
+   eJxjYICAGEkGhlhJBqwAnxyyPLI6QnootRNdnY0kdnFy3IJLvQ8R7sFmHjmAnDDHp49Y88gVp9S/uMymprnYzKenXlqZQWpaIMVdtAh/egFC/qFW3sGmdiDCjdp20jKPDwYw3PwDAgAaeCkf
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="20">
@@ -208,7 +208,7 @@
    eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
   </data>
  </layer>
- <layer id="12" name="Top1" width="25" height="20" visible="0">
+ <layer id="12" name="Top1" width="25" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYKAMJMoyMGzixI8pAfVA8wvQ7IgH8icAcYIsdexA9wPI/ImyELl+JHuoaUehLHZ5atqRD+Q3Qu1BDkdKQD9auMPsaUCLJ0oBrdMVLr9Q2w5i7KEW6IfmC+S8AcsrtAAw+ybSyPxRMApGAWkAAEf8O9g=
   </data>
@@ -218,9 +218,9 @@
    eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20">
+ <layer id="4" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+   eJxjYKAf2CgGwaTKIcsjqyOkh1I7CamjxC3E2k2Ou6ilH1uY49NHrHnkilMjzLCZRU1zsZlPT720MoPUtECKu2gR/vQChPxDrbyDTe1AhBu17aRlHh8MgN7+AQDzD0Rp
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">

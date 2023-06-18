@@ -76,6 +76,76 @@
             "width": 448,
             "x": -480,
             "y": -992
+        },
+        {
+            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/fields10.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 832,
+            "y": 992
+        },
+        {
+            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/fields3.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 1824,
+            "y": 320
+        },
+        {
+            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/fields9.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 1504,
+            "y": 992
+        },
+        {
+            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/roadtocarntower2.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 512,
+            "y": 1504
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_12.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 512,
+            "y": -512
+        },
+        {
+            "fileName": "created/maps/guynmart_wood_15.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -1472,
+            "y": -1504
+        },
+        {
+            "fileName": "created/maps/guynmart_wood_16.tmx",
+            "height": 448,
+            "width": 480,
+            "x": -992,
+            "y": -1984
+        },
+        {
+            "fileName": "created/maps/guynmart_wood_17.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -1984,
+            "y": -2496
+        },
+        {
+            "fileName": "created/maps/guynmart_wood_18.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -1984,
+            "y": -3488
+        },
+        {
+            "fileName": "created/maps/guynmart_wood_19.tmx",
+            "height": 480,
+            "width": 960,
+            "x": -1984,
+            "y": -4000
         }
     ],
     "onlyShowAdjacentMaps": false,
