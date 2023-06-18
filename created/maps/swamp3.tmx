@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="31">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -211,7 +211,7 @@
    eJxjYBgFo2AUjIJRMNwAAAXcAAE=
   </data>
  </layer>
- <layer id="10" name="Top1" width="25" height="15">
+ <layer id="10" name="Top1" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJytlN0OgyAMhblTngB8Aufr7+U276QZzU5OgLW4Jieakvr1D/ccwjuF8Ix2xRIjlsozV23Vh6bnYucEQ+LX/PUtwFPpudhe3h9VlpqE4cmLa7TEehkL9XIU+0qfWg8ngznYN9ZhzOUXJ9Hc2Ie5ePex12f2WWoesS2M3p5yjcjUOfZm6dmhFnujObZm6d3TFpfvPt7dfzBE+F/h7ytjdoeQMcozwhxnOa3+qGQf7t470QV7b9DY
   </data>
@@ -223,7 +223,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNk8ENwCAMAzsF+6+QDfsClco2l74aKRI4wnaA1LhW1NhTYV9TRQXtrhfFp9ZO/49B79XtT3wTc1rPesevwp1Pp/HGXH+pj4Q77/S/prrzTuaCvjHlJ3NAe+rOdqqfznT1Eh/RShyUsxOKh3CrN3V/5QY3yX62
+   eJzNk1EOgDAIQz3F7n+F3dAvjTNt9+qXJCRbyVoYMMdx2xyrK+yrK5tBu81F8amz0/+j0X919x3fhTmtZ7zJV+Gtxhtz9aU6Eu5yp/Oa4i53she0x5Sf7AGtqd3tFN+9afUSH9FKHJSzMcVDuFVP3ayc2o1/fQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
@@ -252,6 +252,12 @@
    </properties>
   </object>
   <object id="30" name="feygard_swamp_sign" type="sign" x="224" y="320" width="32" height="32"/>
+  <object id="31" name="hut" type="mapchange" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="swamp_hut"/>
+    <property name="place" value="door"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="160" y="352" width="384" height="64">

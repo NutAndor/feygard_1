@@ -98,7 +98,7 @@
         "id":"feygard_fogmonster9",
         "name":"Foggerlump1",
         "iconID":"monsters_tometik8:26",
-		"phraseID":"feygard_fogmonster9"
+		"phraseID":"feygard_fogmonster9",
         "maxHP":220,
         "maxAP":10,
         "moveCost":5,
@@ -113,5 +113,25 @@
         "attackChance":140,
         "blockChance":150,
         "damageResistance":10
+    },
+    {
+        "id":"swamp_witch",
+        "name":"Madame Mim",
+        "iconID":"monsters_ld2:95",
+		"phraseID":"swamp_witch",
+        "maxHP":220,
+        "maxAP":10,
+        "moveCost":10,
+        "unique":1,
+        "monsterClass":"human",
+        "attackDamage":{
+            "min":18,
+            "max":30
+        },
+        "droplistID":"feygard_fogmonster",
+        "attackCost":7,
+        "attackChance":200,
+        "blockChance":180,
+        "damageResistance":15
     }
 ]

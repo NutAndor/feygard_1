@@ -228,5 +228,9 @@
                 "mapName":"guynmart_wood_13"
             }
         ]
+    },
+    {
+        "id":"swamp_witch",
+        "message":"A child!? I haven't had anything tender to eat in a long time."
     }
 ]

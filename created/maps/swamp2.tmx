@@ -198,7 +198,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1V8tOAzEMzLUHKjVI2y38Ab+PxB0uC7/AB3ApXHpD4kBSZK3r+jGOxEirbpysxzNJvW0ppXweSvk64J+1ljNofJxKeW3XTYtv23Wq9rOE53b/0q6f/Rp72q33cn1UUwRat6t/3MT7ZjzL81q1IGslOi/5x9fzGKpFG59EHs3nSI8Xj3zncfL5tsb7iWq1YnT2SO/DjOdEtGj18nvi/5hWr5HakVqiWLTH/6GXw/M6A4/T4uaaLQ3WPPpcH5PHGi/qlafF2yPOLb3O9j9kPzW9UjPC5dWInkmUd6SHdSzt+/q4Wec0rzM9D1lPvO/TZYxzez3Ei2ugtb030btacmo9JJPb20/yuPPyM0Wcd/OYHmtMII+/p/x5HvGd5hbmsabX4h09wx3a3nLOjuhMRXMauMcSXC/Sf6w5raZFaL2fr68ob1a75XEmR7aHdFgej/yWQGokSI8z3DKOvn88j7PvOm2M9Ao0/8hvCQ7kPFk5sv9/ODytv2uufNE=
+   eJy1V0FOxDAM9JUDSA1S6cIP+D4Sh73BpfAFHsAFuOwNiQMJyKpr2c44iJGibZw0k5m4bpeI6P1A9HHAf0uhH3D/bSZ6qu28xi9qOxX/XsZDvX6s7etqi91P27We39tTDzxvKr/czPvs3CvX9faCzNVovOyfnC9jqBarf1LrWD739ETxnu8yzj5flv55olq9GOce671d8DURLdZ+5TXzv86b18jekb30Yr0z/g+9EpHXGUScHrfU7GnwxtH7Wp89tnhRryIt0RlJbu11tv4h52np1ZoRrmiPaE6ivCM1rGGtz+vd2TZmeZ2pech85n2Z9zHJHdWQKG6B57baxO9qzWnVkMza0Xmyx41X5hRzXi9jerw+gz3+nPP5POI7j63CY0uvxzuaww36bI/TnrOhl1O9MQvSYw2pF6k/3pi1p1Xl8c2yb0fnW/Iv2q3nJ7tGtoY0eB6PfEsge2RojzPcOo6+fyKPs+86q4/UCnT9kW8JCSSfvDWy/38kIq3frZd+NA==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -211,7 +211,7 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer id="12" name="Top1" width="30" height="30">
+ <layer id="12" name="Top1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztlkkOgzAMRbNrOYHTE1Cuz+Xa7sqilqzwiaeobLBksYnyPHw7lHKO1erzRx3DXSef3wbF4uVqsVhjyPBeVMpz47xpH4PGzzCX391zw2Z+jx3lTs2dH9LP9Lhcu7Z+qKecD23fe/VxmcG+iLOofkhPiCn7EDFUP4/Gj3pMygxoOVv46F5Zo6MYozn32FGtZvVviS9baysXncuyrVzUk9kw11mu1FmrNW/uaJajmrTkzrsP7Y/sPDAfeW9fZfsUtYt7cc/mZt/yCHck08odzURc+V9n2TtR+wcD2Rd9hEUA
   </data>
@@ -221,9 +221,9 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlFsOhUAIQ12F+9+CO7xfNzFkaHtwjCTGkQFaHnKdx3F99CipNk9i1Xj1TOzdd8qnizXxUfmsYrt8lN7VXdVZ9bMTxYHwUv4kF6UjPAkXp6P3O/J9Q5IapzHqeXWf+qUzmmLTuVD4tC5J3Kd9nsz0bkyKndinGGS3Ua5O3+G4fKe17/x3zniHqbAcP4pBsP7n+9v5UkxlO/VNOBKfVX/TPZvuKcpv1y5NsMi9m2n6PxEsJWmtHFbSf4dL+jPZMzQ+mXsXz2G89VT5AfQwHuc=
+   eJzFlFEOgDAIQz2F97+CN/TLxBBp+3BGkmWTAS0MOfZtO35aSqrNm1g1Xj0Te/ed8uliTXxUPk+xXT5K7+qu6qzesxPFgfBS/iQXpSM8CReno/cr8v1CkhqnMer56T71S3s0xaZ9ofBpXZK4b9950tOrMSl2Yp9ikNlGuTp9h+Pynda+81/Z4x2mwnL8KAbBus733flSTGVb99Q34Tjlncyf7s7lSvitmqUJFrl3PU3/J4KlJK2Vw0re3+GS95nMGRqf9L2L5zC+WlVOO94frg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
