@@ -14,7 +14,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":1
+                        "value":110
                     }
                 ]
             }
@@ -31,7 +31,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":1
+                        "value":110
                     }
                 ]
             }

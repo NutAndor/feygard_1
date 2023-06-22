@@ -14,27 +14,27 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":1
+                        "value":110
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":2
+                        "value":120
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":3
+                        "value":130
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":4
+                        "value":140
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":5
+                        "value":150
                     }
                 ]
             },
@@ -58,7 +58,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":1,
+                        "value":110,
 						"negate":true
                     }
                 ]
@@ -72,7 +72,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
-                "value":1
+                "value":110
             }
         ]
     },
@@ -90,7 +90,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":2,
+                        "value":120,
 						"negate":true
                     }
                 ]
@@ -104,7 +104,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
-                "value":2
+                "value":120
             }
         ]
     },
@@ -122,7 +122,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":3,
+                        "value":130,
 						"negate":true
                     }
                 ]
@@ -136,7 +136,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
-                "value":3
+                "value":130
             }
         ]
     },
@@ -154,7 +154,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":4,
+                        "value":140,
 						"negate":true
                     }
                 ]
@@ -168,7 +168,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
-                "value":4
+                "value":140
             }
         ]
     },
@@ -186,7 +186,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":5,
+                        "value":150,
 						"negate":true
                     }
                 ]
@@ -200,7 +200,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
-                "value":5
+                "value":150
             }
         ]
     },
