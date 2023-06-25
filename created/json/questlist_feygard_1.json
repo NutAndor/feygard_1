@@ -4,11 +4,11 @@
         "name":"feygard fog",
         "showInLog":0,
         "stages":[
-            { "progress":110, "logText":"110=Fog 1 has lifted" },
-            { "progress":120, "logText":"120=Fog 2 has lifted" },
-            { "progress":130, "logText":"130=Fog 3 has lifted" },
-            { "progress":140, "logText":"140=Fog 4 has lifted" },
-            { "progress":150, "logText":"150=Fog 5 has lifted" }
+            { "progress":1, "logText":"1=Fog 1 has lifted" },
+            { "progress":2, "logText":"2=Fog 2 has lifted" },
+            { "progress":3, "logText":"3=Fog 3 has lifted" },
+            { "progress":4, "logText":"4=Fog 4 has lifted" },
+            { "progress":5, "logText":"5=Fog 5 has lifted" }
         ]
     }
 ]
