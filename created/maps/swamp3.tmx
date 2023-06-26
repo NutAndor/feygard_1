@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="42">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="43">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,7 +193,7 @@
  </layer>
  <layer id="1" name="Ground" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFVM1KAzEQHhSVrj+QVGxLFb148uLPE2ifQH0C9bUE8QnEk2f1urdqixSEVqlVCiLedFEnzYSdJLP1gyGTyez3ZTLJAgD0FYzwgOO8BljQdv6EYxOtTetmbK1Yc/NVXF+j/BHIP2Wx2xqISCn+o3Pea4zd1OLR8Xxi7qOye71S/noH5wMda3bYXoYq95ss3iO/Ret9lufQpZyvCsBG9X/7rsQc7YD3Xcnxuao/31y0FiJDjS7W2kNLiYOfCdcNzzTUKEIm1OGQCufEwTXWywBnywCNCezjtPVDjQHx8f7to39AdhjciXvta5SQ+4J4J2dy32lk/K4y/j3DuWRtl3RMb96UX8f51Ph6jcYv03B75/zOGkGPivpRT2INjh2Bm2sM2ZkmqFGXLPHns7SXDz1eYwvjJ0Edr+YfUpbvocGz0AODI8zdFnSchuG6K/hWQpG+0TkOLKzBgb8pjstSbO4NvxS8aR6L/pvCfiWNMEf6Tzr/D4mBiDY=
+   eJyFVM1KAzEQHhSVrj+wqdiWKnrx5MWfJ9A+gfoE6msJ4hOIJ8/qdW/VFikIrVKrFES86aJOmhl2NpmtHwyZTGa/L5PJBgCgH8MIDzjOG4AF4+ZPODbR2rRux9aKM56v4voa5Y9A/qmI3dZARULxH5PxXmPsphaOzPOJuY+x2+tVnF/v4HxgQs2O2MswzvymiPfIb9F6X+QxupTzVQHYqP5v35WQo+3xvsd6fK6an28uOvORokYXa+2hJcQhz0Tq+mfqaxQhVepgJMo5SUiN9TLA2TJAYwL7OO18X2NAfLJ/++gfkB16d+Le5DVKyH1BvJMzmc8aqbyrgn/Pci452yUd25u3OF/H+dT4eq3Gr9DgvUt+tobXo6J+1KNQQ2JH4ZYaQ3GmEWrUNYvy81nay4cZr7GF8ROvjlf7hpT1e2jxrPTA4ghztxUd1rBcdwXfaijStzrHnvk1MOQ/JXFZCo3/4ZeCf1rGgndT7JffYE3Dr0l7J9n/A5qViHU=
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="15">
@@ -203,7 +203,7 @@
  </layer>
  <layer id="3" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzFkzEOgCAMRd2cNdGEm3ht5QTKCXRw1xvo7CAMJlj/V4gmvqXkU0ppi1YJRHt6bdeN4lb6y3NG7B2+Une0VuvU1T75S5DvH/Q2jwHUUoJq6phSHHf29Mn6z94ZVBNNaupYyB0r0VGvHQbk/4QpeSwG6zljIHe8pcrONoQtxzqr6ZcYModj8S4u6/ldn2LnJKTnMmbsnITEjnkT+tN37w7JV/qgP32sdw2PUPA=
+   eJzFk0EOQDAQRe2sSUjcxLVxAnoCXdhzA9YW2kSTmvyvFRJvM834M53OjLZKIJ3nb8y5rbiVehk3iG9Oq0BMf+qlDeklSPsHo6lDg15KUE8tc4rzLp5/NvrFi0E96UhPLSu5YyN+NGuLAvWHUCXPxWAzZ2hyx1vq7Gpj2HPsZz39EkX2cCre5WUzv5vT0z2JmbnM+XRPYnK7nKj+0L99p0H1ovrZm3y/Ox94o1Du
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="15" visible="0">
@@ -216,12 +216,12 @@
    eJxjYBgFo2AUjIJRMNwAAAXcAAE=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="15" visible="0">
+ <layer id="4" name="Walkable" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzNlNENwCAQQjuF+69wG/bLpjaA7/wqiYliApx61rge1FiH4k6HQgXvbhalp+bO/4+g5+rWO73JOa/3fiev4rseX87Vl+pIvMtO36vzTtlJX9A7pvqkDxJo76VMHa/TvyTpEa+kQTU7UDpEW92peys36SWBCw==
+   eJzNlMsNwCAMQztF9l8hG3JqBZLt2JxqCYmfnhMgdD2fus6G5m4bUgvvNBbEQ33m/0e558rGE++dY177uooR8dGexAMxUH4qD7bO8kjeq2Kz2J26cO/Y5Tt1oOTWnoop8br9SxTP8VIMl5mI1cmU7/QG9v4C0leDYA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="768" y="64" width="32" height="384">
    <properties>
     <property name="map" value="swamp2"/>
@@ -246,7 +246,6 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="30" name="feygard_swamp_sign" type="sign" x="224" y="320" width="32" height="32"/>
   <object id="31" name="hut" type="mapchange" x="256" y="224" width="32" height="32">
    <properties>
     <property name="map" value="swamp_hut"/>
@@ -267,7 +266,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Keys">
+  <object id="42" name="feygard_swamp_sign" type="key" x="224" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="feygard_swamp_sign"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="11" name="Replace" visible="0">
   <object id="25" name="swamp5a" type="replace" x="0" y="96" width="128" height="256">
    <properties>

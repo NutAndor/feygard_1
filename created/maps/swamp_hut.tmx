@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="16">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Above" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAO8HERqZAOoJYFFeMD0vz0cRM6+MJHW/MBq0cDSQ==
+   eJxjYCAO8HERqZAOoJaFeLXS/LRzBz7whY+25gMALlABxg==
   </data>
  </layer>
  <layer id="12" name="Top" width="11" height="10">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="4" name="Walkable" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGIY2yAGDXo6ggBfGrRxbCpJdatuPyIzAcAK4U7FQ==
+   eJzbKMbAsHEQYHRAqnpC+olRR4qZ2OQIqcVlB7Hhg8wHAEGBNaQ=
   </data>
  </layer>
  <objectgroup id="5" name="mapevents" visible="0">
@@ -217,7 +217,16 @@
   </object>
   <object id="3" name="loot_swamphut" type="container" x="32" y="256" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="keys" visible="0"/>
+ <objectgroup id="6" name="keys" visible="0">
+  <object id="15" name="swamphut_oven" type="key" x="32" y="96" width="128" height="32">
+   <properties>
+    <property name="phrase" value="swamphut_oven"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="spawn" visible="0">
   <object id="7" name="swamp_witch" type="spawn" x="64" y="128" width="256" height="128">
    <properties>

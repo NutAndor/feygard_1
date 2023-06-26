@@ -203,7 +203,7 @@
  </layer>
  <layer id="3" name="Above" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1VUsWgCAI5Brc/wS1blPrjlB3yY3vmU8+ozCbXiMMIohEfzxM9DKpkGwqv6KxYqvZza5thd/Zb4/YIL49J511/9/uf5QLqjfiz/K9WNe34mj6lu5sbVvUHFY0EHs0J6sntLrP7jEiDw+8Pef1tzg095Gfp+fQmniB5KH5z2h6ZoiXl+JKd1E6f2ReRiNDN/JtXLlLGXMv491HtBDNI6FfetwBMT7rRJzu
+   eJy1VTkShDAM8zf8/xdAvc1S8wT4yw4FM1nGh2QclY4sW4mTiPzjUJFTJYTHuePj+uJoIXVQ7ldzXnXt6n9VnM9wmNxnzNprizf2b3lh9az4tf+bxvpZnUg/062e7YjbwxsNhs96ymYiOvdqjx0+EKAzh+ZnMda7lYfMHHsmKBgfUX5FE3lD0LhX17uL3v4z72U3Zuh2/o1v7tKMd6/TG4PKnflMmJcn9oYaP/7bnpI=
   </data>
  </layer>
  <layer id="11" name="Top" width="25" height="25" visible="0">
@@ -216,12 +216,12 @@
    eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="25" visible="0">
+ <layer id="4" name="Walkable" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJzFVFsOwCAI8xTe/wq74X4XM/sCI8k+NmuhBTaGF8/Ez4pDHEoelj/hqGBTXe5Zt74kp9rb77uiU52Vqi8Mq9bNzit9SDk65kPpA/Ko4lk3hoVbu1ID+ubq+rvXuUtuODrQ/YQz2bXEK8bPenHKe1TTDc6OPd/hb/z3UqzKdWoOdvECwwSEJw==
+   eJzFVMkNwCAMYwr2X6Eb8uKDhK+kIlI/4NqJkzCGF9/E34lDHIoO099nqY6LTety7yoeKaFoqr09e8HqVGel6gvDqnmz+0ofUo6O+VD6gDyqeNaNYeHMnJoDOnPrur1rXbvkhlMH+j/hTHYt8Yrxs1785T3K6QVnx57f8C/evRSrcrn61VifL4Z8
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="19" name="east1" type="mapchange" x="768" y="32" width="32" height="416">
    <properties>
     <property name="map" value="swamp3"/>
@@ -259,7 +259,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="13" name="Replace">
+ <objectgroup id="13" name="Replace" visible="0">
   <object id="15" name="swamp5c" type="replace" x="0" y="576" width="512" height="224">
    <properties>
     <property name="Top" value="Top0"/>

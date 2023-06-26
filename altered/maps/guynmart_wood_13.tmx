@@ -213,7 +213,7 @@
    eJytlMENwCAMA5mC/VdgQ/rhE9mOTYkUqQo57ELaNcdYX55Y008Up64YxXY8Y5n/6imJRFdxHV/XXuomUZmUR3uk3N/77vyjnmRGlT7TcPiuxtju2dV33xt9n3WvVDvlWd+N91q70XX8Il3nv5B6RKxzxqwnPSs1yy73YiaUb5Qb7RuDYA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="448" y="512" width="32" height="224">
    <properties>
     <property name="map" value="guynmart_wood_12"/>
