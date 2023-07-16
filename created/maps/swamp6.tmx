@@ -213,7 +213,7 @@
  </layer>
  <layer id="12" name="Top0" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+   eJx7KcvA8HIUj+JRPIpHMRzfkWRguCs58O4YxaPxORpOoxgfBgCSJH9i
   </data>
  </layer>
  <layer id="4" name="Walkable" width="25" height="25">
@@ -221,7 +221,7 @@
    eJzFVMkNwCAMYwr2X6Eb8uKDhK+kIlI/4NqJkzCGF9/E34lDHIoO099nqY6LTety7yoeKaFoqr09e8HqVGel6gvDqnmz+0ofUo6O+VD6gDyqeNaNYeHMnJoDOnPrur1rXbvkhlMH+j/hTHYt8Yrxs1785T3K6QVnx57f8C/evRSrcrn61VifL4Z8
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="19" name="east1" type="mapchange" x="768" y="32" width="32" height="416">
    <properties>
     <property name="map" value="swamp3"/>
@@ -246,7 +246,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="64" y="96" width="192" height="224">
    <properties>
     <property name="quantity" value="2"/>
@@ -259,7 +259,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="13" name="Replace" visible="0">
+ <objectgroup id="13" name="Replace">
   <object id="15" name="swamp5c" type="replace" x="0" y="576" width="512" height="224">
    <properties>
     <property name="Top" value="Top0"/>

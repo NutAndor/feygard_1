@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="25" height="20">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexUMaAwAxXmtY
@@ -210,7 +213,7 @@
  </layer>
  <layer id="11" name="Top0" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+   eJx7KcvA8HIUj+JRPIpH8SgexUMaAwAquf/I
   </data>
  </layer>
  <layer id="4" name="Walkable" width="25" height="20">
@@ -218,7 +221,7 @@
    eJxjYMAPNooRUEACAJmFyzx8csjyyOoI6aHUTkLqKHELsXaT4y5q6ccW5vj0EWseueLUCDNsZlHTXGzm01MvrcwgNS2Q4i5ahD+9ACH/UCvvYFM7EOFGbTtpmccHA6C3fwDtI0Uw
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="9" name="north" type="mapchange" x="32" y="0" width="736" height="32">
    <properties>
     <property name="map" value="swamp6"/>
@@ -250,7 +253,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="13" name="Replace" visible="0">
+ <objectgroup id="13" name="Replace">
   <object id="7" name="swamp4b" type="replace" x="480" y="0" width="320" height="384">
    <properties>
     <property name="Top" value="Top0"/>
