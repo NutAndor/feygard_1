@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="25">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="39">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,7 +198,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1VrFOxDAMzcoAUoJUeiAEM7+PxHAbLIUfYOAD7k5QltuQGEg4mbhPdmKDsBQ1cVI/+8VxEkII8yqE95X9m1L4Fhq/DSE85nac9Se57ZP+L8l97j/k9nlWdXex9nF9z6ee0LqYDtiE+6T8y+1qvljWohRc4o+v5zprLNJ4D3YknnvxtPQ93rmeeD5N/f20xqrpKPco3pvRbtMSi+Qv7z9fHtpmqFxbfP85Q9EXL/JMe7wV7PxHvFxaXHukhalh87zWYtDmrf+VMXGMuGXfmn4LNa3nF7dZhGMj1976Z9nPWbGHXJNs43JsyTdtDfLcwm3Zs2JP+bzeHtU5iWtPzdPWz8BRwX0ZljqO3awh0b7v3EapTXRXI6Z0TzRtQp3h/uyizHHB5XtLmOfjcj3mExc8G9wHFOL4Y/DnlSefcG5iHEvxari/zeEiuLfruMQs0sopS3yScI5ReLyW+qPNUf+V5cUEeXwxLttaeUv+JXbp/HhteGtIEY1jz7vU5WOsuBgrnvud8m5BvfX+aXHsveuksaVWWO273lFQtzbRlk+az973M32v8hv5OumxfgGwd5gi
+   eJylVrFOAzEMjdgYQEoqHVcQgpnP4JeRGLrBcvADDHxAW8F16YbEQEJlzvdkJ3axFF3i5PzsF8dJCCGMyxB2S/s3pfArNP7sQnjJ7Szrz3PbJ/1fkqfcf87t+2LSPcapj+tbPrWE1sV0wCbcV+VfblfzxbIWpeASf3w911ljkcZ7sCPx3Iqnpm/xzvXE8yK199Maq6aj3KN473q7TT6+P5H1kr+8/3Z9aOtu4tri+98Zir54kWfa441g55j9bsXLpca1R2qYGjbPay0Gbd76XxkTx4hb9q3qt1DTWn5xm0U4NnLtrX+W/RwVe8g1ySbOx5Z809YgzzXcmj0r9pDP68PpNCdx7al52voROCq4791cx7GrNSTa953bKLWJ7mrElO6Jqk2oM9yfbZQ5Lrh8bwnzsp+vx3zigmeD+4BCHH91/rzy5BPODYxjKV4N99gcLoJ7u4pzzCK1nLLEJwnnGIXHa6k/2hz1P1heDJDHV/28rZS35H9il86P14a3hhTROPa8S10+xgkXY8Vzv1XeLai33j81jr13nTS21Aqrfdc7CurWOtrySfPZ+36m701+I98mPdYfnKKYZg==
   </data>
  </layer>
  <layer id="15" name="Objects2" width="30" height="30" visible="0">
@@ -206,7 +206,17 @@
    eJztVTEOwjAM9MoAUoJU6MAH+D4SOyzABxh4AEWiLN2QGEioTN0oqZ3SLignRU3c1PZdHBcAoMwBHrn8qTV8gOt7BnA0Y2rsMzMqHf4WsTPzvRmvRWPbqmbu7udy4oD7lK5jY9xT4FvqN5SLZK8LGxf1o/upTcrFt64cPz6dOT5ddk53aked55o/TynXkA1rD/mul3KfEi6+fOn8vKrHNWu0luT+vUMqjq+rM55x4fEzBt8x0BUz9p6H8o3hTt9xCObt6WlcXrYW+vCV7JOcp4QvRaHaa0m9SWtSij49zOJg7utmwvuX9jy6bmntaGTjXjI+rg9lRH3QfGxvwn/1ryidPkPzuSm/xkPE9d2NkBao8XOAuAkJCQn/jjc5Ye1Y
   </data>
  </layer>
+ <layer id="17" name="Objects2_b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztVTsOwjAMtdgYQEqQCh24AMfgykjssAAXYOAAFImysCExkFCZupFTu6UsqE+KGruuPy+OCwCQpwC3VP+0Ft5A+ZoA7N0aOf3YrbuNf4vYuP3Wree01K1NuQ/tpZwkoJ2xRWyMe4h8S/3GctHYhvBxkT9qT3XaWjj5HvjheJbqqdNLvFM98jyx8nlqa43psPew3sVM75PKywGv5/Kl++O8WOek5FqT++cOmWb1hjzjGWeMnzbnLdX7C9TFbHrPY/k2qZ2+kxDNm5lpUl6+F9rUq7HTnKemXorMVGVNv2l7Uos2M8xj5+7raij71848Kle4DjjycU+JHJdD3qA/aD5+NuG/+lvkwZyh+VwMz3EXcbm7EeMCOX50ELdHjx49/h0vJYztnA==
+  </data>
+ </layer>
  <layer id="14" name="Objects3" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlEsKgDAMRHOFrmz1Bt5/1Z1eRkG9gQtxEUhrxA9JBOmAlArt62TSAhQVFRW9V+u/Y6+VDacLAH04cicHMAd+jQb777XO62zF5fhYa+18OTZ63tmLIh+ZOGrXmmaLzNqnPgcnz33aV1KZc37PuJJZR5cyd1n1FIr6RSZlS56j8ekXSQ9pMTld7S/5luSsq7kI06V7j9kcRf+LsW/6scrY6h5xHK0zbDyiWzk=
+  </data>
+ </layer>
+ <layer id="18" name="Objects3_b" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztlEsKgDAMRHOFrmz1Bt5/1Z1eRkG9gQtxEUhrxA9JBOmAlArt62TSAhQVFRW9V+u/Y6+VDacLAH04cicHMAd+jQb777XO62zF5fhYa+18OTZ63tmLIh+ZOGrXmmaLzNqnPgcnz33aV1KZc37PuJJZR5cyd1n1FIr6RSZlS56j8ekXSQ9pMTld7S/5luSsq7kI06V7j9kcRf+LsW/6scrY6h5xHK0zbDyiWzk=
   </data>
@@ -217,6 +227,11 @@
   </data>
  </layer>
  <layer id="12" name="Top" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlkkOgzAMRbNrOYHTE1Cuz+Xa7sqilqzwiaeobLBksYnyPHw7lHKO1erzRx3DXSef3wbF4uVqsVhjyPBeVMpz47xpH4PGzzCX391zw2Z+jx3lTs2dH9LP9Lhcu7Z+qKecD23fe/VxmcG+iLOofkhPiCn7EDFUP4/Gj3pMygxoOVv46F5Zo6MYozn32FGtZvVviS9baysXncuyrVzUk9kw11mu1FmrNW/uaJajmrTkzrsP7Y/sPDAfeW9fZfsUtYt7cc/mZt/yCHck08odzURc+V9n2TtR+wcD2Rd9hEUA
+  </data>
+ </layer>
+ <layer id="16" name="Top0_b" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztlkkOgzAMRbNrOYHTE1Cuz+Xa7sqilqzwiaeobLBksYnyPHw7lHKO1erzRx3DXSef3wbF4uVqsVhjyPBeVMpz47xpH4PGzzCX391zw2Z+jx3lTs2dH9LP9Lhcu7Z+qKecD23fe/VxmcG+iLOofkhPiCn7EDFUP4/Gj3pMygxoOVv46F5Zo6MYozn32FGtZvVviS9baysXncuyrVzUk9kw11mu1FmrNW/uaJajmrTkzrsP7Y/sPDAfeW9fZfsUtYt7cc/mZt/yCHck08odzURc+V9n2TtR+wcD2Rd9hEUA
   </data>
@@ -250,11 +265,12 @@
     <property name="place" value="east1"/>
    </properties>
   </object>
-  <object id="18" name="feygard_fogmonster2_check" type="script" x="448" y="128" width="160" height="160">
+  <object id="25" name="feygard_fogmonster_check" type="script" x="0" y="0" width="960" height="960">
    <properties>
     <property name="when" value="step"/>
    </properties>
   </object>
+  <object id="26" name="feygard_fogmonster2_heart" type="script" x="512" y="192" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="6" name="feygard_fogmonster2" type="spawn" x="512" y="192" width="32" height="32">
@@ -266,7 +282,7 @@
  </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
  <objectgroup id="13" name="Replace">
-  <object id="24" name="swamp3c" type="replace" x="320" y="512" width="96" height="448">
+  <object id="27" name="swamp3c" type="replace" x="320" y="512" width="96" height="448">
    <properties>
     <property name="Objects" value="Objects3"/>
     <property name="Top" value="Top0"/>
@@ -275,7 +291,7 @@
     <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object id="16" name="swamp3b" type="replace" x="256" y="512" width="64" height="448">
+  <object id="28" name="swamp3b" type="replace" x="256" y="512" width="64" height="448">
    <properties>
     <property name="Objects" value="Objects3"/>
     <property name="Top" value="Top0"/>
@@ -284,7 +300,7 @@
     <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object id="11" name="swamp3a" type="replace" x="0" y="288" width="256" height="672">
+  <object id="29" name="swamp3a" type="replace" x="0" y="288" width="256" height="672">
    <properties>
     <property name="Objects" value="Objects3"/>
     <property name="Top" value="Top0"/>
@@ -293,7 +309,37 @@
     <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object id="14" name="swamp2c" type="replace" x="416" y="512" width="544" height="96">
+  <object id="36" name="swamp3c_b" type="replace" x="320" y="512" width="96" height="448">
+   <properties>
+    <property name="Objects" value="Objects3_b"/>
+    <property name="Top" value="Top0_b"/>
+    <property name="requireId" value="feygard_fog"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="37" name="swamp3b_b" type="replace" x="256" y="512" width="64" height="448">
+   <properties>
+    <property name="Objects" value="Objects3_b"/>
+    <property name="Top" value="Top0_b"/>
+    <property name="requireId" value="feygard_fog"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="38" name="swamp3a_b" type="replace" x="0" y="288" width="256" height="672">
+   <properties>
+    <property name="Objects" value="Objects3_b"/>
+    <property name="Top" value="Top0_b"/>
+    <property name="requireId" value="feygard_fog"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="30" name="swamp2c" type="replace" x="416" y="512" width="544" height="96">
    <properties>
     <property name="Objects" value="Objects2"/>
     <property name="Top" value="Top0"/>
@@ -302,7 +348,7 @@
     <property name="requireValue" value="2"/>
    </properties>
   </object>
-  <object id="12" name="swamp2b" type="replace" x="256" y="288" width="704" height="224">
+  <object id="31" name="swamp2b" type="replace" x="256" y="288" width="704" height="224">
    <properties>
     <property name="Objects" value="Objects2"/>
     <property name="Top" value="Top0"/>
@@ -311,11 +357,41 @@
     <property name="requireValue" value="2"/>
    </properties>
   </object>
-  <object id="10" name="swamp2a" type="replace" x="0" y="0" width="960" height="288">
+  <object id="32" name="swamp2a" type="replace" x="0" y="0" width="960" height="288">
    <properties>
     <property name="Objects" value="Objects2"/>
     <property name="Top" value="Top0"/>
     <property name="requireId" value="feygard_fog"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="33" name="swamp2c_b" type="replace" x="416" y="512" width="544" height="96">
+   <properties>
+    <property name="Objects" value="Objects2_b"/>
+    <property name="Top" value="Top0_b"/>
+    <property name="requireId" value="feygard_fog"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="34" name="swamp2b_b" type="replace" x="256" y="288" width="704" height="224">
+   <properties>
+    <property name="Objects" value="Objects2_b"/>
+    <property name="Top" value="Top0_b"/>
+    <property name="requireId" value="feygard_fog"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="35" name="swamp2a_b" type="replace" x="0" y="0" width="960" height="288">
+   <properties>
+    <property name="Objects" value="Objects2_b"/>
+    <property name="Top" value="Top0_b"/>
+    <property name="requireId" value="feygard_fog"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
    </properties>

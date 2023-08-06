@@ -4,12 +4,389 @@
         "message":"You can't get through this dense fog here."
     },
     {
-        "id":"feygard_fogmonster9",
-        "message":"Me and my brothers watch over the ruler of the swamp.",
+        "id":"feygard_fogmonster_check",
         "replies":[
             {
-                "text":"Not for long, your brothers have left the area already. Attack!",
-                "nextPhraseID":"F",
+                "nextPhraseID":"feygard_fogmonster1_check",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster1_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster1_check_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster1",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_fogmonster2_check"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster1_check_10",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster2_check"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster1",
+                "mapName":"guynmart_wood_14"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster2_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster2_check_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster2",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_fogmonster3_check"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster2_check_10",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster3_check"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster2",
+                "mapName":"swamp2"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster3_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster3_check_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster3",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_fogmonster4_check"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster3_check_10",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster4_check"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster3",
+                "mapName":"swamp4"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster4_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster4_check_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster4",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_fogmonster5_check"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster4_check_10",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster5_check"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster4",
+                "mapName":"swamp5"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster5_check",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster5_check_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster5",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster5_check_10",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster5",
+                "mapName":"swamp6"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster1_heart",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster1_heart_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster1_heart_10",
+        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster2_heart",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster2_heart_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster2_heart_10",
+        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster3_heart",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster3_heart_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster3_heart_10",
+        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster3"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster4_heart",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster4_heart_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster4_heart_10",
+        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster4"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster5_heart",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster5_heart_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster5_heart_10",
+        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster5"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster9",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -39,168 +416,115 @@
                 ]
             },
             {
-                "text":"So I'm going to have to talk to your brothers.",
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_fogmonster9_10"
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster9_1",
+        "message":"Me and my brothers watch over the ruler of the swamp.",
+        "replies":[
+            {
+                "text":"Not for long, some of your brothers have all left the area already. Attack!",
+                "nextPhraseID":"feygard_fogmonster9_20"
+            },
+            {
+                "text":"So I'm going to talk to your remaining brothers.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
-        "id":"feygard_fogmonster1_check",
+        "id":"feygard_fogmonster9_5",
+        "message":"Me and my brothers watch over the ruler of the swamp.",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster1_check_1",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"feygard_fogmonster1",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":1,
-						"negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster1_check_1",
-        "message":"As soon as you lower your weapon, the fog begins to vanish.",
-        "rewards":[
+                "text":"Your brothers have all left the area already. Now to you ...",
+                "nextPhraseID":"F"
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":1
+                "text":"So I'm going to talk to your brothers.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
-        "id":"feygard_fogmonster2_check",
+        "id":"feygard_fogmonster9_10",
+        "message":"Me and my brothers watch over the ruler of the swamp.",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster2_check_1",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"feygard_fogmonster2",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":2,
-						"negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster2_check_1",
-        "message":"As soon as you lower your weapon, the fog begins to vanish.",
-        "rewards":[
+                "text":"Not for long. Attack!",
+                "nextPhraseID":"feygard_fogmonster9_20"
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":2
+                "text":"So I'm going to talk to your brothers.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
-        "id":"feygard_fogmonster3_check",
+        "id":"feygard_fogmonster9_20",
+        "message":"You can't defeat me as long as my brothers stand their ground.",
         "replies":[
             {
-                "nextPhraseID":"feygard_fogmonster3_check_1",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"feygard_fogmonster3",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":3,
-						"negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster3_check_1",
-        "message":"As soon as you lower your weapon, the fog begins to vanish.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":3
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster4_check",
-        "replies":[
-            {
-                "nextPhraseID":"feygard_fogmonster4_check_1",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"feygard_fogmonster4",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":4,
-						"negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster4_check_1",
-        "message":"As soon as you lower your weapon, the fog begins to vanish.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":4
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster5_check",
-        "replies":[
-            {
-                "nextPhraseID":"feygard_fogmonster5_check_1",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"feygard_fogmonster5",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":5,
-						"negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"feygard_fogmonster5_check_1",
-        "message":"As soon as you lower your weapon, the fog begins to vanish.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":5
+                "text":"Well, in that case stay here. I'll be back in a minute.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -236,6 +560,21 @@
             {
                 "text":"But hard to digest... Attack!",
                 "nextPhraseID":"F"
+            },
+            {
+                "text":"Please stop the fog ovens.",
+                "nextPhraseID":"swamp_witch_10"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_10",
+        "message":"OK.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":9
             }
         ]
     },
