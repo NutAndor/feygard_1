@@ -1,5 +1,361 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="ratdom_cave" x="-26" y="-12">
+    <map id="ratdom_maze1" x="-6" y="-12"/>
+    <map id="ratdom_maze2" x="-15" y="-2"/>
+    <map id="ratdom_maze3" x="-26" y="8"/>
+    <map id="crossglen_cave" x="25" y="-12"/>
+  </segment>
+  <segment id="ratdom_level_4" x="0" y="0">
+    <map id="ratdom_maze_402" x="45" y="0"/>
+    <map id="ratdom_maze_403" x="75" y="0"/>
+    <map id="ratdom_maze_412" x="30" y="30"/>
+    <map id="ratdom_maze_413" x="60" y="30"/>
+    <map id="ratdom_maze_414" x="90" y="30"/>
+    <map area="ratdom_maze_bloskelt_area" id="ratdom_maze_415" x="120" y="30"/>
+    <map area="ratdom_maze_bloskelt_area" id="ratdom_maze_416" x="150" y="30"/>
+    <map id="ratdom_maze_417" x="180" y="30"/>
+    <map id="ratdom_maze_418" x="210" y="30"/>
+    <map id="ratdom_maze_421" x="15" y="60"/>
+    <map id="ratdom_maze_422" x="45" y="60"/>
+    <map id="ratdom_maze_423" x="75" y="60"/>
+    <map id="ratdom_maze_424" x="105" y="60"/>
+    <map id="ratdom_maze_425" x="135" y="60"/>
+    <map id="ratdom_maze_426" x="165" y="60"/>
+    <map id="ratdom_maze_427" x="195" y="60"/>
+    <map id="ratdom_maze_428" x="225" y="60"/>
+    <map id="ratdom_maze_432" x="30" y="90"/>
+    <map id="ratdom_maze_433" x="60" y="90"/>
+    <map id="ratdom_maze_434" x="90" y="90"/>
+    <map area="ratdom_maze_goldhunter_area" id="ratdom_maze_434b" x="105" y="90"/>
+    <map id="ratdom_maze_435" x="120" y="90"/>
+    <map id="ratdom_maze_436" x="150" y="90"/>
+    <map id="ratdom_maze_437" x="180" y="90"/>
+    <map id="ratdom_maze_438" x="210" y="90"/>
+    <map id="ratdom_maze_441" x="15" y="120"/>
+    <map id="ratdom_maze_442" x="45" y="120"/>
+    <map id="ratdom_maze_443" x="75" y="120"/>
+    <map id="ratdom_maze_444" x="105" y="120"/>
+    <map id="ratdom_maze_445" x="135" y="120"/>
+    <map id="ratdom_maze_446" x="165" y="120"/>
+    <map id="ratdom_maze_447" x="195" y="120"/>
+    <map area="ratdom_maze_entry_area" id="ratdom_maze_448" x="225" y="120"/>
+    <map id="ratdom_maze_453" x="60" y="150"/>
+    <map id="ratdom_maze_451" x="0" y="150"/>
+    <map id="ratdom_maze_452" x="30" y="150"/>
+    <map id="ratdom_maze_454" x="90" y="150"/>
+    <map id="ratdom_maze_455" x="120" y="150"/>
+    <map id="ratdom_maze_455a" x="135" y="159"/>
+    <map id="ratdom_maze_456" x="150" y="150"/>
+    <map id="ratdom_maze_457" x="180" y="150"/>
+    <map id="ratdom_maze_458" x="210" y="150"/>
+    <map id="ratdom_maze_461" x="15" y="180"/>
+    <map id="ratdom_maze_463" x="75" y="180"/>
+    <map area="ratdom_maze_instrument_maker" id="ratdom_maze_464" x="105" y="180"/>
+    <map id="ratdom_maze_466" x="165" y="180"/>
+    <map id="ratdom_maze_467" x="195" y="180"/>
+    <map id="ratdom_maze_476" x="150" y="210"/>
+    <namedarea id="ratdom_maze_bloskelt_area" name="Bloskelt + Roskelt" type="other"/>
+    <namedarea id="ratdom_maze_entry_area" name="Entry" type="other"/>
+    <namedarea id="ratdom_maze_goldhunter_area" name="Gold hunter" type="other"/>
+    <namedarea id="ratdom_maze_instrument_maker" name="Instrument maker" type="other"/>
+  </segment>
+  <segment id="ratdom_level_5" x="0" y="0">
+    <map id="ratdom_maze_506" x="165" y="0"/>
+    <map id="ratdom_maze_513" x="60" y="30"/>
+    <map id="ratdom_maze_514" x="90" y="30"/>
+    <map area="ratdom_maze_museum" id="ratdom_maze_515" x="120" y="30"/>
+    <map id="ratdom_maze_516" x="150" y="30"/>
+    <map id="ratdom_maze_517" x="180" y="30"/>
+    <map id="ratdom_maze_521" x="15" y="60"/>
+    <map id="ratdom_maze_522" x="45" y="60"/>
+    <map id="ratdom_maze_523" x="75" y="60"/>
+    <map id="ratdom_maze_524" x="105" y="60"/>
+    <map id="ratdom_maze_525" x="135" y="60"/>
+    <map id="ratdom_maze_526" x="165" y="60"/>
+    <map id="ratdom_maze_527" x="195" y="60"/>
+    <map id="ratdom_maze_531" x="0" y="90"/>
+    <map id="ratdom_maze_532" x="30" y="90"/>
+    <map id="ratdom_maze_533" x="60" y="90"/>
+    <map id="ratdom_maze_534" x="90" y="90"/>
+    <map area="ratdom_maze_goldhunter_area" id="ratdom_maze_535a" x="105" y="90"/>
+    <map id="ratdom_maze_535" x="120" y="90"/>
+    <map id="ratdom_maze_536" x="150" y="90"/>
+    <map id="ratdom_maze_537" x="180" y="90"/>
+    <map id="ratdom_maze_538" x="210" y="90"/>
+    <map id="ratdom_maze_541" x="15" y="120"/>
+    <map id="ratdom_maze_542" x="45" y="120"/>
+    <map id="ratdom_maze_543" x="75" y="120"/>
+    <map area="ratdom_maze_skeleton_dance" id="ratdom_maze_543d" x="90" y="120"/>
+    <map id="ratdom_maze_544" x="105" y="120"/>
+    <map id="ratdom_maze_545" x="135" y="120"/>
+    <map id="ratdom_maze_546" x="165" y="120"/>
+    <map id="ratdom_maze_547" x="195" y="120"/>
+    <map id="ratdom_maze_551" x="0" y="150"/>
+    <map id="ratdom_maze_552" x="30" y="150"/>
+    <map id="ratdom_maze_553" x="60" y="150"/>
+    <map id="ratdom_maze_554" x="90" y="150"/>
+    <map id="ratdom_maze_555" x="120" y="150"/>
+    <map id="ratdom_maze_557" x="180" y="150"/>
+    <map id="ratdom_maze_558" x="210" y="150"/>
+    <map id="ratdom_maze_562" x="45" y="180"/>
+    <map id="ratdom_maze_563" x="75" y="180"/>
+    <map id="ratdom_maze_564" x="105" y="180"/>
+    <map id="ratdom_maze_565" x="135" y="180"/>
+    <map id="ratdom_maze_566" x="165" y="180"/>
+    <map id="ratdom_maze_567" x="195" y="180"/>
+    <map area="ratdom_maze_labyrinth" id="ratdom_maze_568" x="225" y="180"/>
+    <map id="ratdom_maze_572" x="30" y="210"/>
+    <namedarea id="ratdom_maze_goldhunter_area" name="Gold hunter" type="other"/>
+    <namedarea id="ratdom_maze_skeleton_dance" name="Skeleton dance" type="other"/>
+    <namedarea id="ratdom_maze_museum" name="Museum" type="other"/>
+    <namedarea id="ratdom_maze_labyrinth" name="Labyrinth" type="other"/>
+  </segment>
+  <segment id="ratdom_level_6" x="0" y="0">
+    <map area="ratdom_maze_library" id="ratdom_maze_611" x="0" y="30"/>
+    <map id="ratdom_maze_612" x="30" y="30"/>
+    <map id="ratdom_maze_616" x="150" y="30"/>
+    <map id="ratdom_maze_617" x="180" y="30"/>
+    <map id="ratdom_maze_618" x="210" y="30"/>
+    <map id="ratdom_maze_621" x="15" y="60"/>
+    <map id="ratdom_maze_622" x="45" y="60"/>
+    <map id="ratdom_maze_623" x="75" y="60"/>
+    <map id="ratdom_maze_624" x="105" y="60"/>
+    <map id="ratdom_maze_625" x="135" y="60"/>
+    <map id="ratdom_maze_626" x="165" y="60"/>
+    <map area="ratdom_maze_roundlings_area" id="ratdom_maze_627" x="195" y="60"/>
+    <map id="ratdom_maze_628" x="225" y="60"/>
+    <map id="ratdom_maze_631" x="0" y="90"/>
+    <map id="ratdom_maze_632" x="30" y="90"/>
+    <map id="ratdom_maze_633" x="60" y="90"/>
+    <map id="ratdom_maze_634" x="90" y="90"/>
+    <map id="ratdom_maze_635" x="120" y="90"/>
+    <map id="ratdom_maze_636" x="150" y="90"/>
+    <map id="ratdom_maze_637" x="180" y="90"/>
+    <map id="ratdom_maze_638" x="210" y="90"/>
+    <map id="ratdom_maze_641" x="15" y="120"/>
+    <map id="ratdom_maze_642" x="45" y="120"/>
+    <map id="ratdom_maze_643" x="75" y="120"/>
+    <map id="ratdom_maze_644" x="105" y="120"/>
+    <map id="ratdom_maze_645" x="135" y="120"/>
+    <map id="ratdom_maze_646" x="165" y="120"/>
+    <map id="ratdom_maze_647" x="195" y="120"/>
+    <map id="ratdom_maze_648" x="225" y="120"/>
+    <map id="ratdom_maze_652" x="30" y="150"/>
+    <map id="ratdom_maze_653" x="60" y="150"/>
+    <map id="ratdom_maze_655" x="120" y="150"/>
+    <map id="ratdom_maze_656" x="150" y="150"/>
+    <map id="ratdom_maze_657" x="180" y="150"/>
+    <map id="ratdom_maze_658" x="210" y="150"/>
+    <map id="ratdom_maze_661" x="15" y="180"/>
+    <map id="ratdom_maze_662" x="45" y="180"/>
+    <map area="ratdom_maze_water_area" id="ratdom_maze_664" x="105" y="180"/>
+    <map id="ratdom_maze_666" x="165" y="180"/>
+    <map area="ratdom_maze_pub" id="ratdom_maze_705" x="135" y="0"/>
+    <map area="ratdom_maze_4_wells" id="ratdom_maze_768" x="225" y="180"/>
+    <namedarea id="ratdom_maze_water_area" name="Waterway" type="other"/>
+    <namedarea id="ratdom_maze_pub" name="Pub" type="other"/>
+    <namedarea id="ratdom_maze_library" name="Library" type="other"/>
+    <namedarea id="ratdom_maze_4_wells" name="4 wells" type="other"/>
+    <namedarea id="ratdom_maze_roundlings_area" name="Roundlings" type="other"/>
+  </segment>
+  <segment id="haunted_underground" x="762" y="681">
+    <map id="haunted_underground_1" x="762" y="705"/>
+    <map id="haunted_underground_2" x="788" y="705"/>
+    <map id="haunted_underground_3" x="811" y="690"/>
+    <map id="haunted_underground_4" x="830" y="690"/>
+    <map id="haunted_underground_5" x="850" y="681"/>
+  </segment>
+  <segment id="omi2_bwmhole" x="-28" y="50">
+    <map id="blackwater_mountain71" x="11" y="50"/>
+    <map id="blackwater_mountain72" x="-2" y="50"/>
+    <map id="blackwater_mountain73" x="-2" y="71"/>
+    <map id="blackwater_mountain74" x="-2" y="92"/>
+    <map id="blackwater_mountain75" x="-28" y="71"/>
+    <map id="blackwater_mountain76" x="-28" y="50"/>
+  </segment>
+  <segment id="elmmine" x="-39" y="-76">
+    <map id="blackwater_mountain13" x="-13" y="-19"/>
+    <map id="elm_mine0" x="-39" y="-22"/>
+    <map id="elm_mine1" x="7" y="-19"/>
+    <map id="elm_mine2" x="-13" y="-50"/>
+    <map id="elm_mine3" x="-33" y="-50"/>
+    <map id="elm_mine4" x="7" y="-50"/>
+    <map id="elm_mine5" x="-13" y="-76"/>
+  </segment>
+  <segment id="elmmine2f" x="8" y="-12">
+    <map id="elm_2f_1" x="8" y="-12"/>
+    <map id="elm_2f_2" x="33" y="15"/>
+  </segment>
+  <segment id="elm4f" x="-35" y="-33">
+    <map id="elm_4f_1" x="2" y="-7"/>
+    <map id="elm_4f_2" x="-14" y="14"/>
+    <map id="elm_4f_3" x="-14" y="-7"/>
+    <map id="elm_4f_4" x="-14" y="-18"/>
+    <map id="elm_4f_6" x="2" y="-33"/>
+    <map id="elm_4f_5" x="-35" y="3"/>
+  </segment>
+  <segment id="elm5f" x="7" y="-17">
+    <map id="elm5f_1" x="10" y="14"/>
+    <map id="elm5f_2" x="7" y="-17"/>
+  </segment>
+  <segment id="fungi_panic" x="186" y="403">
+    <map id="mywildcave1" x="185" y="518"/>
+    <map id="mywildcave2" x="190" y="492"/>
+    <map id="mywildcave3" x="189" y="471"/>
+    <map id="mywildcave4" x="198" y="454"/>
+    <map id="bogsten2" x="298" y="452"/>
+    <map id="bogsten3" x="307" y="474"/>
+    <map id="bogsten4" x="333" y="477"/>
+    <map id="mushroom_m2_1" x="333" y="463"/>
+    <map id="mushroom_m2_2" x="323" y="442"/>
+    <map id="mushroom_m2_3" x="306" y="420"/>
+    <map id="mushroom_m2_4" x="329" y="420"/>
+    <map id="mushroom_m2_5" x="325" y="403"/>
+    <map id="mushroom_m2_6" x="306" y="403"/>
+    <map id="mushroom_m2_7" x="298" y="403"/>
+    <map id="mushroom_m2_8" x="287" y="403"/>
+    <map id="mushroom_m2_9" x="256" y="423"/>
+    <map id="mushroom_m2_10" x="245" y="423"/>
+    <map id="mushroom_m3_1" x="223" y="426"/>
+    <map id="mushroom_m3_2" x="217" y="443"/>
+  </segment>
+  <segment id="basiliskcave" x="-6" y="-42">
+    <map id="basiliskcave1_1_1" x="-6" y="-12"/>
+    <map id="basiliskcave1_1_2" x="11" y="-5"/>
+    <map id="basiliskcave1_1_3" x="12" y="-28"/>
+    <map id="basiliskcave1_1_4" x="-2" y="-38"/>
+    <map id="basiliskcave1_1_5" x="12" y="-42"/>
+  </segment>
+  <segment id="arulircave" x="2" y="29">
+    <map id="arulircave1" x="2" y="45"/>
+    <map id="arulircave2" x="15" y="29"/>
+    <map id="arulircave3" x="28" y="45"/>
+    <map id="arulircave4" x="32" y="61"/>
+    <map id="arulircave5" x="29" y="72"/>
+    <map id="arulircave6" x="34" y="83"/>
+  </segment>
+  <segment id="lostmine1" x="47" y="0">
+    <map id="lostmine1" x="71" y="62"/>
+    <map id="lostmine1a" x="47" y="57"/>
+    <map id="lostmine2" x="94" y="31"/>
+    <map id="lostmine2a" x="125" y="43"/>
+    <map id="lostmine3" x="107" y="0"/>
+  </segment>
+  <segment id="lostmine2" x="7" y="8">
+    <map id="lostmine4" x="7" y="8"/>
+    <map id="lostmine5" x="7" y="26"/>
+    <map id="lostmine6" x="9" y="56"/>
+  </segment>
+  <segment id="lostmine3" x="16" y="8">
+    <map id="lostmine7" x="16" y="8"/>
+    <map id="lostmine8" x="25" y="39"/>
+  </segment>
+  <segment id="lostmine4" x="22" y="0">
+    <map id="lostmine9" x="22" y="42"/>
+    <map id="lostmine10" x="42" y="21"/>
+    <map id="lostmine11" x="45" y="0"/>
+  </segment>
+  <segment id="crackshot_hideout" x="-19" y="-30">
+    <map id="crackshot_hideout1" x="-19" y="-10"/>
+    <map id="crackshot_hideout2" x="9" y="-28"/>
+    <map id="crackshot_hideout3" x="-19" y="-30"/>
+  </segment>
+  <segment id="lakecave" x="349" y="407">
+    <map id="lakecave0" x="349" y="438"/>
+    <map id="lakecave1" x="349" y="407"/>
+    <map id="lakecave2" x="380" y="413"/>
+  </segment>
+  <segment id="waterwayacave" x="195" y="188">
+    <map id="waterwayacave1" x="207" y="188"/>
+    <map id="waterwayacave2" x="207" y="218"/>
+    <map id="waterwayacave3" x="215" y="249"/>
+    <map id="waterwayacave4" x="195" y="280"/>
+    <map id="waterwayacavex" x="246" y="269"/>
+  </segment>
+  <segment id="bwentry" x="14" y="361">
+    <map id="blackwater_mountain4a" x="54" y="417"/>
+    <map id="blackwater_mountain6" x="66" y="389"/>
+    <map id="blackwater_mountain5" x="35" y="387"/>
+    <map id="blackwater_mountain9" x="53" y="361"/>
+    <map id="blackwater_mountain5a" x="14" y="401"/>
+  </segment>
+  <segment id="bwentry2" x="46" y="368">
+    <map id="blackwater_mountain7" x="47" y="368"/>
+  </segment>
+  <segment id="bwsettlement" x="0" y="414">
+    <map id="blackwater_mountain43" x="37" y="414"/>
+    <map id="blackwater_mountain44" x="16" y="425"/>
+    <map id="blackwater_mountain45" x="0" y="424"/>
+    <map id="blackwater_mountain46" x="3" y="416"/>
+    <map id="blackwater_mountain51" x="99" y="424"/>
+    <map id="blackwater_mountain52" x="68" y="425"/>
+  </segment>
+  <segment id="bwcave1" x="109" y="365">
+    <map id="blackwater_mountain17" x="109" y="365"/>
+    <map id="blackwater_mountain18" x="122" y="376"/>
+    <map id="blackwater_mountain19" x="122" y="399"/>
+    <map id="blackwater_mountain20" x="133" y="399"/>
+    <map id="blackwater_mountain39" x="144" y="403"/>
+  </segment>
+  <segment id="bwcave2" x="51" y="415">
+    <map id="blackwater_mountain36" x="80" y="415"/>
+    <map id="blackwater_mountain37" x="82" y="426"/>
+    <map id="blackwater_mountain38" x="51" y="431"/>
+  </segment>
+  <segment id="flagstone" x="124" y="483">
+    <map id="flagstone2" x="124" y="483"/>
+    <map id="flagstone3" x="130" y="514"/>
+    <map id="flagstone4" x="151" y="510"/>
+  </segment>
+  <segment id="gargoylecave" x="395" y="403">
+    <map id="gargoylecave1" x="420" y="424"/>
+    <map id="gargoylecave2" x="399" y="424"/>
+    <map id="gargoylecave3" x="395" y="403"/>
+    <map id="gargoylecave4" x="411" y="415"/>
+  </segment>
+  <segment id="lodar5cave" x="284" y="314">
+    <map id="lodar5cave0" x="297" y="314"/>
+    <map id="lodar5cave1" x="305" y="344"/>
+    <map id="lodar5cave2" x="284" y="368"/>
+  </segment>
+  <segment id="lodarcave" x="309" y="275">
+    <map id="lodarcave1" x="309" y="275"/>
+    <map id="lodarcave2" x="319" y="306"/>
+    <map id="lodarcave3" x="323" y="327"/>
+    <map id="lodarcave4" x="335" y="358"/>
+    <map id="lodarcave4a" x="361" y="358"/>
+    <map id="lodarcave5" x="348" y="379"/>
+    <map id="lodarcave6" x="352" y="400"/>
+    <map id="lodarcave7" x="373" y="412"/>
+  </segment>
+  <segment id="mountaincave" x="599" y="245">
+    <map id="mountaincave0" x="635" y="297"/>
+    <map id="mountaincave1" x="614" y="297"/>
+    <map id="mountaincave2" x="602" y="266"/>
+    <map id="mountaincave3" x="599" y="245"/>
+  </segment>
+  <segment id="pwcave" x="287" y="34">
+    <map id="pwcave0" x="307" y="122"/>
+    <map id="pwcave1" x="287" y="91"/>
+    <map id="pwcave2" x="287" y="60"/>
+    <map id="pwcave2a" x="291" y="34"/>
+    <map id="pwcave3" x="318" y="60"/>
+    <map id="pwcave4" x="318" y="91"/>
+  </segment>
+  <segment id="snakecave" x="115" y="345">
+    <map id="snakecave1" x="144" y="376"/>
+    <map id="snakecave2" x="123" y="376"/>
+    <map id="snakecave3" x="115" y="345"/>
+  </segment>
+  <segment id="waytobrimhavencave" x="318" y="262">
+    <map id="waytobrimhavencave0" x="349" y="262"/>
+    <map id="waytobrimhavencave1" x="380" y="270"/>
+    <map id="waytobrimhavencave1a" x="349" y="291"/>
+    <map id="waytobrimhavencave2" x="411" y="270"/>
+    <map id="waytobrimhavencave3" x="442" y="270"/>
+    <map id="waytobrimhavencave4" x="318" y="270"/>
+  </segment>
   <segment id="world1" x="1" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
@@ -225,13 +581,13 @@
     <map id="guynmart_wood_11" x="117" y="222"/>
     <map id="guynmart_wood_12" x="86" y="237"/>
     <map id="guynmart_wood_13" x="70" y="222"/>
-    <map id="guynmart_wood_14" x="55" y="222"/>
+    <map id="guynmart_wood_14" x="54" y="222"/>
     <map id="guynmart_wood_15" x="24" y="206"/>
     <map id="guynmart_wood_16" x="39" y="191"/>
     <map id="guynmart_wood_17" x="8" y="175"/>
     <map id="guynmart_wood_18" x="8" y="144"/>
     <map id="guynmart_wood_19" x="8" y="128"/>
-    <map id="waytolake12" x="678" y="174"/>
+     <map id="waytolake12" x="678" y="174"/>
     <map id="arulirmountain1" x="817" y="94"/>
     <map id="arulirmountain2" x="848" y="96"/>
     <map area="brimhaven_area" id="brimhaven1" x="426" y="259"/>
@@ -247,6 +603,96 @@
     <map id="mywild19" x="192" y="459"/>
     <map id="mywild20" x="217" y="455"/>
     <map id="mywildcave" x="192" y="480"/>
+    <map id="blackwater_mountain70" x="64" y="337"/>
+    <map id="cabin_norcity_road1" x="476" y="462"/>
+    <map id="cabin_norcity_road2" x="476" y="446"/>
+    <map id="cabin_norcity_road3" x="497" y="446"/>
+    <map id="cabin_norcity_road4" x="497" y="462"/>
+    <map id="way_to_sullengard_east1" x="506" y="478"/>
+    <map id="way_to_sullengard_east2" x="502" y="504"/>
+    <map id="way_to_sullengard_east4" x="440" y="555"/>
+    <map id="way_to_sullengard_east5" x="461" y="555"/>
+    <map id="sullengard10" x="310" y="613"/>
+    <map id="sullengard9" x="338" y="613"/>
+    <map id="sullengard6" x="353" y="624"/>
+    <map id="sullengard3" x="310" y="624"/>
+    <map area="sullengard" id="sullengard2" x="322" y="624"/>
+    <map id="sullengard4" x="311" y="655"/>
+    <map id="sullengard5" x="353" y="655"/>
+    <map id="sullengard7" x="338" y="686"/>
+    <map id="sullengard8" x="311" y="686"/>
+    <map id="way_to_sullengard_east6" x="492" y="572"/>
+    <map id="way_to_sullengard_east7" x="492" y="624"/>
+    <map id="way_to_sullengard_east8" x="492" y="655"/>
+    <map id="way_to_sullengard_east9" x="461" y="655"/>
+    <map id="way_to_sullengard_pond_road" x="369" y="686"/>
+    <map id="way_to_sullengard_east10" x="405" y="686"/>
+    <map id="way_to_sullengard_east11" x="410" y="655"/>
+    <map id="sullengard_pond" x="374" y="655"/>
+    <map id="way_to_sullengard_east_ravine_north" x="461" y="519"/>
+    <map id="way_to_sullengard_east_ravine" x="461" y="535"/>
+    <map area="deebo_orchard" id="sullengard_apple_farm_east" x="461" y="572"/>
+    <map id="sullengard_apple_farm_west" x="440" y="572"/>
+    <map id="sullengard_apple_farm_south" x="461" y="613"/>
+    <map id="sullengard1" x="322" y="655"/>
+    <map id="sullengard_west_ravine" x="409" y="525"/>
+    <map id="sullengard_woods_gj1" x="440" y="504"/>
+    <map id="sullengard_woods1" x="409" y="504"/>
+    <map id="sullengard_woods2" x="409" y="552"/>
+    <map id="sullengard_woods3" x="409" y="572"/>
+    <map id="sullengard_woods4" x="409" y="593"/>
+    <map id="sullengard_woods5" x="409" y="613"/>
+    <map id="sullengard_woods6" x="461" y="624"/>
+    <map id="sullengard_woods7" x="430" y="624"/>
+    <map id="sullengard_woods8" x="409" y="624"/>
+    <map id="sullengard_woods9" x="374" y="624"/>
+    <map id="sullengard_woods10" x="374" y="613"/>
+    <map id="sullengard_woods11" x="374" y="593"/>
+    <map id="sullengard_woods12" x="374" y="572"/>
+    <map id="sullengard_woods13" x="374" y="552"/>
+    <map id="sullengard_woods14" x="374" y="519"/>
+    <map id="vilegard_sullengard_filler1" x="384" y="504"/>
+    <map id="way_to_sullengard_east9a" x="441" y="655"/>
+    <map id="way_to_sullengard_east7a" x="492" y="613"/>
+    <map id="sullengard_pond_east" x="404" y="655"/>
+    <map id="way_to_sullengard_east_ravine_cabin" x="461" y="504"/>
+    <map id="way_to_sullengard_east4_bridge" x="440" y="525"/>
+    <map id="way_to_sullengard_east5_filler" x="502" y="555"/>
+    <map id="way_to_sullengard_east2a" x="502" y="520"/>
+    <map id="sullengard_ravine2" x="502" y="535"/>
+    <map id="gapfillerhole" x="194" y="375"/>
+    <map id="haunted_forest1" x="495" y="486"/>
+    <map id="haunted_forest2" x="493" y="478"/>
+    <map id="haunted_forest3" x="497" y="497"/>
+    <map id="haunted_forest4" x="489" y="497"/>
+    <map id="haunted_forest_coffin1" x="479" y="497"/>
+    <map id="haunted_forest_coffin2" x="469" y="497"/>
+    <map id="haunted_forest5" x="486" y="486"/>
+    <map id="haunted_forest6" x="481" y="478"/>
+    <map id="haunted_forest7" x="469" y="490"/>
+    <map id="haunted_forest8" x="469" y="486"/>
+    <map id="haunted_forest9" x="469" y="478"/>
+    <map id="haunted_forest12" x="461" y="490"/>
+    <map id="haunted_forest13" x="461" y="482"/>
+    <map id="haunted_forest_filler" x="455" y="478"/>
+    <map id="haunted_forest14" x="437" y="475"/>
+    <map id="haunted_forest15" x="420" y="475"/>
+    <map id="haunted_forest_way_to_house1" x="450" y="501"/>
+    <map id="haunted_forest_way_to_house2" x="429" y="501"/>
+    <map id="haunted_forest_way_to_house4" x="416" y="495"/>
+    <map id="haunted_forest_way_to_house5" x="409" y="495"/>
+    <map id="haunted_forest16" x="420" y="482"/>
+    <map id="haunted_forest17" x="409" y="485"/>
+    <map id="haunted_forest19" x="409" y="475"/>
+    <map id="haunted_forest20" x="394" y="475"/>
+    <map id="haunted_forest21" x="384" y="492"/>
+    <map id="haunted_forest22" x="399" y="492"/>
+    <map id="haunted_forest23" x="399" y="484"/>
+    <map id="haunted_forest24" x="382" y="475"/>
+    <map id="haunted_forest25" x="382" y="484"/>
+    <map id="haunted_cemetery1" x="440" y="482"/>
+    <map id="haunted_cemetery2" x="429" y="482"/>
+    <map id="ratdom_bwm1" x="137" y="355"/>
     <map id="swamp1" x="127" y="253"/>
     <map id="swamp2" x="96" y="253"/>
     <map id="swamp3" x="70" y="253"/>
@@ -266,5 +712,7 @@
     <namedarea id="stoutford" name="Stoutford" type="settlement"/>
     <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
     <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
+    <namedarea id="sullengard" name="Sullengard" type="settlement"/>
+    <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
   </segment>
 </worldmap>
