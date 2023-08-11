@@ -8,14 +8,7 @@
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_check",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-						"negate":true
-                    }
-                ]
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true } ]
             }
         ]
     },
@@ -24,18 +17,8 @@
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_check_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":1
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_fogmonster1",
-                        "value":100
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1 },
+							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster1", "value":75 } ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster2_check"
@@ -46,39 +29,44 @@
         "id":"feygard_fogmonster1_check_10",
         "replies":[
             {
+                "nextPhraseID":"feygard_fogmonster1_check_10_7",
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":8 } ]
+            },
+            {
+                "nextPhraseID":"feygard_fogmonster1_check_10_6"
+            }
+        ],
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" } ]
+    },
+    {
+        "id":"feygard_fogmonster1_check_10_6",
+        "replies":[
+            {
                 "nextPhraseID":"feygard_fogmonster2_check"
             }
         ],
-        "rewards":[
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 } ]
+    },
+    {
+        "id":"feygard_fogmonster1_check_10_7",
+        "replies":[
             {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"feygard_fog",
-                "value":1
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_fogmonster1",
-                "mapName":"guynmart_wood_14"
+                "nextPhraseID":"feygard_fogmonster2_check"
             }
-        ]
+        ],
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 } ]
     },
     {
         "id":"feygard_fogmonster2_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster2_check_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":2
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_fogmonster2",
-                        "value":100
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":2 },
+							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster2", "value":50 } ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster3_check"
@@ -92,36 +80,16 @@
                 "nextPhraseID":"feygard_fogmonster3_check"
             }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"feygard_fog",
-                "value":2
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_fogmonster2",
-                "mapName":"swamp2"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":2 },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster2", "mapName":"swamp2" } ]
     },
     {
         "id":"feygard_fogmonster3_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster3_check_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":3
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_fogmonster3",
-                        "value":100
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":3 },
+							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster3", "value":50 } ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster4_check"
@@ -135,36 +103,16 @@
                 "nextPhraseID":"feygard_fogmonster4_check"
             }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"feygard_fog",
-                "value":3
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_fogmonster3",
-                "mapName":"swamp4"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":3 },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" } ]
     },
     {
         "id":"feygard_fogmonster4_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster4_check_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":4
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_fogmonster4",
-                        "value":100
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":4 },
+							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster4", "value":50 } ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster5_check"
@@ -178,208 +126,106 @@
                 "nextPhraseID":"feygard_fogmonster5_check"
             }
         ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"feygard_fog",
-                "value":4
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_fogmonster4",
-                "mapName":"swamp5"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":4 },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" } ]
     },
     {
         "id":"feygard_fogmonster5_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster5_check_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":5
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_fogmonster5",
-                        "value":100
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":5 },
+							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster5", "value":50 } ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster5_check_10",
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"feygard_fog",
-                "value":5
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_fogmonster5",
-                "mapName":"swamp6"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":5 },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" } ]
     },
     {
         "id":"feygard_fogmonster1_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_heart_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-						"negate":true
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1, "negate":true } ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster1_heart_10",
         "message":"As soon as you touch the fog's heart, it vanishes completely.",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_fogmonster1"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":1
-            }
-        ]
+        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster1" },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 },
+					{ "rewardType":"deactivateMapObjectGroup", "rewardID":"Keys_fog", "mapName":"guynmart_wood_13" } ]
     },
     {
         "id":"feygard_fogmonster2_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster2_heart_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-						"negate":true
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":2, "negate":true } ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster2_heart_10",
         "message":"As soon as you touch the fog's heart, it vanishes completely.",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_fogmonster2"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":2
-            }
-        ]
+        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster2" },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 } ]
     },
     {
         "id":"feygard_fogmonster3_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster3_heart_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-						"negate":true
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":3, "negate":true } ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster3_heart_10",
         "message":"As soon as you touch the fog's heart, it vanishes completely.",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_fogmonster3"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":3
-            }
-        ]
+        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster3" },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 } ]
     },
     {
         "id":"feygard_fogmonster4_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster4_heart_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-						"negate":true
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":4, "negate":true } ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster4_heart_10",
         "message":"As soon as you touch the fog's heart, it vanishes completely.",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_fogmonster4"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":4
-            }
-        ]
+        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster4" },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 } ]
     },
     {
         "id":"feygard_fogmonster5_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster5_heart_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-						"negate":true
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":5, "negate":true } ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster5_heart_10",
         "message":"As soon as you touch the fog's heart, it vanishes completely.",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_fogmonster5"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":5
-            }
-        ]
+        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster5" },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 } ]
     },
     {
         "id":"feygard_fogmonster9",
@@ -387,88 +233,36 @@
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_5",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":2
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":3
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":4
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":5
-                    }
-                ]
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1 },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":2 },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":3 },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":4 },
+							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":5 } ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":1
-                    }
-                ]
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":1 } ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":2
-                    }
-                ]
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":2 } ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":3
-                    }
-                ]
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":3 } ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":4
-                    }
-                ]
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":4 } ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":5
-                    }
-                ]
+                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":5 } ]
             },
             {
                 "text":"N",
@@ -545,13 +339,7 @@
     {
         "id":"guynmart_roadguard_30",
         "message":"Oh ... Forget it. I feel rather stupid now. Bye.",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"guynmart_roadguard",
-                "mapName":"guynmart_wood_13"
-            }
-        ]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"guynmart_roadguard", "mapName":"guynmart_wood_13" } ]
     },
     {
         "id":"swamp_witch",
@@ -564,22 +352,57 @@
             {
                 "text":"Please stop the fog ovens.",
                 "nextPhraseID":"swamp_witch_10"
+            },
+            {
+                "text":"Please remove the fog from the road.",
+                "nextPhraseID":"swamp_witch_10b"
             }
         ]
     },
     {
         "id":"swamp_witch_10",
         "message":"OK.",
-        "rewards":[
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 }]
+    },
+    {
+        "id":"swamp_witch_10b",
+        "message":"OK.",
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":8 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 }]
+    },
+    {
+        "id":"swamphut_oven",
+        "message":"Certainly these two mighty ovens were responsible for the thick fog outside.",
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_fog",
-                "value":9
+                "text":"I wonder what would happen if I light a fire?",
+                "nextPhraseID":"swamphut_oven_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9 } ]
+
             }
         ]
     },
     {
-        "id":"swamphut_oven",
-        "message":"Certainly these two mighty ovens were responsible for the thick fog outside."
+        "id":"swamphut_oven_10",
+        "message":"Ah - nice and cozy.",
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster2", "mapName":"swamp2" },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" } ]
     }
 ]

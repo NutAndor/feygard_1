@@ -1,0 +1,11 @@
+[
+    {
+        "id":"guynmart_sign_fog_10a_0",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart_sign_fog_10a",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1, "negate":true } ]
+            }
+        ]
+    }
+]
