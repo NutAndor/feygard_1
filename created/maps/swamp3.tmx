@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="59">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="61">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,12 +188,12 @@
  </tileset>
  <layer id="9" name="Base" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUk4SZeInHlNjxlYeBQQhkhjAmBol/46HcDmYgfgQ056AwJgaJM1LBHzA7XkgzMLxEwq+kqW/Hd6CZP5DwTxrYgQtTww5WIP7EgxuzUcEOWqfdkYDfCGLiwWYHAMeh/XQ=
+   eJzbyMnAsHEUk4SZeInHlNjxlYeBQQhkhjAmBol/46HcDmYgfgQ0BxsAiTNSwR8wO15IMzC8RMKvpKlvx3egmT+Q8E8a2IELU8MOViD+xIMbs1HBDlqn3ZGA3whi4sFmBwAOb/lQ
   </data>
  </layer>
  <layer id="1" name="Ground" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFVM1KAzEQHhSVrj+wqdiWKnrx5MWfJ9A+gfoE6msJ4hOIJ8/qdW/VFikIrVKrFES86aJOmhl2NpmtHwyZTGa/L5PJBgCgH8MIDzjOG4AF4+ZPODbR2rRux9aKM56v4voa5Y9A/qmI3dZARULxH5PxXmPsphaOzPOJuY+x2+tVnF/v4HxgQs2O2MswzvymiPfIb9F6X+QxupTzVQHYqP5v35WQo+3xvsd6fK6an28uOvORokYXa+2hJcQhz0Tq+mfqaxQhVepgJMo5SUiN9TLA2TJAYwL7OO18X2NAfLJ/++gfkB16d+Le5DVKyH1BvJMzmc8aqbyrgn/Pci452yUd25u3OF/H+dT4eq3Gr9DgvUt+tobXo6J+1KNQQ2JH4ZYaQ3GmEWrUNYvy81nay4cZr7GF8ROvjlf7hpT1e2jxrPTA4ghztxUd1rBcdwXfaijStzrHnvk1MOQ/JXFZCo3/4ZeCf1rGgndT7JffYE3Dr0l7J9n/A5qViHU=
+   eJyFVM1KAzEQHhSVrlpIKralil48efHnCbRPoD6B+lqC+ATiybN63Vu1RQpCq9QqBRFvuqiTZoadzY9+MGQymf2+TCYbAICBgjHucZzXAGVt5484ttA6tG7G9rI1nq/g+irlj0H+iYjd1CGIlOLfOue9wth13R+Z5wNzH5Td66UqrndxPtS+ZlfsZaRyvyXiffLbtD4QeYwe5XxWAdZr/9tX1efoOLxvKhyfqxXnGwvWXGSo0cNa+2gpccgzkbrumboaLs6mco0Y0sA5xepYqwCcLgE0J7CP09aXdRgMiU/2bw/9fbID507c6aJGCbnPiXdyJvdZI5N3VfDvGs5FazukY3rzqvw6snK8XqPxIzR475Kfren0KNaPRuJrSGwHuKXGSJxpghqNkCXF+Szt5V3/rbGJ8WOnjhfzhlTC99DgKdADg0PM3QrosIbhuo18G0JM3+gcOebWwJD/lMRFyTf+h58j/7SMee+m2C+/wSENt6bQO8n+LxBLiX8=
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="15">
@@ -201,59 +201,59 @@
    eJy7JsvAcI0E/EaSgeGtJGl6iMEwQG1zhwPGBkbtGDg7kLE0F+3jf7jYMYrpiwGzSkze
   </data>
  </layer>
- <layer id="14" name="Objects1" width="25" height="15">
+ <layer id="14" name="Objects1" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7JsvAcI0E/EaSgeEtEJMCiDEXm1pq24HPXnIAvewgxu7BbscoGAWjgL4AAHAzORo=
   </data>
  </layer>
- <layer id="24" name="Objects1_b" width="25" height="15">
+ <layer id="24" name="Objects1_b" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7JsvAcI0E/EaSgeEtEJMCiDEXm1pq24HPXnIAvewgxu7BbscoGAWjgL4AAHAzORo=
   </data>
  </layer>
- <layer id="15" name="Objects2" width="25" height="15">
+ <layer id="15" name="Objects2" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAPXJMlHpMLRu0YtWOo2kGK3aNgFNACAADZplhI
   </data>
  </layer>
- <layer id="23" name="Objects2_b" width="25" height="15">
+ <layer id="23" name="Objects2_b" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAPXJMlHpMLRu0YtWOo2kGK3aNgFNACAADZplhI
   </data>
  </layer>
- <layer id="16" name="Objects3" width="25" height="15">
+ <layer id="16" name="Objects3" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2DgwDVZVDwU7UA3Hx+mhx3k2jtqx/CyAwA20m0q
   </data>
  </layer>
- <layer id="22" name="Objects3_b" width="25" height="15">
+ <layer id="22" name="Objects3_b" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2DgwDVZVDwU7UA3Hx+mhx3k2jtqx/CyAwA20m0q
   </data>
  </layer>
- <layer id="17" name="Objects4" width="25" height="15">
+ <layer id="17" name="Objects4" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4D24Jrs8LEDGUtzjdqBy0xseNQO+tkBAB1oL+Y=
   </data>
  </layer>
- <layer id="21" name="Objects4_b" width="25" height="15">
+ <layer id="21" name="Objects4_b" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4D24Jrs8LEDGUtzjdqBy0xseNQO+tkBAB1oL+Y=
   </data>
  </layer>
- <layer id="18" name="Objects5" width="25" height="15">
+ <layer id="18" name="Objects5" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFxIJrsqh41I5RO0btGAWDFQAALJgeYQ==
   </data>
  </layer>
- <layer id="20" name="Objects5_b" width="25" height="15">
+ <layer id="20" name="Objects5_b" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFxIJrsqh41I5RO0btGAWDFQAALJgeYQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="15">
   <data encoding="base64" compression="zlib">
-   eJzFk0EOQDAQRe2sSUjcxLVxAnoCFvbcgLWFNtFkTP6nQuJtphm/v9OZqosI0oh8Zdd1waPW632d+ua1RuTbQ8ei1ut9GqT9g97WMYBealBPHVOMfWeRn6x+Br2UNKSnjoWcsZI8mrXDgPrvMDn3YrCZMwZyxlvK5BxD2FKcZz39EkPe4Zi982Uzv5rT03cSMnPt+fSdhHh7T1T/3b99pUH1ovrZnWTer3eN8FKj
+   eJzFk0EKgzAQRd11rUXBm3jtxhNoTlAX3esN7LqLJmBgHP+PEQUfyITx52eciabOIK3Iv9za1Dxqvd7Xq3dBa0W+W3Qsar3ep0HaO3i7OgbQSw3qqWd8YN9J5Eenn0AvJS3pqWd2Xt1z+3zJ2WjWHgvq38NW3IvBZs4YyBlnafJ1TOFX4Dzr6ZVYcg8/5TlfNvPYnI7ek5SZa8+j9yTFO3ii+vf+7ZgG1YvqZ98k82H9B0cxVsc=
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="15" visible="0">
@@ -273,7 +273,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlMsNwCAMQztF9l8hG3JqBZLt2JxqCYmfnhMgdD2fus6G5m4bUgvvNBbEQ33m/0e558rGE++dY177uooR8dGexAMxUH4qD7bO8kjeq2Kz2J26cO/Y5Tt1oOTWnoop8br9SxTP8VIMl5mI1cmU7/QG9v4C0leDYA==
+   eJzNlMsJACAMQ53C/Vfohp4UhTRJezIgfpCXVqsxx1HMt6G1bkMK4l2NBfHQOPP/Ue65ZnPF22vKX8WI+GhPpT4QA+WHenU2LFe3XpUnY6u8nTt2+c47YOrcnYqXeXX/EsZzvBjDZVaUvROVr6qBe7wA5taCmQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -307,6 +307,13 @@
     <property name="place" value="door"/>
    </properties>
   </object>
+  <object id="59" name="hut2" type="mapchange" x="288" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="swamp_hut"/>
+    <property name="place" value="board"/>
+   </properties>
+  </object>
+  <object id="60" name="swamp3_l1" type="container" x="160" y="256" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="160" y="352" width="384" height="64">
@@ -331,7 +338,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="25" name="swamp5a" type="replace" x="0" y="96" width="128" height="256">
    <properties>
     <property name="Objects" value="Objects5"/>

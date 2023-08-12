@@ -343,24 +343,600 @@
     },
     {
         "id":"swamp_witch",
-        "message":"A child!? I haven't had anything tender to eat in a long time.",
         "replies":[
             {
-                "text":"But hard to digest... Attack!",
-                "nextPhraseID":"F"
+                "text":"N",
+                "nextPhraseID":"swamp_witch_90",
+                "requires":[{ "requireType":"questProgress", "requireID":"fogmonster", "value":90 }]
             },
             {
-                "text":"Please stop the fog ovens.",
-                "nextPhraseID":"swamp_witch_10"
+                "text":"N",
+                "nextPhraseID":"swamp_witch_80",
+                "requires":[{ "requireType":"questProgress", "requireID":"fogmonster", "value":80 }]
             },
             {
-                "text":"Please remove the fog from the road.",
-                "nextPhraseID":"swamp_witch_10b"
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20"
             }
         ]
     },
     {
-        "id":"swamp_witch_10",
+        "id":"swamp_witch_20",
+        "message":"Who dares disturb my solitude? Be gone, or face my wrath!",
+        "replies":[
+            {
+                "text":"My apologies, ma'am. I got lost in the fog.",
+                "nextPhraseID":"swamp_witch_20_10"
+            },
+            {
+                "text":"Please stop the fog ovens.  TODO",
+                "nextPhraseID":"swamp_witch_t1"
+            },
+            {
+                "text":"Please remove the fog from the road.  TODO",
+                "nextPhraseID":"swamp_witch_t2"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_10",
+        "message":"(Sarcastically) Oh, how touching. The brave little hero got himself lost, did he?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_12"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_12",
+        "message":"And now he expects me to help him? Ha!",
+        "replies":[
+            {
+                "text":"Yes, please.",
+                "nextPhraseID":"swamp_witch_20_30"
+            },
+            {
+                "text":"No. I can handle myself as always.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I managed to defeat the fog monsters that caused it.",
+                "nextPhraseID":"swamp_witch_20_20"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_20",
+        "message":"Defeated my fog monsters, did you? Meddlesome brat!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_22"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_22",
+        "message":"Those creatures were my only protection from unwanted visitors like you!",
+        "replies":[
+            {
+                "text":"I didn't know. The fog was disorienting ...",
+                "nextPhraseID":"swamp_witch_20_24"
+            },
+            {
+                "text":"I'm sorry, ma'am, I didn't mean to disturb you.",
+                "nextPhraseID":"swamp_witch_20_24"
+            },
+            {
+                "text":"Not much of a protection they were.",
+                "nextPhraseID":"swamp_witch_20_200"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_24",
+        "message":"And?",
+        "replies":[
+            {
+                "text":"And I just wanted to find my way to Feygard.",
+                "nextPhraseID":"swamp_witch_20_40"
+            },
+            {
+                "text":"I just want to find my way home.",
+                "nextPhraseID":"swamp_witch_20_40"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_30",
+        "message":"(Grumbles) Lost, you say? It's your own fault for wandering where you don't belong. I prefer to be left alone, away from the meddling of outsiders.",
+        "replies":[
+            {
+                "text":"I understand, and I'm really sorry. I promise I'll leave as soon as you point me in the right direction.",
+                "nextPhraseID":"swamp_witch_20_40"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_40",
+        "message":"(Grinning wickedly) That is easy. Go outside and far away. As fast as possible.",
+        "replies":[
+            {
+                "text":"Thank you! You're really kind ...",
+                "nextPhraseID":"swamp_witch_20_42"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_42",
+        "message":"What?",
+        "replies":[
+            {
+                "text":"... despite what I always have heard about witches in the swamp.",
+                "nextPhraseID":"swamp_witch_20_50"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_50",
+        "message":"(Gruffly) Kind? Bah! I simply don't want the likes of you lingering around here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_60"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_60",
+        "message":"Now, listen carefully, child. I will wait a few minutes before I create new fog again.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_62"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_62",
+        "message":"Be sure to be out of the area.",
+        "replies":[
+            {
+                "text":"I appreciate your help. I promise I'll be away for good. But can I ask you something else before I leave?",
+                "nextPhraseID":"swamp_witch_20_70"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_70",
+        "message":"(Sighs) Make it quick, then. I don't have all night.",
+        "replies":[
+            {
+                "text":"Why do you live all alone in this swamp? Don't you ever get lonely?",
+                "nextPhraseID":"swamp_witch_20_80"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_80",
+        "message":"Men used to laugh at me. They threw stones at me and at last tried to burn my house.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_82"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_82",
+        "message":"All I want is peace and enjoy my lovely garden outside.",
+        "replies":[
+            {
+                "text":"You mean the swamp?",
+                "nextPhraseID":"swamp_witch_20_84"
+            },
+            {
+                "text":"Eh, yes, your garden is beautiful.",
+                "nextPhraseID":"swamp_witch_20_90"
+            },
+            {
+                "text":"You want peace and loneliness?",
+                "nextPhraseID":"swamp_witch_20_100"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_84",
+        "message":"How dare you!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_200"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_90",
+        "message":"Yes, it is. At least one person who knows beauty when he sees it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_92"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_92",
+        "message":"Well, I shall spare you... this time. Now leave my sight and never return!",
+        "replies":[
+            {
+                "text":"It was sort of nice to meet you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_100",
+        "message":"Loneliness is a price I'm willing to pay for my solitude.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_102"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_102",
+        "message":"People fear me because of my powers, and I grow weary of their endless superstitions and suspicions. Here, far from any village, I can be myself without interference.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_104"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_104",
+        "message":"Here I have found peace at last.",
+        "replies":[
+            {
+                "text":"I'm sorry people treat you that way. But maybe if they got to know you, they wouldn't be so afraid.",
+                "nextPhraseID":"swamp_witch_20_110"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_110",
+        "message":"Bah! Humans will always fear what they don't understand.",
+        "replies":[
+            {
+                "text":"Maybe you are right. Let me think ...",
+                "nextPhraseID":"swamp_witch_20_120"
+            },
+            {
+                "text":"Right. And now you should fear me - attack!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_120",
+        "message":"Hmph, fine. But be quick about it.",
+        "replies":[
+            {
+                "text":"Shrink the fog in the north.",
+                "nextPhraseID":"swamp_witch_20_130"
+            },
+            {
+                "text":"Release the fog.",
+                "nextPhraseID":"swamp_witch_20_140"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_130",
+        "message":"(Eyeing him suspiciously) What?!",
+        "replies":[
+            {
+                "text":"People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in the north, nobody will bother you anymore.",
+                "nextPhraseID":"swamp_witch_20_132"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_132",
+        "message":"Hmm. Sounds reasonable.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_134"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_134",
+        "message":"Agreed. Here child, take these sweets and now begone!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"(grumbling) Sweets - I am no kid any more.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"fogmonster", "value":80 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":8 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
+					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" }]
+    },
+    {
+        "id":"swamp_witch_20_140",
+        "message":"(Eyeing him suspiciously) What?!",
+        "replies":[
+            {
+                "text":"People have trouble that the way to Feygard is barred by your fog. No fog on the road, no reason to visit you.",
+                "nextPhraseID":"swamp_witch_20_142"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_142",
+        "message":"Hmm. Sounds reasonable.",
+        "replies":[
+            {
+                "text":"And being a witch, you can certainly put a spell around your swamp that will distract people from wanting to come here.",
+                "nextPhraseID":"swamp_witch_20_144"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_144",
+        "message":"Swamp! what did you name my beautiful peace of land??",
+        "replies":[
+            {
+                "text":"Well, what else is it?",
+                "nextPhraseID":"swamp_witch_20_84"
+            },
+            {
+                "text":"Uh, garden, I meant.",
+                "nextPhraseID":"swamp_witch_20_150"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_150",
+        "message":"A distraction spell. That I didn't think of it myself ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_160"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_160",
+        "message":"Great. You deserve a reward for that. You may choose one thing from these:",
+        "replies":[
+            {
+                "text":"Gold and jewels",
+                "nextPhraseID":"swamp_witch_20_170"
+            },
+            {
+                "text":"A vial of healing water from the garden",
+                "nextPhraseID":"swamp_witch_20_180"
+            },
+            {
+                "text":"Everlasting thankfulness",
+                "nextPhraseID":"swamp_witch_20_190"
+            }
+        ],
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
+					{ "rewardType":"questProgress", "rewardID":"fogmonster", "value":90 },
+					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster2", "mapName":"swamp2" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" },
+					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"swamp2" },
+					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"swamp4" },
+					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"swamp6" },
+					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"guynmart_wood_13" } ]
+
+    },
+    {
+        "id":"swamp_witch_20_170",
+        "message":"Here take this stuff. And now go and finally leave me alone. TODO"
+    },
+    {
+        "id":"swamp_witch_20_180",
+        "message":"Shop TODO"
+    },
+    {
+        "id":"swamp_witch_20_190",
+        "message":"You have it. And now go and finally leave me alone. Otherwise I'll turn you into a frog."
+    },
+    {
+        "id":"swamp_witch_20_200",
+        "message":"(Grinning wickedly) I think it's time you learn a lesson, meddling child.",
+        "replies":[
+            {
+                "text":"What are you going to do?",
+                "nextPhraseID":"swamp_witch_20_210"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_210",
+        "message":"The old witch raises her hands, chanting ominously.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_212"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_212",
+        "message":"A curse upon you, little one! May darkness be your companion, and fear be your guide!",
+        "replies":[
+            {
+                "text":"I won't let you curse me! (Draws his sword)",
+                "nextPhraseID":"swamp_witch_20_214"
+            },
+            {
+                "text":"I'm sorry, ma'am. Please forgive me.",
+                "nextPhraseID":"swamp_witch_20_24"
+            },
+            {
+                "text":"Wait! Spare me please. I'll give you ...",
+                "nextPhraseID":"swamp_witch_20_220"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_214",
+        "message":"Hahaha! You? Defeat me? We shall see!",
+        "replies":[
+            {
+                "text":"Attack!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_220",
+        "message":"Oh, the heroic little braveheart, off to save his own skin.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_222"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_222",
+        "message":"What do you offer me?",
+        "replies":[
+            {
+                "text":"100 gold coins",
+                "nextPhraseID":"swamp_witch_20_228",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"gold", "value":100 } ]
+            },
+            {
+                "text":"My Ring of the Lesser Shadow  (TODO)",
+                "nextPhraseID":"swamp_witch_20_228",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"gold", "value":1 } ]
+            },
+            {
+                "text":"A quick death",
+                "nextPhraseID":"swamp_witch_20_214"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_226",
+        "message":"Insolence! Just you wait ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_210"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_228",
+        "message":"I have no need for that. But I will take it nevertheless.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_222"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_80",
+        "message":"Oh - how did you pass through my distraction fence?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_90_10"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_90",
+        "message":"You again! You promised me peace and solitude!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_90_10"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_90_10",
+        "message":"Go away!",
+        "replies":[
+            {
+                "text":"OK, sorry for disturbing your peace."
+            },
+            {
+                "text":"Can I buy more of your medicinal water?",
+                "nextPhraseID":"swamp_witch_90_20"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_90_20",
+        "message":"Well, if you promise to finally leave me alone afterwards.  TODO",
+        "replies":[
+            {
+                "text":"Sure",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_checkkill",
+        "replies":[
+            {
+                "nextPhraseID":"swamp_witch_checkkill_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
+							{ "requireType":"killedMonster", "requireID":"swamp_witch", "value":1 } ]
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_checkkill_10",
+        "message":"This area will never be bullied by the old witch again.\nYou take the witch's staff - maybe it will find a good use as a walking stick.",
+        "replies":[
+            {
+                "nextPhraseID":"swamp_witch_checkkill_20"
+			}
+        ],
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
+					{ "rewardType":"questProgress", "rewardID":"fogmonster", "value":70 },
+					{ "rewardType":"giveItem", "rewardID":"swampwitch_staff", "value":1 }]
+    },
+    {
+        "id":"swamp_witch_checkkill_20",
+        "message":"Only the fog won't go away on its own.",
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"fogmonster", "value":70 }]
+    },
+    {
+        "id":"swamp_witch_t1",
         "message":"OK.",
         "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
@@ -370,7 +946,7 @@
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 }]
     },
     {
-        "id":"swamp_witch_10b",
+        "id":"swamp_witch_t2",
         "message":"OK.",
         "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":8 },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 },

@@ -5,5 +5,12 @@
 	{	"id":"loot_swamphut",
 		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":1, "max":2 } },
 					{ "itemID":"gold",		"chance":"100", "quantity":{ "min":100, "max":200 } }]
+	},
+	{	"id":"swamp_witch",
+		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":10, "max":20 } },
+					{ "itemID":"gold",		"chance":"100", "quantity":{ "min":100, "max":200 } }]
+	},
+	{	"id":"swamp3_l1",
+		"items":[	{ "itemID":"gold",		"chance":"100", "quantity":{ "min":500, "max":900 } }]
 	}
 ]

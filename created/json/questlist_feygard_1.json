@@ -1,5 +1,18 @@
 [
     {
+        "id":"fogmonster",
+        "name":"Fog in the woods",
+        "showInLog":1,
+        "stages":[
+            { "progress":10, "logText":"After you chased away a fog monster, the fog suddenly dissipated." },
+            { "progress":20, "logText":"Another fog monster guarded the footbridge to the hut. As long as there was still fog somewhere around the hut, you couldn't drive it away." },
+            { "progress":30, "logText":"In the hut you encountered a terrifying looking witch." },
+            { "progress":70, "logText":"You defeated the old witch in battle. So there would be no new fog." },
+            { "progress":80, "logText":"You were able to convince Mim to keep the road clear of fog." },
+            { "progress":90, "logText":"You convinced Mim to replace the fog with a distraction spell." }
+        ]
+    },
+    {
         "id":"feygard_fog",
         "name":"feygard fog",
         "showInLog":1,

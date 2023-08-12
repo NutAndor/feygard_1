@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="35">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="39">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -246,6 +246,25 @@
    eJzFVMkNwCAMYwr2X6Eb8uKDhK+kIlI/4NqJkzCGF9/E34lDHIoO099nqY6LTety7yoeKaFoqr09e8HqVGel6gvDqnmz+0ofUo6O+VD6gDyqeNaNYeHMnJoDOnPrur1rXbvkhlMH+j/hTHYt8Yrxs1785T3K6QVnx57f8C/evRSrcrn61VifL4Z8
   </data>
  </layer>
+ <objectgroup id="19" name="Mapevents_dis">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="35" name="dis1" type="mapchange" x="704" y="160" width="32" height="576">
+   <properties>
+    <property name="map" value="swamp4"/>
+    <property name="place" value="dis1b"/>
+   </properties>
+  </object>
+  <object id="36" name="dis1b" type="mapchange" x="672" y="192" width="32" height="544"/>
+  <object id="37" name="dis2" type="mapchange" x="672" y="64" width="32" height="96">
+   <properties>
+    <property name="map" value="swamp4"/>
+    <property name="place" value="dis2b"/>
+   </properties>
+  </object>
+  <object id="38" name="dis2b" type="mapchange" x="640" y="64" width="32" height="96"/>
+ </objectgroup>
  <objectgroup id="5" name="Mapevents" visible="0">
   <object id="19" name="east1" type="mapchange" x="768" y="32" width="32" height="416">
    <properties>
