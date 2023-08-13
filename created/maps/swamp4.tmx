@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="30">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="34">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -246,26 +246,26 @@
    eJy1lMsNwDAIQzNF9l8hG7aXSlEF5kEIUi4R2Oa75hjrfbutaT/L52/7v+dDOSw/ZUon1eVhRf5UT6Q10qB00HpTPIVP+p+1ao87uAlnZhY9TWSXbuWhrEtXZs9O8SnO6a2KzJuLyrxQveQ/i1/FozFV3D1W9ZbiqxhaYzKHVh5E0w1u5a/mtHr3FI/C//5IXp2cGRxa/9MeEa6OmxVxntwKknPXHY44PE5PK92HW3oVzwP4XL87
   </data>
  </layer>
- <objectgroup name="Mapevents_dis">
+ <objectgroup id="19" name="Mapevents_dis" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="dis1" type="mapchange" x="128" y="160" width="288" height="32">
+  <object id="30" name="dis1" type="mapchange" x="128" y="160" width="288" height="32">
    <properties>
     <property name="map" value="swamp4"/>
     <property name="place" value="dis1b"/>
    </properties>
   </object>
-  <object name="dis1b" type="mapchange" x="128" y="192" width="288" height="32"/>
-  <object name="dis2" type="mapchange" x="480" y="192" width="224" height="32">
+  <object id="31" name="dis1b" type="mapchange" x="128" y="192" width="288" height="32"/>
+  <object id="32" name="dis2" type="mapchange" x="480" y="192" width="224" height="32">
    <properties>
     <property name="map" value="swamp4"/>
     <property name="place" value="dis2b"/>
    </properties>
   </object>
-  <object name="dis2b" type="mapchange" x="480" y="224" width="224" height="32"/>
+  <object id="33" name="dis2b" type="mapchange" x="480" y="224" width="224" height="32"/>
  </objectgroup>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="6" name="east1" type="mapchange" x="768" y="32" width="32" height="384">
    <properties>
     <property name="map" value="swamp2"/>

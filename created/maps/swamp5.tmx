@@ -269,7 +269,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="13" name="Replace">
+ <objectgroup id="13" name="Replace" visible="0">
   <object id="7" name="swamp4b" type="replace" x="480" y="0" width="320" height="384">
    <properties>
     <property name="Objects" value="Objects4"/>

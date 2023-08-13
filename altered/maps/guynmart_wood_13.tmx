@@ -226,26 +226,26 @@
    eJytlFEKwCAMQz2F97+CN9x+hFGSNNEFCqPzmc7WrTnGemNrTT+Qdl4xiu14xrL6a02JEl/FdXx996dvosqkPNoj5W773dWP1iQzqvyZh8N3OcZ2z66/+93ofta9Uu8TnvXWYVi/3VlL5fwTlV9SI2KdM2Zr0rNSs+xyJzPR3WuU+8YDHdaCmQ==
   </data>
  </layer>
- <objectgroup id="16" name="Mapevents_dis">
+ <objectgroup id="16" name="Mapevents_dis" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
   <object id="36" name="dis1" type="mapchange" x="256" y="896" width="160" height="32">
    <properties>
-    <property name="map" value="swamp4"/>
+    <property name="map" value="guynmart_wood_13"/>
     <property name="place" value="dis1b"/>
    </properties>
   </object>
   <object id="37" name="dis1b" type="mapchange" x="256" y="864" width="160" height="32"/>
   <object id="38" name="dis2" type="mapchange" x="64" y="896" width="32" height="32">
    <properties>
-    <property name="map" value="swamp4"/>
+    <property name="map" value="guynmart_wood_13"/>
     <property name="place" value="dis2b"/>
    </properties>
   </object>
-  <object id="39" name="dis2b" type="mapchange" x="64" y="832" width="32" height="64"/>
+  <object id="39" name="dis2b" type="mapchange" x="64" y="864" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="448" y="512" width="32" height="224">
    <properties>
     <property name="map" value="guynmart_wood_12"/>

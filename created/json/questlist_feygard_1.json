@@ -25,7 +25,8 @@
             { "progress":7, "logText":"6=Fog 1 normal" },
             { "progress":7, "logText":"7=Fog 1 short" },
             { "progress":8, "logText":"8=Fogs shortened" },
-            { "progress":9, "logText":"9=Fogs ended" }
+            { "progress":9, "logText":"9=Fogs ended" },
+            { "progress":10, "logText":"10=Board" }
         ]
     }
 ]

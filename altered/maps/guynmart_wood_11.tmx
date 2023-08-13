@@ -231,7 +231,7 @@
    eJxjYCAPbBRD0NgwrQE97R0ov9IzPLHZOwpGwSgYBaNgFIyCUTAKRsEoGN4AAMUQE3A=
   </data>
  </layer>
- <objectgroup id="10" name="Mapevents">
+ <objectgroup id="10" name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="256" y="0" width="544" height="32">
    <properties>
     <property name="map" value="guynmart_wood_10"/>
@@ -268,7 +268,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Spawn">
+ <objectgroup id="11" name="Spawn" visible="0">
   <object id="10" name="forestboar4" type="spawn" x="448" y="704" width="384" height="160">
    <properties>
     <property name="quantity" value="3"/>

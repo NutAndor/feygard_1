@@ -246,20 +246,20 @@
    eJzFVMkNwCAMYwr2X6Eb8uKDhK+kIlI/4NqJkzCGF9/E34lDHIoO099nqY6LTety7yoeKaFoqr09e8HqVGel6gvDqnmz+0ofUo6O+VD6gDyqeNaNYeHMnJoDOnPrur1rXbvkhlMH+j/hTHYt8Yrxs1785T3K6QVnx57f8C/evRSrcrn61VifL4Z8
   </data>
  </layer>
- <objectgroup id="19" name="Mapevents_dis">
+ <objectgroup id="19" name="Mapevents_dis" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
   <object id="35" name="dis1" type="mapchange" x="704" y="160" width="32" height="576">
    <properties>
-    <property name="map" value="swamp4"/>
+    <property name="map" value="swamp6"/>
     <property name="place" value="dis1b"/>
    </properties>
   </object>
   <object id="36" name="dis1b" type="mapchange" x="672" y="192" width="32" height="544"/>
   <object id="37" name="dis2" type="mapchange" x="672" y="64" width="32" height="96">
    <properties>
-    <property name="map" value="swamp4"/>
+    <property name="map" value="swamp6"/>
     <property name="place" value="dis2b"/>
    </properties>
   </object>
@@ -291,7 +291,7 @@
   </object>
   <object id="34" name="feygard_fogmonster5_heart" type="script" x="256" y="352" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="fieldcritter_2" type="spawn" x="64" y="96" width="192" height="224">
    <properties>
     <property name="quantity" value="2"/>
@@ -304,7 +304,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys" visible="0"/>
- <objectgroup id="13" name="Replace">
+ <objectgroup id="13" name="Replace" visible="0">
   <object id="15" name="swamp5c" type="replace" x="0" y="576" width="512" height="224">
    <properties>
     <property name="Objects" value="Objects5"/>

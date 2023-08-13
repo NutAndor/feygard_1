@@ -156,7 +156,7 @@
     },
     {
         "id":"feygard_fogmonster1_heart_10",
-        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "message":"The fog vanishes completely as soon as you touch its heart.",
         "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster1" },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
 					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
@@ -175,7 +175,7 @@
     },
     {
         "id":"feygard_fogmonster2_heart_10",
-        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "message":"The fog vanishes completely as soon as you touch its heart.",
         "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster2" },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 } ]
     },
@@ -191,7 +191,7 @@
     },
     {
         "id":"feygard_fogmonster3_heart_10",
-        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "message":"The fog vanishes completely as soon as you touch its heart.",
         "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster3" },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 } ]
     },
@@ -207,7 +207,7 @@
     },
     {
         "id":"feygard_fogmonster4_heart_10",
-        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "message":"The fog vanishes completely as soon as you touch its heart.",
         "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster4" },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 } ]
     },
@@ -223,7 +223,7 @@
     },
     {
         "id":"feygard_fogmonster5_heart_10",
-        "message":"As soon as you touch the fog's heart, it vanishes completely.",
+        "message":"The fog vanishes completely as soon as you touch its heart.",
         "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster5" },
 					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 } ]
     },
@@ -365,22 +365,18 @@
         "message":"Who dares disturb my solitude? Be gone, or face my wrath!",
         "replies":[
             {
-                "text":"My apologies, ma'am. I got lost in the fog.",
+                "text":"Sorry. I got lost in the fog.",
                 "nextPhraseID":"swamp_witch_20_10"
             },
             {
-                "text":"Please stop the fog ovens.  TODO",
-                "nextPhraseID":"swamp_witch_t1"
-            },
-            {
-                "text":"Please remove the fog from the road.  TODO",
-                "nextPhraseID":"swamp_witch_t2"
+                "text":"I am not afraid of you. (You grope for your weapon)",
+                "nextPhraseID":"swamp_witch_20_210"
             }
         ]
     },
     {
         "id":"swamp_witch_20_10",
-        "message":"(Sarcastically) Oh, how touching. The brave little hero got himself lost, did he?",
+        "message":"Oh, how touching. The brave little hero got himself lost, did he?",
         "replies":[
             {
                 "text":"N",
@@ -425,7 +421,7 @@
                 "nextPhraseID":"swamp_witch_20_24"
             },
             {
-                "text":"I'm sorry, ma'am, I didn't mean to disturb you.",
+                "text":"I'm sorry, I didn't mean to disturb you.",
                 "nextPhraseID":"swamp_witch_20_24"
             },
             {
@@ -779,6 +775,7 @@
     },
     {
         "id":"swamp_witch_20_210",
+		"switchToNPC":"none",
         "message":"The old witch raises her hands, chanting ominously.",
         "replies":[
             {
@@ -789,6 +786,7 @@
     },
     {
         "id":"swamp_witch_20_212",
+		"switchToNPC":"swamp_witch",
         "message":"A curse upon you, little one! May darkness be your companion, and fear be your guide!",
         "replies":[
             {
@@ -867,7 +865,7 @@
     },
     {
         "id":"swamp_witch_80",
-        "message":"Oh - how did you pass through my distraction fence?",
+        "message":"You again! You promised me peace and solitude!",
         "replies":[
             {
                 "text":"N",
@@ -877,7 +875,7 @@
     },
     {
         "id":"swamp_witch_90",
-        "message":"You again! You promised me peace and solitude!",
+        "message":"Oh - how did you pass through my distraction fence?",
         "replies":[
             {
                 "text":"N",
@@ -907,6 +905,20 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"swampwitch_board_note",
+        "replies":[
+            {
+                "nextPhraseID":"swampwitch_board_note_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":10, "negate":true }]
+            }
+        ]
+    },
+    {
+        "id":"swampwitch_board_note_10",
+        "message":"Oh what's this? How unusual!",
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":10 }]
     },
     {
         "id":"swamp_witch_checkkill",

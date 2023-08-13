@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="17">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="19">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCANNLMxMLQAcSMQN7FBxFhkEfLP+RDsyUD5KUA8EYgnQdWKANXuZmVg2AnEH1gRahcD5ZewIehEAQaGZCA+DVRzEqSOjTj3qfIzMLAzIfiaQLyIBVUNJ5K8PZIbLLGYJ4mk1p8ViwIcIAxJ7RtgmLgD3dDIAqHRwUISzIUBAITDEoY=
+   eJxjYCANNLMxMLQAcSMQN7FBxFhkEfLP+RDsyUD5KUA8EYgnQdWKANXuZmVg2AnEH1gRahcD5ZewIehEAQaGZCA+DVRzEqSOjTj3qfIzMLAzIfiaQLyIhYHhohhCjBNJ3h7JDZZYzJNEUuvPikUBDhCGpPYNMEzcgW5oZIHQ6GAhCebCAABAbBNt
   </data>
  </layer>
  <layer id="3" name="Above" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAO8HERqZAE8IGVPH21LMSrleYnzw5KwRc+2poPAFzGArs=
+   eJxjYCAO8HERqZAE8IGVeLWXxBDsWhbi9UnzE6+WmuALH23NBwBTPwOj
   </data>
  </layer>
  <layer id="12" name="Top" width="11" height="10">
@@ -222,6 +222,12 @@
    </properties>
   </object>
   <object id="3" name="loot_swamphut" type="container" x="32" y="256" width="32" height="32"/>
+  <object id="17" name="swamp_witch_checkkill" type="script" x="32" y="128" width="288" height="160">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object id="18" name="swampwitch_board_note" type="script" x="288" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="keys" visible="0">
   <object id="15" name="swamphut_oven" type="key" x="32" y="96" width="128" height="32">
@@ -234,7 +240,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="spawn" visible="0">
-  <object id="7" name="swamp_witch" type="spawn" x="64" y="128" width="256" height="128">
+  <object id="7" name="swamp_witch" type="spawn" x="64" y="128" width="256" height="96">
    <properties>
     <property name="spawngroup" value="swamp_witch"/>
    </properties>

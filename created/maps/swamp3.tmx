@@ -276,7 +276,7 @@
    eJzNlMsJACAMQ53C/Vfohp4UhTRJezIgfpCXVqsxx1HMt6G1bkMK4l2NBfHQOPP/Ue65ZnPF22vKX8WI+GhPpT4QA+WHenU2LFe3XpUnY6u8nTt2+c47YOrcnYqXeXX/EsZzvBjDZVaUvROVr6qBe7wA5taCmQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="768" y="64" width="32" height="384">
    <properties>
     <property name="map" value="swamp2"/>
@@ -328,7 +328,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
+ <objectgroup id="8" name="Keys" visible="0">
   <object id="42" name="feygard_swamp_sign" type="key" x="224" y="320" width="32" height="32">
    <properties>
     <property name="phrase" value="feygard_swamp_sign"/>
