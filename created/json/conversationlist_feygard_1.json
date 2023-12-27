@@ -330,33 +330,16 @@
                 "text":"Homage - and above all gold ...",
                 "nextPhraseID":"feygard_offering_10"
             }
-        ]
+        ],
+        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":1 }]
     },
     {
         "id":"feygard_offering_10",
         "replies":[
             {
                 "nextPhraseID":"feygard_offering_12",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_given",
-                        "value":1,
-						"negate":true
-                    },
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_taken",
-                        "value":1,
-						"negate":true
-                    },
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
-                        "value":1,
-						"negate":true
-                    }
-                ]
+                "requires":[{ "requireType":"factionScoreEquals","requireID":"feygard_offering_given","value":0 },
+							{ "requireType":"factionScoreEquals","requireID":"feygard_offering_taken","value":0 }]
             },
             {
                 "nextPhraseID":"feygard_offering_20"
@@ -383,92 +366,44 @@
         "message":"Below the statue you see an offering bowl.",
         "replies":[
             {
-                "text":"Place 1 gold coin in the bowl.",
-                "nextPhraseID":"feygard_offering_30_1",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":1
-                    }
-                ]
+                "text":"Place 1 gold coin in the bowl.", 
+				"nextPhraseID":"feygard_offering_30_1",
+                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":1}]
             },
             {
                 "text":"Place 10 gold coins in the bowl.",
-                "nextPhraseID":"feygard_offering_30_10",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":10
-                    }
-                ]
+				"nextPhraseID":"feygard_offering_30_10",
+                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":10}]
             },
             {
                 "text":"Place 100 gold coins in the bowl.",
                 "nextPhraseID":"feygard_offering_30_100",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":100
-                    }
-                ]
+                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":100}]
             },
             {
                 "text":"Place 1000 gold coins in the bowl.",
                 "nextPhraseID":"feygard_offering_30_1000",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":1000
-                    }
-                ]
+                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":1000}]
             },
             {
                 "text":"Take 1 gold coin.",
                 "nextPhraseID":"feygard_offering_40_1",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
-                        "value":1
-                    }
-                ]
+                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":1}]
             },
             {
                 "text":"Take 10 gold coins.",
                 "nextPhraseID":"feygard_offering_40_10",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
-                        "value":10
-                    }
-                ]
+                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":10}]
             },
             {
                 "text":"Take 100 gold coins.",
                 "nextPhraseID":"feygard_offering_40_100",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
-                        "value":100
-                    }
-                ]
+                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":100}]
             },
             {
                 "text":"Take 1000 gold coins.",
                 "nextPhraseID":"feygard_offering_40_1000",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
-                        "value":1000
-                    }
-                ]
+                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":1000}]
             }
         ]
     },
@@ -498,31 +433,63 @@
     },
     {
         "id":"feygard_offering_32",
-        "replies":[
-            {
-                "nextPhraseID":"feygard_offering_36",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"feygard_offering_taken",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"feygard_offering_34"
-            }
-        ]
+        "replies":[{ "nextPhraseID":"feygard_offering_34",
+					 "requires":[
+						{ "requireType":"factionScoreEquals", "requireID":"feygard_offering_taken", "value":0 }]
+				   },
+				   { "nextPhraseID":"feygard_offering_36",
+					 "requires":[
+						{ "requireType":"factionScoreEquals", "requireID":"feygard_offering_taken", "value":0, "negate":true },
+						{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1, "negate":true }]
+				   },
+				   { "nextPhraseID":"feygard_offering_20" }]
     },
     {
         "id":"feygard_offering_34",
+        "replies":[{ "nextPhraseID":"feygard_offering_34_5",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"20" }]
+				   },
+				   { "nextPhraseID":"feygard_offering_34_4",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"25" }]
+				   },
+				   { "nextPhraseID":"feygard_offering_34_3",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"33" }]
+				   },
+				   { "nextPhraseID":"feygard_offering_34_2",
+					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"50" }]
+				   },
+				   { "nextPhraseID":"feygard_offering_34_1"
+				   }]
+    },
+    {
+        "id":"feygard_offering_34_1",
         "message":"Your gift will be viewed favorably.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"feygard_offering_20"
-            }
-        ]
+        "replies":[{ "text":"N", 
+		"nextPhraseID":"feygard_offering_20" }]
+    },
+    {
+        "id":"feygard_offering_34_2",
+        "message":"Thank you, in the name of Elythara.",
+        "replies":[{ "text":"N", 
+		"nextPhraseID":"feygard_offering_20" }]
+    },
+    {
+        "id":"feygard_offering_34_3",
+        "message":"Let your name be praised in the halls of Elythara!",
+        "replies":[{ "text":"N", 
+		"nextPhraseID":"feygard_offering_20" }]
+    },
+    {
+        "id":"feygard_offering_34_4",
+        "message":"For the greatness of Elythara, our Godess!",
+        "replies":[{ "text":"N", 
+		"nextPhraseID":"feygard_offering_20" }]
+    },
+    {
+        "id":"feygard_offering_34_5",
+        "message":"Long live Elythara!",
+        "replies":[{ "text":"N", 
+		"nextPhraseID":"feygard_offering_20" }]
     },
     {
         "id":"feygard_offering_36",
@@ -536,75 +503,87 @@
     },
     {
         "id":"feygard_offering_40_1",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_1b",
 						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
 					{ 	"nextPhraseID":"feygard_offering_40_1a" }]
     },
     {
         "id":"feygard_offering_40_1a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_20" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_40_1b" }]
+        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_1b" },
+					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
     },
     {
         "id":"feygard_offering_40_1b",
-        "replies":[	{ "nextPhraseID":"feygard_offering_42"} ],
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
+					{ 	"nextPhraseID":"feygard_offering_42" }],
         "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":1 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-1 }]
+					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-1 },
+					{ "rewardType":"giveItem", "rewardID":"gold", "value":1 }]
     },
     {
         "id":"feygard_offering_40_10",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_10b",
 						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
 					{ 	"nextPhraseID":"feygard_offering_40_10a" }]
     },
     {
         "id":"feygard_offering_40_10a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_20" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_40_10b" }]
+        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_10b" },
+					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
     },
     {
         "id":"feygard_offering_40_10b",
-        "replies":[	{ "nextPhraseID":"feygard_offering_42"} ],
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
+					{ 	"nextPhraseID":"feygard_offering_42" }],
         "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":10 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-10 }]
+					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-10 },
+					{ "rewardType":"giveItem", "rewardID":"gold", "value":10 }]
     },
     {
         "id":"feygard_offering_40_100",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_100b",
 						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
 					{ 	"nextPhraseID":"feygard_offering_40_100a" }]
     },
     {
         "id":"feygard_offering_40_100a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_20" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_40_100b" }]
+        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_100b" },
+					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
     },
     {
         "id":"feygard_offering_40_100b",
-        "replies":[	{ "nextPhraseID":"feygard_offering_42"} ],
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
+					{ 	"nextPhraseID":"feygard_offering_42" }],
         "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":100 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-100 }]
+					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-100 },
+					{ "rewardType":"giveItem", "rewardID":"gold", "value":100 }]
     },
     {
         "id":"feygard_offering_40_1000",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_1000b",
 						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
 					{ 	"nextPhraseID":"feygard_offering_40_1000a" }]
     },
     {
         "id":"feygard_offering_40_1000a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_20" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_40_1000b" }]
+        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_1000b" },
+					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
     },
     {
         "id":"feygard_offering_40_1000b",
-        "replies":[	{ "nextPhraseID":"feygard_offering_42"} ],
+        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
+						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
+					{ 	"nextPhraseID":"feygard_offering_42" }],
         "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":1000 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-1000 } ]
+					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-1000 },
+					{ "rewardType":"giveItem", "rewardID":"gold", "value":1000 } ]
     },
     {
         "id":"feygard_offering_42",
