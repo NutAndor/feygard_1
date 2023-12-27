@@ -198,32 +198,32 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJytVFsKwkAM3G8R/N3FHqHH9wJ6Hr2DLSrIksyjJFBassnMJpOmNc+eo7XXyN9z3NpzDIWH8Uf4Dg+Kde/unp2/+PfN/xg83uGbOZTcTMPMH3FEtbh4s3/XYQW9UnmyuLkGFuuc/RvicGYVxataRBhsJn7faG4R/u2i17HbYmjOLKuV6Y7uiXzKbEW9jXwo19VEtewfWgr6xWb91HMetitQDtpbEQ7TQt1j1/55jpq7G6oxnT3q4lXtvaP3qeytOt/V9gZhu6n0
+   eJytVUEOwjAMyxltIO3UiT1hz+cD8J7xB6gGUqmcxu6wNE1KU6eJk9ZMwzabPWf/X/utqY+j5vP2Iv5xMjtP8RkRbwnm7BFHa2348N/f9ofApfgMIAdvr6ehZ0cxvrm0+CO+2p51WEGtolpH9SnXozqp2iJ4MRSOyB9p4fkzOqCZ9Po24r9d+DwylsZ8qPByRZqws832ODODyh2I/JEmak9FeWQsVS7KTLBzeUq/cZR3Qcml1AXxR3HZe+ya9q8Xio6s71FOtk8jPlXPf72LPb4s15Ha9OAF4Z3O+w==
   </data>
  </layer>
- <layer id="14" name="Objects4" width="25" height="25" visible="0">
+ <layer id="14" name="Objects4" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjALagy38A+2CUUAOeCuJYMtI0N4+Lgna2PNGEtUvPFS2A918GJCWgOChCnD5ixrmUdtsGKCFmYQAzC+08hMuAAARxBIx
   </data>
  </layer>
- <layer id="18" name="Objects4_b" width="25" height="25" visible="0">
+ <layer id="18" name="Objects4_b" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjALagy38A+2CUUAOeCuJYMtI0N4+Lgna2PNGEtUvPFS2A918GJCWgOChCnD5ixrmUdtsGKCFmYQAzC+08hMuAAARxBIx
   </data>
  </layer>
- <layer id="15" name="Objects5" width="25" height="25" visible="0">
+ <layer id="15" name="Objects5" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9UlsKgDAM2wEEfx14hB3fC+h59A46UJDRJg0+8qN0WdIuTUnDmlPasv9teWXwNSI+zN/SV3wQV+1dPetO/fmoL5nzFb/WI3LXy9CrWx7WLKpeW685FPBWUR+P187AuMrZHchD2VXEj2ZhabCduP7R3iL9qY/PUTEKmTN4s7LcUZ+oFtkt622tGrqrZhLFXf/JfU9T2XWmi+rsDHFZFk/mUPCFz5uaf71D1EvZ2T97/wo7a/CYhw==
+   eJy9lN0JwkAQhLeAGCFPBiwh5duA1qM9aMBAWGZuZ7zgvATu9r79T4Sn5xzxmvk32y2X3xiZx94i/mmKGKc6RsTdS4m9YrTuhi///jl/GCzHZgA5sLesh+wc+dhyafErXj5f+7CAWlW1ruqzv6/q5PYWiflwGJU96gWzV/qAdpLNbcW/nfU8Vl0b++GK5Yp6ou62OuPKDjr/QGSPeuLOFOO35OyEupctVvWvUGPJQvzKb099HTl+VNve2NU5PYKvnGebXj9H6R8z8gbr0r2O
   </data>
  </layer>
- <layer id="17" name="Objects5_b" width="25" height="25" visible="0">
+ <layer id="17" name="Objects5_b" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9UlsKgDAM2wEEfx14hB3fC+h59A46UJDRJg0+8qN0WdIuTUnDmlPasv9teWXwNSI+zN/SV3wQV+1dPetO/fmoL5nzFb/WI3LXy9CrWx7WLKpeW685FPBWUR+P187AuMrZHchD2VXEj2ZhabCduP7R3iL9qY/PUTEKmTN4s7LcUZ+oFtkt622tGrqrZhLFXf/JfU9T2XWmi+rsDHFZFk/mUPCFz5uaf71D1EvZ2T97/wo7a/CYhw==
+   eJy1lNENwjAMRDNAAalfVGKEjs8CMA/8MAGNRKXInH1nEu6nlWM/x7GTUnJ6LKU8F/9r/dZznvGav3leLOIftvjjzPeIuK2UvTNGtDZ9+LfNfk+wMj4TqMGL9Xro2VGOvZaIz3jWXvuwgrNiZ83Op11n55TtLZKXI8Ng/qgXnr/Sh9a2/3tzy/jXk15H1QXkqW/DL/JqRT1R77Y648odRHHKzEU9yc6Ux4+UuRPqvYxY7K1Q92KF+Cxvto5RszvCt2c2bHwvi/EVu/XpzTNK/+ZXvQHLC8Ca
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1VTkShDAM8zf8/xdAvc1S8wT4yw4FM1nGh2QclY4sW4mTiPzjUJFTJYTHuePj+uJoIXVQ7ldzXnXt6n9VnM9wmNxnzNprizf2b3lh9az4tf+bxvpZnUg/062e7YjbwxsNhs96ymYiOvdqjx0+EKAzh+ZnMda7lYfMHHsmKBgfUX5FE3lD0LhX17uL3v4z72U3Zuh2/o1v7tKMd6/TG4PKnflMmJcn9oYaP/7bnpI=
+   eJy1VUkSgCAM4xv8/wV69qJnn6B/cTgwA5luAcxFxZjSppWUejw5pTfr15aDkLibwLPiWFwNJ+xL4o/ql/3vhBbDYb7FNS1XfG73X+8tfU9PWi/1v3Ify6u1Vx/sIfQgqhX1oeYwo8Hw25wYvzWO5XsBMw+jeYwi2nPaO3aNzZ35B1pxPM+jiOYxUkNPE/1mzoVoLjiLkr4Xl+mpGTC6Ue6sZrRPPT3Wz9Xn4krP2BkuOH7oF8S9IMYHSnHBGg==
   </data>
  </layer>
  <layer id="11" name="Top" width="25" height="25" visible="0">
@@ -243,7 +243,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzFVMkNwCAMYwr2X6Eb8uKDhK+kIlI/4NqJkzCGF9/E34lDHIoO099nqY6LTety7yoeKaFoqr09e8HqVGel6gvDqnmz+0ofUo6O+VD6gDyqeNaNYeHMnJoDOnPrur1rXbvkhlMH+j/hTHYt8Yrxs1785T3K6QVnx57f8C/evRSrcrn61VifL4Z8
+   eJytlEESgDAIA/sK//8Ff+jJSyeUbCgzHlQIgaRdi8X7nJ89L8FQeFXt/y3hqGro/C4G/efwcTmnPV1tdy26/bhe6Ti6/qpC8U6wJjqkGNQfRG8XQ71POLpzJEE958xCPN5xqu416nG3vgtyhk71KSadKdmVmqPqlZ4f1YMG0dHNnWJOfDbR89adkuS6WGQ3N3p/3SumWw==
   </data>
  </layer>
  <objectgroup id="19" name="Mapevents_dis" visible="0">
