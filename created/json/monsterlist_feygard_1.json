@@ -115,6 +115,24 @@
         "damageResistance":10
     },
     {
+        "id":"feygard_offering_guard",
+        "name":"Honor Guard",
+        "iconID":"monsters_karvis1:1",
+        "maxHP":220,
+        "maxAP":10,
+        "moveCost":4,
+		"movementAggressionType":"protectSpawn",
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":5,
+            "max":20
+        },
+        "attackCost":4,
+        "attackChance":140,
+        "blockChance":150,
+        "damageResistance":6
+    },
+    {
         "id":"swamp_witch",
         "name":"Madame Mim",
         "iconID":"monsters_ld2:95",

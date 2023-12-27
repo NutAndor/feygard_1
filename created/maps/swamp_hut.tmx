@@ -195,12 +195,12 @@
  </layer>
  <layer id="3" name="Above" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAO8HERqZAE8IGVeLWXxBDsWhbi9UnzE6+WmuALH23NBwBTPwOj
+   eJxjYCAO8HFB6MNiRGogQu0HVuLVXkKSp6YbaKX2Cx+CfYkEc3GBx2hmAAAO3grI
   </data>
  </layer>
  <layer id="12" name="Top" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCANSAmQqAEP2MNPPbNGGgAAPIwA9g==
+   eJxjYCANSAmQqAEP2MNPvNpDYtSzdzgAACIFAc4=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="11" height="10" visible="0">
