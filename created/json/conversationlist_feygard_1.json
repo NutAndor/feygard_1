@@ -744,11 +744,11 @@
             },
             {
                 "nextPhraseID":"guynmart18_s2_20",
-                "requires":[{ "requireType":"time", "requireID":"SS", "value":31 }]
+                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":31 }]
             },
             {
                 "nextPhraseID":"guynmart18_s2_20",
-                "requires":[{ "requireType":"time", "requireID":"SS", "value":51 }]
+                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":51 }]
             }
         ]
     },
