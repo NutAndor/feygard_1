@@ -133,6 +133,22 @@
         "damageResistance":6
     },
     {
+        "id":"godoe1",
+        "name":"Godoe",
+        "iconID":"monsters_ld1:20"
+        "moveCost":4,
+        "monsterClass":"humanoid",
+		"phraseID":"godoe"
+    },
+    {
+        "id":"godoe2",
+        "name":"Godoe",
+        "iconID":"monsters_ld1:21"
+        "moveCost":4,
+        "monsterClass":"humanoid",
+		"phraseID":"godoe"
+    },
+    {
         "id":"swamp_witch",
         "name":"Madame Mim",
         "iconID":"monsters_ld2:95",

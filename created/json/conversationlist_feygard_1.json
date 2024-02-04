@@ -620,6 +620,195 @@
         "message":"Go away - while you still can!"
     },
     {
+        "id":"godoe",
+        "message":"Hello, strange kid. Wanna pass?",
+        "replies":[
+            {
+                "text":"Yes, please.",
+                "nextPhraseID":"godoe_2"
+            }
+        ]
+    },
+    {
+        "id":"godoe_2",
+        "message":"Gimme 5 red glassy stones, and I'll open the path for you.",
+        "replies":[
+            {
+                "text":"Sure, I have plenty of them.",
+                "nextPhraseID":"godoe_10",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"gem2", "value":5 }]
+            },
+            {
+                "text":"Are 5 shiny gold coins OK too?",
+                "nextPhraseID":"godoe_4",
+                "requires":[{ "requireType":"inventoryKeep", "requireID":"gold", "value":5 }]
+            }
+        ]
+    },
+    {
+        "id":"godoe_4",
+        "message":"Did I hear 500?",
+        "replies":[
+            {
+                "text":"Eh, sure. 500 shiny gold coins.",
+                "nextPhraseID":"godoe_10",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"gold", "value":500 }]
+            },
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"godoe_10",
+        "message":"Good, good! Here you go. But don't tarry.",
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":80 },
+					{ "rewardType":"alignmentSet", "rewardID":"guynmart18", "value":0 }]
+    },
+    {
+        "id":"guynmart18_k1",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_k_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81, "negate":true }]
+            },
+            {
+                "nextPhraseID":"godoe"
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_k2",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_k_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81 }]
+            },
+            {
+                "nextPhraseID":"godoe"
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_k_10",
+        "message":"Coming back soon - Godoe"
+    },
+    {
+        "id":"guynmart18_s1",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s1_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81, "negate":true }]
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_s1_10",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":80 }]
+            },
+            {
+                "nextPhraseID":"guynmart18_s1_20",
+                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":1 }]
+            },
+            {
+                "nextPhraseID":"guynmart18_s1_20",
+                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":21 }]
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_s1_20",
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"godoe1", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"godoe2", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":81 }]
+    },
+    {
+        "id":"guynmart18_s2",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s2_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81 }]
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_s2_10",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":80 }]
+            },
+            {
+                "nextPhraseID":"guynmart18_s2_20",
+                "requires":[{ "requireType":"time", "requireID":"SS", "value":31 }]
+            },
+            {
+                "nextPhraseID":"guynmart18_s2_20",
+                "requires":[{ "requireType":"time", "requireID":"SS", "value":51 }]
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_s2_20",
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"godoe1", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"spawnAll", "rewardID":"godoe2", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":81 }]
+    },
+    {
+        "id":"guynmart18_s_2",
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":80 } ]
+    },
+    {
+        "id":"guynmart18_s3",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s3_10",
+                "requires":[{ "requireType":"factionScore", "requireID":"guynmart18", "value":25 }]
+            }
+        ],
+        "rewards":[ { "rewardType":"alignmentChange", "rewardID":"guynmart18", "value":1 } ]
+    },
+    {
+        "id":"guynmart18_s3_10",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s3_11",
+                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81 }]
+            },
+            {
+                "nextPhraseID":"guynmart18_s3_12"
+            }
+        ],
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":80 } ]
+    },
+    {
+        "id":"guynmart18_s3_11",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s_20"
+            }
+        ],
+        "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x1" } ]
+    },
+    {
+        "id":"guynmart18_s3_12",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s_20"
+            }
+        ],
+        "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x2" } ]
+    },
+    {
+        "id":"guynmart18_s_20",
+		"switchToNPC":"godoe1",
+        "message":"I think I said: Don't tarry, did I not? Hee hee."
+    },
+    {
         "id":"guynmart_roadguard_12",
         "message":"The fog over there is very dangerous.",
         "replies":[

@@ -34,7 +34,9 @@
         "name":"feygard_nondisplayed",
         "showInLog":1,
         "stages":[
-            { "progress":1, "logText":"1=Stolen from offering to Elythara" }
+            { "progress":1, "logText":"1=Stolen from offering to Elythara" },
+            { "progress":80, "logText":"80=Path open" },
+            { "progress":81, "logText":"81=Godoe in the south" }
         ]
     }
 ]
