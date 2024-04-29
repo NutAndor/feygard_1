@@ -20,5 +20,8 @@
 	},
 	{	"id":"swamp3_l1",
 		"items":[	{ "itemID":"gold",		"chance":"100", "quantity":{ "min":500, "max":900 } }]
+	},
+	{	"id":"cobold",
+		"items":[	{ "itemID":"gold",		"chance":"5", "quantity":{ "min":1, "max":5 } }]
 	}
 ]

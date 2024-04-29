@@ -149,6 +149,31 @@
 		"phraseID":"godoe"
     },
     {
+        "id":"cobold",
+        "name":"Cobold",
+        "iconID":"monsters_tometik8:26",
+		"phraseID":"feygard_fogmonster9",
+        "maxHP":70,
+        "maxAP":10,
+        "moveCost":2,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":1,
+            "max":10
+        },
+        "droplistID":"cobold",
+		"criticalSkill":10,
+		"criticalMultiplier":2.0,
+        "attackCost":2,
+        "attackChance":140,
+        "blockChance":80,
+        "damageResistance":10,
+		"hitEffect":{
+			"conditionsTarget":[
+				{ "condition":"confusion", "magnitude":1, "duration":3, "chance":"5" }]
+		}
+    },
+    {
         "id":"swamp_witch",
         "name":"Madame Mim",
         "iconID":"monsters_ld2:95",
