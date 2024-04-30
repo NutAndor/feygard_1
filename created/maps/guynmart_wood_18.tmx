@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="51">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="58">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,17 +188,17 @@
  </tileset>
  <layer id="12" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2Bkgo2cCLwZCYP46GAFE23s3UhHe0FmTWMizl5aAWS7N9LRbnQ/nxCjj70rmQY2rLGx6Wk3PeMYZh9y2tpJxfxDjL0wu0/T0d6Bzk/0juOBtH+gys7BUo7QE2ALa3rG82Cxlx52Dyb/DoS9yweonhhs9gIACZFXzA==
+   eJzt1DEKwCAMBVDJ1vtDr1A7hk49Qy9VHAJBQ8mgPwX94OozRpPSije8RZ9gpWdKP2Vdall9zjTGZaBb9trJ546KthloR9V80tx3jXT1XYt7d/w/X6l7/ADdmXpszU6En6l1Z50jES7ynUW5Ytcuqua/1BvhHoB5bb0rhCu2x30B4y1jLw==
   </data>
  </layer>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlr9OAzEMxqNsjMeQN6c8Ale2iikcW4dWao8XQL2de4DONCIWrs//IqgYrPZOSX71Z/tLN3chbBriBQW8e4oh9I3RwrwVN1+eX2sMwm/iuFk4e0VCy/cYv6Ml50Nc5kyfLe5faZ2Z7+sat+RSDXKtnZcLtSnf5y6EcwrhI12z92lZ4xOjde/k0j2PdT1lFy7Nb3vP95vFlWZjVfk7wpW0buVK8wB7cc7z5fMz+eZY42r7Yd82Xecs6Yo9AXzB4lp8qjU3x+XdEcX4Cy7MIdZa02pCoflGNrh4747UWPJMzZ8hQC/rDElrD1ubI65elIu1LtxT9LGt+bW42Dv3VWvprvBweye3xNj9sOfkm8fW+ZU8gPMRmN1WrraPBuedMLtcHhoX9lHP4XLmerucNQk9Zuk8xaXn4HMGgYu9hOsxzTckz4E5KcwRcbn7ce74npF8w6rtATE5/8Jae7nAprW1emsQalzuKljzbHChJ3BtNQ9a1/yt/wNvDi7m47pq3kW5D2TdewOXuzO8XMmDWrman/0Xl/MOae0XX8mELQ==
+   eJzFlr1OwzAQxy1vjGHwm1MegZStYjLp1qGV2vACqNnJAzBTC596XO7LgorhlA/5/Mt9/Z3NXQibBntBBu+eYgh9o7Uwb8XNl+fXaoPwTRw3C3uviGnxnuK3tcR8jMuY6bPF/atcZ+Z+Xe2WXJqDXGvn5UJtyv3chfCZQnhPP9mHtKzxmcl17+RSn8e6nrILl8a3u+f7zeJKs7Gq/D3hSrlu5UrzAL445vly/Ui+Oda4mj/47dIyZi6vWBNAFyyuxadcbo7LuxOy8RdcmEOca6nGxSZkmm5kg4t996TGkmZq+gwG+bL2kHLtYWtzxNWLcmmuz9HHtubX4mLtPNRcS2eFh9s7ucXG7sqek28eW+dX0gBOR2B2W7maH1jRj3LltBNml4tD44If1RwuZq63y16T0GNWnqe41By8zyBw8dnM9ZimG5LmwJwU5oi43Pk4d3zPSLph1faImJx+4Vx7ucCmtbX6exBqXP4BYM2zwYWewLXVNGhd47f+B7YOLubjumraRbkPZN1bA5c7M7xcSYNauZqe/ReX0w5p7Re90oSJ
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyNV01u00AYHXnVLECykSIZFMEJOANHqMQR2CNxgd4i9BLAhip7KBKIpt0gkbSoCjRVwHaz6SKbCIl5zXz4+fM3Tp5kxf48njff35uJc87d5M4t/QWU6eb3V+YaOPX2z/2m7Yt61tBzMJhzmDj3OlyHSXif1mMt3oLeF36e0l/n/rrIbb55WMuftMmtcUVrZl74Ukb8FX4N8QVgzkuyz8L9lPxZeZ4fiqvwz3nSXJ/gVZhjmNS8FncVfH+2Z/sBWLHm9QJj8nWSNn+BBcWY/d7fa47VOT7p174i1kUk3mMjjgzmRL6FV+LTC/FBTa+yZv7+Rmr2vbKDexbJb5ftvw+eu8ritQMcK7vuJ8TvNtjO/NjfIZ5SS11zA5Pw7TSLx5JRUr4s34ZJ+34RvjmMzC9xZd+wljk9f+uI6xm9E049nrEy8vs8fMd1zbUpeDNw7q2/3g1q23WYj+tf+vHYqN/Bg7ZtFL59acQI/t3zHPeN3M879PXIv7vw1zKMsfoYgO3A0COOsfitAT26Vmv4lG38Fh1BvB8pnxcqthL3nsFdqbEjeob/XJOoMdYva3+y8qo5Bbv0hODpw41mS8/FvuWeLPI2t7wfqznGkZoWn9dZkzs3+JlbOG8pf9y/Oq8vVG+hvnifuuNXNab16o5f7RMM8CM/k0iOAKmvmF9diOmGhnVuYU7WkHW4l3jrtYDH0g1Br6PGZK//GomHrjGubewB4D4l2wf//NGoTUt3GMj1NKxF9uW+oWOomW26gf4V/oMtvMg16kv0Yx36fZd9/0TlULSS+8g6hwGsX4DoiOxVHGfwPfb2J1lt79KNisYwp/RFResGL2ptqOa7ytp6hTPdskN3toHPArv0k/TPPp0lq47cAHremaHX2lfZm/lMeU5nOkvPeQ2WLzepnV8e+zPZ/J9ofEcxlzOWPmteKg3lOaWuvtOeLBDNQX8Uefv8bO1PU8P3UUQrLH9LY+w/8ME5Ew==
+   eJyNV8tu00AUHXnVLECykSIZFMEX9Bv4hEp8AnskfqB/EfoTwIYqewgSj6bdIJG0qAo0VcB2s+kimwipc5q58vHNHSdHsmJfj+fMfZ2ZOOfcTe7cwl9Ama5//2SugVNv/9Jt2r6qZw09B4M5+4lzb8J1lIT3aT3W4i3ofeHnKf117q+L3OabhbX8S5vcGle0ZuaFLzF/hV9DfAGY85Ls03A/IX+WnueX4ir8c5401yd4HeboJzWvxV0F35/v2X4AVqx5vcCIfB2nzV9gTjFmvw/2mmO/qRyfdGtfy+7618LIiCODOZFv4ZX4dCg+y6yZv/+Rmv2g7OCeRvLbZhNkfr4qi9cOMFR23U/okdtgO/Nj/4Z4Si21zQ2Mw7eTLB5LRkn5snzrJ5v38/DNUWR+iSv7hrXM6PlHS1zP6J1w6vGMZZh3SPO/CN9xXbP+CN72nHvnr/e92nYd5uH6l34cGvXbe7RpG4RvXxkxgn8PPMdDI/ezFn099u8u/LUIY6w+BmA7NPSIYyx+a0CPrtUaPmdrv0VHEO8nyue5iq3EvWNwV2rsgJ7hP9ckaoz1y9JrK6+aU7BLTwj2H681W3ou9i33ZJFvcsv7kZpjFKlp8XmVNblzg5+5hfOW8sf9q/P6UvUW6ov3qXt+VWNar+751T7BAD/yM47kCJD6ivnVhphuaFjnFtavJb1fhXuJt14LeCzdEHRaakz2+u+ReOga49rGHgDuU7J99M+fjNq0dIeBXE/CWmRf7ho6hprZphvoX+E/3MKLXKO+RD9Wod932fdPVA5FK7mPrHMYwPoFiI7IXsVxBt9Tb3+W1fY23ahoDHNKX1S0bvCi1vpqvqtsU69wplu06M428Flgl36S/jmgs2TVkhtAzzs19Fr7KnsznynP6Uxn6TmvwfLlJrXzy2N/J+v/E43vKOZydtVnzUuloTyn1NVP2pMFojnojyLfPD9b+9PE8H0Q0QrL39IYewernTe9
   </data>
  </layer>
  <layer id="9" name="Objects0" width="30" height="30" visible="0">
@@ -213,7 +213,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1VsEKwjAMHV7Fk1BQmH8telD/Qb0OL/uD7TSZfzD/wZYtELJ0Tdr6oGxil9ekr6/pd0XxsSMHOhvnrYjVZ+TOwdma+LjHlY4bvzeRvJWgdsCD+b6Zas7xuxpCHbX7q9UPRm3GwXFK1rHE/Vz4tpl4AS8y1+kiJa8l+PL9N2pmf2nePkjOmE/XwHspi+Jqx62Uc57I+dxsZd8CrzQ/DOCM9RW6v5C3BC3RpcM6kHNF/ChGWy5nWmsNUvV82I/P0JnD/3eMJ8M71WJIm1pumu+w0/kz3WMJugx+UZu5rqU+F+MbmFeiL7oWx6P1DYwUTdMc7/b3Q5E31FnjI7G+gQHagmfIPzhuH3znCPuWRtupd6DjAt+T7PV5mkNz1foX7f1agY+0TL8xJPRZ3F3Bgbv3YzkhHtf70rl0bTE9Ho4p1VVj5v1zyv2k9ZCcvZ3UO35qCaDf
+   eJy1VsEKwjAMHV7Fk1BQmH8telD/Qb0OL/uD7TSZfzD/wZYtELJ0Tdr6oGxi19ekry/pd0XxsSMHOrvOW7FWn5E7B2dr4tc9rnTc+L2J5K0EuQMezPfNlHOO3+UQ8qg9X61+MGozDo5Tso8l7ufCt83EC3iRuU4XKXEtwRfvv1Ez50vj9kFyx3y6Bt5LWRRXO26lnPNE7udmK/sWeKXxYQBnrK/Q84W4JWiJLh3WgZgr4kcx2nIx01xrkKrnw358hu4c/r9jPBneqRZD2tRy03iHnc6f6RlL0GXwi9rMdS31uRjfwLwSfdG9OB6tb+QCjfFufz8UcUOeNT4S6xsYoC14hvyD4/bBd4+wb2m0nVoDHRf4nkRf52kOjVXrX7T3awU+0jL9xpDQZ3G1ggNX92M5YT2u96Vz6d5iejy8plRXjZn3zyn1SVsXc/Z2Uu/4AXs2oEY=
   </data>
  </layer>
  <layer id="11" name="Top" width="30" height="30">
@@ -221,12 +221,27 @@
    eJztzgENAAAIA6CnsH8nCxnDfYMEJADQb+d7AAB9DqeUAOo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30">
+ <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytU9sNxCAM6xTdfwU2vJ87qRf5CUVCFTSOHYes+7rWd6ul/jssw/xw6/7fTY6ZK+WdmB1elpPlf6tedof8mDwtJ8Io705rRNyTV3EoTtWnJ57VxHI9zw2fe4dIC/vXck8s0694FSda7Yyic9JvpivVjzS7mU7qUJi2vsZLp0fxTqzj3cG5+Ibb6Ul1t7zIR9d/NpPJm255VXxTr5rt3flPfZ41tPjE5wSvPGN9Y5im7kRPqjXVrc7JvLUzwPya3+QNsDiEUbnVSnxWuPTOecB6+9ZcuPegdCgepWXynNTT6GZxSc+St+D0nPQxvWexH5RNJ3Q=
+   eJytVMsNhTAMYwr2X6EbvsvjQORvSyUElDh2nIZ1X9f6X2qp7w7LMA9u3e+ryTFzpbwTs8PLcrL8X9XL9pAfk6flRBjl3WmNiHvyKg7FmcTP+3x2WhRfopV5yXxhMYobYZl+xas40WpnFL23HiK80480u5lO6lCYtr7GS6dH8U6s493BufiG2+lJdbe8yEfXf/dPSP9BCa+Kb+pVs707/6nPs4YWn/ic4JVnrG8M09Sd6Em1prrVezJv7Qwwv+Y9OQMsDmFUbrUSnxUu3XMesN5+NRfuPCgdikdpmTwn9TS6WVzSs+QsOD0nfUz3WewPusYl5g==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <layer id="14" name="Walkable0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlMENwCAMA5mi+6/QDfuNEETnmPJoscSjJPgSGtHa0dE/dF/aGp3L9nZwY2w1t/d0uGo9o7zZt8qvcrNeaB2EO8t9g0vuZge3P0f9q3xHDjebMeKb1aDet/JeZTH1HSG+NF6dMYdL+TFH9XO4at/Ex/nPDl9ZVbZbh9onjdH5otwV8xVzjr6vB2mSyVY=
+  </data>
+ </layer>
+ <layer id="15" name="Walkable1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztldkNgDAMQ5mC/VdgQ76QSmQ7TtMvqCXE1eTl6HEcW1v/0HW+r/jteR/v8Rn5qnIZm3EZf4bLckW5dLid76gmDtfxF3NWXBWzG4fDQHF1uNFfFs9qLmIqvy4zG6fWaUcOF9Ux638lnyy3jBvHu1z2j+WlGDP9Q2MUe0aV+ZfN70oc1TOkY8/sWNxov0Q+ZuTM2yyWFb126qDsHZZaC+75U9kzoo1TK9WPcczW93UDph+P0A==
+  </data>
+ </layer>
+ <layer id="13" name="Walkable2" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztVUEOgCAM4xX+/wv+0JMJLmvXOk7KEiMwWFs2YIxt2/5h5/H84tjdn/+xncVycRE2wkX4b3CR1kxLB9cZR7xR38VnmhmuwxnxUDAyXh3cLC7jsxIX5Y7FderC9a/SVPmzfazy7+iptFW4cb6Kq/rYuVLiKn4Uv1u77r3E6tvh4b4hnfVoHeJd3YPd/a7qlr2Dq3Kt7EPHqrOgvj/OnRHXKHpYPuY5275vF4OviyY=
+  </data>
+ </layer>
+ <objectgroup id="5" name="Mapevents">
   <object id="15" name="south" type="mapchange" x="192" y="928" width="576" height="32">
    <properties>
     <property name="map" value="guynmart_wood_17"/>
@@ -258,8 +273,11 @@
   <object id="39" name="guynmart18_x2" type="mapchange" x="192" y="160" width="32" height="32"/>
   <object id="43" name="guynmart18_c1" type="container" x="64" y="96" width="32" height="32"/>
   <object id="44" name="guynmart18_c2" type="container" x="64" y="896" width="32" height="32"/>
+  <object id="55" name="guynmart18_passage1" type="script" x="640" y="896" width="128" height="32"/>
+  <object id="56" name="guynmart18_passage1" type="script" x="320" y="160" width="256" height="32"/>
+  <object id="57" name="guynmart18_passage2" type="script" x="544" y="512" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="36" name="godoe1" type="spawn" x="192" y="832" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
@@ -268,18 +286,19 @@
   <object id="37" name="godoe2" type="spawn" x="192" y="128" width="64" height="32"/>
   <object id="45" name="cobold" type="spawn" x="224" y="192" width="736" height="640">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="12"/>
     <property name="spawngroup" value="cobold"/>
    </properties>
   </object>
-  <object name="forestwolf1" type="spawn" x="0" y="384" width="320" height="96">
+  <object id="51" name="forestwolf1" type="spawn" x="0" y="384" width="320" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys">
+ <objectgroup id="7" name="Keys" visible="0">
   <object id="32" name="guynmart18_k1" type="key" x="128" y="832" width="32" height="64">
    <properties>
     <property name="phrase" value="guynmart18_k1"/>
@@ -342,7 +361,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Replace" visible="0">
+ <objectgroup id="8" name="Replace">
   <object id="40" name="guynmart18_k_open" type="replace" x="96" y="160" width="96" height="736">
    <properties>
     <property name="Objects" value="Objects1"/>
@@ -358,6 +377,30 @@
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="80"/>
+   </properties>
+  </object>
+  <object id="54" name="guynmart18_passage0" type="replace" x="224" y="192" width="736" height="640">
+   <properties>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="feygard_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="90"/>
+   </properties>
+  </object>
+  <object id="52" name="guynmart18_passage1" type="replace" x="224" y="192" width="736" height="640">
+   <properties>
+    <property name="Walkable" value="Walkable1"/>
+    <property name="requireId" value="feygard_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="91"/>
+   </properties>
+  </object>
+  <object id="53" name="guynmart18_passage2" type="replace" x="224" y="192" width="736" height="640">
+   <properties>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="feygard_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="92"/>
    </properties>
   </object>
  </objectgroup>

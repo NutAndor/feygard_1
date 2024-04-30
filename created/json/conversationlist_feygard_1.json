@@ -695,6 +695,24 @@
         "message":"Coming back soon - Godoe"
     },
     {
+        "id":"guynmart18_passage0",
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":90 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":91 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":92 }]
+    },
+    {
+        "id":"guynmart18_passage1",
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":90 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":91 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":92 }]
+    },
+    {
+        "id":"guynmart18_passage2",
+        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":90 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":91 },
+					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":92 }]
+    },
+    {
         "id":"guynmart18_s1",
         "replies":[
             {

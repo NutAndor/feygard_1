@@ -36,7 +36,10 @@
         "stages":[
             { "progress":1, "logText":"1=Stolen from offering to Elythara" },
             { "progress":80, "logText":"80=Path open" },
-            { "progress":81, "logText":"81=Godoe in the south" }
+            { "progress":81, "logText":"81=Godoe in the south" },
+            { "progress":90, "logText":"90=Ravine blocked" },
+            { "progress":91, "logText":"91=Ravine outlets blocked" },
+            { "progress":92, "logText":"92=Ravine free" }
         ]
     }
 ]

@@ -151,11 +151,11 @@
     {
         "id":"cobold",
         "name":"Cobold",
-        "iconID":"monsters_tometik8:26",
-		"phraseID":"feygard_fogmonster9",
+        "iconID":"monsters_karvis1:0",
         "maxHP":70,
         "maxAP":10,
-        "moveCost":2,
+        "moveCost":3,
+		"movementAggressionType":"protectSpawn",
         "monsterClass":"humanoid",
         "attackDamage":{
             "min":1,
@@ -170,7 +170,8 @@
         "damageResistance":10,
 		"hitEffect":{
 			"conditionsTarget":[
-				{ "condition":"confusion", "magnitude":1, "duration":3, "chance":"5" }]
+				{ "condition":"confusion", "magnitude":1, "duration":3, "chance":"5" },
+				{ "condition":"confusion", "magnitude":1, "duration":6, "chance":"1" }]
 		}
     },
     {
