@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="58">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="62">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -188,17 +188,17 @@
  </tileset>
  <layer id="12" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1DEKwCAMBVDJ1vtDr1A7hk49Qy9VHAJBQ8mgPwX94OozRpPSije8RZ9gpWdKP2Vdall9zjTGZaBb9trJ546KthloR9V80tx3jXT1XYt7d/w/X6l7/ADdmXpszU6En6l1Z50jES7ynUW5Ytcuqua/1BvhHoB5bb0rhCu2x30B4y1jLw==
+   eJxjYBgFxIKNnCPL3uEOQOEKw5uRMLbwXsFEG3s30tFekFnTmIizl1YA2e6NdLR7oPy8kmlkhzU97UUOa5i9O6mYf/ABdD+fHiB7h3scYys76WH/CiZMe0dqOTIQ9tIznQ2UvTC70e2ll58Hi38Hwt7ldCivsaUretgLs5sYewHcm2Pn
   </data>
  </layer>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlr1OwzAQxy1vjGHwm1MegZStYjLp1qGV2vACqNnJAzBTC596XO7LgorhlA/5/Mt9/Z3NXQibBntBBu+eYgh9o7Uwb8XNl+fXaoPwTRw3C3uviGnxnuK3tcR8jMuY6bPF/atcZ+Z+Xe2WXJqDXGvn5UJtyv3chfCZQnhPP9mHtKzxmcl17+RSn8e6nrILl8a3u+f7zeJKs7Gq/D3hSrlu5UrzAL445vly/Ui+Oda4mj/47dIyZi6vWBNAFyyuxadcbo7LuxOy8RdcmEOca6nGxSZkmm5kg4t996TGkmZq+gwG+bL2kHLtYWtzxNWLcmmuz9HHtubX4mLtPNRcS2eFh9s7ucXG7sqek28eW+dX0gBOR2B2W7maH1jRj3LltBNml4tD44If1RwuZq63y16T0GNWnqe41By8zyBw8dnM9ZimG5LmwJwU5oi43Pk4d3zPSLph1faImJx+4Vx7ucCmtbX6exBqXP4BYM2zwYWewLXVNGhd47f+B7YOLubjumraRbkPZN1bA5c7M7xcSYNauZqe/ReX0w5p7Re90oSJ
+   eJzFljtOw0AQhlfbUZrCNyccAYcuojKmS5FIibkAint8gNRklB0xjOe1gohiFK+1s1/m9a83dyltKuyFGL57yil1lVbDvBW3v6xfiw3Kf5K4vXL2ipkV7zFfLRLz3F7Xh7yMma897l/luhee18VuyeU56EvtolysDTzPTUrnS24/2p/sfbus8UnIdRfkcp/Hsp+zgcvj297L/eZxtdlYFf6OcbVc13K1eUBfGjP09Wcbm2OLa/mj37ZdxizllWoC6oLH9ficK80xvDsSG3/BxTmkudZqDDYRs3Sjd7jUd8dqrGmmpc9omC/vDC3XEbY1R1K9OJfn+pRjbG9+PS7Vzn3JtXZXRLhdkAs2Nt9svKO8eaydX00DJB3B2a3lWn5ooB/wK2knzq4Uh8VFP645UsxSb8NZk9JjXp6nvNQces6gcGmdpR6zdEPTHJwTYI6EK92PcyP3jKYbXm0PhCnpF811lItsXluvvwelxvANgHueHS72BK2tpUHrEr/3PfAW4FI+raulXZz7wPa9V3ClOyPK1TSolmvp2X9xJe3Q9n4BEjOFEQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyNV8tu00AUHXnVLECykSIZFMEX9Bv4hEp8AnskfqB/EfoTwIYqewgSj6bdIJG0qAo0VcB2s+kimwipc5q58vHNHSdHsmJfj+fMfZ2ZOOfcTe7cwl9Ama5//2SugVNv/9Jt2r6qZw09B4M5+4lzb8J1lIT3aT3W4i3ofeHnKf117q+L3OabhbX8S5vcGle0ZuaFLzF/hV9DfAGY85Ls03A/IX+WnueX4ir8c5401yd4HeboJzWvxV0F35/v2X4AVqx5vcCIfB2nzV9gTjFmvw/2mmO/qRyfdGtfy+7618LIiCODOZFv4ZX4dCg+y6yZv/+Rmv2g7OCeRvLbZhNkfr4qi9cOMFR23U/okdtgO/Nj/4Z4Si21zQ2Mw7eTLB5LRkn5snzrJ5v38/DNUWR+iSv7hrXM6PlHS1zP6J1w6vGMZZh3SPO/CN9xXbP+CN72nHvnr/e92nYd5uH6l34cGvXbe7RpG4RvXxkxgn8PPMdDI/ezFn099u8u/LUIY6w+BmA7NPSIYyx+a0CPrtUaPmdrv0VHEO8nyue5iq3EvWNwV2rsgJ7hP9ckaoz1y9JrK6+aU7BLTwj2H681W3ou9i33ZJFvcsv7kZpjFKlp8XmVNblzg5+5hfOW8sf9q/P6UvUW6ov3qXt+VWNar+751T7BAD/yM47kCJD6ivnVhphuaFjnFtavJb1fhXuJt14LeCzdEHRaakz2+u+ReOga49rGHgDuU7J99M+fjNq0dIeBXE/CWmRf7ho6hprZphvoX+E/3MKLXKO+RD9Wod932fdPVA5FK7mPrHMYwPoFiI7IXsVxBt9Tb3+W1fY23ahoDHNKX1S0bvCi1vpqvqtsU69wplu06M428Flgl36S/jmgs2TVkhtAzzs19Fr7KnsznynP6Uxn6TmvwfLlJrXzy2N/J+v/E43vKOZydtVnzUuloTyn1NVP2pMFojnojyLfPD9b+9PE8H0Q0QrL39IYewernTe9
+   eJyNV8tu00AUHXnVLECykSIZFMEX9Bv4hEp8AnskfqB/EfoTwIYqewgSj6bdIJG0qAo0VcB2s+kimwipc5q58vHNHSdHshxfj+fMfZ2ZOOfcTe7cwl9Ama7vfzLXwKm3f+k2bV/Vs4aeg8Gc/cS5N+E6SsL7tB5r8Rb0vvDzlP4699dFbvPNwlr+pU1ujStaM/PCl5i/wq8hvgDMeUn2afg9IX+WnueX4ir8c5401yd4HeboJzWvxV0F35/v2X4AVqx5vcCIfB2nzTswpxiz3wd7zbHfVI5PurWvZXd9tzAy4shgTuRbeCU+HYrPMmvm73+kZj8oO7inkfy22QSZn6/K4rUDDJVd9xN65DbYzvzYvyGeUkttcwPj8O0ki8eSUVK+LN/6yebvefjmKDK/xJV9w1pm9PyjJa5n9E449XjGMsw7pPlfhO+4rll/BG97zr3z1/tebbsO83D9Sz8OjfrtPdq0DcK3r4wYwb8HnuOhkftZi74e+3cX/lqEMVYfA7AdGnrEMRa/NaBH12oNn7O136IjiPcT5fNcxVbi3jG4KzV2QM/wn2sSNcb6Zem1lVfNKdilJwT7j9d36bnYt9yTRb7JLe9Hao5RpKbF51XW5M4NfuYWzlvKH/evzutL1VuoL96n7vlVjWm9uudX+wQD/MjPOJIjQOor5lcbYrqhYZ1bWL+W9H4Vfku89VrAY+mGoNNSY7LXf4/EQ9cY1zb2AHCfku2jf/5k1KalOwzkekI+I89dQ8dQM9t0A/0r/IdbeJFr1Jfoxyr0+y77/onKoWgl95F1DgNYvwDREdmrOM7ge+rtz7La3qYbFY1hTumLitYNXtRaX813lW3qFc50ixbd2QY+C+zST9I/B3SWrFpyA+h5p4Zea19lb+Yz5Tmd6Sw95zVYvtykdn557O9k/X+i8R3FXM6u+qx5qTSU55S6+kl7skA0B/1R5JvnZ2t/mhi+DyJaYflbGmPvAGyvNcw=
   </data>
  </layer>
  <layer id="9" name="Objects0" width="30" height="30" visible="0">
@@ -206,7 +206,7 @@
    eJxjYBgFo4C24K0khA7goL/dLwQHxl4QeCNJX/ueC0LoG4L0tRcGpjLR385zdA5jEFgnS387BxKsAfp37QD5+fUApWUQuDsA6fklMD2/GoA0DQL0zr/PBjBuR8sN2oOBLDdOC9HfzjfQ9DwQ5YYDB6KdRU8wEG2rmwPYphvuAABD0RfG
   </data>
  </layer>
- <layer id="10" name="Objects1" width="30" height="30" visible="0">
+ <layer id="10" name="Objects1" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo4C24K3kwNn9QnAA7BSC0G/o7O/nUL/eGAA/g8BUJvrbeW4A0tY6WfrbCQKwdEVvsAbo37UD5OfXA5SWQeAundMzKH5fAtPzqwEqL+mdf58NYNyOlhu0BwNZbpweAD+/gabngSg3QGAg21n0BDcHsNwY7gAADsEbAA==
   </data>
@@ -221,7 +221,7 @@
    eJztzgENAAAIA6CnsH8nCxnDfYMEJADQb+d7AAB9DqeUAOo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJytVMsNhTAMYwr2X6EbvsvjQORvSyUElDh2nIZ1X9f6X2qp7w7LMA9u3e+ryTFzpbwTs8PLcrL8X9XL9pAfk6flRBjl3WmNiHvyKg7FmcTP+3x2WhRfopV5yXxhMYobYZl+xas40WpnFL23HiK80480u5lO6lCYtr7GS6dH8U6s493BufiG2+lJdbe8yEfXf/dPSP9BCa+Kb+pVs707/6nPs4YWn/ic4JVnrG8M09Sd6Em1prrVezJv7Qwwv+Y9OQMsDmFUbrUSnxUu3XMesN5+NRfuPCgdikdpmTwn9TS6WVzSs+QsOD0nfUz3WewPusYl5g==
   </data>
@@ -244,7 +244,7 @@
  <objectgroup id="5" name="Mapevents">
   <object id="15" name="south" type="mapchange" x="192" y="928" width="576" height="32">
    <properties>
-    <property name="map" value="guynmart_wood_17"/>
+    <property name="map" value="guynmart_wood_17b"/>
     <property name="place" value="north"/>
    </properties>
   </object>
@@ -284,17 +284,43 @@
    </properties>
   </object>
   <object id="37" name="godoe2" type="spawn" x="192" y="128" width="64" height="32"/>
-  <object id="45" name="cobold" type="spawn" x="224" y="192" width="736" height="640">
-   <properties>
-    <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="12"/>
-    <property name="spawngroup" value="cobold"/>
-   </properties>
-  </object>
   <object id="51" name="forestwolf1" type="spawn" x="0" y="384" width="320" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwolf1"/>
+   </properties>
+  </object>
+  <object id="45" name="cobold1" type="spawn" x="224" y="192" width="736" height="640">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="cobold1"/>
+   </properties>
+  </object>
+  <object id="58" name="cobold2" type="spawn" x="224" y="192" width="736" height="640">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="8"/>
+    <property name="spawngroup" value="cobold2"/>
+   </properties>
+  </object>
+  <object id="59" name="cobold3" type="spawn" x="224" y="192" width="736" height="640">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="cobold3"/>
+   </properties>
+  </object>
+  <object id="60" name="cobold4b" type="spawn" x="512" y="256" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="cobold4"/>
+   </properties>
+  </object>
+  <object id="61" name="cobold4a" type="spawn" x="672" y="800" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="cobold4"/>
    </properties>
   </object>
  </objectgroup>
@@ -361,7 +387,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Replace">
+ <objectgroup id="8" name="Replace" visible="0">
   <object id="40" name="guynmart18_k_open" type="replace" x="96" y="160" width="96" height="736">
    <properties>
     <property name="Objects" value="Objects1"/>

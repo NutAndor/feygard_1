@@ -135,7 +135,7 @@
     {
         "id":"godoe1",
         "name":"Godoe",
-        "iconID":"monsters_ld1:20"
+        "iconID":"monsters_ld1:20",
         "moveCost":4,
         "monsterClass":"humanoid",
 		"phraseID":"godoe"
@@ -143,13 +143,39 @@
     {
         "id":"godoe2",
         "name":"Godoe",
-        "iconID":"monsters_ld1:21"
+        "iconID":"monsters_ld1:21",
         "moveCost":4,
         "monsterClass":"humanoid",
 		"phraseID":"godoe"
     },
     {
-        "id":"cobold",
+        "id":"cobold1",
+        "name":"Quick cobold",
+        "iconID":"monsters_karvis1:0",
+        "maxHP":70,
+        "maxAP":10,
+        "moveCost":2,
+		"movementAggressionType":"protectSpawn",
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":1,
+            "max":10
+        },
+        "droplistID":"cobold",
+		"criticalSkill":10,
+		"criticalMultiplier":2.0,
+        "attackCost":2,
+        "attackChance":140,
+        "blockChance":80,
+        "damageResistance":10,
+		"hitEffect":{
+			"conditionsTarget":[
+				{ "condition":"confusion", "magnitude":1, "duration":3, "chance":"5" },
+				{ "condition":"confusion", "magnitude":1, "duration":6, "chance":"1" }]
+		}
+    },
+    {
+        "id":"cobold2",
         "name":"Cobold",
         "iconID":"monsters_karvis1:0",
         "maxHP":70,
@@ -168,6 +194,49 @@
         "attackChance":140,
         "blockChance":80,
         "damageResistance":10,
+		"hitEffect":{
+			"conditionsTarget":[
+				{ "condition":"confusion", "magnitude":1, "duration":3, "chance":"5" },
+				{ "condition":"confusion", "magnitude":1, "duration":6, "chance":"1" }]
+		}
+    },
+    {
+        "id":"cobold4",
+        "name":"Tough cobold",
+        "iconID":"monsters_karvis1:0",
+        "maxHP":300,
+        "maxAP":10,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":1,
+            "max":10
+        },
+        "droplistID":"cobold",
+        "attackCost":5,
+        "attackChance":140,
+        "blockChance":120,
+        "damageResistance":12
+    },
+    {
+        "id":"cobold3",
+        "name":"Ancient cobold",
+        "iconID":"monsters_karvis1:0",
+        "maxHP":70,
+        "maxAP":10,
+        "moveCost":5,
+		"movementAggressionType":"protectSpawn",
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":1,
+            "max":10
+        },
+        "droplistID":"cobold",
+		"criticalSkill":10,
+		"criticalMultiplier":2.0,
+        "attackCost":3,
+        "attackChance":140,
+        "blockChance":80,
+        "damageResistance":12,
 		"hitEffect":{
 			"conditionsTarget":[
 				{ "condition":"confusion", "magnitude":1, "duration":3, "chance":"5" },

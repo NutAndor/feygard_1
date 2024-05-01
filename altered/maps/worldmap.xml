@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="-59" y="-52">
+  <segment id="world1" x="1" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -226,9 +226,10 @@
     <map id="guynmart_wood_12" x="86" y="237"/>
     <map id="guynmart_wood_13" x="70" y="222"/>
     <map id="guynmart_wood_14" x="54" y="222"/>
-    <map id="guynmart_wood_15" x="24" y="206"/>
+    <map id="guynmart_wood_15" x="31" y="206"/>
     <map id="guynmart_wood_16" x="39" y="191"/>
-    <map id="guynmart_wood_17" x="8" y="175"/>
+    <map id="guynmart_wood_17" x="23" y="190"/>
+    <map id="guynmart_wood_17b" x="8" y="175"/>
     <map id="guynmart_wood_18" x="8" y="144"/>
     <map id="guynmart_wood_19" x="8" y="128"/>
     <map id="waytolake12" x="678" y="174"/>

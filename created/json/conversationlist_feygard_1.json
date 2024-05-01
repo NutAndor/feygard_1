@@ -662,7 +662,7 @@
     },
     {
         "id":"godoe_10",
-        "message":"Good, good! Here you go. But don't tarry.",
+        "message":"Good, good! Here you go. But don't waste time.",
         "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":80 },
 					{ "rewardType":"alignmentSet", "rewardID":"guynmart18", "value":0 }]
     },
@@ -710,7 +710,9 @@
         "id":"guynmart18_passage2",
         "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":90 },
 					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":91 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":92 }]
+					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":92 },
+					{ "rewardType":"spawnAll", "rewardID":"cobold4a", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"spawnAll", "rewardID":"cobold4b", "mapName":"guynmart_wood_18" }]
     },
     {
         "id":"guynmart18_s1",
@@ -805,26 +807,15 @@
     },
     {
         "id":"guynmart18_s3_11",
-        "replies":[
-            {
-                "nextPhraseID":"guynmart18_s_20"
-            }
-        ],
+		"switchToNPC":"godoe1",
+        "message":"I think I said: Don't waste time, did I not? Hee hee.",
         "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x1" } ]
     },
     {
         "id":"guynmart18_s3_12",
-        "replies":[
-            {
-                "nextPhraseID":"guynmart18_s_20"
-            }
-        ],
-        "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x2" } ]
-    },
-    {
-        "id":"guynmart18_s_20",
 		"switchToNPC":"godoe1",
-        "message":"I think I said: Don't tarry, did I not? Hee hee."
+        "message":"I think I said: Don't waste time, did I not? Hee hee.",
+        "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x2" } ]
     },
     {
         "id":"guynmart_roadguard_12",

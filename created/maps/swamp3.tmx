@@ -271,12 +271,12 @@
    eJx7KcvA8JIA3ijJwLBJkrC6UUx+WMLER8N6FI8ETIt0PtB5h1Deprd7AC4UfCI=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="15" visible="0">
+ <layer id="4" name="Walkable" width="25" height="15">
   <data encoding="base64" compression="zlib">
    eJzNlMsJACAMQ53C/Vfohp4UhTRJezIgfpCXVqsxx1HMt6G1bkMK4l2NBfHQOPP/Ue65ZnPF22vKX8WI+GhPpT4QA+WHenU2LFe3XpUnY6u8nTt2+c47YOrcnYqXeXX/EsZzvBjDZVaUvROVr6qBe7wA5taCmQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="768" y="64" width="32" height="384">
    <properties>
     <property name="map" value="swamp2"/>
@@ -289,7 +289,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="27" name="west" type="mapchange" x="0" y="32" width="32" height="416">
+  <object id="27" name="west" type="mapchange" x="0" y="64" width="32" height="384">
    <properties>
     <property name="map" value="swamp6"/>
     <property name="place" value="east1"/>

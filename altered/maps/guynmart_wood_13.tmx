@@ -221,7 +221,7 @@
    eJx7KcvA8HIUj+JRPIqHIIaBgXbHKB7aGABBFsqQ
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="30" visible="0">
+ <layer id="4" name="Walkable" width="15" height="30">
   <data encoding="base64" compression="zlib">
    eJytlFEKwCAMQz2F97+CN9x+hFGSNNEFCqPzmc7WrTnGemNrTT+Qdl4xiu14xrL6a02JEl/FdXx996dvosqkPNoj5W773dWP1iQzqvyZh8N3OcZ2z66/+93ofta9Uu8TnvXWYVi/3VlL5fwTlV9SI2KdM2Zr0rNSs+xyJzPR3WuU+8YDHdaCmQ==
   </data>
@@ -245,7 +245,7 @@
   </object>
   <object id="39" name="dis2b" type="mapchange" x="64" y="864" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="448" y="512" width="32" height="224">
    <properties>
     <property name="map" value="guynmart_wood_12"/>
