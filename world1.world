@@ -115,8 +115,8 @@
         {
             "fileName": "created/maps/guynmart_wood_15.tmx",
             "height": 960,
-            "width": 960,
-            "x": -1472,
+            "width": 704,
+            "x": -1216,
             "y": -1504
         },
         {
@@ -128,10 +128,10 @@
         },
         {
             "fileName": "created/maps/guynmart_wood_17.tmx",
-            "height": 960,
-            "width": 960,
-            "x": -1984,
-            "y": -2496
+            "height": 480,
+            "width": 480,
+            "x": -1504,
+            "y": -2016
         },
         {
             "fileName": "created/maps/guynmart_wood_18.tmx",
@@ -146,6 +146,13 @@
             "width": 960,
             "x": -1984,
             "y": -4000
+        },
+        {
+            "fileName": "created/maps/guynmart_wood_17b.tmx",
+            "height": 448,
+            "width": 960,
+            "x": -1984,
+            "y": -2496
         }
     ],
     "onlyShowAdjacentMaps": false,
