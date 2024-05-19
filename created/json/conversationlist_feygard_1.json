@@ -1426,6 +1426,7 @@
         "message":"This area will never be bullied by the old witch again.\nYou take the witch's staff - maybe it will find a good use as a walking stick.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"swamp_witch_checkkill_20"
 			}
         ],
