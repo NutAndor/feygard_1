@@ -1379,7 +1379,8 @@
         "message":"Go away!",
         "replies":[
             {
-                "text":"OK, sorry for disturbing your peace."
+                "text":"OK, sorry for disturbing your peace.",
+                "nextPhraseID":"X"
             },
             {
                 "text":"Can I buy more of your medicinal water?",
@@ -1484,5 +1485,308 @@
 					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" },
 					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" },
 					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" } ]
+    },
+    {
+        "id":"tobby",
+        "replies":[	{ "nextPhraseID":"tobby_20", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":20 }] },
+					{ "nextPhraseID":"tobby_10", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":10 }] },
+					{ "nextPhraseID":"tobby_1" }]
+    },
+    {
+        "id":"tobby_1",
+        "message":"Oh good, somebody comes to help me. Hey kid!",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"tobby_2"
+            }
+        ]
+    },
+    {
+        "id":"tobby_2",
+        "message":"I am Tobby. Please, you must help me.",
+        "replies":[
+            {
+                "text":"I am $playername. What can I do for you?",
+                "nextPhraseID":"tobby_3"
+            }
+        ]
+    },
+    {
+        "id":"tobby_3",
+        "message":"I can't seem to find my brother, Sobby. He hasn't been back since he left last year.",
+        "replies":[
+            {
+                "text":"Never mind, he will probably not be back too soon.",
+                "nextPhraseID":"tobby_10"
+            }
+        ],
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"tobby", "value":10 }]
+    },
+    {
+        "id":"tobby_10",
+        "message":"My father had sent me to look for him. But I dare not pass the cobolds in the ravine.",
+        "replies":[
+            {
+                "text":"You are sure your brother went that way?",
+                "nextPhraseID":"tobby_12"
+            }
+        ]
+    },
+    {
+        "id":"tobby_12",
+        "message":"Absolutely. Once he was told of a lovely village hidden in the forest to the south east.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tobby_14"
+            }
+        ]
+    },
+    {
+        "id":"tobby_14",
+        "message":"Since then not a single day had passed that he hadn't talked of it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tobby_16"
+            }
+        ]
+    },
+    {
+        "id":"tobby_16",
+        "message":"And now he is gone.",
+        "replies":[
+            {
+                "text":"And you neither dare pass the cobolds, nor tell your father that you give up.",
+                "nextPhraseID":"tobby_18"
+            }
+        ]
+    },
+    {
+        "id":"tobby_18",
+        "message":"Well, yes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tobby_19"
+            }
+        ]
+    },
+    {
+        "id":"tobby_19",
+        "message":"You have come from the south, so you know how to pass these nasty cobolds, do you?",
+        "replies":[
+            {
+                "text":"Well, OK. I'll help you",
+                "nextPhraseID":"tobby_20"
+            }
+        ]
+    },
+    {
+        "id":"tobby_20",
+        "message":"I am glad you want to help me.",
+        "replies":[
+            {
+                "text":"Sure thing. We brother-seekers must stand together.",
+                "nextPhraseID":"tobby_22"
+            }
+        ],
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"tobby", "value":20 }]
+    },
+    {
+        "id":"tobby_22",
+        "message":"I just fetch some bread from the house, just a second ...",
+        "replies":[
+            {
+                "text":"Go ahead. And then let's go south - follow me!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby", "mapName":"guynmart_wood_19" },
+					{ "rewardType":"spawnAll", "rewardID":"tobby2", "mapName":"guynmart_wood_19" } ]
+    },
+    {
+        "id":"tobby2",
+        "message":"Outch, my toes!",
+        "replies":[
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Booh!",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Go away, or I have to kill you.",
+                "nextPhraseID":"tobby2_1"
+            }
+        ]
+    },
+    {
+        "id":"tobby2_1",
+        "message":"No, I can't!",
+        "replies":[
+            {
+                "text":"I'll show you - attack!",
+                "nextPhraseID":"tobby2_2"
+            },
+            {
+                "text":"Then try harder.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"tobby2_2",
+        "message":"Tobby cried out aloud and ran away like the wind. You monster!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby2", "mapName":"guynmart_wood_19" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"tobby4a", "mapName":"guynmart_wood_17b" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"tobby4b", "mapName":"guynmart_wood_17b" },
+					{ "rewardType":"questProgress", "rewardID":"tobby", "value":30 }]
+    },
+    {
+        "id":"tobby2_mce",
+        "replies":[	{ "nextPhraseID":"tobby2_mce_1", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":20 },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":23, "negate":true },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+    },
+    {
+        "id":"tobby2_mce_1",
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby2", "mapName":"guynmart_wood_19" },
+					{ "rewardType":"spawnAll", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"questProgress", "rewardID":"tobby", "value":23 }]
+    },
+    {
+        "id":"tobby3_mcea",
+        "replies":[	{ "nextPhraseID":"tobby3_mcea_1", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":23 },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":24, "negate":true },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+    },
+    {
+        "id":"tobby3_mcea_1",
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"spawnAll", "rewardID":"tobby4a", "mapName":"guynmart_wood_17b" },
+					{ "rewardType":"questProgress", "rewardID":"tobby", "value":24 } ]
+    },
+    {
+        "id":"tobby3_mceb",
+        "replies":[	{ "nextPhraseID":"tobby3_mceb_1", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":23 },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":24, "negate":true },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+    },
+    {
+        "id":"tobby3_mceb_1",
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
+					{ "rewardType":"spawnAll", "rewardID":"tobby4b", "mapName":"guynmart_wood_17b" },
+					{ "rewardType":"questProgress", "rewardID":"tobby", "value":24 } ]
+    },
+    {
+        "id":"tobby4_mce",
+        "replies":[	{ "nextPhraseID":"tobby4_mce_1", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":24 },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":25, "negate":true },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+    },
+    {
+        "id":"tobby4_mce_1",
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby4a", "mapName":"guynmart_wood_17b" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"tobby4b", "mapName":"guynmart_wood_17b" },
+					{ "rewardType":"spawnAll", "rewardID":"tobby5", "mapName":"guynmart_wood_17" },
+					{ "rewardType":"questProgress", "rewardID":"tobby", "value":25 }]
+    },
+    {
+        "id":"tobby5",
+        "replies":[	{ "nextPhraseID":"tobby5_1", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":25 },
+								  { "requireType":"questProgress", "requireID":"tobby", "value":40, "negate":true }] }]
+    },
+    {
+        "id":"tobby5_1",
+		"switchToNPC":"tobby5",
+        "message":"Wow, that was an adventure!",
+        "replies":[
+            {
+                "text":"Was it? I have got used to such things by now.",
+                "nextPhraseID":"tobby5_10"
+            }
+        ]
+    },
+    {
+        "id":"tobby5_10",
+        "message":"I think that I'll find Sobby by myself now. Thank you - hope we'll meet again!",
+        "replies":[
+            {
+                "text":"Good luck!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby5", "mapName":"guynmart_wood_17" },
+					{ "rewardType":"spawnAll", "rewardID":"tobby6", "mapName":"woodhouse1" },
+					{ "rewardType":"questProgress", "rewardID":"tobby", "value":40 } ]
+    },
+    {
+        "id":"tobby6",
+        "message":"Hey $playername - great to see you again!",
+        "replies":[
+            {
+                "text":"Tobby? What are you doing here?",
+                "nextPhraseID":"tobby6_10"
+            }
+        ]
+    },
+    {
+        "id":"tobby6_10",
+        "message":"Thanks to you I have found my brother Sobby.",
+        "replies":[
+            {
+                "text":"Two-teeth ... is your brother?!",
+                "nextPhraseID":"tobby6_20"
+            }
+        ],
+        "rewards":[ { "rewardType":"questProgress", "rewardID":"tobby", "value":50 } ]
+    },
+    {
+        "id":"tobby6_20",
+        "message":"Well, due to his rat poison he has lost a few things in here ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tobby6_22"
+            }
+        ]
+    },
+    {
+        "id":"tobby6_22",
+        "message":"like his gold, his memory, most of his teeth ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tobby6_30"
+            }
+        ]
+    },
+    {
+        "id":"tobby6_30",
+        "message":"But yes - of course this is Sobby, my brother! Don't you see how we look alike?",
+        "replies":[
+            {
+                "text":"Eh, sure.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

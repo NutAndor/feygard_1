@@ -284,5 +284,66 @@
 				{ "condition":"crit1", "magnitude":1, "duration":3, "chance":"10" },
 				{ "condition":"bleeding_wound", "magnitude":2, "duration":10, "chance":"50" }]
 		}
+    },
+    {
+        "id":"tobby",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+		"phraseID":"tobby"
+    },
+    {
+        "id":"tobby2",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+		"phraseID":"tobby2"
+    },
+    {
+        "id":"tobby3",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+		"phraseID":"tobby2"
+    },
+    {
+        "id":"tobby4a",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+		"phraseID":"tobby2"
+    },
+    {
+        "id":"tobby4b",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+		"phraseID":"tobby2"
+    },
+    {
+        "id":"tobby5",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+		"phraseID":"tobby5_1"
+    },
+    {
+        "id":"tobby6",
+        "name":"Tobby",
+        "iconID":"monsters_ld1:65",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+		"phraseID":"tobby6"
     }
 ]
