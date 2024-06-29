@@ -4,15 +4,33 @@
         "name":"Fog in the woods",
         "showInLog":1,
         "stages":[
-            { "progress":10, "logText":"After you chased away a fog monster, the fog suddenly dissipated." },
-            { "progress":20, "logText":"Another fog monster guarded the footbridge to the hut. As long as there was still fog somewhere around the hut, you couldn't drive it away." },
-            { "progress":30, "logText":"In the hut you encountered a terrifying looking witch." },
-            { "progress":70, "logText":"You defeated the old witch in battle. So there would be no new fog.",
-                "finishesQuest":1 },
-            { "progress":80, "logText":"You were able to convince Mim to keep the road clear of fog.",
-                "finishesQuest":1 },
-            { "progress":90, "logText":"You convinced Mim to replace the fog with a distraction spell.",
-                "finishesQuest":1 }
+            {
+                "progress":10,
+                "logText":"After you chased away a fog monster, the fog suddenly dissipated."
+            },
+            {
+                "progress":20,
+                "logText":"Another fog monster guarded the footbridge to the hut. As long as there was still fog somewhere around the hut, you couldn't drive it away."
+            },
+            {
+                "progress":30,
+                "logText":"In the hut you encountered a terrifying looking witch."
+            },
+            {
+                "progress":70,
+                "logText":"You defeated the old witch in battle. So there would be no new fog.",
+                "finishesQuest":1
+            },
+            {
+                "progress":80,
+                "logText":"You were able to convince Mim to keep the road clear of fog.",
+                "finishesQuest":1
+            },
+            {
+                "progress":90,
+                "logText":"You convinced Mim to replace the fog with a distraction spell.",
+                "finishesQuest":1
+            }
         ]
     },
     {
@@ -20,16 +38,46 @@
         "name":"feygard fog",
         "showInLog":1,
         "stages":[
-            { "progress":1, "logText":"1=Fog 1 has lifted" },
-            { "progress":2, "logText":"2=Fog 2 has lifted" },
-            { "progress":3, "logText":"3=Fog 3 has lifted" },
-            { "progress":4, "logText":"4=Fog 4 has lifted" },
-            { "progress":5, "logText":"5=Fog 5 has lifted" },
-            { "progress":7, "logText":"6=Fog 1 normal" },
-            { "progress":7, "logText":"7=Fog 1 short" },
-            { "progress":8, "logText":"8=Fogs shortened" },
-            { "progress":9, "logText":"9=Fogs ended" },
-            { "progress":10, "logText":"10=Board" }
+            {
+                "progress":1,
+                "logText":"1=Fog 1 has lifted"
+            },
+            {
+                "progress":2,
+                "logText":"2=Fog 2 has lifted"
+            },
+            {
+                "progress":3,
+                "logText":"3=Fog 3 has lifted"
+            },
+            {
+                "progress":4,
+                "logText":"4=Fog 4 has lifted"
+            },
+            {
+                "progress":5,
+                "logText":"5=Fog 5 has lifted"
+            },
+            {
+                "progress":7,
+                "logText":"6=Fog 1 normal"
+            },
+            {
+                "progress":7,
+                "logText":"7=Fog 1 short"
+            },
+            {
+                "progress":8,
+                "logText":"8=Fogs shortened"
+            },
+            {
+                "progress":9,
+                "logText":"9=Fogs ended"
+            },
+            {
+                "progress":10,
+                "logText":"10=Board"
+            }
         ]
     },
     {
@@ -37,12 +85,34 @@
         "name":"feygard_nondisplayed",
         "showInLog":1,
         "stages":[
-            { "progress":1, "logText":"1=Stolen from offering to Elythara" },
-            { "progress":80, "logText":"80=Path open" },
-            { "progress":81, "logText":"81=Godoe in the south" },
-            { "progress":90, "logText":"90=Ravine blocked" },
-            { "progress":91, "logText":"91=Ravine outlets blocked" },
-            { "progress":92, "logText":"92=Ravine free" }
+            {
+                "progress":1,
+                "logText":"1=Stolen from offering to Elythara"
+            },
+            {
+                "progress":80,
+                "logText":"80=Path open"
+            },
+            {
+                "progress":81,
+                "logText":"81=Godoe in the south"
+            },
+            {
+                "progress":90,
+                "logText":"90=Ravine blocked"
+            },
+            {
+                "progress":91,
+                "logText":"91=Ravine outlets blocked"
+            },
+            {
+                "progress":92,
+                "logText":"92=Ravine free"
+            },
+            {
+                "progress":2,
+                "logText":"2 = The PC threw an Oegyth Crystal down the well in Wexlow Village."
+            }
         ]
     },
     {
@@ -50,15 +120,45 @@
         "name":"Tobby",
         "showInLog":1,
         "stages":[
-            { "progress":10, "logText":"On the road to Feygard I have met a boy called Tobby. He is looking for his brother Sobby." },
-            { "progress":20, "logText":"I have promised to help Tobby to pass the cobolds to the south." },
-            { "progress":23, "logText":"Tobby has followed me to the beginning of the ravine of the cobolds." },
-            { "progress":24, "logText":"Tobby has made it through the ravine." },
-            { "progress":25, "logText":"And he followed me further to the south." },
-            { "progress":30, "logText":"I have attacked poor Tobby, but he ran away. Now he will never find his brother.",
-                "finishesQuest":1 },
-            { "progress":40, "logText":"We have parted. Tobby was sure now to find his brother.", "rewardExperience":1500, "finishesQuest":1 },
-            { "progress":50, "logText":"I have met Tobby again, together with Sobby in the little village in the woods." }
+            {
+                "progress":10,
+                "logText":"On the road to Feygard I have met a boy called Tobby. He is looking for his brother Sobby."
+            },
+            {
+                "progress":20,
+                "logText":"I have promised to help Tobby to pass the cobolds to the south."
+            },
+            {
+                "progress":23,
+                "logText":"Tobby has followed me to the beginning of the ravine of the cobolds."
+            },
+            {
+                "progress":24,
+                "logText":"Tobby has made it through the ravine."
+            },
+            {
+                "progress":25,
+                "logText":"And he followed me further to the south."
+            },
+            {
+                "progress":30,
+                "logText":"I have attacked poor Tobby, but he ran away. Now he will never find his brother.",
+                "finishesQuest":1
+            },
+            {
+                "progress":40,
+                "logText":"We have parted. Tobby was sure now to find his brother.",
+                "rewardExperience":1500,
+                "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"I have met Tobby again, together with Sobby in the little village in the woods."
+            }
         ]
+    },
+    {
+        "id":"echoes_of_enchantment",
+        "name":"Echoes of Enchantment"
     }
 ]
