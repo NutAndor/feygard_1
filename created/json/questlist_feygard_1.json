@@ -170,15 +170,27 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me of a great Feygard afterdinner delicacy called \"Feydelight\""
+                "logText":"Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me that she is master baker."
             },
             {
                 "progress":2,
-                "logText":"Philippa has informed me that she is master baker and as a reward for rescuing her and her firends, she could make one for me if I provide her all of the ingredients."
+                "logText":"Philippa has educated me about what a \"Feydelight\" is."
             },
             {
                 "progress":3,
-                "logText":"I need to find 2 eggs, a splash of wine, butter, honey and 5 Feygard fig fruits. She has informed me that these figs can only be found in Feygard and not to return to her until I have everything in her recipe."
+                "logText":"In return for my helping to rescue Philippa, she's stated that she could make a \"Feydelight\" for me if I provide her with all of the ingredients necessary to bake one."
+            },
+            {
+                "progress":4,
+                "logText":"I need to find dough, two eggs, a splash of wine, butter, honey and five Feygard fig fruits. I need to find the figs in Feygard.\n\n[Quest is not completable at this time.]"
+            },
+            {
+                "progress":5,
+                "logText":"She told me that I can find the dough in Brightport or Feygard."
+            },
+            {
+                "progress":6,
+                "logText":"Philippa told me that I can get honey from a beekeeper. But where to find one?"
             }
         ]
     }

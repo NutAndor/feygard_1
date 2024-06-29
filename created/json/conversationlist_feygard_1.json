@@ -3252,10 +3252,239 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"Your welcome, but I wanted to talk about the \"Feydelight\" again.",
+                "nextPhraseID":"village_philippa_fd_5",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"What do I need to do again to get my \"Feydelight\"?",
+                "nextPhraseID":"village_philippa_fd_8",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":2
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"village_philippa_fd_1"
+        "id":"village_philippa_fd_1",
+        "message":"If a reward is what your after, then a reward you shall have.",
+        "replies":[
+            {
+                "text":"So exciting! I can't wait. Let me have it.",
+                "nextPhraseID":"village_philippa_fd_2_rude"
+            },
+            {
+                "text":"Yes, ma'am. Please.",
+                "nextPhraseID":"village_philippa_fd_2_nice"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_2_rude",
+        "message":"Well, maybe with that attitude, you don't derserve one?",
+        "replies":[
+            {
+                "text":"I'm sorry. You see, I'm just in love with the stuff.",
+                "nextPhraseID":"village_philippa_fd_2_nice"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_2_nice",
+        "message":"Oh, how polite.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_philippa_fd_3"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_3",
+        "message":"Do you know what a \"Feydelight\" is?",
+        "replies":[
+            {
+                "text":"No. Should I?",
+                "nextPhraseID":"village_philippa_fd_4"
+            },
+            {
+                "text":"Whatever happened to my reward? Thanks for nothing.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_4",
+        "message":"Well, you see? I make them. Not to brag, but I am in fact, the best baker in Feygard.",
+        "replies":[
+            {
+                "text":"But we aren't in Feygard.",
+                "nextPhraseID":"village_philippa_fd_feygard_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_feygard_1",
+        "message":"[With a not so appreciative look on here face...] Oh, sometimes I miss that magnificent place so much. But I am happier here.",
+        "replies":[
+            {
+                "text":"I've never been there, but tell me, is it as great as I've been told?",
+                "nextPhraseID":"village_philippa_fd_feygard_2"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_feygard_2",
+        "message":"I've not the words to begin to describe its magnificence.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_philippa_fd_5"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_5",
+        "message":"Let's get back to talking about those Feydelights.",
+        "replies":[
+            {
+                "text":"You said that you bake them, but what is a \"feydelight\"?",
+                "nextPhraseID":"village_philippa_fd_6"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_6",
+        "message":"Child, they are a delicious fig pie enjoyed by most Feygardians as an after dinner delicacy, but most often reserved for holidays and other celebrations.",
+        "replies":[
+            {
+                "text":"Is that my reward? A fig pie?",
+                "nextPhraseID":"village_philippa_fd_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_7",
+        "message":"Well, of course. But there is a problem.",
+        "replies":[
+            {
+                "text":"Oh, I wouldn't expect otherwise.",
+                "nextPhraseID":"village_philippa_fd_8"
+            },
+            {
+                "text":"Why is it?",
+                "nextPhraseID":"village_philippa_fd_8"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_8",
+        "message":"Well, as you are aware, we've been capative for so long. But what you are not aware of, is that while gone, all of my supplies have either gone rotten or been stolen.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_philippa_fd_9"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_9",
+        "message":"I need supplies. Ingredients. To more specific, I need eleven things, but 6 unique ingredients.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"village_philippa_fd_10"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_10",
+        "message":"Yes. You need to get me some dough, two eggs, butter, honey and five Feygard fig fruits. I also need a bottle of wine. A splash for the pie and the rest of the bottle is for me. Oh don't forget, the figs are only to be found in Feygard.",
+        "replies":[
+            {
+                "text":"Dough! Where am I supposed to find dough?",
+                "nextPhraseID":"village_philippa_fd_11"
+            },
+            {
+                "text":"I've been across great amount of Dhayavar and I've not seen honey anywhere.",
+                "nextPhraseID":"village_philippa_fd_12",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"honey",
+                        "value":0,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"Where can I find butter?",
+                "nextPhraseID":"village_philippa_fd_13"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_11",
+        "message":"Well, Brightport is known for its wondeful bakeries. I would start there. Of course, you could get some in Feygard too.",
+        "replies":[
+            {
+                "text":"OK, but what about...",
+                "nextPhraseID":"village_philippa_fd_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_12",
+        "message":"How about trying a beekeeper? Geez, you are not the smartest are you?",
+        "replies":[
+            {
+                "text":"OK, but what about...",
+                "nextPhraseID":"village_philippa_fd_10"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_13",
+        "message":"Try a bakery. They always need butter."
     }
 ]
