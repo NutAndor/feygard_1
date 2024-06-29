@@ -420,7 +420,7 @@
             ]
         }
     },
-	    {
+    {
         "id":"gamjee_oc",
         "name":"Gamjee",
         "iconID":"monsters_cyclops:0",
@@ -513,7 +513,7 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap"
     },
-	{
+    {
         "id":"village_godwin",
         "name":"Godwin",
         "iconID":"monsters_ld1:134",
@@ -559,7 +559,8 @@
         "iconID":"monsters_ld1:205",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"village_philippa_initial_phrase"
     },
     {
         "id":"village_theobald",

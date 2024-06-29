@@ -8,7 +8,14 @@
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_check",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -17,8 +24,18 @@
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_check_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1 },
-							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster1", "value":75 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster1",
+                        "value":75
+                    }
+                ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster2_check"
@@ -30,13 +47,25 @@
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_check_10_7",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":8 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":8
+                    }
+                ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster1_check_10_6"
             }
         ],
-        "rewards":[ { "rewardType":"spawnAll", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" } ]
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster1",
+                "mapName":"guynmart_wood_14"
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster1_check_10_6",
@@ -45,9 +74,23 @@
                 "nextPhraseID":"feygard_fogmonster2_check"
             }
         ],
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":6 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster1_check_10_7",
@@ -56,17 +99,41 @@
                 "nextPhraseID":"feygard_fogmonster2_check"
             }
         ],
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster2_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster2_check_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":2 },
-							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster2", "value":50 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster2",
+                        "value":50
+                    }
+                ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster3_check"
@@ -80,16 +147,36 @@
                 "nextPhraseID":"feygard_fogmonster3_check"
             }
         ],
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":2 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster2", "mapName":"swamp2" } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster2",
+                "mapName":"swamp2"
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster3_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster3_check_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":3 },
-							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster3", "value":50 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster3",
+                        "value":50
+                    }
+                ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster4_check"
@@ -103,16 +190,36 @@
                 "nextPhraseID":"feygard_fogmonster4_check"
             }
         ],
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":3 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster3",
+                "mapName":"swamp4"
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster4_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster4_check_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":4 },
-							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster4", "value":50 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster4",
+                        "value":50
+                    }
+                ]
             },
             {
                 "nextPhraseID":"feygard_fogmonster5_check"
@@ -126,106 +233,253 @@
                 "nextPhraseID":"feygard_fogmonster5_check"
             }
         ],
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":4 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster4",
+                "mapName":"swamp5"
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster5_check",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster5_check_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":5 },
-							{ "requireType":"timerElapsed", "requireID":"feygard_fogmonster5", "value":50 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_fogmonster5",
+                        "value":50
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster5_check_10",
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":5 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster5",
+                "mapName":"swamp6"
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster1_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster1_heart_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1, "negate":true } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster1_heart_10",
         "message":"The fog vanishes completely as soon as you touch its heart.",
-        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster1" },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 },
-					{ "rewardType":"deactivateMapObjectGroup", "rewardID":"Keys_fog", "mapName":"guynmart_wood_13" } ]
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys_fog",
+                "mapName":"guynmart_wood_13"
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster2_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster2_heart_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":2, "negate":true } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster2_heart_10",
         "message":"The fog vanishes completely as soon as you touch its heart.",
-        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster2" },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 } ]
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster3_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster3_heart_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":3, "negate":true } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster3_heart_10",
         "message":"The fog vanishes completely as soon as you touch its heart.",
-        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster3" },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 } ]
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster3"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster4_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster4_heart_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":4, "negate":true } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster4_heart_10",
         "message":"The fog vanishes completely as soon as you touch its heart.",
-        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster4" },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 } ]
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster4"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster5_heart",
         "replies":[
             {
                 "nextPhraseID":"feygard_fogmonster5_heart_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":5, "negate":true } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_fogmonster5_heart_10",
         "message":"The fog vanishes completely as soon as you touch its heart.",
-        "rewards":[ { "rewardType":"createTimer", "rewardID":"feygard_fogmonster5" },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 } ]
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_fogmonster5"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            }
+        ]
     },
     {
         "id":"feygard_fogmonster9",
@@ -233,36 +487,88 @@
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_5",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":1 },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":2 },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":3 },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":4 },
-							{ "requireType":"questProgress", "requireID":"feygard_fog", "value":5 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5
+                    }
+                ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":1 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":2 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":2
+                    }
+                ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":3 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":3
+                    }
+                ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":4 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":4
+                    }
+                ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"feygard_fogmonster9_1",
-                "requires":[ { "requireType":"questProgress", "requireID":"feygard_fog", "value":5 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":5
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -331,15 +637,31 @@
                 "nextPhraseID":"feygard_offering_10"
             }
         ],
-        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":1 }]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":1
+            }
+        ]
     },
     {
         "id":"feygard_offering_10",
         "replies":[
             {
                 "nextPhraseID":"feygard_offering_12",
-                "requires":[{ "requireType":"factionScoreEquals","requireID":"feygard_offering_given","value":0 },
-							{ "requireType":"factionScoreEquals","requireID":"feygard_offering_taken","value":0 }]
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"feygard_offering_given",
+                        "value":0
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"feygard_offering_taken",
+                        "value":0
+                    }
+                ]
             },
             {
                 "nextPhraseID":"feygard_offering_20"
@@ -366,130 +688,303 @@
         "message":"Below the statue you see an offering bowl.",
         "replies":[
             {
-                "text":"Place 1 gold coin in the bowl.", 
-				"nextPhraseID":"feygard_offering_30_1",
-                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":1}]
+                "text":"Place 1 gold coin in the bowl.",
+                "nextPhraseID":"feygard_offering_30_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Place 10 gold coins in the bowl.",
-				"nextPhraseID":"feygard_offering_30_10",
-                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":10}]
+                "nextPhraseID":"feygard_offering_30_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Place 100 gold coins in the bowl.",
                 "nextPhraseID":"feygard_offering_30_100",
-                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":100}]
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
             },
             {
                 "text":"Place 1000 gold coins in the bowl.",
                 "nextPhraseID":"feygard_offering_30_1000",
-                "requires":[{"requireType":"inventoryRemove","requireID":"gold","value":1000}]
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
             },
             {
                 "text":"Take 1 gold coin.",
                 "nextPhraseID":"feygard_offering_40_1",
-                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":1}]
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Take 10 gold coins.",
                 "nextPhraseID":"feygard_offering_40_10",
-                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":10}]
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Take 100 gold coins.",
                 "nextPhraseID":"feygard_offering_40_100",
-                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":100}]
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "value":100
+                    }
+                ]
             },
             {
                 "text":"Take 1000 gold coins.",
                 "nextPhraseID":"feygard_offering_40_1000",
-                "requires":[{"requireType":"factionScore","requireID":"feygard_offering_sum","value":1000}]
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "value":1000
+                    }
+                ]
             }
         ]
     },
     {
         "id":"feygard_offering_30_1",
-        "replies":[	{ "nextPhraseID":"feygard_offering_32"} ],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_given", "value":1 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",   "value":1 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_given",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":1
+            }
+        ]
     },
     {
         "id":"feygard_offering_30_10",
-        "replies":[	{ "nextPhraseID":"feygard_offering_32"} ],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_given", "value":10 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",   "value":10 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_given",
+                "value":10
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":10
+            }
+        ]
     },
     {
         "id":"feygard_offering_30_100",
-        "replies":[	{ "nextPhraseID":"feygard_offering_32"} ],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_given", "value":100 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",   "value":100 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_given",
+                "value":100
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":100
+            }
+        ]
     },
     {
         "id":"feygard_offering_30_1000",
-        "replies":[	{ "nextPhraseID":"feygard_offering_32"} ],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_given", "value":1000 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",   "value":1000 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_given",
+                "value":1000
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":1000
+            }
+        ]
     },
     {
         "id":"feygard_offering_32",
-        "replies":[{ "nextPhraseID":"feygard_offering_34",
-					 "requires":[
-						{ "requireType":"factionScoreEquals", "requireID":"feygard_offering_taken", "value":0 }]
-				   },
-				   { "nextPhraseID":"feygard_offering_36",
-					 "requires":[
-						{ "requireType":"factionScoreEquals", "requireID":"feygard_offering_taken", "value":0, "negate":true },
-						{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1, "negate":true }]
-				   },
-				   { "nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_34",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"feygard_offering_taken",
+                        "value":0
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_36",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"feygard_offering_taken",
+                        "value":0,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_34",
-        "replies":[{ "nextPhraseID":"feygard_offering_34_5",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"20" }]
-				   },
-				   { "nextPhraseID":"feygard_offering_34_4",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"25" }]
-				   },
-				   { "nextPhraseID":"feygard_offering_34_3",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"33" }]
-				   },
-				   { "nextPhraseID":"feygard_offering_34_2",
-					 "requires":[{ "requireType":"factionScoreEquals", "requireID":"50" }]
-				   },
-				   { "nextPhraseID":"feygard_offering_34_1"
-				   }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_34_5",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_34_4",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_34_3",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_34_2",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_34_1"
+            }
+        ]
     },
     {
         "id":"feygard_offering_34_1",
         "message":"Your gift will be viewed favorably.",
-        "replies":[{ "text":"N", 
-		"nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_34_2",
         "message":"Thank you, in the name of Elythara.",
-        "replies":[{ "text":"N", 
-		"nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_34_3",
         "message":"Let your name be praised in the halls of Elythara!",
-        "replies":[{ "text":"N", 
-		"nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_34_4",
         "message":"For the greatness of Elythara, our Godess!",
-        "replies":[{ "text":"N", 
-		"nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_34_5",
         "message":"Long live Elythara!",
-        "replies":[{ "text":"N", 
-		"nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_36",
@@ -503,102 +998,313 @@
     },
     {
         "id":"feygard_offering_40_1",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_1b",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_40_1a" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_40_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_40_1a"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_1a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_1b" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"feygard_offering_40_1b"
+            },
+            {
+                "text":"Hm, better not.",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_1b",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_42" }],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":1 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-1 },
-					{ "rewardType":"giveItem", "rewardID":"gold", "value":1 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_42"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_taken",
+                "value":1
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":-1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_10",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_10b",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_40_10a" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_40_10b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_40_10a"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_10a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_10b" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"feygard_offering_40_10b"
+            },
+            {
+                "text":"Hm, better not.",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_10b",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_42" }],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":10 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-10 },
-					{ "rewardType":"giveItem", "rewardID":"gold", "value":10 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_42"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_taken",
+                "value":10
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":-10
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":10
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_100",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_100b",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_40_100a" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_40_100b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_40_100a"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_100a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_100b" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"feygard_offering_40_100b"
+            },
+            {
+                "text":"Hm, better not.",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_100b",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_42" }],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":100 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-100 },
-					{ "rewardType":"giveItem", "rewardID":"gold", "value":100 }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_42"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_taken",
+                "value":100
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":-100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":100
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_1000",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_40_1000b",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_40_1000a" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_40_1000b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_40_1000a"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_1000a",
         "message":"Stealing from the goddess Elythara - are you sure?",
-        "replies":[	{ "text":"Yes.", "nextPhraseID":"feygard_offering_40_1000b" },
-					{ "text":"Hm, better not.", "nextPhraseID":"feygard_offering_20" }]
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"feygard_offering_40_1000b"
+            },
+            {
+                "text":"Hm, better not.",
+                "nextPhraseID":"feygard_offering_20"
+            }
+        ]
     },
     {
         "id":"feygard_offering_40_1000b",
-        "replies":[	{ 	"nextPhraseID":"feygard_offering_20",
-						"requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":1 }] },
-					{ 	"nextPhraseID":"feygard_offering_42" }],
-        "rewards":[	{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_taken", "value":1000 },
-					{ "rewardType":"alignmentChange", "rewardID":"feygard_offering_sum",  "value":-1000 },
-					{ "rewardType":"giveItem", "rewardID":"gold", "value":1000 } ]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"feygard_offering_42"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_taken",
+                "value":1000
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":-1000
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
+            }
+        ]
     },
     {
         "id":"feygard_offering_42",
-        "replies":[{ "nextPhraseID":"feygard_offering_42_1"} ],
-        "rewards":[{ "rewardType":"changeMapFilter", "rewardID":"invert" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_42_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"invert"
+            }
+        ]
     },
     {
         "id":"feygard_offering_42_1",
-        "replies":[{ "nextPhraseID":"feygard_offering_42_2"} ], 
-		"rewards":[{ "rewardType":"changeMapFilter", "rewardID":"none" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_42_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none"
+            }
+        ]
     },
     {
         "id":"feygard_offering_42_2",
-        "replies":[{ "nextPhraseID":"feygard_offering_44"} ], 
-		"rewards":[{ "rewardType":"changeMapFilter", "rewardID":"invert" }]
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_44"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"invert"
+            }
+        ]
     },
     {
         "id":"feygard_offering_44",
@@ -609,11 +1315,32 @@
                 "nextPhraseID":"feygard_offering_20"
             }
         ],
-        "rewards":[ { "rewardType":"changeMapFilter", "rewardID":"none" },
-					{ "rewardType":"actorCondition", "rewardID":"stunned", "value":3 },
-					{ "rewardType":"actorCondition", "rewardID":"bone_fracture", "value":1 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":1 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_offering_guard", "mapName":"guynmart_wood_16" } ]
+        "rewards":[
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"stunned",
+                "value":3
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bone_fracture",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":1
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_offering_guard",
+                "mapName":"guynmart_wood_16"
+            }
+        ]
     },
     {
         "id":"feygard_swamp_sign",
@@ -636,12 +1363,24 @@
             {
                 "text":"Sure, I have plenty of them.",
                 "nextPhraseID":"godoe_10",
-                "requires":[{ "requireType":"inventoryRemove", "requireID":"gem2", "value":5 }]
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gem2",
+                        "value":5
+                    }
+                ]
             },
             {
                 "text":"Are 5 shiny gold coins OK too?",
                 "nextPhraseID":"godoe_4",
-                "requires":[{ "requireType":"inventoryKeep", "requireID":"gold", "value":5 }]
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
             }
         ]
     },
@@ -652,7 +1391,13 @@
             {
                 "text":"Eh, sure. 500 shiny gold coins.",
                 "nextPhraseID":"godoe_10",
-                "requires":[{ "requireType":"inventoryRemove", "requireID":"gold", "value":500 }]
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
             },
             {
                 "text":"Forget it.",
@@ -663,15 +1408,32 @@
     {
         "id":"godoe_10",
         "message":"Good, good! Here you go. But don't waste time.",
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":80 },
-					{ "rewardType":"alignmentSet", "rewardID":"guynmart18", "value":0 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":80
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"guynmart18",
+                "value":0
+            }
+        ]
     },
     {
         "id":"guynmart18_k1",
         "replies":[
             {
                 "nextPhraseID":"guynmart18_k_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81, "negate":true }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":81,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "nextPhraseID":"godoe"
@@ -683,7 +1445,13 @@
         "replies":[
             {
                 "nextPhraseID":"guynmart18_k_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":81
+                    }
+                ]
             },
             {
                 "nextPhraseID":"godoe"
@@ -696,30 +1464,87 @@
     },
     {
         "id":"guynmart18_passage0",
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":90 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":91 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":92 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":90
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":91
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":92
+            }
+        ]
     },
     {
         "id":"guynmart18_passage1",
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":90 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":91 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":92 }]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":90
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":91
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":92
+            }
+        ]
     },
     {
         "id":"guynmart18_passage2",
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":90 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":91 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":92 },
-					{ "rewardType":"spawnAll", "rewardID":"cobold4a", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"spawnAll", "rewardID":"cobold4b", "mapName":"guynmart_wood_18" }]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":90
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":91
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":92
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"cobold4a",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"cobold4b",
+                "mapName":"guynmart_wood_18"
+            }
+        ]
     },
     {
         "id":"guynmart18_s1",
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s1_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81, "negate":true }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":81,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -728,30 +1553,68 @@
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":80 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":80
+                    }
+                ]
             },
             {
                 "nextPhraseID":"guynmart18_s1_20",
-                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":1 }]
+                "requires":[
+                    {
+                        "requireType":"timeEquals",
+                        "requireID":"SS",
+                        "value":1
+                    }
+                ]
             },
             {
                 "nextPhraseID":"guynmart18_s1_20",
-                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":21 }]
+                "requires":[
+                    {
+                        "requireType":"timeEquals",
+                        "requireID":"SS",
+                        "value":21
+                    }
+                ]
             }
         ]
     },
     {
         "id":"guynmart18_s1_20",
-        "rewards":[ { "rewardType":"spawnAll", "rewardID":"godoe1", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"godoe2", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"questProgress", "rewardID":"feygard_nondisplayed", "value":81 }]
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"godoe1",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"godoe2",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":81
+            }
+        ]
     },
     {
         "id":"guynmart18_s2",
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s2_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":81
+                    }
+                ]
             }
         ]
     },
@@ -760,62 +1623,136 @@
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":80 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":80
+                    }
+                ]
             },
             {
                 "nextPhraseID":"guynmart18_s2_20",
-                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":31 }]
+                "requires":[
+                    {
+                        "requireType":"timeEquals",
+                        "requireID":"SS",
+                        "value":31
+                    }
+                ]
             },
             {
                 "nextPhraseID":"guynmart18_s2_20",
-                "requires":[{ "requireType":"timeEquals", "requireID":"SS", "value":51 }]
+                "requires":[
+                    {
+                        "requireType":"timeEquals",
+                        "requireID":"SS",
+                        "value":51
+                    }
+                ]
             }
         ]
     },
     {
         "id":"guynmart18_s2_20",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"godoe1", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"spawnAll", "rewardID":"godoe2", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":81 }]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"godoe1",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"godoe2",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":81
+            }
+        ]
     },
     {
         "id":"guynmart18_s_2",
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":80 } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":80
+            }
+        ]
     },
     {
         "id":"guynmart18_s3",
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s3_10",
-                "requires":[{ "requireType":"factionScore", "requireID":"guynmart18", "value":25 }]
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"guynmart18",
+                        "value":25
+                    }
+                ]
             }
         ],
-        "rewards":[ { "rewardType":"alignmentChange", "rewardID":"guynmart18", "value":1 } ]
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"guynmart18",
+                "value":1
+            }
+        ]
     },
     {
         "id":"guynmart18_s3_10",
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s3_11",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_nondisplayed", "value":81 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":81
+                    }
+                ]
             },
             {
                 "nextPhraseID":"guynmart18_s3_12"
             }
         ],
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_nondisplayed", "value":80 } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":80
+            }
+        ]
     },
     {
         "id":"guynmart18_s3_11",
-		"switchToNPC":"godoe1",
         "message":"I think I said: Don't waste time, did I not? Hee hee.",
-        "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x1" } ]
+        "switchToNPC":"godoe1",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"guynmart18_x1",
+                "mapName":"guynmart_wood_18"
+            }
+        ]
     },
     {
         "id":"guynmart18_s3_12",
-		"switchToNPC":"godoe1",
         "message":"I think I said: Don't waste time, did I not? Hee hee.",
-        "rewards":[ { "rewardType":"mapchange", "mapName":"guynmart_wood_18", "rewardID":"guynmart18_x2" } ]
+        "switchToNPC":"godoe1",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"guynmart18_x2",
+                "mapName":"guynmart_wood_18"
+            }
+        ]
     },
     {
         "id":"guynmart_roadguard_12",
@@ -830,7 +1767,13 @@
     {
         "id":"guynmart_roadguard_30",
         "message":"Oh ... Forget it. I feel rather stupid now. Bye.",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"guynmart_roadguard", "mapName":"guynmart_wood_13" } ]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guynmart_roadguard",
+                "mapName":"guynmart_wood_13"
+            }
+        ]
     },
     {
         "id":"swamp_witch",
@@ -838,12 +1781,24 @@
             {
                 "text":"N",
                 "nextPhraseID":"swamp_witch_90",
-                "requires":[{ "requireType":"questProgress", "requireID":"fogmonster", "value":90 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fogmonster",
+                        "value":90
+                    }
+                ]
             },
             {
                 "text":"N",
                 "nextPhraseID":"swamp_witch_80",
-                "requires":[{ "requireType":"questProgress", "requireID":"fogmonster", "value":80 }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fogmonster",
+                        "value":80
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -1154,12 +2109,38 @@
                 "nextPhraseID":"X"
             }
         ],
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"fogmonster", "value":80 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":8 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":80
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster1",
+                "mapName":"guynmart_wood_14"
+            }
+        ]
     },
     {
         "id":"swamp_witch_20_140",
@@ -1222,25 +2203,98 @@
                 "nextPhraseID":"swamp_witch_20_190"
             }
         ],
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
-					{ "rewardType":"questProgress", "rewardID":"fogmonster", "value":90 },
-					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster2", "mapName":"swamp2" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" },
-					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"swamp2" },
-					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"swamp4" },
-					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"swamp6" },
-					{ "rewardType":"activateMapObjectGroup", "rewardID":"Mapevents_dis", "mapName":"guynmart_wood_13" } ]
-
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":9
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":90
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_fogmonster1",
+                "mapName":"guynmart_wood_14"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_fogmonster2",
+                "mapName":"swamp2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_fogmonster3",
+                "mapName":"swamp4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_fogmonster4",
+                "mapName":"swamp5"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_fogmonster5",
+                "mapName":"swamp6"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_dis",
+                "mapName":"swamp2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_dis",
+                "mapName":"swamp4"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_dis",
+                "mapName":"swamp6"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_dis",
+                "mapName":"guynmart_wood_13"
+            }
+        ]
     },
     {
         "id":"swamp_witch_20_170",
@@ -1266,8 +2320,8 @@
     },
     {
         "id":"swamp_witch_20_210",
-		"switchToNPC":"none",
         "message":"The old witch raises her hands, chanting ominously.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -1277,8 +2331,8 @@
     },
     {
         "id":"swamp_witch_20_212",
-		"switchToNPC":"swamp_witch",
         "message":"A curse upon you, little one! May darkness be your companion, and fear be your guide!",
+        "switchToNPC":"swamp_witch",
         "replies":[
             {
                 "text":"I won't let you curse me! (Draws his sword)",
@@ -1321,12 +2375,24 @@
             {
                 "text":"100 gold coins",
                 "nextPhraseID":"swamp_witch_20_228",
-                "requires":[{ "requireType":"inventoryRemove", "requireID":"gold", "value":100 } ]
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
             },
             {
                 "text":"My Ring of the Lesser Shadow  (TODO)",
                 "nextPhraseID":"swamp_witch_20_228",
-                "requires":[{ "requireType":"inventoryRemove", "requireID":"gold", "value":1 } ]
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"A quick death",
@@ -1403,22 +2469,46 @@
         "replies":[
             {
                 "nextPhraseID":"swampwitch_board_note_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":10, "negate":true }]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"swampwitch_board_note_10",
         "message":"Oh what's this? How unusual!",
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":10 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":10
+            }
+        ]
     },
     {
         "id":"swamp_witch_checkkill",
         "replies":[
             {
                 "nextPhraseID":"swamp_witch_checkkill_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9, "negate":true },
-							{ "requireType":"killedMonster", "requireID":"swamp_witch", "value":1 } ]
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"swamp_witch",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -1427,36 +2517,100 @@
         "message":"This area will never be bullied by the old witch again.\nYou take the witch's staff - maybe it will find a good use as a walking stick.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"swamp_witch_checkkill_20"
-			}
+            }
         ],
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
-					{ "rewardType":"questProgress", "rewardID":"fogmonster", "value":70 },
-					{ "rewardType":"giveItem", "rewardID":"swampwitch_staff", "value":1 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":9
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"swampwitch_staff",
+                "value":1
+            }
+        ]
     },
     {
         "id":"swamp_witch_checkkill_20",
         "message":"Only the fog won't go away on its own.",
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"fogmonster", "value":70 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":70
+            }
+        ]
     },
     {
         "id":"swamp_witch_t1",
         "message":"OK.",
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":9 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":2 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":3 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":4 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":5 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":9
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            }
+        ]
     },
     {
         "id":"swamp_witch_t2",
         "message":"OK.",
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"feygard_fog", "value":8 },
-					{ "rewardType":"questProgress", "rewardID":"feygard_fog", "value":7 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            }
+        ]
     },
     {
         "id":"swamphut_oven",
@@ -1465,34 +2619,109 @@
             {
                 "text":"I wonder what would happen if I light a fire?",
                 "nextPhraseID":"swamphut_oven_10",
-                "requires":[{ "requireType":"questProgress", "requireID":"feygard_fog", "value":9 } ]
-
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":9
+                    }
+                ]
             }
         ]
     },
     {
         "id":"swamphut_oven_10",
         "message":"Ah - nice and cozy.",
-        "rewards":[ { "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":1 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":2 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":3 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":4 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":5 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":6 },
-					{ "rewardType":"removeQuestProgress", "rewardID":"feygard_fog", "value":7 },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster1", "mapName":"guynmart_wood_14" },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster2", "mapName":"swamp2" },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster3", "mapName":"swamp4" },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster4", "mapName":"swamp5" },
-					{ "rewardType":"spawnAll", "rewardID":"feygard_fogmonster5", "mapName":"swamp6" } ]
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":2
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":3
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":4
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":5
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":6
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_fog",
+                "value":7
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster1",
+                "mapName":"guynmart_wood_14"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster2",
+                "mapName":"swamp2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster3",
+                "mapName":"swamp4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster4",
+                "mapName":"swamp5"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_fogmonster5",
+                "mapName":"swamp6"
+            }
+        ]
     },
     {
         "id":"tobby",
-        "replies":[	{ "nextPhraseID":"tobby_20", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":20 }] },
-					{ "nextPhraseID":"tobby_10", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":10 }] },
-					{ "nextPhraseID":"tobby_1" }]
+        "replies":[
+            {
+                "nextPhraseID":"tobby_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tobby_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"tobby_1"
+            }
+        ]
     },
     {
         "id":"tobby_1",
@@ -1523,7 +2752,13 @@
                 "nextPhraseID":"tobby_10"
             }
         ],
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"tobby", "value":10 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":10
+            }
+        ]
     },
     {
         "id":"tobby_10",
@@ -1594,7 +2829,13 @@
                 "nextPhraseID":"tobby_22"
             }
         ],
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"tobby", "value":20 }]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":20
+            }
+        ]
     },
     {
         "id":"tobby_22",
@@ -1605,8 +2846,18 @@
                 "nextPhraseID":"X"
             }
         ],
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby", "mapName":"guynmart_wood_19" },
-					{ "rewardType":"spawnAll", "rewardID":"tobby2", "mapName":"guynmart_wood_19" } ]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby",
+                "mapName":"guynmart_wood_19"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tobby2",
+                "mapName":"guynmart_wood_19"
+            }
+        ]
     },
     {
         "id":"tobby2",
@@ -1649,75 +2900,252 @@
                 "nextPhraseID":"R"
             }
         ],
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby2", "mapName":"guynmart_wood_19" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"tobby4a", "mapName":"guynmart_wood_17b" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"tobby4b", "mapName":"guynmart_wood_17b" },
-					{ "rewardType":"questProgress", "rewardID":"tobby", "value":30 }]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby2",
+                "mapName":"guynmart_wood_19"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby3",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby4a",
+                "mapName":"guynmart_wood_17b"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby4b",
+                "mapName":"guynmart_wood_17b"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":30
+            }
+        ]
     },
     {
         "id":"tobby2_mce",
-        "replies":[	{ "nextPhraseID":"tobby2_mce_1", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":20 },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":23, "negate":true },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+        "replies":[
+            {
+                "nextPhraseID":"tobby2_mce_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":23,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"tobby2_mce_1",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby2", "mapName":"guynmart_wood_19" },
-					{ "rewardType":"spawnAll", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"questProgress", "rewardID":"tobby", "value":23 }]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby2",
+                "mapName":"guynmart_wood_19"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tobby3",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":23
+            }
+        ]
     },
     {
         "id":"tobby3_mcea",
-        "replies":[	{ "nextPhraseID":"tobby3_mcea_1", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":23 },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":24, "negate":true },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+        "replies":[
+            {
+                "nextPhraseID":"tobby3_mcea_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":24,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"tobby3_mcea_1",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"spawnAll", "rewardID":"tobby4a", "mapName":"guynmart_wood_17b" },
-					{ "rewardType":"questProgress", "rewardID":"tobby", "value":24 } ]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby3",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tobby4a",
+                "mapName":"guynmart_wood_17b"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":24
+            }
+        ]
     },
     {
         "id":"tobby3_mceb",
-        "replies":[	{ "nextPhraseID":"tobby3_mceb_1", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":23 },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":24, "negate":true },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+        "replies":[
+            {
+                "nextPhraseID":"tobby3_mceb_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":24,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"tobby3_mceb_1",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby3", "mapName":"guynmart_wood_18" },
-					{ "rewardType":"spawnAll", "rewardID":"tobby4b", "mapName":"guynmart_wood_17b" },
-					{ "rewardType":"questProgress", "rewardID":"tobby", "value":24 } ]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby3",
+                "mapName":"guynmart_wood_18"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tobby4b",
+                "mapName":"guynmart_wood_17b"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":24
+            }
+        ]
     },
     {
         "id":"tobby4_mce",
-        "replies":[	{ "nextPhraseID":"tobby4_mce_1", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":24 },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":25, "negate":true },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":30, "negate":true }] }]
+        "replies":[
+            {
+                "nextPhraseID":"tobby4_mce_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":24
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"tobby4_mce_1",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby4a", "mapName":"guynmart_wood_17b" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"tobby4b", "mapName":"guynmart_wood_17b" },
-					{ "rewardType":"spawnAll", "rewardID":"tobby5", "mapName":"guynmart_wood_17" },
-					{ "rewardType":"questProgress", "rewardID":"tobby", "value":25 }]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby4a",
+                "mapName":"guynmart_wood_17b"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby4b",
+                "mapName":"guynmart_wood_17b"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tobby5",
+                "mapName":"guynmart_wood_17"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":25
+            }
+        ]
     },
     {
         "id":"tobby5",
-        "replies":[	{ "nextPhraseID":"tobby5_1", 
-					  "requires":[{ "requireType":"questProgress", "requireID":"tobby", "value":25 },
-								  { "requireType":"questProgress", "requireID":"tobby", "value":40, "negate":true }] }]
+        "replies":[
+            {
+                "nextPhraseID":"tobby5_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"tobby5_1",
-		"switchToNPC":"tobby5",
         "message":"Wow, that was an adventure!",
+        "switchToNPC":"tobby5",
         "replies":[
             {
                 "text":"Was it? I have got used to such things by now.",
@@ -1734,9 +3162,23 @@
                 "nextPhraseID":"X"
             }
         ],
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"tobby5", "mapName":"guynmart_wood_17" },
-					{ "rewardType":"spawnAll", "rewardID":"tobby6", "mapName":"woodhouse1" },
-					{ "rewardType":"questProgress", "rewardID":"tobby", "value":40 } ]
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"tobby5",
+                "mapName":"guynmart_wood_17"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tobby6",
+                "mapName":"woodhouse1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":40
+            }
+        ]
     },
     {
         "id":"tobby6",
@@ -1757,7 +3199,13 @@
                 "nextPhraseID":"tobby6_20"
             }
         ],
-        "rewards":[ { "rewardType":"questProgress", "rewardID":"tobby", "value":50 } ]
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":50
+            }
+        ]
     },
     {
         "id":"tobby6_20",
@@ -1788,5 +3236,26 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"village_philippa_initial_phrase",
+        "message":"Thank you for rescuing us earlier!",
+        "replies":[
+            {
+                "text":"Your welcome, but I was hoping for more than gratitude.",
+                "nextPhraseID":"village_philippa_fd_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_1"
     }
 ]

@@ -159,6 +159,27 @@
     },
     {
         "id":"echoes_of_enchantment",
-        "name":"Echoes of Enchantment"
+        "name":"Echoes of Enchantment",
+        "stages":[
+            
+        ]
+    },
+    {
+        "id":"feygard_delicacy",
+        "name":"A Feygard delicacy",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me of a great Feygard afterdinner delicacy called \"Feydelight\""
+            },
+            {
+                "progress":2,
+                "logText":"Philippa has informed me that she is master baker and as a reward for rescuing her and her firends, she could make one for me if I provide her all of the ingredients."
+            },
+            {
+                "progress":3,
+                "logText":"I need to find 2 eggs, a splash of wine, butter, honey and 5 Feygard fig fruits. She has informed me that these figs can only be found in Feygard and not to return to her until I have everything in her recipe."
+            }
+        ]
     }
 ]
