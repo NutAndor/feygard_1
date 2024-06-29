@@ -161,7 +161,10 @@
         "id":"echoes_of_enchantment",
         "name":"Echoes of Enchantment",
         "stages":[
-            
+            {
+                "progress":1,
+                "logText":"- empty quests dump -"
+            }
         ]
     },
     {
