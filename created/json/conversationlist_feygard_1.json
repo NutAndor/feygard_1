@@ -3682,5 +3682,164 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"wexlow_well_script_selector",
+        "replies":[
+            {
+                "nextPhraseID":"wexlow_well_ask_to_examine"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_ask_to_examine",
+        "message":"Would you like to take a look around the well?",
+        "replies":[
+            {
+                "text":"No. I don't have time for kid's games. I am not a kid anymore, afterall.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes. What would it hurt if I did?",
+                "nextPhraseID":"wexlow_well_ask_to_examine_1"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_ask_to_examine_1",
+        "message":"As you look around, you say to yourself...",
+        "replies":[
+            {
+                "text":"There's nothing here. I should go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"This well seems oddly intact compared to the rest of the village. I wonder what's at the bottom of it?",
+                "nextPhraseID":"wexlow_well_ask_to_examine_2"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_ask_to_examine_2",
+        "message":"You notice some scattered items around the well, as if someone has been throwing things down. Do you want to throw something into the well?",
+        "replies":[
+            {
+                "text":"No. Why would I want to play a kids game?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I hope this doesn't just anger whatever's down there...",
+                "nextPhraseID":"wexlow_well_throw_something"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_throw_something",
+        "message":"You are thinking to yourself now. Trying to decide what you want to throw down into the well...",
+        "replies":[
+            {
+                "text":"[Throw a rock into the well]",
+                "nextPhraseID":"wexlow_well_throw_rock",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Throw an Oegyth Crystal]",
+                "nextPhraseID":"wexlow_well_throw_oegyth _crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Throw Glass gem]",
+                "nextPhraseID":"wexlow_well_throw_glass_gem",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gem1",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Throw gold coin]",
+                "nextPhraseID":"wexlow_well_throw_coin",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have nothing else that I am willing to throw down there.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_throw_rock",
+        "message":"Bah! Rock no good! Why throw rock at Gamjee?",
+        "switchToNPC":"well_voice",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wexlow_well_throw_something_2"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_throw_oegyth _crystal",
+        "message":"Glowing thing... pretty, but useless! Gamjee no care for it!",
+        "switchToNPC":"well_voice",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wexlow_well_throw_something_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_throw_glass_gem",
+        "message":"Very shiny! Sparkly! But still not make Gamjee happy!",
+        "switchToNPC":"well_voice",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wexlow_well_throw_something_2"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_throw_coin",
+        "message":"Shiny coin? Gamjee not need your shiny! Keep your gold!",
+        "switchToNPC":"well_voice",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"wexlow_well_throw_something_2"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_throw_something_2",
+        "message":"You are thinking to yourself now. Trying to decide what else you want to throw down into the well..."
     }
 ]

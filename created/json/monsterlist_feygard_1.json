@@ -580,5 +580,12 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
         "phraseID":"village_theodora_start"
+    },
+    {
+        "id":"well_voice",
+        "name":"Unknown well voice",
+        "iconID":"monsters_fatboy73:64",
+        "unique":1,
+        "monsterClass":"humanoid"
     }
 ]
