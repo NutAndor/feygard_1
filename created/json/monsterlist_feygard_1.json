@@ -569,7 +569,8 @@
         "iconID":"monsters_ld1:121",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"village_theobald_start"
     },
     {
         "id":"village_theodora",

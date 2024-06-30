@@ -3604,5 +3604,83 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"village_theobald_start",
+        "message":"We are indebted to you now. Your heroicism will never be forgtten by the members of this tiny village.",
+        "replies":[
+            {
+                "text":"Why do you live in this \"tiny village\" anyway?",
+                "nextPhraseID":"village_theobald_1"
+            }
+        ]
+    },
+    {
+        "id":"village_theobald_1",
+        "message":"That is indeed an excellent question.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_theobald_2"
+            }
+        ]
+    },
+    {
+        "id":"village_theobald_2",
+        "message":"Let me explain.",
+        "replies":[
+            {
+                "text":"Please, go ahead.",
+                "nextPhraseID":"village_theobald_3"
+            }
+        ]
+    },
+    {
+        "id":"village_theobald_3",
+        "message":"You see, all eight of us were born and raised in the glorious city of Feygard. In fact, we grew up together. Best friends too! But for various resaons, things started to change for us.",
+        "replies":[
+            {
+                "text":"Really? I am intrigued to hear more.",
+                "nextPhraseID":"village_theobald_4"
+            }
+        ]
+    },
+    {
+        "id":"village_theobald_4",
+        "message":"Well, I don't want to speak for everyone else, but for Theodora and I, we began to desire a quieter, more laid back lifestyle.",
+        "replies":[
+            {
+                "text":"That makes sense. But what about the others?",
+                "nextPhraseID":"village_theobald_5"
+            },
+            {
+                "text":"But do you ever miss it? I mean, if Feygard is so glorious, then you must miss it?",
+                "nextPhraseID":"village_theobald_miss_feygard"
+            }
+        ]
+    },
+    {
+        "id":"village_theobald_5",
+        "message":"Well, like I said before, I don't want to talk for them, but Osric is my best friend, so I know he longed for the days he could raise a garden and live off the land."
+    },
+    {
+        "id":"village_theobald_miss_feygard",
+        "message":"Oh, I do miss it a lot. Well, I miss most of it a lot. I miss my family. I miss my old customers coming into my market.",
+        "replies":[
+            {
+                "text":"\"Most of it\"?",
+                "nextPhraseID":"village_theobald_miss_feygard_2"
+            }
+        ]
+    },
+    {
+        "id":"village_theobald_miss_feygard_2",
+        "message":"Yeah. I don't miss the noise and the hustle and bustle of the city at all hours of the day. It gets tiresome.",
+        "replies":[
+            {
+                "text":"Thank you for that. It really helped to hear about Feygard from one of its citizens.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
