@@ -3486,5 +3486,123 @@
     {
         "id":"village_philippa_fd_13",
         "message":"Try a bakery. They always need butter."
+    },
+    {
+        "id":"village_percival_start",
+        "message":"Thank you for rescuing us earlier! I would have done it myself but...",
+        "replies":[
+            {
+                "text":"You are pathetic?",
+                "nextPhraseID":"village_percival_rude"
+            },
+            {
+                "text":"You did not have the Shadow with you.",
+                "nextPhraseID":"village_percival_shadow"
+            }
+        ]
+    },
+    {
+        "id":"village_percival_rude",
+        "message":"Now watch it, kid!"
+    },
+    {
+        "id":"village_percival_shadow",
+        "message":"The Shadow? You don't believe in that nonsense, do you?",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Me? No way! I was just kidding. Glory be to Feygard.",
+                "nextPhraseID":"glory_be_to_feygard"
+            }
+        ]
+    },
+    {
+        "id":"glory_be_to_feygard",
+        "message":"Glory be to Feygard."
+    },
+    {
+        "id":"village_theodora_start",
+        "message":"Thank you for rescuing us earlier!",
+        "replies":[
+            {
+                "text":"It was my pleasure!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well, if was fun afterall.",
+                "nextPhraseID":"village_theodora_fun"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_fun",
+        "message":"Is that what you do?",
+        "replies":[
+            {
+                "text":"Huh?",
+                "nextPhraseID":"village_theodora_fun_2"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_fun_2",
+        "message":"You kill just for the thrill?",
+        "replies":[
+            {
+                "text":"Hah, the rhymes.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe, but as an adventurer, I like to help where I can.",
+                "nextPhraseID":"village_theodora_soldier"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_soldier",
+        "message":"I See, but with those skills of yours, you should train to be a Feygard soldier.",
+        "replies":[
+            {
+                "text":"Train? I don't need Feygard soldier training. I am already stringer than them. ",
+                "nextPhraseID":"village_theodora_soldier_2"
+            },
+            {
+                "text":"Oh, that would be my dream job. Protecting the citizens of Dhayavar!",
+                "nextPhraseID":"village_theodora_soldier_2a"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_soldier_2",
+        "message":"[While laughing uncontrollably] But you are just a kid?",
+        "replies":[
+            {
+                "text":"Um, did you already forget what I can do?",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_soldier_2a",
+        "message":"Well, when you get a little bit older, you can move to Feygard and attend their soldier training school.",
+        "replies":[
+            {
+                "text":"Wait. There's a school for learning to be a soldier?",
+                "nextPhraseID":"village_theodora_soldier_2a2"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_soldier_2a2",
+        "message":"Of course there is.",
+        "replies":[
+            {
+                "text":"Wow! What an amazing place Feygard must be.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

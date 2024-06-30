@@ -551,7 +551,8 @@
         "iconID":"monsters_ld1:140",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"village_percival_start"
     },
     {
         "id":"village_philippa",
@@ -576,6 +577,7 @@
         "iconID":"monsters_ld1:186",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"village_theodora_start"
     }
 ]
