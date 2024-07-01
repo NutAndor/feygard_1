@@ -530,12 +530,13 @@
         "movementAggressionType":"wholeMap"
     },
     {
-        "id":"village_osric",
+        "id":"wexlow_osric",
         "name":"Osric",
         "iconID":"monsters_ld1:130",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"wexlow_osric_start"
     },
     {
         "id":"village_odilia",

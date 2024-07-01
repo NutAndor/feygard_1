@@ -4166,5 +4166,45 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"wexlow_osric_start",
+        "message":"Thank you! Thank you! We men tried to rescue our wives, but you succeeded. Thank you!",
+        "replies":[
+            {
+                "text":"How did the troll manage to capture all of you without anyone noticing?",
+                "nextPhraseID":"wexlow_osric_1"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_osric_1",
+        "message":"Once the women were taken, the troll mimicked their voices, calling out to us men. We thought our wives needed help, but it was a trap.",
+        "replies":[
+            {
+                "text":"Scary.",
+                "nextPhraseID":"wexlow_osric_2"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_osric_2",
+        "message":"Each of us was lured by what we thought were our loved ones. By the time we realized the truth, it was too late.",
+        "replies":[
+            {
+                "text":"But after one of you men was grabbed, how did the last two of you stll fall for this trap?",
+                "nextPhraseID":"wexlow_osric_3"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_osric_3",
+        "message":"Each of us was taken silently and swiftly. By the time we realized something was wrong, it was too late.",
+        "replies":[
+            {
+                "text":"I guess that makes some sense.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
