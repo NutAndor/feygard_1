@@ -4112,7 +4112,58 @@
             },
             {
                 "rewardType":"mapchange",
+                "rewardID":"down",
                 "mapName":"gamjee_well_1"
+            }
+        ]
+    },
+    {
+        "id":"village_odilia_start",
+        "message":"Thank you for rescuing us earlier!",
+        "replies":[
+            {
+                "text":"How did the troll manage to capture all of you without anyone noticing?",
+                "nextPhraseID":"wexlow_odilia_explain_capture"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_odilia_explain_capture",
+        "message":"The well was enchanted. We felt a strange compulsion to visit it, especially when alone.",
+        "replies":[
+            {
+                "text":"Enchanted, how?",
+                "nextPhraseID":"wexlow_odilia_explain_capture_1"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_odilia_explain_capture_1",
+        "message":"The well has been enchanted by the troll. Anyone who draws water from it feels an inexplicable compulsion to keep returning.",
+        "replies":[
+            {
+                "text":"And you were one to draw water from the well?",
+                "nextPhraseID":"wexlow_odilia_explain_capture_2"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_odilia_explain_capture_2",
+        "message":"Yes and every night, I would awake to find myself at the well with no memory of how I got there.",
+        "replies":[
+            {
+                "text":"What?!",
+                "nextPhraseID":"wexlow_odilia_explain_capture_3"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_odilia_explain_capture_3",
+        "message":"Yes. This happened many times before that thing finally got me.",
+        "replies":[
+            {
+                "text":"Well, you are safe now.",
+                "nextPhraseID":"X"
             }
         ]
     }

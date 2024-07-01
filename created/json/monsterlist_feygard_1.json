@@ -543,7 +543,8 @@
         "iconID":"monsters_ld1:189",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"village_odilia_start"
     },
     {
         "id":"village_percival",
