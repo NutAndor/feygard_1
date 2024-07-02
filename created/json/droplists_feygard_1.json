@@ -1,27 +1,188 @@
 [
-	{	"id":"feygard_fogmonster",
-		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":10, "max":20 } }]
-	},
-	{	"id":"guynmart18_c1",
-		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":5, "max":15 } },
-					{ "itemID":"gold",		"chance":"100", "quantity":{ "min":100, "max":200 } }]
-	},
-	{	"id":"guynmart18_c2",
-		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":20, "max":30 } },
-					{ "itemID":"gold",		"chance":"100", "quantity":{ "min":300, "max":600 } }]
-	},
-	{	"id":"loot_swamphut",
-		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":1, "max":2 } },
-					{ "itemID":"gold",		"chance":"100", "quantity":{ "min":100, "max":200 } }]
-	},
-	{	"id":"swamp_witch",
-		"items":[	{ "itemID":"gem5",		"chance":"100", "quantity":{ "min":10, "max":20 } },
-					{ "itemID":"gold",		"chance":"100", "quantity":{ "min":100, "max":200 } }]
-	},
-	{	"id":"swamp3_l1",
-		"items":[	{ "itemID":"gold",		"chance":"100", "quantity":{ "min":500, "max":900 } }]
-	},
-	{	"id":"cobold",
-		"items":[	{ "itemID":"gold",		"chance":"5", "quantity":{ "min":1, "max":5 } }]
-	}
+    {
+        "id":"feygard_fogmonster",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_c1",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":200
+                }
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_c2",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":20,
+                    "max":30
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":300,
+                    "max":600
+                }
+            }
+        ]
+    },
+    {
+        "id":"loot_swamphut",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":200
+                }
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":200
+                }
+            }
+        ]
+    },
+    {
+        "id":"swamp3_l1",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":500,
+                    "max":900
+                }
+            }
+        ]
+    },
+    {
+        "id":"cobold",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"5",
+                "quantity":{
+                    "min":1,
+                    "max":5
+                }
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_boot_dl",
+        "items":[
+            {
+                "itemID":"boots1",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_gems_dl",
+        "items":[
+            {
+                "itemID":"gem2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem1",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_bone_dl",
+        "items":[
+            {
+                "itemID":"bone",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    }
 ]

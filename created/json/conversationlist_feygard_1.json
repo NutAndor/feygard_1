@@ -3991,7 +3991,7 @@
     },
     {
         "id":"wexlow_well_throw_rotten_meat",
-        "message":"Ugh! Stinky meat! Gamjee no want! You rude!",
+        "message":"Ugh! Stinky meat! Gamjee do want! But you rude!",
         "switchToNPC":"well_voice",
         "replies":[
             {
