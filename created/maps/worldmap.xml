@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="gamjee_well" x="-67108631" y="-67108713">
-    <map id="gamjee_well_jail_cells" x="-67108554" y="-67108696"/>
+  <segment id="gamjee_well" x="-67108631" y="-67108726">
+    <map id="gamjee_well_jail_cells" x="-67108599" y="-67108726"/>
     <map id="gamjee_well_1_1" x="-67108630" y="-67108713"/>
     <map id="gamjee_well_1" x="-67108631" y="-67108697"/>
+    <map id="gamjee_well_2_1" x="-67108605" y="-67108712"/>
+    <map id="gamjee_well_3_1" x="-67108615" y="-67108697"/>
   </segment>
 </worldmap>
