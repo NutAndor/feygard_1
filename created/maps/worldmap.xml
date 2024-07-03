@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="gamjee_well_caves" x="840" y="19">
+    <map id="gamjee_well_exit" x="878" y="32"/>
+    <map id="gamjee_well_1" x="840" y="19"/>
+    <map id="gamjee_well_jail_cells" x="844" y="40"/>
+  </segment>
+</worldmap>
