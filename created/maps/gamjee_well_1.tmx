@@ -213,6 +213,12 @@
   <object name="gamjee_well_boot_dl" type="container" x="32" y="352" width="32" height="32"/>
   <object name="gamjee_well_gems_dl" type="container" x="128" y="416" width="32" height="32"/>
   <object name="gamjee_well_bone_dl" type="container" x="160" y="288" width="32" height="32"/>
+  <object name="well" type="mapchange" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="gamjee_well_1_1"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
