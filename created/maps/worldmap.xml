@@ -6,5 +6,10 @@
     <map id="gamjee_well_1" x="-67108631" y="-67108697"/>
     <map id="gamjee_well_2_1" x="-67108605" y="-67108712"/>
     <map id="gamjee_well_3_1" x="-67108615" y="-67108697"/>
+    <map id="gamjee_well_4_1" x="-67108575" y="-67108712"/>
+    <map id="gamjee_well_1_2" x="-67108558" y="-67108707"/>
+    <map id="gamjee_well_1_3" x="-67108545" y="-67108707"/>
+    <map id="gamjee_well_1_4" x="-67108536" y="-67108707"/>
+    <map id="gamjee_well_exit" x="-67108530" y="-67108707"/>
   </segment>
 </worldmap>

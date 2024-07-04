@@ -184,5 +184,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"thousand_gold_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":1000,
+                    "max":1000
+                }
+            }
+        ]
     }
 ]

@@ -183,17 +183,17 @@
  </tileset>
  <layer name="Ground" width="29" height="14">
   <data encoding="base64" compression="zlib">
-   eJydlNENwyAMRJH46uwpI4SOEBBLMFaJiqXryUfSfpySEJsH5kx7hNCG+tARQyhD+1Aeek6l+InZaayA6oxB1fidY8KYLtivGXfQWIcc5q24KrYBG/dwzO8ar3nMxfX/ou4I/+NZMNfEtb5au8fswDPmah5mrmrusbzcu0z0aXaY3hzsb69eqv7nswBLeV95jH2ZSXy+CTxY4F1x2CPWW5voW1uTOu8r/9i62e9nzraYz/r6bu2xHurOQSbfFchdnTl71+ZSnsacKpjK40rJ2ZvqNcX7h+n1jeoRVTfTGyveF/0=
+   eJydlFEOhCAMRE382rMLR1g9AhAvwbFWY5vMTjro7scERcorZWqdp6maio3vQ+uhZMqH9tc1j3MV1GwNqs3fMS5c003M3mxdobkOMcwbcdXaHdh4hmLvbb7nMRfz/0U9EH5XZ2mQK9f6LveI2Ynn9632Yeao5hFLxacHTPTpGjCj87O/FTeq/zlWYCnvK4+xL1dSpr0yeLDCs+Ik2sN7axF96zlhTf2un/Sa581+P2OWwX7e11HNR0zMn+uOTP5XIFfdNXoR67kNPI0xTTDvPM7KwdlUryneP8yob1RvqLq5Pjj1FsM=
   </data>
  </layer>
  <layer name="Objects" width="29" height="14">
   <data encoding="base64" compression="zlib">
-   eJyNVNttwzAMNKAJnI9qkdoTuJnA7QRpdnDSFTpDZ3EyQoHmvxNkhOogHXRlabsHEDIEPo5HWpfQNH1smks6PdzafH7v6t1X6/sih5qFxh1SzS7WuP9C8+9jvSe/WXLdDE/4oNfHZK/FvNrzAh/EHUvNKfmM6fsl1tPiFLKh1yHZczH4zqWHa8i6jOYOuLc5Dv6TcMLdU8z9W646J+UwGI5jyUGgFmwq/nunH4D3litg9X6XPKzHOve26rjGn/2qdoTuE+M+QvXX/nTma6BesHP4PXPm976Zu5P9Qtx5Y7etZsAx1jkQ9t/S+RxijVFN1v5rr28F58oZUwedj50duXSyl+xv620ArFaD0c+rR/QbcwXs20BuqGH1Pi3oT124z0ucPnf1XHpPLLx3dZTdRz1vTm/mzvaylt/mAvr4t3+Nvz7kPdB/xfr9AMlycAE=
+   eJyNVNuNwjAQREoF4QM3cqSCQAW5qwDoIUAL1EAtgRJOuvxfBZSAV/bIw2CHjLRytNnn7NqLxTTGOpz/y6T7q/O2t+pVFPDD/8aVbUvg+FuX9KhvoFij1Gk2lvPLyz5KLvdQqMf8DjFn7206//3j0qk4VkF2/l/r5TuK2Q6xh3sVeOlEZ3jUwc/se6rJdBsX+tdaeU5cQys1djEGYLlM+mi/zfRjgF5rNSjfF4qDfMjzqBOPU/WfqnfuAN5D+F3Jnvvjmc+BcWC5eeaIn/tG7DXtl/mdPuy2cmY4uDQHQO8Wz2fnkg9zgvs1t18G5ooZgweej84OtaxpL0e581P3Xblqhb9cPqCZMVd9G1Cb5VC+jwX+wQv2uVTT7zKdpfdEkXtXO9p9y5eb01l02stUfI1laNx7/+x/X4U9gE3O7gmHcm+D
   </data>
  </layer>
  <layer name="Above" width="29" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgOMTMQBAcFiNOjFRwEI/dhOw8TIS7SbX7EhY7sYmBQDWSfnz+qGJGVTsQgFT7q6jk3stUSCOkAmqkS1LNx5ZGKqkY5+jmE0r7oHDHlSZpFT74zCXHTlzhh2wWrrxJrp2UmAUKc5h7QsVRaVIBslkwgC08qOlHmH2E0i0xZQMAuewhBA==
+   eJxjYCAOHBYjTowUcIiZMjsPE9BPCBzEov8SFjuxiYFANZJ+bGbBQBUzqlpKATlmkaqnikruvUxhGiEHUJouyTEfWxqppGKco5tPKO2Dwh1XmqRV+OAzlxw7cYUfslm48ia5dlJiFijMYe4JFUelSQXIZsEAtvCgph9h9hFKt8SUDQAsziC+
   </data>
  </layer>
  <layer name="Walkable" width="29" height="14" visible="0">
@@ -202,10 +202,10 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="northwest" type="mapchange" x="0" y="32" width="32" height="64">
+  <object name="west" type="mapchange" x="0" y="64" width="32" height="32">
    <properties>
     <property name="map" value="gamjee_well_1_1"/>
-    <property name="place" value="northeast"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
   <object name="south" type="mapchange" x="352" y="416" width="32" height="32">
@@ -214,9 +214,9 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="896" y="192" width="32" height="32">
+  <object name="east" type="mapchange" x="896" y="160" width="32" height="64">
    <properties>
-    <property name="map" value="haunted_underground_3"/>
+    <property name="map" value="gamjee_well_4_1"/>
     <property name="place" value="west"/>
    </properties>
   </object>

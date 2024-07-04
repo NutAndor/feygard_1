@@ -183,37 +183,43 @@
  </tileset>
  <layer name="Ground" width="17" height="20">
   <data encoding="base64" compression="zlib">
-   eJytVEEKwCAME3ra29Uv7Aub7INDsFi6xtU5IRdJ0rQWE4WQAK6tA3FGqLqTOmZ9Kr+oHIfhszdY2bVe+sTGzSJjUndIr2eT6Tkr9tD8DHpC85b3MrPVUzFyIL4HyINreefzZ44VLWfw5B7t/kwfkdbyWx68r1YfqJbc+VGOt7+Aferx6q167OPRjnz0bDzQ7/flf2MPWf8Gnhnd3g==
+   eJytVFsKwDAIG/RrZ289ws6wjV1wCJMW0WhHC/kzMb7ayrY1B8/e4cUgMO8qHbM6HH8rH2dSR+I1f9SpgE+fZ4+ve0OGnmjoeHJqYhzBHOqgbdXEfq3arPgISENyRf1Z4QP14w+fknNFuz9Th7VnK2bh7aeXR++FV0P0F4gOP0sj859oPxEX6aA7Rved8ZzRGPO/1yvbNw==
   </data>
  </layer>
  <layer name="Objects" width="17" height="20">
   <data encoding="base64" compression="zlib">
-   eJydlNENwjAMRJEyAXwwEyu1sAEwQsosLZv0hzXAUk85To5JeFLUVont8yXpethVmVIZxhqsBbzmkb7nsnwzLyc34pdUBvJ46xnTjPin1J0DHR4cf6F3y2Na0DNr9OKHz3Os1M6b3tPeiT/WtaF2T085FX+0nuVRv1r2/R/mza9aPfh1lnk9V5G+a+deM+bNENRS3a1M4j/nRM/ad3R3GNV7D+7g4viv8QBnEHtmeW7yX4jOt2rh8zpSzy1Ai3nXe5eVX5p7eQND+D0A
+   eJydU8ENwjAMRMoEVIKZWKmFDYARAiMwQ8sm/bABb7DUIxcTx4STrLaKfb6c67lbmbiEFIK5kgtwzjXkZ1F9Mx4FbtRPIQV4SvkM0Yz6u+o7VnSUwPUHehce0eL5gvr+/RyM3jF8+/Wp39rc6M13ujn3iyH5s1vnZ8Ijepnvl7n/g3GZqZ4P+ll+aZ9q+o6Ns2aIN32ll9bdAvafOXFniT3x13aHofWenR3U/ut6AP8gZiY8pyX3ucm1W2AtegcHp7akRbxr3WUNT3MrXuC9Okk=
   </data>
  </layer>
  <layer name="Above" width="17" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIHBYjDgxfMBCkHgzLuMQx6a+mpl4+0DgEgl2kupHbOpx2UeKGaQCQmbgChsYAIUFqe4m1Q5iADXCgpA/cKU1UgCuNEgqgLmFkrCjlltoAQD3XxK2
+   eJxjYBgFuMBhMdLUdzMTb8ZlEsyuxmIuCFgIEm8GLjtJ9SM29ZeoYAapgJAZhMIGFBakuptUO4gB1AgLQv4gJa3hArjSIKkA5hZKwo5abqEFAAAVIxBh
   </data>
  </layer>
  <layer name="Top" width="17" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF1AKHxYa3faMAFYyG/yhABwA4UgKM
+   eJxjYBgFQxUcFhtoF4xsMBr+owAdAADQyAGz
   </data>
  </layer>
  <layer name="Walkable" width="17" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEEYGRAiX50Nin6iXUPLjFizcBnLj5xZDlKzEAH5JpBbHwiq6e2GaSkK2qYQWxYkZK2STGDlDRMqj/xhRepGFkfuWbQAgMArObDHg==
+   eJzbKMbAsHEEYGRAiX50Nin6iXUPsWoJiePzAzYzkOUoMQOXmaSaQWx8kmI3qWaQkq6oYQYxYUVq2ibFDFLSMCl6yVFLjlsG2gwAWIbAAg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="west" type="mapchange" x="0" y="512" width="32" height="32"/>
   <object name="exit" type="mapchange" x="416" y="608" width="32" height="32">
    <properties>
     <property name="map" value="guynmart_wood_7"/>
     <property name="place" value="cave_enter"/>
    </properties>
   </object>
+  <object name="down" type="mapchange" x="32" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="gamjee_well_1_4"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+  <object name="thousand_gold_dl" type="container" x="96" y="192" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="death_wrecker_spawn1" type="spawn" x="448" y="512" width="96" height="32">
