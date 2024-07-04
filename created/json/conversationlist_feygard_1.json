@@ -3813,6 +3813,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":2
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"gamjee_oc_spawn",
+                "mapName":"gamjee_well_4_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"gamjee_spawn",
+                "mapName":"gamjee_well_4_1"
             }
         ]
     },

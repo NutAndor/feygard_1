@@ -54,5 +54,98 @@
                 "max":1
             }
         }
+    },
+    {
+        "id":"gamjee_key",
+        "iconID":"items_japozero:390",
+        "name":"Gamjee's prison key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Will this key unlock the prison gates?"
+    },
+    {
+        "id":"cragbreaker",
+        "iconID":"items_newb:450",
+        "name":"Cragbreaker",
+        "displaytype":"extraordinary",
+        "category":"club",
+        "description":"A massive, rugged club, capable of shattering stone and crushing enemies with ease.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":7,
+                "max":11
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":10,
+            "increaseCriticalSkill":8,
+            "increaseBlockChance":-7,
+            "setCriticalMultiplier":2.25,
+            "setNonWeaponDamageModifier":155
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"crit2",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"3"
+                }
+            ]
+        }
+    },
+    {
+        "id":"godwin_ring",
+        "iconID":"items_newb:231",
+        "name":"Godwin's ring",
+        "displaytype":"rare",
+        "category":"ring",
+        "description":"Godwin's ring. An heirloom rich with family history and the storied legacy of the glorious city of Feygard.",
+        "equipEffect":{
+            "increaseMaxHP":-5,
+            "increaseAttackChance":-25,
+            "increaseCriticalSkill":1,
+            "increaseBlockChance":25,
+            "increaseDamageResistance":3,
+            "addedConditions":[
+                {
+                    "condition":"loyalist",
+                    "magnitude":1
+                }
+            ]
+        }
+    },
+    {
+        "id":"stormcloak_rmor",
+        "iconID":"items_newb:199",
+        "name":"Stormcloak armor",
+        "displaytype":"extraordinary",
+        "category":"bdy_hv",
+        "description":"A masterfully crafted heavy armor from the glorious city of Feygard, adorned with a regal blue cape and designed to protect its wearer from the fiercest of battles.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":2
+            },
+            "increaseMaxHP":0,
+            "increaseAttackCost":2,
+            "increaseAttackChance":1,
+            "increaseBlockChance":21
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fear",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        },
+        "killEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            }
+        }
     }
 ]
