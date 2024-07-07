@@ -56,9 +56,9 @@
         }
     },
     {
-        "id":"gamjee_key",
-        "iconID":"items_japozero:390",
-        "name":"Gamjee's prison key",
+        "id":"gamjee_rope",
+        "iconID":"items_newb:493",
+        "name":"Gamjee's rope",
         "displaytype":"quest",
         "category":"other",
         "description":"Will this key unlock the prison gates?"
