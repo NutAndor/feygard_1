@@ -4216,5 +4216,312 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_hear_voices_1_1",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"concussion"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_hear_voices_1_2",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"concussion",
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_1_1",
+        "message":"As you begin to traverse the tunnels, the dim light and damp air create an eerie atmosphere. Suddenly, you stop in your tracks.",
+        "replies":[
+            {
+                "text":"[Thinking]Did I just hear... voices? No, it must be the concussion... or just the echoes playing tricks on me.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_1_2",
+        "message":"As you begin to traverse the tunnels, the dim light and damp air create an eerie atmosphere. Suddenly, you stop in your tracks.",
+        "replies":[
+            {
+                "text":"[Thinking]Did I just hear... voices? No, it's just the echoes playing tricks on me.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_2_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_hear_voices_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_2_1",
+        "message":"You press on, the voices you thought you heard earlier seem to be growing louder now. It's hard to tell if they're real or just a figment of your imagination.",
+        "replies":[
+            {
+                "text":"There it is again... I can't be imagining this, can I? I need to focus.",
+                "nextPhraseID":"gamjee_well_hear_voices_2_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_2_2",
+        "message":"We have to find a way out... this can't be the end for us.",
+        "switchToNPC":"gamjee_well_unknown_male_voice",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_hear_voices_2_3"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_2_3",
+        "message":"Stay calm, someone will come for us. We must have hope.",
+        "switchToNPC":"gamjee_well_unknown_female_voice",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_hear_voices_2_4"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_hear_voices_2_4",
+        "message":"Do you hear that? I think someone's coming...",
+        "switchToNPC":"gamjee_well_unknown_male_voice",
+        "replies":[
+            {
+                "text":"[Thinking]They're real! I must be getting closer to whoever these people are. I need to hurry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_discover_villagers_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_discover_villagers_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_discover_villagers_1",
+        "message":"You enter a larger cavern, the air thick with moisture and the scent of earth. The tunnel opens up to reveal a vast room, dimly lit by glowing fungi on the walls.",
+        "replies":[
+            {
+                "text":"This must be it... the source of those voices.",
+                "nextPhraseID":"gamjee_well_discover_villagers_2"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_discover_villagers_2",
+        "message":"As you step further into the room, you notice a large pit in the center, deep below the surface. The voices are clearer now, unmistakably human and filled with fear and hope.",
+        "replies":[
+            {
+                "text":"What's this? There are people down there!",
+                "nextPhraseID":"gamjee_well_discover_villagers_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_discover_villagers_3",
+        "message":"Look! Someone's here! Help us!",
+        "switchToNPC":"troll_hollow_godwin",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_discover_villagers_4"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_discover_villagers_4",
+        "message":"We're down here! Please, you have to get us out!",
+        "switchToNPC":"troll_hollow_theobald",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_discover_villagers_5"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_discover_villagers_5",
+        "message":"Thank you Feygard, they have found us!",
+        "switchToNPC":"troll_hollow_godelieve",
+        "replies":[
+            {
+                "text":"[Thinking]I really need to talk to these people.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"troll_hollow_godelieve_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"troll_hollow_godelieve_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":6,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"troll_hollow_godelieve_1",
+        "message":"Please! We need your help.",
+        "switchToNPC":"troll_hollow_godelieve",
+        "replies":[
+            {
+                "text":"I can see that.",
+                "nextPhraseID":"troll_hollow_godelieve_2"
+            }
+        ]
+    },
+    {
+        "id":"troll_hollow_godelieve_2",
+        "message":"Wait, you are not a Feygard soldier!",
+        "replies":[
+            {
+                "text":"And?",
+                "nextPhraseID":"troll_hollow_godelieve_3"
+            },
+            {
+                "text":"No, I am better.",
+                "nextPhraseID":"troll_hollow_godelieve_3"
+            }
+        ]
+    },
+    {
+        "id":"troll_hollow_godelieve_3",
+        "message":"No matter! We need you to find a way to free us.",
+        "replies":[
+            {
+                "text":"How?",
+                "nextPhraseID":"troll_hollow_godelieve_4"
+            },
+            {
+                "text":"Who are you people?",
+                "nextPhraseID":"troll_hollow_godelieve_no"
+            },
+            {
+                "text":"How did you guys get down here?",
+                "nextPhraseID":"troll_hollow_godelieve_no"
+            },
+            {
+                "text":"How long have you people been down here?",
+                "nextPhraseID":"troll_hollow_godelieve_no"
+            }
+        ]
+    },
+    {
+        "id":"troll_hollow_godelieve_4",
+        "message":"Go kill the giant troll that is holding us here. Then come back here to free us.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"troll_hollow_godelieve_no",
+        "message":"What?! No, no, no. I will not talk details right now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"troll_hollow_godelieve_4"
+            }
+        ]
     }
 ]

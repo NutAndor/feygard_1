@@ -226,6 +226,11 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="gamjee_well_hear_voices_2_selector" type="script" x="192" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

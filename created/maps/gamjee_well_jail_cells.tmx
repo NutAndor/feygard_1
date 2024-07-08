@@ -145,7 +145,7 @@
  </layer>
  <layer name="Objects" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgcGJmgIPXPAxYQRkvdnFSwF2g2eECDAyOQPs6GRkYPgoj5JDZuEA7I265nVjcB3KzpQjEPicaYHSQAbQrC4gVRBBiAkB2nCgDQzyZOEEUYo4jFvsigGZHiaCKOYhCwhgE1ERR8Teg2q8imOIwuQBRiHuRgTMzxB5PIPZAsg/kJ3+oXeSEXYAowo5OaLxO5oXYYwHEmdCwhPkJ5q9OPGkAW9hkiKDaNROqH2QWzI6ZSGbmAdXaI4UhNgDLIzB9VkAzvKBuRbYLWS0uAPOXmChxGJbG2EQRdqHbgS2vGohA/JZPJi4QhYRpJFr6QA6nFl6IPTDwhwlCw/RFYkmvICCIRcwKKvaLCdVPv5kQan4yQeRhakA0srwHFvsm8WLqRTYDG/iJ5gYYAIU7sn2gNAAzCyRuKILQe5cH0wwAT6Zc7Q==
+   eJy1U7FOAzEMda8SUyMVkTAzMdMNukDLAix0o2WgjIUBmPgCJHQrTP0UPgDRH6DiH5gYQCowYMsxcXM5QCfxpKfL2bFf7DgAAN06fOO5AUlcmrB+KNnzGyYYd9AE6KBeXgN4WQo+vS7Dda3cd2eKtinqbVjW6/4DY4xQ6xS5YoOtiesjBzCsyGPHeToJvT7mPrRcp2DLcY8Jq26eb7j31Rbt4us5Pq/Gdp11dpE7Xo9ANe17rSq967mgkft7vTWss4488b2UmqSu/IcZSPVmZOe1xj6econGWOU8w72bqocpyBuRuDbm2PNn1VqE+K1Mon+pa9n9jTJjCy5oPUY56a1OI9ua5drOK/LCcU8H0XzoPl0Z1hF8ZvyVuIGaH43FhK3tbe9ZqInwkYU9s4z9xKcGf7Vfz+u978eNKcYKyzCLziCgu9V6NAOSi+wtG2Ll3nWOLwFyYeQ=
   </data>
  </layer>
  <layer name="Above_Rope" width="27" height="13">
@@ -155,7 +155,7 @@
  </layer>
  <layer name="Above" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgCBdgoBv4zYRfvpORuvalQ/3GKMLAMJ0RwaYUTMfiTmLDsZ2XMrtBfkrDY9dXEQiehSMsX/MguYVAeBPyE7sophh62HSh8b/jCH9y7CIEcNlFKB1S0y4QSMfjN1YS7BIThWB8YDDlZ1qCVzyE1VAK8MUbOvhJYlgAAObsFOo=
+   eJxjYGBgCBdgoBv4zYRfvpORuvalQ/3GKMLAMJ0RwUYG13gIm3MCTc10LO4kNhzbeYlThwuA/JSGx66vIhA8C0dYvkbySzuB8CbkJ3ZRTDH0sOlC439HC39K7CIEcNlFKB1S0y4QSMfjN1YS7BIThWB8YDDlZ1qCq0TkW0oBvnhDBz+BYXGDBDcBAIYwF28=
   </data>
  </layer>
  <layer name="Top" width="27" height="13">
@@ -175,8 +175,18 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object name="gamjee_well_discover_villagers_selector" type="script" x="128" y="352" width="64" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="troll_hollow_godelieve_selector" type="script" x="384" y="288" width="128" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="troll_hollow_prisoners" type="spawn" x="608" y="192" width="64" height="64">
    <properties>
     <property name="spawngroup" value="troll_hollow_philippa"/>

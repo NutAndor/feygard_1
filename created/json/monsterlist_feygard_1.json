@@ -589,5 +589,15 @@
         "iconID":"monsters_fatboy73:64",
         "unique":1,
         "monsterClass":"humanoid"
+    },
+    {
+        "id":"gamjee_well_unknown_male_voice",
+        "name":"Unknown male voice",
+        "iconID":"monsters_fatboy73:64"
+    },
+    {
+        "id":"gamjee_well_unknown_female_voice",
+        "name":"Unknown female voice",
+        "iconID":"monsters_fatboy73:64"
     }
 ]
