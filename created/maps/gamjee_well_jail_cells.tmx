@@ -135,7 +135,7 @@
  </tileset>
  <layer name="Base" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBj+4DjbQLtg+AJQ2JIavrjU0zOeBnOagIUprd2IbA897KJEnpbuGKi0AABgsw2e
+   eJxjYBj+4DjbQLtg+AJQ2JIavrjU0zOeBnOagIUprd2IbA897KJEnpb2DFRaAADqaQ5r
   </data>
  </layer>
  <layer name="Ground" width="27" height="13">
@@ -185,6 +185,11 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="gamjee_well_post_troll_selector" type="script" x="352" y="96" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="troll_hollow_prisoners" type="spawn" x="608" y="192" width="64" height="64">
@@ -225,6 +230,12 @@
   <object name="troll_hollow_prisoners" type="spawn" x="320" y="192" width="64" height="64">
    <properties>
     <property name="spawngroup" value="troll_hollow_godwin"/>
+   </properties>
+  </object>
+  <object name="troll_hollow_osric_freed" type="spawn" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="troll_hollow_osric"/>
    </properties>
   </object>
  </objectgroup>

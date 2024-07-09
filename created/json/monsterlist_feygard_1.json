@@ -461,14 +461,16 @@
         "id":"troll_hollow_godelieve",
         "name":"Godelieve",
         "iconID":"monsters_ld1:144",
+        "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"none"
     },
     {
         "id":"troll_hollow_osric",
         "name":"Osric",
         "iconID":"monsters_ld1:130",
+        "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap"
@@ -477,6 +479,8 @@
         "id":"troll_hollow_odilia",
         "name":"Odilia",
         "iconID":"monsters_ld1:189",
+        "maxAP":10,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap"
@@ -485,6 +489,7 @@
         "id":"troll_hollow_percival",
         "name":"Percival",
         "iconID":"monsters_ld1:140",
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap"
@@ -493,6 +498,7 @@
         "id":"troll_hollow_philippa",
         "name":"Philippa",
         "iconID":"monsters_ld1:205",
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap"
@@ -501,14 +507,16 @@
         "id":"troll_hollow_theobald",
         "name":"Theobald",
         "iconID":"monsters_ld1:121",
+        "moveCost":7,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"none"
     },
     {
         "id":"troll_hollow_theodora",
         "name":"Theodora",
         "iconID":"monsters_ld1:186",
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap"
@@ -525,14 +533,16 @@
         "id":"village_godelieve",
         "name":"Godelieve",
         "iconID":"monsters_ld1:144",
+        "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"none"
     },
     {
         "id":"wexlow_osric",
         "name":"Osric",
         "iconID":"monsters_ld1:130",
+        "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",

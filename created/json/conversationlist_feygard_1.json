@@ -4523,5 +4523,99 @@
                 "nextPhraseID":"troll_hollow_godelieve_4"
             }
         ]
+    },
+    {
+        "id":"gamjee_well_post_troll_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_post_troll_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_post_troll_1",
+        "message":"Did you find something to free us from this pit?",
+        "switchToNPC":"troll_hollow_theobald",
+        "replies":[
+            {
+                "text":"Free you? No! You need to stay right where you are and think about what you have done to that troll.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":8
+                    }
+                ]
+            },
+            {
+                "text":"Matter a fact, I have. But what I have will require a lot of effort on you guys' end.",
+                "nextPhraseID":"gamjee_well_post_troll_rescue_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gamjee_rope",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_post_troll_rescue_1",
+        "message":"What is it?",
+        "replies":[
+            {
+                "text":"It's a rope. I will tie one end to this here rock and throw down the other end to you. I hope you guys have the strength to do it.",
+                "nextPhraseID":"gamjee_well_post_troll_rescue_2"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_post_troll_rescue_2",
+        "message":"We'll do anything. Please go ahead and drop the rope.",
+        "replies":[
+            {
+                "text":"[Tie the rope to the rock]",
+                "nextPhraseID":"gamjee_well_post_troll_rescue_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gamjee_rope",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_post_troll_rescue_3",
+        "message":"We are finally free!",
+        "switchToNPC":"troll_hollow_osric",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":10
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"troll_hollow_prisoners",
+                "mapName":"gamjee_well_jail_cells"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"troll_hollow_osric_freed",
+                "mapName":"gamjee_well_jail_cells"
+            }
+        ]
     }
 ]

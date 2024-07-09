@@ -185,6 +185,24 @@
             {
                 "progress":6,
                 "logText":"I learned that these people are held captive by a troll and they need me to find a way to free them."
+            },
+            {
+                "progress":7,
+                "logText":"I met the troll named Gamjee and listened to what he had to say."
+            },
+            {
+                "progress":8,
+                "logText":"I've decided that Gamjee did what he needed to do to survive and thus I have let him live.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            },
+            {
+                "progress":9,
+                "logText":"I killed gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit."
+            },
+            {
+                "progress":10,
+                "logText":"The villagers have been freed. I should visit them back in their village of Wexlow."
             }
         ]
     },
