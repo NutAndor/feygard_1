@@ -536,10 +536,11 @@
         "id":"village_godelieve",
         "name":"Godelieve",
         "iconID":"monsters_ld1:144",
-        "moveCost":10,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"none"
+        "movementAggressionType":"none",
+        "phraseID":"village_godelieve_selector"
     },
     {
         "id":"wexlow_osric",

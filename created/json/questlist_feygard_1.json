@@ -228,6 +228,12 @@
             {
                 "progress":13,
                 "logText":"After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit."
+            },
+            {
+                "progress":14,
+                "logText":"I've visited the people of Wexlow Village after the made it home. They are happy to sleep in their own beds now.",
+                "rewardExperience":500,
+                "finishesQuest":1
             }
         ]
     },

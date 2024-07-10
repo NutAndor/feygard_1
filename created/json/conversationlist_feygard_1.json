@@ -5161,5 +5161,51 @@
     {
         "id":"gamjee_cave_key",
         "message":"Too bad this tree is in the way."
+    },
+    {
+        "id":"village_godelieve_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_godelieve_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":14,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"village_godelieve_generic"
+            }
+        ]
+    },
+    {
+        "id":"village_godelieve_1",
+        "message":"Oh, our hero returns to us.",
+        "replies":[
+            {
+                "text":"I'm just happy to see you guys safe.",
+                "nextPhraseID":"village_godelieve_2"
+            }
+        ]
+    },
+    {
+        "id":"village_godelieve_2",
+        "message":"I'm just happy to curl up with Godwin in our own bed tonight.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"echoes_of_enchantment",
+                "value":14
+            }
+        ]
+    },
+    {
+        "id":"village_godelieve_generic",
+        "message":"It's very nice to see you again."
     }
 ]
