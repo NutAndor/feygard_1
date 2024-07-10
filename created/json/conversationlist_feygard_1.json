@@ -5207,5 +5207,148 @@
     {
         "id":"village_godelieve_generic",
         "message":"It's very nice to see you again."
+    },
+    {
+        "id":"village_godwin_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_godwin_lost_ring_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":7,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_1",
+        "message":"Have you by any chance seen my weeding ring? Oh my, Godelieve is going to kill me when she sees it's missing.",
+        "replies":[
+            {
+                "text":"What does it look like?",
+                "nextPhraseID":"village_godwin_lost_ring_2"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_2",
+        "message":"Um, let me think. Oh, yeah, I remember. It's black, gold and covered in emeralds.",
+        "replies":[
+            {
+                "text":"\"Oh, yeah, I remember\"? What? Don't you know what it lookis like?",
+                "nextPhraseID":"village_godwin_lost_ring_3"
+            },
+            {
+                "text":"Actually, this is your lucky day. I have it here.",
+                "nextPhraseID":"village_godwin_lost_ring_4",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"godwin_ring",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_3",
+        "message":"Leave me alone. I don't need you questioning me under this stressful situation."
+    },
+    {
+        "id":"village_godwin_lost_ring_4",
+        "message":"Your messing with me, right? Give it to me, please.",
+        "replies":[
+            {
+                "text":"Sure. Here it's yours.",
+                "nextPhraseID":"village_godwin_lost_ring_take_ring",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"godwin_ring",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"What do you want to give me in exchange for your wife not \"killing you\"?",
+                "nextPhraseID":"village_godwin_lost_ring_5"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_take_ring",
+        "message":"Thank you so much! Here take these coins.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":2000
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_5",
+        "message":"Give you? How about 2000 gold coins?",
+        "replies":[
+            {
+                "text":"Sounds good.",
+                "nextPhraseID":"village_godwin_lost_ring_take_ring"
+            },
+            {
+                "text":"Hey Godelieve, did you hear what happened to Godwin?",
+                "nextPhraseID":"village_godwin_lost_ring_godelieve"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_godelieve",
+        "message":"No. What happened.",
+        "switchToNPC":"village_godelieve",
+        "replies":[
+            {
+                "text":"Well, he los...",
+                "nextPhraseID":"village_godwin_lost_ring_godelieve_2"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_godelieve_2",
+        "message":"NEVER MIND! Godelieve, this kid is being silly. You can go back to whatever it is that you were doing.",
+        "switchToNPC":"village_godwin",
+        "replies":[
+            {
+                "text":"3000 gold or no ring.",
+                "nextPhraseID":"village_godwin_lost_ring_3k"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_3k",
+        "message":"Fine! Take the coins you thief.",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"godwin_ring",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":3000
+            }
+        ]
     }
 ]

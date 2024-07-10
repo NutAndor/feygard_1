@@ -128,6 +128,10 @@
             {
                 "progress":6,
                 "logText":"Gamjee, the troll under the village of Wexlow has sent the villager back to Wexlow."
+            },
+            {
+                "progress":7,
+                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring."
             }
         ]
     },

@@ -530,7 +530,8 @@
         "iconID":"monsters_ld1:134",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"village_godwin_selector"
     },
     {
         "id":"village_godelieve",
