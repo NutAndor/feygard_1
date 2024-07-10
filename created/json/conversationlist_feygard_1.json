@@ -5157,5 +5157,9 @@
                 "mapName":"gamjee_well_jail_cells"
             }
         ]
+    },
+    {
+        "id":"gamjee_cave_key",
+        "message":"Too bad this tree is in the way."
     }
 ]
