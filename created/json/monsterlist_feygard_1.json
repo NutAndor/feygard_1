@@ -403,6 +403,7 @@
             "min":10,
             "max":13
         },
+        "phraseID":"gamjee_selector",
         "attackCost":6,
         "attackChance":70,
         "criticalSkill":15,
@@ -432,6 +433,7 @@
             "min":10,
             "max":13
         },
+        "phraseID":"gamjee_selector",
         "attackCost":6,
         "attackChance":70,
         "criticalSkill":15,

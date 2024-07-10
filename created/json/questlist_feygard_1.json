@@ -111,7 +111,23 @@
             },
             {
                 "progress":2,
-                "logText":"2 = The PC threw an Oegyth Crystal down the well in Wexlow Village."
+                "logText":"The PC threw an Oegyth Crystal down the well in Wexlow Village."
+            },
+            {
+                "progress":3,
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow without knowing the Gamjee has those villagers held captive."
+            },
+            {
+                "progress":4,
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow after learning that Gamjee has those villagers held captive."
+            },
+            {
+                "progress":5,
+                "logText":"Gamjee, the troll under the village of Wexlow has called a human with magic water."
+            },
+            {
+                "progress":6,
+                "logText":"Gamjee, the troll under the village of Wexlow has sent the villager back to Wexlow."
             }
         ]
     },
@@ -201,8 +217,20 @@
                 "logText":"I killed gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit."
             },
             {
+                "progress":11,
+                "logText":"I killed gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier."
+            },
+            {
                 "progress":10,
                 "logText":"The villagers have been freed. I should visit them back in their village of Wexlow."
+            },
+            {
+                "progress":12,
+                "logText":"The villagers and Gamjee agreed to a schedule for using the well, ensuring everyone has access to water without conflict. But the villagers are still in the pit."
+            },
+            {
+                "progress":13,
+                "logText":"After the villagers and Gamjee agreed to a compromise, Gamjee has given me a rope and instructed me to use it to free the remaining villagers in the pit."
             }
         ]
     },

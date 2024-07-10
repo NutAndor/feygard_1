@@ -217,7 +217,7 @@
     <property name="spawngroup" value="troll_hollow_osric"/>
    </properties>
   </object>
-  <object name="troll_hollow_prisoners" type="spawn" x="480" y="192" width="32" height="64">
+  <object name="troll_hollow_percival_spawn" type="spawn" x="480" y="192" width="32" height="64">
    <properties>
     <property name="spawngroup" value="troll_hollow_percival"/>
    </properties>
