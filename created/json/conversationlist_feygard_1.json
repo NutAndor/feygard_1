@@ -4535,6 +4535,12 @@
                         "requireType":"questProgress",
                         "requireID":"echoes_of_enchantment",
                         "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+                        "negate":true
                     }
                 ]
             }
@@ -4546,17 +4552,6 @@
         "switchToNPC":"troll_hollow_theobald",
         "replies":[
             {
-                "text":"Free you? No! You need to stay right where you are and think about what you have done to that troll.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"echoes_of_enchantment",
-                        "value":8
-                    }
-                ]
-            },
-            {
                 "text":"Matter a fact, I have. But what I have will require a lot of effort on you guys' end.",
                 "nextPhraseID":"gamjee_well_post_troll_rescue_1",
                 "requires":[
@@ -4564,6 +4559,18 @@
                         "requireType":"inventoryKeep",
                         "requireID":"gamjee_rope",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Not yet, but I'm working on it.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gamjee_rope",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
@@ -5104,5 +5111,8 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"gamjee_well_osric_1"
     }
 ]

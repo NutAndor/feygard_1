@@ -475,7 +475,8 @@
         "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"none",
+        "phraseID":"gamjee_well_osric_1"
     },
     {
         "id":"troll_hollow_odilia",
