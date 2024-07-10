@@ -208,11 +208,13 @@
             },
             {
                 "progress":9,
-                "logText":"I killed gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit."
+                "logText":"I killed gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit.",
+                "rewardExperience":1200
             },
             {
                 "progress":11,
-                "logText":"I killed gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier."
+                "logText":"I killed gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier.",
+                "rewardExperience":1000
             },
             {
                 "progress":10,
@@ -220,7 +222,8 @@
             },
             {
                 "progress":12,
-                "logText":"The villagers and Gamjee agreed to a schedule for using the well, ensuring everyone has access to water without conflict. But the villagers are still in the pit."
+                "logText":"The villagers and Gamjee agreed to a schedule for using the well, ensuring everyone has access to water without conflict. But the villagers are still in the pit.",
+                "rewardExperience":2000
             },
             {
                 "progress":13,

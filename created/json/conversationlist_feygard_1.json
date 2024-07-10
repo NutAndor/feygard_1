@@ -5113,6 +5113,49 @@
         ]
     },
     {
-        "id":"gamjee_well_osric_1"
+        "id":"gamjee_well_osric_1",
+        "message":"Please meet us back to Wexlow Village.",
+        "replies":[
+            {
+                "text":"Sounds good.",
+                "nextPhraseID":"gamjee_well_osric_2"
+            },
+            {
+                "text":"Wexlow Village? Where's that?",
+                "nextPhraseID":"gamjee_well_osric_3"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_osric_2",
+        "message":"Bye.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"troll_hollow_osric_freed",
+                "mapName":"gamjee_well_jail_cells"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_osric_3",
+        "message":"Didn't you find us after visiting our village and our well?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"gamjee_well_osric_4"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_well_osric_4",
+        "message":"Yes, that place. I am leaving now. I will see you there.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"troll_hollow_osric_freed",
+                "mapName":"gamjee_well_jail_cells"
+            }
+        ]
     }
 ]
