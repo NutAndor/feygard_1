@@ -5350,5 +5350,9 @@
                 "value":3000
             }
         ]
+    },
+    {
+        "id":"prevent_walk_into_pit",
+        "message":"What good are you to these people if you're down there with them?"
     }
 ]

@@ -135,22 +135,22 @@
  </tileset>
  <layer name="Base" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBj+4DjbQLtg+AJQ2JIavrjU0zOeBnOagIUprd2IbA897KJEnpb2DFRaAADqaQ5r
+   eJxjYBj+4DjbQLtg+AJQ2MLCl9hwxqWOnvE0mNMELExp7UZke+hhFyXytLRnoNICAHgADzg=
   </data>
  </layer>
  <layer name="Ground" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJzjZWZguMPGwGAApGWBWA6KeZDYlPJ5kDDILhDWZ4bYSW0si2QXLxAfB9rlJQKhqY1BfuCG2iXPTBs7kDE31E+GBOwiN+yw2UXITU5k+NtKBLtdEXji6QQVwxAUXxk0ShPY7CImHAfCLnRAql08JNpFqp9A5QRy2YHPPpgcKF5hZQw2dYpY4h2mB90u5LBEl0Mvz3DZh08vAAhtxvI=
+   eJzjZWZguMPGwGAApGWBWA6KeZDYlPJ5kDDILhDWZ4bYSW0si2QXLxAfB9rlJQKhqY1BfuCG2iXPTBs7kDE31E+GBOwiN+yw2UXITU7M2Nn4sJUIdrsi8MTTCSqGISi+MmiUJrDZRUw4DoRd6IBUu3hItItUP4HKCeSyA599MDlQvMLKGGzqFLHEO0wPul3IYYkuh16e4bIPn14AVtLGag==
+  </data>
+ </layer>
+ <layer name="Object_Rope" width="27" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxlM56efXcvpaNd2Oto1CkYBLQAAxIkCIw==
   </data>
  </layer>
  <layer name="Objects" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJy1VLFOAzEMda8SUyMVkTAzMcMGXaBlARa6tWUAxsIATHwBEuoKUz+FD0D0B0D8AxMDSAUGbNkmbu4O0Ek86elyduwX+5wDAOjU4RvPDSjEhYvr+5I9v2GCcb0mQBv1RjWAl4Xos+syXNXKfbcub3tEvXXPep1/YIohap0gl3y0NXF9EAAOK/IocJ52gV4fc+97rlOxGbjHhOUwyzfc++rzdvV1A5/XYqvOOjvIbdEjUE17olWld12pq+d4Fgg3jnXWkMfSS61J6xr9MANFvRn6qEUYSzzlUo2xyXmKezdMD4ugd0TjWphjV85qtQjpXZkk71rXYvgbdcbmQtR6SHL23exMEFY813ZWkeeBezpI5sP26dKxjuIzk/NI3MDMj8V8ga0ltnfJof+fjyzumWbsJz41+Gn9dl7vpB/XLh+rLMM0OYOCvq3VoxnQXGRf9TFWv7vN8QX6JWIq
-  </data>
- </layer>
- <layer name="Above_Rope" width="27" height="13">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFwxlM56efXcvpaNd2Oto1CkYBLQAAxIkCIw==
+   eJy1VLFOAzEMda8SUyMVkTAzMcMGXaBlARa6tWUAxsIATHwBEuoKUz+FD0D0B0D8AxMDSIUO2LJN3NwdVJV40tPl7Ngv9jkHANCqwg9ea1CIKxfXjyV7/sII4zp1gCbqDSoAb0vRZ9dluKmU++5d3vaMepue9Vr/wBR91DpDrvhoq+P6KAAcz8mTwHmaBXpdzH3ouU7FduAeE1bDND9w77vP29XXDnxei50q6+whd0WPQDUdiJbtx6y9a0tdHcezQLhzrLOBPJVeak1a1+CXGSjqTd9HLcJQ4imXagxNznPcu2V6WAS9IxrXwBz7clarRUjvyih517qWw2zUGVsIUespydl10zNBWPNc28WcvAzc014yH7ZP1451FJNMziNxPTM/FosFtobYPiWH/n++srhnnLGf+FLjp/XbeX2Qfty6fKyyDOPkDAr6tlaPZkBzkX3dx1j97jbHNx44YeU=
   </data>
  </layer>
  <layer name="Above" width="27" height="13">
@@ -165,7 +165,7 @@
  </layer>
  <layer name="Walkable" width="27" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB3FVMHEAmLVIptLil3UcD+97CIl/EgJY1x6SPEXNe3CZx6144sct5MCSPEXNe3Bl3ZIzY+khDEl8YNPHgC4aUNo
+   eJxzFWBgcB3FVMHEAmLVIptLil3o6shxP73sIiX8SAljXHpI8Rc17cJnHjXSG7lpkRxAir+oaQ++tENqfiQljCmJH3zyAHavQr4=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -190,8 +190,9 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="gamjee_pit_dl" type="container" x="672" y="192" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="troll_hollow_prisoners" type="spawn" x="608" y="192" width="64" height="64">
    <properties>
     <property name="spawngroup" value="troll_hollow_philippa"/>
@@ -239,11 +240,20 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0">
-  <object name="gamjee_well_pit" type="replace" x="256" y="192" width="32" height="64">
+ <objectgroup name="Keys">
+  <object name="prevent_walk_into_pit_key" type="key" x="384" y="128" width="32" height="32">
    <properties>
-    <property name="Above" value="Above_Rope"/>
+    <property name="phrase" value="prevent_walk_into_pit"/>
+    <property name="requireId" value="echoes_of_enchantment"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="gamjee_well_pit" type="replace" x="384" y="128" width="32" height="96">
+   <properties>
+    <property name="Objects" value="Object_Rope"/>
     <property name="requireId" value="echoes_of_enchantment"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="10"/>
