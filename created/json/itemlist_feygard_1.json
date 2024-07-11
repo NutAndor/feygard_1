@@ -147,5 +147,13 @@
                 "max":2
             }
         }
+    },
+    {
+        "id":"mysterious_coin",
+        "iconID":"items_misc:10",
+        "name":"Mysterious coin",
+        "displaytype":"rare",
+        "category":"money",
+        "description":"Glows faintly in the dark and has runes that change patterns."
     }
 ]
