@@ -5354,5 +5354,55 @@
     {
         "id":"prevent_walk_into_pit",
         "message":"What good are you to these people if you're down there with them?"
+    },
+    {
+        "id":"coin_collector_troll_coins",
+        "message":"Ah, these are Enchanted Coins, crafted by ancient wizards who once drew magic from the well\u2019s waters. The runes on these coins change patterns, a sign of their magical origin. Such artifacts are rare indeed.",
+        "replies":[
+            {
+                "text":"What can you tell me about their enchantment?",
+                "nextPhraseID":"coin_collector_troll_coins_2"
+            },
+            {
+                "text":"Boring.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_troll_coins_2",
+        "message":"The coins hold a faint echo of the well's enchantment. Though their magic is subtle, they carry the essence of the well's power. As a token of my gratitude for bringing these to me, I offer you this rare artifact in exchange for three of these coins. It is imbued with protective magic, much like these coins.",
+        "replies":[
+            {
+                "text":"Without knowing more about this \"rare artifact\", I'm afraid that I will have to pass on your offer.",
+                "nextPhraseID":"coin_collector_troll_coins_3a"
+            },
+            {
+                "text":"Umm, I guess I can trust you now.",
+                "nextPhraseID":"coin_collector_troll_coins_3b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mysterious_coin",
+                        "value":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_troll_coins_3a",
+        "message":"Well, if you change your mind, I will be here."
+    },
+    {
+        "id":"coin_collector_troll_coins_3b",
+        "message":"For your effort in retrieving these valuable coins, take this rare artifact. It is a relic from the same era as the coins, crafted with similar enchantments. It will serve you well in your journeys, offering protection and a touch of ancient abilities.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"circlet_clarity",
+                "value":1
+            }
+        ]
     }
 ]

@@ -1,0 +1,23 @@
+[
+    {
+        "id":"gylew",
+        "name":"Gylew",
+        "iconID":"monsters_mage2:0",
+        "maxHP":180,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
+        "spawnGroup":"gylew",
+        "phraseID":"gylew",
+        "droplistID":"gylew_dl",
+        "attackCost":5,
+        "attackChance":60,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":40
+    }
+]

@@ -155,5 +155,47 @@
         "displaytype":"rare",
         "category":"money",
         "description":"Glows faintly in the dark and has runes that change patterns."
+    },
+    {
+        "id":"circlet_clarity",
+        "iconID":"items_newb:258",
+        "name":"Circlet of clarity",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":4127,
+        "category":"ring",
+        "description":"An ancient artifact that shields the wearer from mental afflictions, offering protection and peace of mind.",
+        "equipEffect":{
+            "increaseMaxHP":-15,
+            "increaseAttackChance":-10,
+            "increaseBlockChance":-10,
+            "increaseDamageResistance":3
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"dazed",
+                    "magnitude":-99,
+                    "duration":3,
+                    "chance":"100"
+                },
+                {
+                    "condition":"mind_fog",
+                    "magnitude":-99,
+                    "duration":2,
+                    "chance":"100"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"confusion",
+                    "magnitude":-99,
+                    "duration":4,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
