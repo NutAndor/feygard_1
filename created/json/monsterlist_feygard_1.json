@@ -614,5 +614,18 @@
         "id":"gamjee_well_unknown_female_voice",
         "name":"Unknown female voice",
         "iconID":"monsters_fatboy73:64"
+    },
+    {
+        "id":"rosmara",
+        "name":"Rosmara",
+        "iconID":"monsters_ld1:180",
+        "monsterClass":"humanoid",
+        "droplistID":"rosmara_dl"
+    },
+    {
+        "id":"rosmara_cat",
+        "name":"Mean cat",
+        "iconID":"monsters_cats:1",
+        "phraseID":"mean_cat"
     }
 ]
