@@ -5408,5 +5408,170 @@
     {
         "id":"mean_cat",
         "message":"Hsss!"
+    },
+    {
+        "id":"rosmara_initial_phrase",
+        "message":"How can I help you today?",
+        "replies":[
+            {
+                "text":"What is going on with that cat?",
+                "nextPhraseID":"rosmara_cat_1"
+            },
+            {
+                "text":"What is this place?",
+                "nextPhraseID":"rosmara_explain"
+            },
+            {
+                "text":"I would like to make a purchase, please.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"rosmara_cat_1",
+        "message":"Well, you see, he's my guard cat.",
+        "replies":[
+            {
+                "text":"Your guard cat?",
+                "nextPhraseID":"rosmara_cat_2"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_cat_2",
+        "message":"Yes. If you attempt to rob me, he'll attack you. Hence he is my guard cat.",
+        "replies":[
+            {
+                "text":"I see.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Seriously?",
+                "nextPhraseID":"rosmara_cat_3"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_cat_3",
+        "message":"No, not seroiusly. He guards my fruits and vegetables.",
+        "replies":[
+            {
+                "text":"Guards them from what?",
+                "nextPhraseID":"rosmara_cat_4"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_cat_4",
+        "message":"I have a business agreement with him. He guards my food from the rats in exchange for a place to sleep.",
+        "replies":[
+            {
+                "text":"Oh, why didn't you just say so?",
+                "nextPhraseID":"rosmara_cat_5"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_cat_5",
+        "message":"I wanted to waste your time just as you are doing to my time. Walking up to my business counter asking about my cat! Get lost, kid."
+    },
+    {
+        "id":"rosmara_explain",
+        "message":"This is my place of business. Right here on the side of Duleian Road.",
+        "replies":[
+            {
+                "text":"Why here? There's nothing else here besides you.",
+                "nextPhraseID":"rosmara_explain_2"
+            },
+            {
+                "text":"What do you sell?",
+                "nextPhraseID":"rosmara_explain_3"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_2",
+        "message":"Oh, you silly child. This is a very well traveled road. All the people coming and going from and to Feygard. It's a long road and they get hungry.",
+        "replies":[
+            {
+                "text":"I am not a child!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK, you sell found. What kind of food?",
+                "nextPhraseID":"rosmara_explain_3"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_3",
+        "message":"I sell things that a child such as yourself is most likely not interested in.",
+        "replies":[
+            {
+                "text":"I am not a child anymore!!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What is it?",
+                "nextPhraseID":"rosmara_explain_4"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_4",
+        "message":"I sell fruits and vegetables.",
+        "replies":[
+            {
+                "text":"As an adult, I am interested in seeing what you have.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Where do you get these fruits and vegetables?",
+                "nextPhraseID":"rosmara_explain_5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_5",
+        "message":"From all over Dhayavar, but mostly from the great farmers in Loneford.",
+        "replies":[
+            {
+                "text":"Oh, yeah. I've seen all of their great farms.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"loneford",
+                        "value":22
+                    }
+                ]
+            },
+            {
+                "text":"Loneford, where's that?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"loneford",
+                        "value":22,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

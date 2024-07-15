@@ -620,6 +620,7 @@
         "name":"Rosmara",
         "iconID":"monsters_ld1:180",
         "monsterClass":"humanoid",
+        "phraseID":"rosmara_initial_phrase",
         "droplistID":"rosmara_dl"
     },
     {

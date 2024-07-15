@@ -132,6 +132,10 @@
             {
                 "progress":7,
                 "logText":"PC gave Godwin, a villager from Wexlow, his lost ring."
+            },
+            {
+                "progress":8,
+                "logText":"PC learns that Rosmara sells fruits and vegetables"
             }
         ]
     },
