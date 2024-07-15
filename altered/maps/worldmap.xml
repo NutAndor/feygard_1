@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="1" y="-52">
+  <segment id="world1" x="-11" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -385,6 +385,8 @@
     <map id="swamp4" x="70" y="269"/>
     <map id="swamp5" x="44" y="279"/>
     <map id="swamp6" x="44" y="253"/>
+    <map id="wayto_feygard_duleian_1" x="8" y="112"/>
+    <map id="wayto_feygard_duleian_2" x="-12" y="96"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

@@ -143,14 +143,14 @@
    eJzjZWZguMPGwGAApGWBWA6KeZDYlPJ5kDDILhDWZ4bYSW0si2QXLxAfB9rlJQKhqY1BfuCG2iXPTBs7kDE31E+GBOwiN+yw2UXITU7M2Nn4sJUIdrsi8MTTCSqGISi+MmiUJrDZRUw4DoRd6IBUu3hItItUP4HKCeSyA599MDlQvMLKGGzqFLHEO0wPul3IYYkuh16e4bIPn14AVtLGag==
   </data>
  </layer>
- <layer name="Object_Rope" width="27" height="13">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFwxlM56efXcvpaNd2Oto1CkYBLQAAxIkCIw==
-  </data>
- </layer>
  <layer name="Objects" width="27" height="13">
   <data encoding="base64" compression="zlib">
    eJy1VLFOAzEMda8SUyMVkTAzMcMGXaBlARa6tWUAxsIATHwBEuoKUz+FD0D0B0D8AxMDSIUO2LJN3NwdVJV40tPl7Ngv9jkHANCqwg9ea1CIKxfXjyV7/sII4zp1gCbqDSoAb0vRZ9dluKmU++5d3vaMepue9Vr/wBR91DpDrvhoq+P6KAAcz8mTwHmaBXpdzH3ouU7FduAeE1bDND9w77vP29XXDnxei50q6+whd0WPQDUdiJbtx6y9a0tdHcezQLhzrLOBPJVeak1a1+CXGSjqTd9HLcJQ4imXagxNznPcu2V6WAS9IxrXwBz7clarRUjvyih517qWw2zUGVsIUespydl10zNBWPNc28WcvAzc014yH7ZP1451FJNMziNxPTM/FosFtobYPiWH/n++srhnnLGf+FLjp/XbeX2Qfty6fKyyDOPkDAr6tlaPZkBzkX3dx1j97jbHNx44YeU=
+  </data>
+ </layer>
+ <layer name="Object_Rope" width="27" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxlM56efXcvpaNd2Oto1CkYBLQAAxIkCIw==
   </data>
  </layer>
  <layer name="Above" width="27" height="13">
@@ -165,7 +165,7 @@
  </layer>
  <layer name="Walkable" width="27" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcB3FVMHEAmLVIptLil3o6shxP73sIiX8SAljXHpI8Rc17cJnHjXSG7lpkRxAir+oaQ++tENqfiQljCmJH3zyAHavQr4=
+   eJxzFWBgcB3FVMHEAmLVIptLil3UcD+97CIl/EgJY1x6SPEXNe3CZx6144sct5MCSPEXNe3Bl3ZIzY+khDEl8YNPHgC4aUNo
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -190,7 +190,6 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="gamjee_pit_dl" type="container" x="672" y="192" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="troll_hollow_prisoners" type="spawn" x="608" y="192" width="64" height="64">
@@ -240,20 +239,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
-  <object name="prevent_walk_into_pit_key" type="key" x="384" y="128" width="32" height="32">
-   <properties>
-    <property name="phrase" value="prevent_walk_into_pit"/>
-    <property name="requireId" value="echoes_of_enchantment"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace">
   <object name="gamjee_well_pit" type="replace" x="384" y="128" width="32" height="96">
    <properties>
-    <property name="Objects" value="Object_Rope"/>
+    <property name="Above" value="Above_Rope"/>
     <property name="requireId" value="echoes_of_enchantment"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="10"/>
