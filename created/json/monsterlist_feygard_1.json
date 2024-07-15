@@ -403,6 +403,7 @@
             "min":10,
             "max":13
         },
+		"droplistID":"gamjee_dl",
         "phraseID":"gamjee_selector",
         "attackCost":6,
         "attackChance":70,
@@ -433,6 +434,7 @@
             "min":10,
             "max":13
         },
+		"droplistID":"gamjee_oc_dl",
         "phraseID":"gamjee_selector",
         "attackCost":6,
         "attackChance":70,

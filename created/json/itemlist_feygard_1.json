@@ -115,7 +115,7 @@
         }
     },
     {
-        "id":"stormcloak_rmor",
+        "id":"stormcloak_armor",
         "iconID":"items_newb:199",
         "name":"Stormcloak armor",
         "displaytype":"extraordinary",

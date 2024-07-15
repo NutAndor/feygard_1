@@ -255,7 +255,7 @@
                 }
             },
             {
-                "itemID":"stormcloak_rmor",
+                "itemID":"stormcloak_armor",
                 "chance":"100",
                 "quantity":{
                     "min":1,
