@@ -184,6 +184,7 @@
     {
         "id":"echoes_of_enchantment",
         "name":"Echoes of Enchantment",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
@@ -248,6 +249,7 @@
     {
         "id":"feygard_delicacy",
         "name":"A Feygard delicacy",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
