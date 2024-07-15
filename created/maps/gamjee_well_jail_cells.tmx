@@ -128,7 +128,7 @@
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5301" name="map_transition_5" tilewidth="32" tileheight="32">
-  <image source="../../altered/spritesheets/map_transition_5.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5429" name="map_transition_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_2.png" width="512" height="256"/>
