@@ -4692,6 +4692,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"troll_hollow_percival_spawn",
                 "mapName":"gamjee_well_jail_cells"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wexlow_villagers_spawn",
+                "mapName":"wexlow_village"
             }
         ]
     },
@@ -5127,6 +5132,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"echoes_of_enchantment",
                 "value":12
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wexlow_villagers_spawn",
+                "mapName":"wexlow_village"
             }
         ]
     },

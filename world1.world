@@ -167,6 +167,27 @@
             "width": 960,
             "x": -2624,
             "y": -5024
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_4.tmx",
+            "height": 960,
+            "width": 480,
+            "x": -992,
+            "y": -3488
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -480,
+            "y": -3488
+        },
+        {
+            "fileName": "created/maps/wexlow_village.tmx",
+            "height": 480,
+            "width": 960,
+            "x": -992,
+            "y": -4000
         }
     ],
     "onlyShowAdjacentMaps": false,

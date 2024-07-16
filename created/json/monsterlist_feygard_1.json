@@ -403,8 +403,8 @@
             "min":10,
             "max":13
         },
-		"droplistID":"gamjee_dl",
         "phraseID":"gamjee_selector",
+        "droplistID":"gamjee_dl",
         "attackCost":6,
         "attackChance":70,
         "criticalSkill":15,
@@ -434,8 +434,8 @@
             "min":10,
             "max":13
         },
-		"droplistID":"gamjee_oc_dl",
         "phraseID":"gamjee_selector",
+        "droplistID":"gamjee_oc_dl",
         "attackCost":6,
         "attackChance":70,
         "criticalSkill":15,
@@ -603,19 +603,19 @@
     {
         "id":"well_voice",
         "name":"Unknown well voice",
-        "iconID":"monsters_fatboy73:64",
+        "iconID":"monsters_unknown:0",
         "unique":1,
         "monsterClass":"humanoid"
     },
     {
         "id":"gamjee_well_unknown_male_voice",
         "name":"Unknown male voice",
-        "iconID":"monsters_fatboy73:64"
+        "iconID":"monsters_unknown:0"
     },
     {
         "id":"gamjee_well_unknown_female_voice",
         "name":"Unknown female voice",
-        "iconID":"monsters_fatboy73:64"
+        "iconID":"monsters_unknown:0"
     },
     {
         "id":"rosmara",

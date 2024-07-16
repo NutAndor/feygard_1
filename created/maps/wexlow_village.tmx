@@ -184,79 +184,89 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJzllT0OwjAMRq1snTv2zsDUDRgbxoipcAGkkI2ZiYOQCFf5ZJKoFASqGJ6UX7/Yg2MqIsNc6oipntkDuN4rogNz9FyZM9DDfpjj/VsdecVrIb4DL2LZO+zj/UVDtPSsmrS35JaxUuTOrL1v49lO8H6DX3v/Mee51PrEzNUr11v1oOQseS33lrG5BpdmhnHOOTVf6Qxv7MCruQ/vCnl/qsad6P1OeHO1f9erVfwfXKLmOA/cAdH0Skg=
+   eJzbyMnAsHEUj+JRPIrJwJuheKDdMYpHMSUYAEWGRwg=
   </data>
  </layer>
  <layer name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJyNVEtKA0EQLUbQbdpAZuPcQr1BPIBEDyDqRcQjiCfIAQKDG/dOAroRdaHGLISY304QXAhWMV1MdU316IOmpz/T79Wr6h50AB4ygEdsGjw/cgBFJ1wb+nF7s/4fY+riawcpwCG2XPHut8Kx5l3geK7mYrhLyv7W93PUc4Kcp2m153Md4HUL4KgVavlCjpdIzOOkPKuXVnGQT4Os8oz2EO/Ecy9d6PPaBsAKee8FB69zzHvtkJdAnF1s2z6OWO5IS1/o4f7D50T7bsXMXtPe47Ty7kblVXMQLE2Efhb+w4jVl6Vz5uqcpOmpoZYlZ1Oeh0Zt6TP1uJfWOWM6FsK7wvCacOWa4+C666r8j1yd27qfltd9g0t7vCvujc73X/hpeEN0PUlurnc9r3GG9+zc37WVOG+KHEvB+4zf3358kVTzucqn5CQw539jtmIljW8u5L5MypYrfxkxvrF4WwgcfxGJVXLyu8Lgu01tx/BaayCtMxfqKNQdyv0bGAPVm/SANWjOWE/nc27ffY1beWVM1Ny18vQXTc2xCQ==
+   eJxjYBgFo4D64KbYQLtg5IBnwLB+AcUv6Rjux4F2RQowMEQB8Qk62vsNaNcPIL4NxK/o7GeY/SC76elnZLt/juYtqgMA6h8RdQ==
   </data>
  </layer>
  <layer name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJytlbsOwjAMRa0MdGJCypavZmAG+ieFDRYeK0jwBbAjEUuNmpcdh3ClKE2d+FynaQsAsFwA9AYCPTr4WYMOx0eVxjeWubXtFXHeXepFqp1dt7dtbaZr1EGFvvzYZ5Z69uOcbjbv3baLodegl5Oe4q6fj3XX1FqaGzNQpTqktVLsHLOU18Vqn7OEEY+l9UmZVCw3r5Ud53E9nrer93z/xeHY0vutKp0Jbr9btFI8v8Q7azrWKuod68dvCyduP9Ez5TtmUr3L/xTWj7xBp/+IHLvkpUbI4/bqCxrLbBY=
+   eJxjYBgFo2AUUAtYCjAwWAnQ315PoJ1eA2DvKBgFwwEAAGzcAUc=
   </data>
  </layer>
- <layer name="Top" width="30" height="15">
+ <layer name="Walkable" width="30" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7IssABg/ZGYY8OCw2MPZeGiB7R8EoGAWjYBRQDgCBFQOb
-  </data>
- </layer>
- <layer name="Walkable" width="30" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzFlNsNwDAIAzNF918hG3YBDGdcqZH4yIuzyeM+59winFbtT+IvLmVvcqqxKi9ld3smf0mdybzKP+lW66mmLm96v2l/0rFhVnPKz9Yj4aR/haPHYSbnqs6ze8cbrsNy/ZL70nl3NBBuV7uvgtSZxgtHiq4h
+   eJxjYBgFo2AUjALywEYxCB4Fo2AoAwBW7AGP
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="192" y="448" width="352" height="32">
+  <object name="wexlow_well_script_selector" type="script" x="32" y="256" width="128" height="96">
    <properties>
-    <property name="map" value="guynmart_wood_18"/>
-    <property name="place" value="north"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="288" y="0" width="256" height="32">
+  <object name="west" type="mapchange" x="0" y="128" width="32" height="64">
    <properties>
-    <property name="map" value="wayto_feygard_duleian_1"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object name="guynmart18_passage0" type="script" x="160" y="416" width="352" height="32"/>
-  <object name="east" type="mapchange" x="928" y="128" width="32" height="64">
-   <properties>
-    <property name="map" value="wexlow_village"/>
-    <property name="place" value="west"/>
+    <property name="map" value="guynmart_wood_19"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object name="tobby" type="spawn" x="96" y="192" width="288" height="128">
-   <properties>
-    <property name="spawngroup" value="tobby"/>
-   </properties>
-  </object>
-  <object name="tobby2" type="spawn" x="128" y="96" width="32" height="32">
+ <objectgroup name="Spawn">
+  <object name="wexlow_villagers_spawn" type="spawn" x="384" y="224" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-    <property name="spawngroup" value="tobby2"/>
+    <property name="spawngroup" value="village_godwin"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Keys" visible="0">
-  <object name="dummy_key_noPhrase" type="key" x="128" y="96" width="32" height="32">
+  <object name="wexlow_villagers_spawn" type="spawn" x="416" y="224" width="32" height="32">
    <properties>
-    <property name="phrase" value="dummy_key_noPhrase"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="village_godelieve"/>
+   </properties>
+  </object>
+  <object name="wexlow_villagers_spawn" type="spawn" x="384" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="wexlow_osric"/>
+   </properties>
+  </object>
+  <object name="wexlow_villagers_spawn" type="spawn" x="416" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="village_odilia"/>
+   </properties>
+  </object>
+  <object name="wexlow_villagers_spawn" type="spawn" x="480" y="224" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="village_percival"/>
+   </properties>
+  </object>
+  <object name="wexlow_villagers_spawn" type="spawn" x="512" y="224" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="village_philippa"/>
+   </properties>
+  </object>
+  <object name="wexlow_villagers_spawn" type="spawn" x="480" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="village_theobald"/>
+   </properties>
+  </object>
+  <object name="wexlow_villagers_spawn" type="spawn" x="512" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="village_theodora"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace" visible="0"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>
