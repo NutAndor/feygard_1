@@ -3274,6 +3274,64 @@
                         "value":2
                     }
                 ]
+            },
+            {
+                "text":"I have everything that you asked for in order to bake the Feydelight.",
+                "nextPhraseID":"village_philippa_fd_all_items_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":4
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"honey",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"butter",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"guynmart_wine",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"dough",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"fig_fruit",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":7,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"eggs",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"I am wondering, is my Feydelight ready yet?",
+                "nextPhraseID":"village_philippa_fd_complete_selector",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":7
+                    }
+                ]
             }
         ]
     },
@@ -3415,7 +3473,7 @@
     },
     {
         "id":"village_philippa_fd_9",
-        "message":"I need supplies. Ingredients. To more specific, I need eleven things, but 6 unique ingredients.",
+        "message":"I need supplies. Ingredients. To be more specific, I need eleven things, but 6 unique ingredients.",
         "replies":[
             {
                 "text":"What?",
@@ -3458,7 +3516,7 @@
     },
     {
         "id":"village_philippa_fd_11",
-        "message":"Well, Brightport is known for its wondeful bakeries. I would start there. Of course, you could get some in Feygard too.",
+        "message":"Well, Brightport is known for its wondeful bakeries. I would start there. Of course, you could get some in Feygard too. But you need to seek out a baker.",
         "replies":[
             {
                 "text":"OK, but what about...",
@@ -3480,6 +3538,13 @@
             {
                 "text":"OK, but what about...",
                 "nextPhraseID":"village_philippa_fd_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":6
             }
         ]
     },
@@ -5573,5 +5638,100 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"village_philippa_fd_all_items_1",
+        "message":"Great. I will take them now. But I want to warn you, making this pie will take me a while. Come back later and it will be ready.",
+        "replies":[
+            {
+                "text":"Here, take them all.",
+                "nextPhraseID":"village_philippa_fd_all_items_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"honey",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"butter",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"dough",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"fig_fruit",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"guynmart_wine",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"eggs",
+                        "value":2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_all_items_2",
+        "message":"Come back later and it will be ready.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":7
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feydelight_baking"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_complete_selector",
+        "replies":[
+            {
+                "nextPhraseID":"village_philippa_fd_complete_yes",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feydelight_baking",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"village_philippa_fd_complete_no"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_complete_yes",
+        "message":"Yes. Please enjoy while it's hot.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_delicacy",
+                "value":8
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"feydelight",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_complete_no",
+        "message":"Sorry, no it is not. Please come back later."
     }
 ]

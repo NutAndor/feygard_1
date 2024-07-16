@@ -253,7 +253,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me that she is master baker."
+                "logText":"Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me that she is a master baker."
             },
             {
                 "progress":2,
@@ -269,11 +269,21 @@
             },
             {
                 "progress":5,
-                "logText":"She told me that I can find the dough in Brightport or Feygard."
+                "logText":"She told me that I can find the dough in Brightport or Feygard, but I could find a baker in just about any town."
             },
             {
                 "progress":6,
                 "logText":"Philippa told me that I can get honey from a beekeeper. But where to find one?"
+            },
+            {
+                "progress":7,
+                "logText":"I gave Philippa all the ingredients needed to bake the Feydelight. Now I just need to come back later."
+            },
+            {
+                "progress":8,
+                "logText":"I have received my Feydelight from Philippa. ",
+                "rewardExperience":5049,
+                "finishesQuest":1
             }
         ]
     }
