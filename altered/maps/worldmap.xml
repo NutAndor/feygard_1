@@ -403,5 +403,6 @@
     <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
+    <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
   </segment>
 </worldmap>
