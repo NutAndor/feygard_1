@@ -4940,6 +4940,10 @@
             {
                 "text":"I see. You acted out of fear and desperation. I'll help you find a peaceful solution.",
                 "nextPhraseID":"gamjee_compromise_1"
+            },
+            {
+                "text":"It's time to make me righteous!",
+                "nextPhraseID":"F"
             }
         ]
     },
