@@ -497,7 +497,8 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "phraseID":"perciva_int_phrasel"
     },
     {
         "id":"troll_hollow_philippa",
