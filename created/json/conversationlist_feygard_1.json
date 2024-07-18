@@ -5300,7 +5300,20 @@
     },
     {
         "id":"village_godelieve_generic",
-        "message":"It's very nice to see you again."
+        "message":"It's very nice to see you again.",
+        "replies":[
+            {
+                "text":"Would it be OK with you if I slept here? I'm pretty tired.",
+                "nextPhraseID":"village_godelieve_bed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":12
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"village_godwin_selector",
@@ -5766,5 +5779,20 @@
     {
         "id":"perciva_int_phrasel",
         "message":"What are you doing? Help us!"
+    },
+    {
+        "id":"village_godelieve_bed",
+        "message":"Of course. Just use the mat over there in the corner.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":9
+            }
+        ]
+    },
+    {
+        "id":"wexlow_key_bed_not_allowed",
+        "message":"Oh, this sleep quarters stinck so terribly that you don't won't to get any closer."
     }
 ]

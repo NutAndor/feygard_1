@@ -136,6 +136,10 @@
             {
                 "progress":8,
                 "logText":"PC learns that Rosmara sells fruits and vegetables"
+            },
+            {
+                "progress":9,
+                "logText":"PC can sleep in Wexlow Village."
             }
         ]
     },
