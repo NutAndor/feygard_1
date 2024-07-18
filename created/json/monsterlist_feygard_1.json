@@ -631,5 +631,13 @@
         "name":"Mean cat",
         "iconID":"monsters_cats:1",
         "phraseID":"mean_cat"
+    },
+    {
+        "id":"leofric",
+        "name":"Leofric",
+        "iconID":"monsters_tometik1:85",
+        "monsterClass":"humanoid",
+        "phraseID":"leofric_welcome",
+        "droplistID":"leofric_dl"
     }
 ]

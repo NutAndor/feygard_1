@@ -22,7 +22,7 @@
         "name":"Honey",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":35,
+        "baseMarketCost":45,
         "category":"food",
         "description":"A nice sweetener. Sticky but delicious.",
         "useEffect":{
@@ -281,5 +281,15 @@
         "baseMarketCost":30,
         "category":"other",
         "description":"Ideal for baking."
+    },
+    {
+        "id":"honeycomb",
+        "iconID":"items_newb:813",
+        "name":"Honeycomb",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":519,
+        "category":"animal",
+        "description":"Desired for both as a delicacy and for its wax."
     }
 ]

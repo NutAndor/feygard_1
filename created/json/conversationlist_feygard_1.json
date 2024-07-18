@@ -5794,5 +5794,59 @@
     {
         "id":"wexlow_key_bed_not_allowed",
         "message":"Oh, this sleep quarters stinck so terribly that you don't won't to get any closer."
+    },
+    {
+        "id":"leofric_welcome",
+        "message":"Ah, greetings, traveler! What brings you to my humble apiary?",
+        "replies":[
+            {
+                "text":"Hello. Who might you be?",
+                "nextPhraseID":"leofric_intro"
+            }
+        ]
+    },
+    {
+        "id":"leofric_intro",
+        "message":"I be Leofric, master of bees and their keeper. I tend the hives and harvest their golden treasures",
+        "replies":[
+            {
+                "text":"What exactly do you do here, Leofric?",
+                "nextPhraseID":"leofric_job"
+            },
+            {
+                "text":"If you\u2019re a master of bees, why do you wear a helmet and mask?",
+                "nextPhraseID":"leofric_explain"
+            }
+        ]
+    },
+    {
+        "id":"leofric_job",
+        "message":"I care for the bees, gather their honey and wax, and craft fine goods from their toil. Bees be wondrous creatures, providing both sweet sustenance and warm light.",
+        "replies":[
+            {
+                "text":"Do you have anything for sale?",
+                "nextPhraseID":"leofric_sell"
+            }
+        ]
+    },
+    {
+        "id":"leofric_sell",
+        "message":"Aye, I have many wares to offer. Jars of honey, beeswax and some fine mead. But that's it for now as my supply is lower than normal. Take a look, and see what catches your fancy.",
+        "replies":[
+            {
+                "text":"Sounds great.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"leofric_explain",
+        "message":"Ah, a keen eye you have! The helmet and mask protect me from more than just bee stings. The forest holds dangers aplenty, and it's wise to be prepared. You never know what you might encounter when tending to the hives deep in the woods.",
+        "replies":[
+            {
+                "text":"What exactly do you do here, Leofric?",
+                "nextPhraseID":"leofric_job"
+            }
+        ]
     }
 ]
