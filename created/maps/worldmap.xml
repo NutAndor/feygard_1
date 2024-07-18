@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="gamjee_well" x="-67108631" y="-67108726">
-    <map id="gamjee_well_jail_cells" x="-67108599" y="-67108726"/>
-    <map id="gamjee_well_1_1" x="-67108630" y="-67108713"/>
-    <map id="gamjee_well_1" x="-67108631" y="-67108697"/>
-    <map id="gamjee_well_2_1" x="-67108605" y="-67108712"/>
-    <map id="gamjee_well_3_1" x="-67108615" y="-67108697"/>
-    <map id="gamjee_well_4_1" x="-67108575" y="-67108712"/>
-    <map id="gamjee_well_1_2" x="-67108558" y="-67108707"/>
-    <map id="gamjee_well_1_3" x="-67108545" y="-67108707"/>
-    <map id="gamjee_well_1_4" x="-67108536" y="-67108707"/>
-    <map id="gamjee_well_exit" x="-67108530" y="-67108707"/>
-    <map id="gamjee_well_exit_a" x="-67108521" y="-67108678"/>
+  <segment id="gamjee_well" x="-631" y="-726">
+    <map id="gamjee_well_jail_cells" x="-599" y="-726"/>
+    <map id="gamjee_well_1_1" x="-630" y="-713"/>
+    <map id="gamjee_well_1" x="-631" y="-697"/>
+    <map id="gamjee_well_2_1" x="-605" y="-712"/>
+    <map id="gamjee_well_3_1" x="-615" y="-697"/>
+    <map id="gamjee_well_4_1" x="-575" y="-712"/>
+    <map id="gamjee_well_1_2" x="-558" y="-707"/>
+    <map id="gamjee_well_1_3" x="-545" y="-707"/>
+    <map id="gamjee_well_1_4" x="-536" y="-707"/>
+    <map id="gamjee_well_exit" x="-530" y="-707"/>
   </segment>
 </worldmap>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="-12" y="-52">
+  <segment id="world1" x="1" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -75,7 +75,7 @@
     <map id="mountainlake11" x="701" y="4"/>
     <map id="mountainlake12" x="671" y="8"/>
     <map id="mountainlake13" x="640" y="20"/>
-    <map id="mountainlake13a" x="648" y="50"/>
+    <map id="mountainlake13a" x="640" y="50"/>
     <map id="mountainlake2" x="733" y="128"/>
     <map id="mountainlake3" x="756" y="128"/>
     <map id="mountainlake4" x="761" y="111"/>
@@ -85,7 +85,7 @@
     <map id="mountainlake8" x="779" y="31"/>
     <map id="mountainlake9" x="763" y="0"/>
     <map id="lakecave1" x="695" y="-52"/>
-    <map area="remgard" id="remgard0" x="642" y="76"/>
+    <map area="remgard" id="remgard0" x="640" y="76"/>
     <map area="remgard" id="remgard1" x="673" y="83"/>
     <map area="remgard" id="remgard2" x="673" y="114"/>
     <map area="remgard" id="remgard3" x="652" y="107"/>
@@ -379,6 +379,21 @@
     <map id="bwmfill6" x="137" y="386"/>
     <map id="bwmfill7" x="145" y="407"/>
     <map id="bwmfill8" x="145" y="428"/>
+    <map id="bwmfill3" x="107" y="355"/>
+    <map id="laerothcave0" x="787" y="125"/>
+    <map id="laerothisland0" x="743" y="52"/>
+    <map id="laerothisland1" x="743" y="73"/>
+    <map area="laeroth_area" id="laerothisland2" x="710" y="68"/>
+    <map id="laerothisland3" x="710" y="99"/>
+    <map id="island3" x="555" y="102"/>
+    <map id="island2" x="555" y="71"/>
+    <map id="island1" x="524" y="71"/>
+    <map id="island4" x="524" y="102"/>
+    <map id="korhald_cave_outdoor1" x="550" y="278"/>
+    <map id="remgard2a" x="702" y="114"/>
+    <map id="waterway_forest1" x="581" y="259"/>
+    <map id="waterway_forest2" x="581" y="278"/>
+    <map id="waterway_forest3" x="612" y="255"/>
     <map id="swamp1" x="127" y="253"/>
     <map id="swamp2" x="96" y="253"/>
     <map id="swamp3" x="70" y="253"/>
