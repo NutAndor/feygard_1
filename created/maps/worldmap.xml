@@ -11,5 +11,6 @@
     <map id="gamjee_well_1_3" x="-67108545" y="-67108707"/>
     <map id="gamjee_well_1_4" x="-67108536" y="-67108707"/>
     <map id="gamjee_well_exit" x="-67108530" y="-67108707"/>
+    <map id="gamjee_well_exit_a" x="-67108521" y="-67108678"/>
   </segment>
 </worldmap>
