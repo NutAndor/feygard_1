@@ -290,12 +290,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":9,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
                         "value":1,
                         "negate":true
                     }
@@ -342,12 +336,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":9,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
                         "value":2,
                         "negate":true
                     }
@@ -376,12 +364,6 @@
             {
                 "nextPhraseID":"feygard_fogmonster3_heart_10",
                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-                        "negate":true
-                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
@@ -416,12 +398,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
-                        "value":9,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
                         "value":4,
                         "negate":true
                     }
@@ -450,12 +426,6 @@
             {
                 "nextPhraseID":"feygard_fogmonster5_heart_10",
                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_fog",
-                        "value":9,
-                        "negate":true
-                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",

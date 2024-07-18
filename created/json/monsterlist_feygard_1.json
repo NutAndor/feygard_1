@@ -1,7 +1,7 @@
 [
     {
         "id":"feygard_fogmonster1",
-        "name":"Foggerlump1",
+        "name":"Wobbling foggerlump",
         "iconID":"monsters_tometik8:26",
         "maxHP":220,
         "maxAP":10,
@@ -20,7 +20,7 @@
     },
     {
         "id":"feygard_fogmonster2",
-        "name":"Foggerlump2",
+        "name":"Icy foggerlump",
         "iconID":"monsters_tometik8:26",
         "maxHP":220,
         "maxAP":10,
@@ -39,7 +39,7 @@
     },
     {
         "id":"feygard_fogmonster3",
-        "name":"Foggerlump3",
+        "name":"Wet foggerlump",
         "iconID":"monsters_tometik8:26",
         "maxHP":220,
         "maxAP":10,
@@ -58,7 +58,7 @@
     },
     {
         "id":"feygard_fogmonster4",
-        "name":"Foggerlump4",
+        "name":"Dizzy foggerlump",
         "iconID":"monsters_tometik8:26",
         "maxHP":220,
         "maxAP":10,
@@ -77,7 +77,7 @@
     },
     {
         "id":"feygard_fogmonster5",
-        "name":"Foggerlump5",
+        "name":"Dense foggerlump",
         "iconID":"monsters_tometik8:26",
         "maxHP":220,
         "maxAP":10,
@@ -96,7 +96,7 @@
     },
     {
         "id":"feygard_fogmonster9",
-        "name":"Foggerlump1",
+        "name":"Shiny Foggerlump",
         "iconID":"monsters_tometik8:26",
         "maxHP":220,
         "maxAP":10,
