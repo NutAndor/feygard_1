@@ -3766,7 +3766,21 @@
             },
             {
                 "text":"Yes. What would it hurt if I did?",
-                "nextPhraseID":"wexlow_well_ask_to_examine_1"
+                "nextPhraseID":"wexlow_well_ask_to_examine_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":11,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":13,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
