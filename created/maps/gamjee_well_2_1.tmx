@@ -202,7 +202,7 @@
  </layer>
  <layer id="4" name="Walkable" width="29" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9ktsJACAMAzuF+6/QDcUPQYTa6wML/oVcE6tDRMFbQ3TUa0+VeQ/VWVqy06khObzcloenj/7JqwPqF+VazA6PyO1kO6OZvW6jvEwvGY/K/dB77eJ6O3XnJT384vzK18WZGhb3Mw==
+   eJy9ksENACAIA53C/VdgQ+PXBDiwgYRf7UHF9loG+hbRKZsw36I6T5sx37cZ15sh8qT66p9EGVC/KtdjKjwqt9PNjO6cZVvldXLpePzcD71XFTebSb0vyWGKM7WfinMAzff5iA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
