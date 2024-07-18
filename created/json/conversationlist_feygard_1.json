@@ -3793,7 +3793,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I hope this doesn't just anger whatever's down there...",
+                "text":"I hope this doesn't come back to hurt me somehow...",
                 "nextPhraseID":"wexlow_well_throw_something"
             }
         ]
@@ -4717,6 +4717,17 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"gamjee_no_business",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"gamjee_villagers_known_1",
                 "requires":[
                     {
@@ -4733,17 +4744,6 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":3
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"gamjee_no_business",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"echoes_of_enchantment",
-                        "value":13
                     }
                 ]
             }
@@ -5082,7 +5082,7 @@
             },
             {
                 "text":"So our busy here is done?",
-                "nextPhraseID":"gamjee_compromise_10",
+                "nextPhraseID":"gamjee_compromise_10_no_ac",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -5099,24 +5099,25 @@
         "replies":[
             {
                 "text":"So our busy here is done?",
-                "nextPhraseID":"gamjee_compromise_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":2
-                    }
-                ]
-            },
-            {
-                "text":"So our busy here is done?",
-                "nextPhraseID":"gamjee_compromise_10_no_oc",
+                "nextPhraseID":"gamjee_compromise_10_no_ac",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":2,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"So our busy here is done?",
+                "nextPhraseID":"gamjee_compromise_10_oc",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":2,
+                        "negate":false
                     }
                 ]
             }
@@ -5145,7 +5146,7 @@
         ]
     },
     {
-        "id":"gamjee_compromise_10",
+        "id":"gamjee_compromise_10_no_ac",
         "message":"Not same. Take rope, use to free others from pit.",
         "rewards":[
             {
@@ -5175,12 +5176,12 @@
         "message":"Why you still here? Leave now."
     },
     {
-        "id":"gamjee_compromise_10_no_oc",
+        "id":"gamjee_compromise_10_oc",
         "message":"take shiny thing back.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"gamjee_compromise_10"
+                "nextPhraseID":"gamjee_compromise_10_no_ac"
             }
         ],
         "rewards":[
