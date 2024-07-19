@@ -3324,7 +3324,7 @@
         "message":"Well, maybe with that attitude, you don't derserve one?",
         "replies":[
             {
-                "text":"I'm sorry. You see, I'm just in love with the stuff.",
+                "text":"I'm sorry. You see, I'm just in love with the new stuff.",
                 "nextPhraseID":"village_philippa_fd_2_nice"
             }
         ]
@@ -3443,7 +3443,7 @@
     },
     {
         "id":"village_philippa_fd_9",
-        "message":"I need supplies. Ingredients. To be more specific, I need eleven things, but 6 unique ingredients.",
+        "message":"I need supplies. Ingredients to be more specific. I need eleven things, but six unique ingredients.",
         "replies":[
             {
                 "text":"What?",
@@ -3598,7 +3598,7 @@
     },
     {
         "id":"village_theodora_soldier",
-        "message":"I See, but with those skills of yours, you should train to be a Feygard soldier.",
+        "message":"I see, but with those skills of yours, you should train to be a Feygard soldier.",
         "replies":[
             {
                 "text":"Train? I don't need Feygard soldier training. I am already stringer than them. ",
@@ -3642,7 +3642,7 @@
     },
     {
         "id":"village_theobald_start",
-        "message":"We are indebted to you now. Your heroicism will never be forgtten by the members of this tiny village.",
+        "message":"We are indebted to you now. Your heroicism will never be forgotten by the members of this tiny village.",
         "replies":[
             {
                 "text":"Why do you live in this \"tiny village\" anyway?",
@@ -3672,7 +3672,7 @@
     },
     {
         "id":"village_theobald_3",
-        "message":"You see, all eight of us were born and raised in the glorious city of Feygard. In fact, we grew up together. Best friends too! But for various resaons, things started to change for us.",
+        "message":"You see, all eight of us were born and raised in the glorious city of Feygard. In fact, we grew up together. Best friends too! But for various reasons, things started to change for us.",
         "replies":[
             {
                 "text":"Really? I am intrigued to hear more.",
@@ -3722,7 +3722,15 @@
         "id":"wexlow_well_script_selector",
         "replies":[
             {
-                "nextPhraseID":"wexlow_well_ask_to_examine"
+                "nextPhraseID":"wexlow_well_ask_to_examine",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -5299,6 +5307,17 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"village_godwin_has_ring",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":7
+                    }
+                ]
             }
         ]
     },
@@ -5366,6 +5385,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":2000
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":7
             }
         ]
     },
@@ -5385,7 +5409,7 @@
     },
     {
         "id":"village_godwin_lost_ring_godelieve",
-        "message":"No. What happened.",
+        "message":"No. What happened?",
         "switchToNPC":"village_godelieve",
         "replies":[
             {
@@ -5410,6 +5434,7 @@
         "message":"Fine! Take the coins you thief.",
         "replies":[
             {
+                "text":"I will put them to good use.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -5425,6 +5450,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":3000
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":7
             }
         ]
     },
@@ -5763,7 +5793,7 @@
     },
     {
         "id":"wexlow_key_bed_not_allowed",
-        "message":"Oh, this sleep quarters stinck so terribly that you don't won't to get any closer."
+        "message":"Oh, these sleeping quarters stinck so terribly that you don't want to get any closer."
     },
     {
         "id":"leofric_welcome",
@@ -5816,6 +5846,16 @@
             {
                 "text":"What exactly do you do here, Leofric?",
                 "nextPhraseID":"leofric_job"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_has_ring",
+        "message":"A crisis has been averted thanks to you.",
+        "replies":[
+            {
+                "text":"You should do a better job protecting that ring.",
+                "nextPhraseID":"X"
             }
         ]
     }

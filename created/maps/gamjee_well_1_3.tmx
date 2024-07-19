@@ -187,12 +187,12 @@
  </layer>
  <layer id="1" name="Ground" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJzrYWZg6AHieVA8H4g3IGGQXC8Qb0TCmzkZGA4xQ3APmh6YPAz3YhEjVh5mN7JYN9TOHmbi5HuYMc1ExgDAjypE
+   eJzrYWZg6AHieVA8H4g3IGGQXC8Qb0TCmzkZGA4xQ3APmh6YPAz3YhEjVh5mNzbxHmbs8t3MqPI9zLj1gjAAzukqcg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPHglB6OuCCPoQMwODpBgDg5QYbn2aQDktJHmQHhA+DMQPhSDmVgLZG6HmbuZkYDgmCBGrguJjUDmQHpg7sAFVoD1qQLyYFdXNMHBYDGEmCFyDmnsQSAMAdNUVFg==
+   eJxjYMAPHglB6OuCCPoQMwODpBgDg5QYbn2aQDktJHmQHhA+DMQPhSDmVgLZG6HmbuZkYDgGZYPEq5gRfJAemDtAcuhAFWiPGhAvZkV1MwwcFoOYVwXVew1q7kEgDQBk6RUV
   </data>
  </layer>
  <layer id="3" name="Above" width="8" height="8">
