@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="13">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -185,22 +185,22 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIrJwJuheKDdMYpHMSUYAEWGRwg=
+   eJzbyMnAsHEUj+JRPIrJwJuheKDdMRLwNCYIpqedK4D2gQCyG2jtxxVMCL/SGq+AYgArl0IS
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4D64KbYQLtg5IBnwLB+AcUviQh3RSrZexxoV6QAA0MUEJ+gY3x/A9r1A4hvA/ErIv1MbftBdtPTz8h2/xzNW1QHAE/CEZY=
+   eJxjYBgFo4D64KbYQLtg5IBnwLB+AcUviQh3RSrZexxoV6QAA0MUEJ+gY3x/A9r1A4hvA/ErIv1MbftBdtPTz1OZEOyfdLIX2U56AnraOx1qFwCLuBLo
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAtYCjAwWAnQ315PoJ1eA2DvKBgFwwEAAGzcAUc=
+   eJxjYBgFo2AUUAtYCjAwWAnQ315PoJ1eA2DvKKA/mM5EX/tW0Nm+gQAAz4MCig==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="15" visible="0">
+ <layer id="4" name="Walkable" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALywEYxCB4Fo2AoAwBW7AGP
+   eJxjYBgFo2AUjALywEYxCB4FtAWwcKZneCPbRS+70f1JLwwAmuEf4A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -272,6 +272,11 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="village_theodora"/>
+   </properties>
+  </object>
+  <object id="13" name="hidden_well_voice_spawn" type="spawn" x="96" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="well_voice"/>
    </properties>
   </object>
  </objectgroup>
