@@ -106,6 +106,7 @@
             },
             {
                 "text":"I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.",
+                "nextPhraseID":"coin_collector_troll_coins",
                 "requires":[
                     {
                         "requireType":"questProgress",
