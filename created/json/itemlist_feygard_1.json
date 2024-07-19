@@ -259,9 +259,6 @@
         "displaytype":"ordinary",
         "category":"food",
         "useEffect":{
-            "increaseCurrentHP":{
-                "min":0
-            },
             "conditionsSource":[
                 {
                     "condition":"food",
