@@ -402,7 +402,7 @@
     <map id="swamp6" x="44" y="253"/>
     <map id="wayto_feygard_duleian_1" x="8" y="112"/>
     <map id="wayto_feygard_duleian_2" x="-12" y="96"/>
-    <map id="wexlow_village" x="39" y="128"/>
+    <map area="wexlow_village" id="wexlow_village" x="39" y="128"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -418,6 +418,7 @@
     <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
+	<namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
     <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
   </segment>
 </worldmap>
