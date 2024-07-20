@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,24 +195,29 @@
  <tileset firstgid="7953" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <layer id="9" name="Base" width="20" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCewkXOgXTAKRsEoGAgAAOz9ALs=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="20" height="25">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpHMcV4pix1zVtJZfPk5Khrni6VzRvFlGEAp35qcw==
+   eJzbyMnAsHEUj+JRTHW8GQ0TUosudlOWgeEWEtblQsW4zDwuhl3upSwCv5JFNQefebiwuRwDgwUUW8pRbp4b0AxedgYGdyDtQQXziIkbasf5TFnqmreSyubJyVHXPF0qmzeKKcMAyvli/A==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="25">
   <data encoding="base64" compression="zlib">
-   eJytVLtOw0AQdIOUBqRzYYkGfwYJEo+O0CBKni0KCP8Wv5CGGgtEDVKEaEOR8A3sSh7d3nCO7ZiRVr477+7t7NzdcjsJMMqTZE/sUOwo9+vnaZJcpKHvrcxL52OAfRkfRHK8Ov9vIrF3qY8tZLwptpV632NZ/5H6vsSWVGcMGqO4NnXa2u5lfWFyqf8DcSpo3gTNNXPhnl0Azsp1nDf7d0Wsf105FkYT7l9ftNF1FaDfpXyvTJ2qyc2amlj8F9fY/ekD3B+tr8/Z+a7hBb5tzsqi5n5qjjb68juxCpYraoxxKBv0wjs0N28Sg9813HHrj3rezX6ng/U04T6Oqvizwd//3LNdGQ/FnrOw1nlV11DfWrGnHZ8P/y3PGfXtJYvXOpZcJ2JvVT7sHwP30d5L5vTpfH2IQ+5Y38GX98e8rPLxOaw7s9PM76Oacp8/XMiXdea8U+of+gu/x41QjyZAD+4p8AuR3mjh
+   eJyVVUkvREEQ7rHlXSzdh5e4mF+BQSwHYlyEmRj7QSxB+Fv+gkicDeJMgjg4DCPGxRIOElV5Venqmmf7ki/d/br6q6WXV+s0AfqyxvQDh4EjWf99zhkz70LbDRiXrV/DGIT+kNAogd0s8NT6uU0Ybzm/dhf6rcA28oHjcfj+BPHdAGudiT9EkdpRaMeov076M9AuuTBm1F+Fdhv4SFpsv+NCnV1q0b7gvM+K9TFLoNal9T4lCvRtBdo1Mc/1QHDOmGs+G67fbk7I/v+LcxvW7yA2JtPuc/wNXBe2x3px/Vapfmmxol85ln2JAZdoIaZVTFWbxMuQfTneoXUL0C6KOHFPlv+YJ6ICeveK1TiJr6hyrYh5HTOjDHM9UcgHZY8543lF21KHMcfxz/vc4BK+gs0zMB8l8fHZWad870jjISVGiQzYN9KaN9LjPDhf3Ps30Hgnfii9zxbfb3IJb53X4/3ls1RI2RP91jAwzyay7watUhTeE47xPqVm+C69tNWfG8zlCnhCcd2JNwlxLrT0u8Z3XNpjPFyfK/I1GaXfZ8Z3e8x3S/pHTEX187pmvdDPAY/iMFY+Czl8a4GHXV6P52Welyq2k2/OTx60JoBnpMf+06DrKO+lzuna+vh4HWvruudFvto/j8ukV1P/OV1r3vf92PvBb7rOFzbMV+7zo63X3Vf14/qy3V6zz/fiD28874euKa//Au92qQU=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgkJVnYJADYnkgVgBiZACTgwFJIFsKTQ0MqAPF70oyMNyRhNDkAHzmUwOQ6y50APKrBg3cSWn40RoMVnfBwFBwH63SDrEAX/oiJvywlRO4ALX8ilwOoZdJMICr7EBWj8s95LgTPRwlofofsWPKo4eZOJAtQaR9TByofErLyMNi+O3HZz66n0DgkhiqPpjZ+MId3X5kPrb0iS/NItuDLW2+kUSYj+4OYstamLpprITVYgPEhikyH1f6QZdHVgcAqL45uw==
+   eJy1VUEOQTEQHRJhZfmphG/HBUQcgDiDg7mLtROwZsHaxg20+SZ/vD+tpuUlk99O+2fezLRTIqJxSTSxUlqZWpHgNYax4xHsYcys/mqILqb6piBkPwUrsJXKC+FinYPtXaeSHGD+nn2iU5FnUwNylfNQHN/yh1zl/B9xIH5V31yse03dplfx084O4tZt6u6KLhYthU9b0cXkT+sTDkelvjGx+rCw/JZvjgfBC3sSw9c75H4fnxSefE+3Ze3fgesk7zHmbGDHw0h/WKfcHunqFPIfso8xOZyLz//Ydijv6F/Otfcj9KZIP9rZfJjaPvKIfat43z6xv8fmVM595wfX5b4XCxxETw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="25">
+ <layer id="4" name="Walkable" width="20" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lcsNwCAMQ5mC/VfIhlWlHgpyYicES1z42C+gpjbHsG+8srkORfsZz4PNRRwKy//s7o/yka9ac5RZUfbOT3yrGej+Ovi6dJOvi/NWvd18mbq9/Mx3m9nX8SasD6B5tP+0Z7E8lsVYkZe3lpVab8Sm9Ofo/xBlVGvOvC/j8KR4VDgeUwuE7g==
+   eJytVFsOgDAI2yl2/ytwQ2PihzOUlmKTfTilDweLvVY860bscyn41iAOtlf5ULy8azM99JxxdHJ36zKO6t9MoGSecCGviuYf+VR/E06HS5mHTEflcOdDmTc1d4fP8cXupcn5Ov2ZfT+9s5ge02JeMy70rotObyNvrAdZP1QabubO+TIfCAqH4+MCUlyrBQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -227,6 +232,12 @@
   <object id="2" name="leofric_spawn" type="spawn" x="288" y="192" width="32" height="32">
    <properties>
     <property name="spawngroup" value="leofric"/>
+   </properties>
+  </object>
+  <object id="3" name="Object" type="spawn" x="64" y="64" width="576" height="128">
+   <properties>
+    <property name="quantity" value="8"/>
+    <property name="spawngroup" value="honey_bee"/>
    </properties>
   </object>
  </objectgroup>
