@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="1" y="-52">
+  <segment id="world1" x="-12" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -379,7 +379,6 @@
     <map id="bwmfill6" x="137" y="386"/>
     <map id="bwmfill7" x="145" y="407"/>
     <map id="bwmfill8" x="145" y="428"/>
-    <map id="bwmfill3" x="107" y="355"/>
     <map id="laerothcave0" x="787" y="125"/>
     <map id="laerothisland0" x="743" y="52"/>
     <map id="laerothisland1" x="743" y="73"/>
@@ -403,6 +402,7 @@
     <map id="wayto_feygard_duleian_1" x="8" y="112"/>
     <map id="wayto_feygard_duleian_2" x="-12" y="96"/>
     <map area="wexlow_village" id="wexlow_village" x="39" y="128"/>
+    <map id="beekeeper1" x="382" y="429"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -418,7 +418,7 @@
     <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
-	<namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
+    <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
     <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
   </segment>
 </worldmap>
