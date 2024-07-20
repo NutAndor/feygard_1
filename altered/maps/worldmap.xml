@@ -403,6 +403,7 @@
     <map id="wayto_feygard_duleian_2" x="-12" y="96"/>
     <map area="wexlow_village" id="wexlow_village" x="39" y="128"/>
     <map id="beekeeper1" x="382" y="429"/>
+    <map id="beekeeper2" x="382" y="420"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
