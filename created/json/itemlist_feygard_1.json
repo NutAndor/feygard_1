@@ -17,6 +17,35 @@
         }
     },
     {
+        "id":"coconut",
+        "iconID":"items_japozero:500",
+        "name":"Coconut",
+        "hasManualPrice":1,
+        "baseMarketCost":180,
+        "displaytype":"extraordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":30,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"clear_egg",
+        "iconID":"items_japozero:500",
+        "name":"Sparkling egg",
+        "hasManualPrice":1,
+        "baseMarketCost":1000,
+        "displaytype":"extraordinary",
+        "category":"other",
+        "description":"Now, this is strange."
+    },
+    {
         "id":"honey",
         "iconID":"items_tometik1:35",
         "name":"Honey",

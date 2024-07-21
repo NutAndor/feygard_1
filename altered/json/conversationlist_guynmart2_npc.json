@@ -36,5 +36,55 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"guynmart_s_clearing_55",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":54
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"invert",
+                "mapName":"guynmart_wood_6"
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"invert",
+                "mapName":"beekeeper2"
+            }
+        ]
+    },
+    {
+        "id":"guynmart_s_clearing_59",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":59
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":55
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none",
+                "mapName":"guynmart_wood_6"
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none",
+                "mapName":"beekeeper2"
+            }
+        ]
     }
 ]

@@ -90,6 +90,30 @@
                 "logText":"1=Stolen from offering to Elythara"
             },
             {
+                "progress":70,
+                "logText":"70=Clear_loot"
+            },
+            {
+                "progress":71,
+                "logText":"71=Clear_loot1"
+            },
+            {
+                "progress":72,
+                "logText":"72=Clear_loot2"
+            },
+            {
+                "progress":73,
+                "logText":"73=Clear_loot3"
+            },
+            {
+                "progress":74,
+                "logText":"74=Clear_loot4"
+            },
+            {
+                "progress":75,
+                "logText":"75=Clear_loot5"
+            },
+            {
                 "progress":80,
                 "logText":"80=Path open"
             },

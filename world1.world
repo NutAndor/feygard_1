@@ -78,34 +78,6 @@
             "y": -992
         },
         {
-            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/fields10.tmx",
-            "height": 480,
-            "width": 640,
-            "x": 832,
-            "y": 992
-        },
-        {
-            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/fields3.tmx",
-            "height": 640,
-            "width": 640,
-            "x": 1824,
-            "y": 320
-        },
-        {
-            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/fields9.tmx",
-            "height": 480,
-            "width": 960,
-            "x": 1504,
-            "y": 992
-        },
-        {
-            "fileName": "../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/xml/roadtocarntower2.tmx",
-            "height": 832,
-            "width": 960,
-            "x": 512,
-            "y": 1504
-        },
-        {
             "fileName": "altered/maps/guynmart_wood_12.tmx",
             "height": 480,
             "width": 960,
@@ -202,6 +174,41 @@
             "width": 960,
             "x": 1504,
             "y": -3488
+        },
+        {
+            "fileName": "created/maps/beekeeper1.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 12384,
+            "y": 6560
+        },
+        {
+            "fileName": "created/maps/beekeeper2.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 12384,
+            "y": 6272
+        },
+        {
+            "fileName": "altered/maps/guynmart.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 512,
+            "y": -2496
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_8.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -480,
+            "y": -1984
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_6.tmx",
+            "height": 480,
+            "width": 480,
+            "x": 0,
+            "y": -2496
         }
     ],
     "onlyShowAdjacentMaps": false,
