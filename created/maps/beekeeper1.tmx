@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="5">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -215,7 +215,12 @@
    eJy1VUEOQTEQHRJhZfmphG/HBUQcgDiDg7mLtROwZsHaxg20+SZ/vD+tpuUlk99O+2fezLRTIqJxSTSxUlqZWpHgNYax4xHsYcys/mqILqb6piBkPwUrsJXKC+FinYPtXaeSHGD+nn2iU5FnUwNylfNQHN/yh1zl/B9xIH5V31yse03dplfx084O4tZt6u6KLhYthU9b0cXkT+sTDkelvjGx+rCw/JZvjgfBC3sSw9c75H4fnxSefE+3Ze3fgesk7zHmbGDHw0h/WKfcHunqFPIfso8xOZyLz//Ydijv6F/Otfcj9KZIP9rZfJjaPvKIfat43z6xv8fmVM595wfX5b4XCxxETw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="25">
+ <layer id="10" name="Top" width="20" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBBy6JDbQLRsEoGFoAAO74AOk=
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="20" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJytlAsKwCAMQz2F97+CNxyDCSJtkqYLyP4vqdatOcb6xqt93FqzPyIW4qP7SHcNiHleRwxFaN6qDDQ3HSk1d1hZVsXzj/rUfB2mw1L2Q+SjMtz9oew3te4Kz8mF/gcsm+p5n2fvnH7Zt86aMD/mxbJGrOxZVZXezrKxHmT9gDzcmivry3JkUhhOjgesLa+v
   </data>

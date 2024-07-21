@@ -639,5 +639,22 @@
         "monsterClass":"humanoid",
         "phraseID":"leofric_welcome",
         "droplistID":"leofric_dl"
+    },
+    {
+        "id":"alpha_fox",
+        "name":"Alpha fox",
+        "iconID":"monsters_rltiles4:7",
+        "maxHP":50,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "droplistID":"alpha_fox_dl",
+        "attackCost":5,
+        "attackChance":130,
+        "blockChance":35
     }
 ]

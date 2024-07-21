@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,17 +198,17 @@
  </layer>
  <layer id="3" name="Objects" width="20" height="19">
   <data encoding="base64" compression="zlib">
-   eJyVUz1PwzAQPZDK7oFIGdz//xfKAqVSoWokykIRyVzFpayIkTvFJ7+cnRaeZDm+r/d8ORMRnWrK8FWP7U+e6JnXoirHY95UDSpwravcjnmdS98L5r/zKW7J349+8Cvvzg37xo3tWLupk8/uHy7Xhggcc6xTrXWMP7ixr4RNNda0d/nde44JwCsxjak5mxPdzNP5nnvw4Md6kedYDXV1BdDRRw2rgm7RK/d64do7n/sVtr5dwtdBX19v8xrv7m+2S3w/ZrWFf/gfHIyG7wLHOb6pO8ic7gu+wLYtzO4lPkQ3MfM4l6qnMTOokLiuoMvOoEVvcgKcW879jPlXPLfXcXaxt6VeYKxCZz/EmlYrvo0AvNLvN5dsqknnXnregk/6YDm28MZRO9a0uXpWXcph74a6e9CJsdjHYPSe2wWreP4FpmS9xg==
+   eJyVU8tOwzAQXJDK3Qci5eD+/y+UC49KBdRIlAtFJOcqDvSKOLKreuXx2m1hJCv2vma83hARfbVUYN/m9kdP9MRr0dTjMe9YDapwrZrSjnmDS/sF89/4FHfP+wd/8EuOxG54Bd5PbbJbfR347PfDldoQWltrrWL8zuW+Gp6bXNPWlXcfOSYAr8R0puZsTnQ1T+db7sGdz/Uiz9Qc6uoKoGOMGpYV3aJX7vXCtTe+9CtsfbuEb4C+vl6XNd7d32zn+H7M6itv+B/sjIbvCscpvmN3kDndVnyBbWuX3uccH2Jw9ZnHuVQ9nZlBxdTmb6WwM2gxmpwA555zP2P+Bc/tZZxd7G2tFxir0NkPsabViv9GAF7p95tLNtWkcy8978EnfbAca/jHUTvWtLl6Vl3KYe+GukfQibHYx2D0nvoKlvH8C2A7v94=
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="19">
   <data encoding="base64" compression="zlib">
-   eJztUzsOwlAMe9fokIPDAvQCIHXtRUB0oBKcgzCEmuCECIkNL01enF/lTF17YlL7DD6+V2A8q7GS1tayxHZq9/LKrdQcOz5fpcZROadgL4tleOT5PqwWYnTxq+58k8XfqL2V9oZsHz/HkHD3WvtA6v/xOzCdfJvHdOk1ZYj0G/ErwP4X1dFc1BLjovbZrBhne9ubfb3uMRbdc3bjmJvN7XfzN42I/hn2YHPj/APhRv4nIP8OqBJZuQ==
+   eJztUzEOwjAMzDc6+OFlAfoBkLr2I6B2AAnegTOYHuZsIiQ2bqkTn+1zdVm68sSi8QxnvG+B8axHL6VsZM3tNR7klVtx0vgczKi8qeP6WnRZb7ZXNtdQ6/wc1gsxufxNd77Let5qvJPyhmwfr2NMuAftfST9//gdmE++rWO+9J4yRP6N+C3A+Rf10bXRS4yL3mdaMc/2tjv7et9jLnrP2RvH2ky3382/aUT0z3AG0436R8KNzp+A/AfqRlue
   </data>
  </layer>
  <layer id="5" name="Walkable" width="20" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEEDAKkqCdkFgxQ2zxyzSQEiPEDMfpxmYlLDz4zyHELNjNIcTOpgFL9IwmQkh6J0YdLDJ8Z2MTJAbjKDlL04jKPkF+pWc5g8wulZuLLw9QoD7G5HQAsdIHS
+   eJzbKMbAsJEEDAKkqCdkFgxQ00xquQkbIMYPxOjHZSYuPfjMIMct2Mwgxc2kAkr1jyRASnokRh8uMXxmYBMnB+DKm6ToxWUeIb9Ss5zB5hdKzcSXh6lVHqK7HQAaToQn
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -237,7 +237,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="6" name="forestserpent2" type="spawn" x="192" y="384" width="352" height="192">
    <properties>
     <property name="spawngroup" value="forestserpent2"/>
@@ -246,6 +246,11 @@
   <object id="7" name="forestwolf1" type="spawn" x="192" y="96" width="352" height="128">
    <properties>
     <property name="spawngroup" value="forestwolf1"/>
+   </properties>
+  </object>
+  <object id="8" name="alpha_fox_spawn" type="spawn" x="384" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="alpha_fox"/>
    </properties>
   </object>
  </objectgroup>

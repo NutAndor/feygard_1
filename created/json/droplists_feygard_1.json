@@ -387,5 +387,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"alpha_fox_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"85",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"meat",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
