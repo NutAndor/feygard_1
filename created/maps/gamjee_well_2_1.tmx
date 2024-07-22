@@ -200,9 +200,9 @@
    eJxjYCAOHBYjTowUcIgZlb8BjU/IzsPMmPKkgINQ/euRzLmExU5sYiBQjaTvIB63VDGjqqUUkGMWqXqqqOTeyxSmEXIApemSHPOxpZFKKsY5uvmE0j4o3HGlSVqFDz5zybETV/ghm4Urb5JrJyVmgcIc5p5QcVSaVIBsFgxgCw9q+hFmH6F0S0zZAADvPSIj
   </data>
  </layer>
- <layer id="5" name="Walkable" width="29" height="14">
+ <layer id="5" name="Walkable" width="29" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9ktEJACAIRJ2i/Vdow+gvBPNpR4FQcNzTyznMJqh9iO6lPIMw/aG6Uxvdbz7Rm/Z686T66p9kGRC/KjdiKjyqu9TJjM6cZVvldXLpeLzsD91XFTfrST0vyeEX59d8Ks4CJ8v3+g==
+   eJy9ksENACAIA5mC/VdgQ+PPYICCjSZ8DPZoxVTEjtrH9K7onlmegTD9QfumPv3bihvNkGmi/d0/yTJA9brciMnQ6O7SJDPUc5VtlzfJZaLxsj/ovrK41Uxsv0gOvzi//LE4C2oQ9/o=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -242,7 +242,7 @@
     <property name="spawngroup" value="gamjee_well_unknown_male_voice"/>
    </properties>
   </object>
-  <object id="7" name="hidden_voices_spawn" type="spawn" x="224" y="64" width="32" height="32">
+  <object id="7" name="hidden_voices_spawn" type="spawn" x="128" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="gamjee_well_unknown_female_voice"/>
    </properties>
