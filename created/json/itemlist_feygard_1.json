@@ -20,9 +20,9 @@
         "id":"coconut",
         "iconID":"items_japozero:500",
         "name":"Coconut",
+        "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":180,
-        "displaytype":"extraordinary",
         "category":"food",
         "useEffect":{
             "conditionsSource":[
@@ -39,9 +39,9 @@
         "id":"clear_egg",
         "iconID":"items_japozero:500",
         "name":"Sparkling egg",
+        "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":1000,
-        "displaytype":"extraordinary",
         "category":"other",
         "description":"Now, this is strange."
     },
@@ -286,8 +286,14 @@
         "iconID":"items_japozero:506",
         "name":"Broccoli",
         "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":27,
         "category":"food",
         "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":1
+            },
             "conditionsSource":[
                 {
                     "condition":"food",
