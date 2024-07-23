@@ -5747,7 +5747,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"feydelight_baking",
-                        "value":30
+                        "value":18
                     }
                 ]
             },

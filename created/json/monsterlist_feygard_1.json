@@ -533,7 +533,7 @@
         "iconID":"monsters_ld1:134",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"village_godwin_selector"
     },
     {
@@ -553,7 +553,7 @@
         "moveCost":10,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"wexlow_osric_start"
     },
     {
@@ -562,7 +562,7 @@
         "iconID":"monsters_ld1:189",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"village_odilia_start"
     },
     {
@@ -571,7 +571,7 @@
         "iconID":"monsters_ld1:140",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"village_percival_start"
     },
     {
@@ -580,7 +580,7 @@
         "iconID":"monsters_ld1:205",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"village_philippa_initial_phrase"
     },
     {
@@ -589,7 +589,7 @@
         "iconID":"monsters_ld1:121",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"village_theobald_start"
     },
     {
@@ -598,7 +598,7 @@
         "iconID":"monsters_ld1:186",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"village_theodora_start"
     },
     {
