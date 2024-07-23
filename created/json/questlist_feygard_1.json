@@ -140,6 +140,10 @@
             {
                 "progress":9,
                 "logText":"PC can sleep in Wexlow Village."
+            },
+            {
+                "progress":10,
+                "logText":"PC has learned what the beekeeper, Leofric does for work."
             }
         ]
     },

@@ -3506,8 +3506,19 @@
         "message":"How about trying a beekeeper? Geez, you are not the smartest are you?",
         "replies":[
             {
-                "text":"OK, but what about...",
-                "nextPhraseID":"village_philippa_fd_10"
+                "text":"You know what? Now that you mention it, I have met a beekeeper before. But where? Any way, what about...",
+                "nextPhraseID":"village_philippa_fd_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"OK, but where do I find a beekeeper?",
+                "nextPhraseID":"village_philippa_fd_12_bee"
             }
         ],
         "rewards":[
@@ -5837,6 +5848,13 @@
                 "text":"Sounds great.",
                 "nextPhraseID":"S"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":10
+            }
         ]
     },
     {
@@ -5856,6 +5874,16 @@
             {
                 "text":"You should do a better job protecting that ring.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_fd_12_bee",
+        "message":"I don't know, kid. Somewhere along the Duleian Road? Towards those savages, maybe?",
+        "replies":[
+            {
+                "text":"OK, but what about...",
+                "nextPhraseID":"village_philippa_fd_10"
             }
         ]
     }
