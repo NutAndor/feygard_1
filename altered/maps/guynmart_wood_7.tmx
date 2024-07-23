@@ -236,7 +236,7 @@
   <object name="guynmart_s_rob6b" type="script" x="416" y="224" width="96" height="32"/>
   <object name="cave_enter" type="mapchange" x="64" y="384" width="32" height="32">
    <properties>
-    <property name="map" value="gamjee_well_exit"/>
+    <property name="map" value="gamjee_well_exit_a"/>
     <property name="place" value="exit"/>
    </properties>
   </object>
