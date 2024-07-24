@@ -685,5 +685,22 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hardershell_beetle",
+        "name":"Hardershell beetle",
+        "iconID":"monsters_guynmart:0",
+        "maxHP":54,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":1,
+            "max":7
+        },
+        "spawnGroup":"",
+        "droplistID":"beetle2",
+        "attackCost":5,
+        "attackChance":60,
+        "blockChance":70,
+        "damageResistance":14
     }
 ]
