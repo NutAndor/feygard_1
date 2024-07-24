@@ -195,63 +195,63 @@
  <tileset firstgid="7953" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <layer id="9" name="Base" width="20" height="25">
+ <layer id="1" name="Base" width="20" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDCewkXOgXTAKRsEoGAgAAOz9ALs=
   </data>
  </layer>
- <layer id="1" name="Ground" width="20" height="25">
+ <layer id="2" name="Ground" width="20" height="25">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRTHW8GQ0TUosudlOWgeEWEtblQsW4zDwuhl3upSwCv5JFNQefebiwuRwDgwUUW8pRbp4b0AxedgYGdyDtQQXziIkbasf5TFnqmreSyubJyVHXPF0qmzeKKcMAyvli/A==
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="25">
+ <layer id="3" name="Objects" width="20" height="25">
   <data encoding="base64" compression="zlib">
-   eJyVVUkvREEQbmvexdJ9eImL+RX2WA7EuAgjxn4QSxD+lr8gEmeDuCJBHBxmhhgXSzhIVKWr0vVqHsaXfOnu19VfLb28SoepCfPOmAuX/LYJ44I1pi9jTH8mfB+E/hBwGDgCzIPdHPDMhrktGG+7sHYP+i3AVvKB43H4/gzx3QErHd4fYobaUWjHqL9B+rPQLrsQ84Lz+mvQ7gCfSIvtd11SZ49atM+54LNoQ8wSqHVtg0+JHH1bhXZdzHM9EJwz5prNJNfvNHmy///i0ibrdxgbU9cWcvwLXBe2x3px/daofmmxol85ln2JAee1ENMqpgfr42XIvhzv0rpFaJdEnLgnKzXmiSiCXlnxIfbxzahci2Jex8wowFx3lOSjssec8byibb7dmJP4932ud55vYPMCzEY+Pj47G5RviTQeU2KUqAP7BlrzTnqcB+eLe/8OGh/ET6X31Rz6jc7z3gU93l8+S7mUPeF3QgPzbCT7LtDKR8l7wjGWU2qG79Jra/W5wVxugKcUV0m8SYhLoaXfNb7j0h7j4frckK/JKP0+M37aY75b0j9iKqqe1zXrgX4v8DhOxspnoRffWuBRZ9DjeZnntYrt9IfzkwWtCeA56bH/NOg6ynupc7q1IT5ex9q67lmRr/bP4wLpVdR/Ttea9/0gDn7wm67zlU3mK/f5yVbrHqj6cX3Zbr8p5HtVwxvP+6Fryuu/AZdBqBM=
+   eJyVVUsvQ1EQPp65G+WcxU1s9FegiMeCqI1QUe+FFKFp/5a/IBJrRWyRlFhYtCqtDRoWEjM5Z3LmTq/XJF/O48755ps5j9voVy22a2y7Y/zcKvSvTNRvD8YlrdRIUqnRpJ8fh/4EYBIwBciC3wrgQvtv+zA+MH5tEfo9gISLgeNZmH8GffeARr+Nh7bk2mloZ4zXjPzL0G4ar3nNWP4ctHlA3XGRf8FEeYquRf+M8TEr2mvmdUGusvYxuWXc3LZYQ/VAo5wx13Qyuj7fZUHx/2vXOlq/41Cptl6f429GdSF/rBfVL+fqF6cV4/Ix73MbM5YLbVFoqmmrl4z3+bjg1q1Du8F04p5s/TFPtArwPQrUQqtvSeRaYd+lZrISfBsKongS/pgznlf0zfYpdRb+vM/txuINfF4A6cDqo7ND97aq7R48xWjk1gb+HW5N0/FRHpQv7n0TON4dPgTfZ7fvdxqLB+P5aH/pLGVi9oTeCWmYZ6fzHwSubBC9J6TxMaZm+C69JlrPDeZyCzh3uqrsTUK7ZlzyXaM7zv1RD9Xn1sWaD+LvM9l3e0x3i8dHWwhav8uaDUM/BTgNo1qrLlYK31rAyYDno+88z7LQdv7N+UkD1xzg0vFR/DiTdeT3UuZ0p70+Wkfcsu5plq+MT+OS42uI/5ysNe37Uejj4Jys842O5sv3ua5beY9E/ai+5HfY5fO9+cMbT/sha0rrvwBd2Kpd
   </data>
  </layer>
- <layer id="3" name="Above" width="20" height="25">
+ <layer id="4" name="Above" width="20" height="25">
   <data encoding="base64" compression="zlib">
    eJy1VUEOQTEQHRJhZfmphG/HBUQcgDiDg7mLtROwZsHaxg20+SZ/vD+tpuUlk99O+2fezLRTIqJxSTSxUlqZWpHgNYax4xHsYcys/mqILqb6piBkPwUrsJXKC+FinYPtXaeSHGD+nn2iU5FnUwNylfNQHN/yh1zl/B9xIH5V31yse03dplfx084O4tZt6u6KLhYthU9b0cXkT+sTDkelvjGx+rCw/JZvjgfBC3sSw9c75H4fnxSefE+3Ze3fgesk7zHmbGDHw0h/WKfcHunqFPIfso8xOZyLz//Ydijv6F/Otfcj9KZIP9rZfJjaPvKIfat43z6xv8fmVM595wfX5b4XCxxETw==
   </data>
  </layer>
- <layer id="10" name="Top" width="20" height="25">
+ <layer id="5" name="Top" width="20" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjILBBy6JDbQLRsEoGFoAAO74AOk=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="25" visible="0">
+ <layer id="6" name="Walkable" width="20" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytlAsKwCAMQz2F97+CNxyDCSJtkqYLyP4vqdatOcb6xqt93FqzPyIW4qP7SHcNiHleRwxFaN6qDDQ3HSk1d1hZVsXzj/rUfB2mw1L2Q+SjMtz9oew3te4Kz8mF/gcsm+p5n2fvnH7Zt86aMD/mxbJGrOxZVZXezrKxHmT9gDzcmivry3JkUhhOjgesLa+v
+   eJytlIsJwCAMRJ3C/Vdww1KoICH3SeyB9P/uorFrjrG+8Woft9a8HxmL8dl9plgDY57XGcMRm7cqg83NjZyaHQZioayO51/1Rd7tmmT8zpyp/ZD5uIzu/nD2m1t3hdfJxf4HKpvrGc/RO6cf+razJspPeamsGQs9q6rS2yib6kHVD8yjW3NlfVUOJIfRyfEABKyxPQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="384" y="768" width="32" height="32">
    <properties>
     <property name="map" value="road2"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="4" name="north" type="mapchange" x="160" y="0" width="96" height="32">
+  <object id="2" name="north" type="mapchange" x="160" y="0" width="96" height="32">
    <properties>
     <property name="map" value="beekeeper2"/>
     <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="2" name="leofric_spawn" type="spawn" x="288" y="192" width="32" height="32">
+ <objectgroup id="8" name="Spawn">
+  <object id="3" name="leofric_spawn" type="spawn" x="192" y="160" width="352" height="64">
    <properties>
     <property name="spawngroup" value="leofric"/>
    </properties>
   </object>
-  <object id="3" name="Object" type="spawn" x="64" y="64" width="576" height="128">
+  <object id="4" name="Object" type="spawn" x="64" y="64" width="576" height="128">
    <properties>
     <property name="quantity" value="8"/>
     <property name="spawngroup" value="honey_bee"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
 </map>
