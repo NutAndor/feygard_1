@@ -659,7 +659,7 @@
     },
     {
         "id":"spotted_tentaslime",
-        "name":"spotted tentaslime",
+        "name":"Spotted tentaslime",
         "iconID":"monsters_rltiles1:145",
         "maxHP":150,
         "moveCost":6,
