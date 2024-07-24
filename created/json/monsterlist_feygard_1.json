@@ -656,5 +656,34 @@
         "attackCost":5,
         "attackChance":130,
         "blockChance":35
+    },
+    {
+        "id":"spotted_tentaslime",
+        "name":"spotted tentaslime",
+        "iconID":"monsters_rltiles1:145",
+        "maxHP":150,
+        "moveCost":6,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":8,
+            "max":14
+        },
+        "droplistID":"spotted_tentaslime_dl",
+        "attackCost":5,
+        "attackChance":107,
+        "criticalSkill":7,
+        "criticalMultiplier":2.0,
+        "blockChance":85,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"slime",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"40"
+                }
+            ]
+        }
     }
 ]

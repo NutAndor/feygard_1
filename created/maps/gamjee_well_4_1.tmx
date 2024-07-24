@@ -243,6 +243,11 @@
     <property name="spawngroup" value="troll_hollow_percival"/>
    </properties>
   </object>
+  <object name="spotted_tentaslime_spawn1" type="spawn" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="spotted_tentaslime"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

@@ -534,5 +534,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"spotted_tentaslime_dl",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"30",
+                "quantity":{
+                    "min":3,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"45",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"slime_essence",
+                "chance":"2",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

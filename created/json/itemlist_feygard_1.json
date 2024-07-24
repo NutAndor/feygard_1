@@ -323,5 +323,14 @@
         "baseMarketCost":519,
         "category":"animal",
         "description":"Desired for both as a delicacy and for its wax."
+    },
+    {
+        "id":"slime_essence",
+        "iconID":"items_japozero:565",
+        "name":"Slime essence",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":508,
+        "category":"other"
     }
 ]
