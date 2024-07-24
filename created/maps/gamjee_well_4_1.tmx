@@ -248,6 +248,11 @@
     <property name="spawngroup" value="spotted_tentaslime"/>
    </properties>
   </object>
+  <object name="hardershell_beetle_spawn" type="spawn" x="64" y="288" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="hardershell_beetle"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

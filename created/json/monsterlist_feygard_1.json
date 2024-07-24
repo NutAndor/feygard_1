@@ -702,5 +702,35 @@
         "attackChance":60,
         "blockChance":70,
         "damageResistance":14
+    },
+    {
+        "id":"burrowing_glow_worm",
+        "name":"Burrowing glow worm",
+        "iconID":"monsters_tometik4:20",
+        "maxHP":48,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "spawnGroup":"vscale1",
+        "droplistID":"burrowing_glow_worm_dl",
+        "attackCost":3,
+        "attackChance":101,
+        "criticalSkill":80,
+        "criticalMultiplier":2.0,
+        "blockChance":109,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
     }
 ]

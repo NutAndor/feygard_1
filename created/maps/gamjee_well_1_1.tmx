@@ -231,6 +231,16 @@
     <property name="spawngroup" value="spotted_tentaslime"/>
    </properties>
   </object>
+  <object name="burrowing_glow_worm_spawn1" type="spawn" x="160" y="352" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="burrowing_glow_worm"/>
+   </properties>
+  </object>
+  <object name="burrowing_glow_worm_spawn2" type="spawn" x="480" y="416" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="burrowing_glow_worm"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
