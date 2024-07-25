@@ -208,13 +208,13 @@
    eJxjYKAPOCxGJ4tIBACBwgDa
   </data>
  </layer>
- <layer id="6" name="Walkable" width="8" height="8" visible="0">
+ <layer id="6" name="Walkable" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEMDAOkyuGTp9RMcvwBAMv6KTQ=
+   eJzbKMbAsJEMDAOkyuGTJ9dMQvbhwwCdbCht
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
-  <object id="1" name="down" type="mapchange" x="64" y="192" width="32" height="32">
+  <object id="1" name="down" type="mapchange" x="32" y="192" width="32" height="32">
    <properties>
     <property name="map" value="gamjee_well_1_2"/>
     <property name="place" value="up"/>
