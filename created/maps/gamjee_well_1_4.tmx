@@ -200,9 +200,9 @@
    eJxjYCANHBbDFLuEJnYZixps+rCJVTGj8gFNhgTa
   </data>
  </layer>
- <layer id="5" name="Walkable" width="5" height="8" visible="0">
+ <layer id="5" name="Walkable" width="5" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEPBgFCYsgAXQybOkJiyBgAhlsWjA==
+   eJzbKMbAsBEPBgFCYsgAXQybOnz60DEAanUVxQ==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
