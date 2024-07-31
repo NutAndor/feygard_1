@@ -204,7 +204,7 @@
    eJzbKMbAsHEEYBCgVD/MDGQ2ufYjA3LVEhLH5wdsZiDLUWIGLjNJNYOY+MDndnLMIMUN1DKD1PDG5wZSzCZHDbl6yVFLjluobQah+CQnXIeTGdjCiBrxP5TSCCn6AWouFyE=
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="south" type="mapchange" x="416" y="864" width="32" height="32">
    <properties>
     <property name="map" value="gamjee_well_exit_a"/>
@@ -218,6 +218,7 @@
    </properties>
   </object>
   <object name="thousand_gold_dl" type="container" x="96" y="192" width="32" height="32"/>
+  <object name="gamjee_well_exit_dl" type="container" x="128" y="768" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="hardershell_beetle_spawn" type="spawn" x="224" y="608" width="32" height="32">

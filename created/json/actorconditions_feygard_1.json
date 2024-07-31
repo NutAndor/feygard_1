@@ -1,11 +1,23 @@
 [
-{
-    "id":"sweet_tooth",
-    "iconID":"actorconditions_japozero:42",
-    "name":"Sweet tooth",
-    "category":"physical",
-    "abilityEffect":{
-        "increaseBlockChance":-20
+    {
+        "id":"sweet_tooth",
+        "iconID":"actorconditions_japozero:42",
+        "name":"Sweet tooth",
+        "category":"physical",
+        "abilityEffect":{
+            "increaseBlockChance":-20
+        }
+    },
+    {
+        "id":"minor_increased_defense",
+        "iconID":"actorconditions_1:107",
+        "name":"Minor increased defense",
+        "category":"physical",
+        "isPositive":1,
+        "abilityEffect":{
+            "increaseMaxHP":0,
+            "increaseBlockChance":7,
+            "increaseDamageResistance":1
+        }
     }
-}
 ]
