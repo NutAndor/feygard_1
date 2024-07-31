@@ -342,7 +342,8 @@
         "baseMarketCost":1868,
         "category":"feet_mtl_hv",
         "equipEffect":{
-            "increaseMoveCost":2,
+            "increaseMoveCost":1,
+            "increaseUseItemCost":1,
             "increaseAttackChance":-1,
             "increaseBlockChance":14
         },
