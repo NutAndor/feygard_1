@@ -90,6 +90,26 @@
                 "logText":"1=Stolen from offering to Elythara"
             },
             {
+                "progress":70,
+                "logText":"70=seen"
+            },
+            {
+                "progress":71,
+                "logText":"71=ladder"
+            },
+            {
+                "progress":72,
+                "logText":"72=window"
+            },
+            {
+                "progress":73,
+                "logText":"73=plant path"
+            },
+            {
+                "progress":75,
+                "logText":"75=jewel taken"
+            },
+            {
                 "progress":80,
                 "logText":"80=Path open"
             },
