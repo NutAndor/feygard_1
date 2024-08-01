@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="26">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="33">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -185,12 +185,12 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlUEKgzAQRUOLFt1mpfZYHsGjeJReQCjtulDaWwjp3kLpBRobh8RoEpPoQnDxmKhJvv8bnCpCqLLgnfTHddK/9wdr6OacsR2696k7/RtWA/Pv2I4pmVxSNa5+Zd+1nDHlQfffH1iVcfUr+x5824n4+nXF168rJl+fDKFvNqxL+0VHhHYUErIK1766Kj9QScQoYz4mnpot8P6qCvNaXV8tEWJgTq2NlWHodU5rJ+xn6nU6dL3StN81HWdpv8+u37VVxLivp1/XHHVZWeVnkxnmWaloe8ErlPLzPCPgt6HkAaswBk4xA56pdG0yE3MrAj4GzULQNX1LMaOxczZ67qKhZh6YtUQagTLuX48hry8Cjus/bO5+ubFOfo8Lovs=
+   eJztlU0KgzAQhUNLLLrNSu2xPIJH8Si9gFDadaG0tyjYvULpBWqIQ2LMj0nqQnDxMQnGvLxncOoYodqBLh2PX6liHTEwrDkTN0xngjPciB5YeyduzMnkkunx9Sv7VuX86PffH1iV8fUr++5U33cGoX59CfXri83XJ0fom0/r0n7REaFdTxOxCvNQXZ0fqE3MqBI+bgI1KXB+XYV1VDdUS6Sx8E+tjZVh6XVe787Yz9brTJh6pW2/a6Zmab/Pod/RKmLdN9Cvb46mrJzyc8mM8Kx00F7wjqT8Au8I+G17CswqjIFTwoBnOl2XzMTcSszHoFkKurZvKWakumfKexdPNQts1xJpBapkPFchv19iju8/7N/9cmOd/ABnR6Jh
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1Vk1rFEEQLcQJOTqzZmRgV9Cr5CJejUjwaMhFbwZi/oT/Rf+BXjVRPAjqXHbJsom4LiQePSwJCHoN2EV30a8r3ZPZXfOg6Jqe6X5TX11NZHFSEZ1WFEDPnTj9uPK6gOeOKjteBvBfRMd/0P+usci/4VrRtW/+LNnxZTccY36dBafOr6L38/Pf3LhC9NrxyXhQzs8p0DFu8/0itqb2qpUtQ+eDfeCK+WVWPF4mWnPywMiu4b0PcynZWG7PceDy5FXXz2269bedDbulfxY/yLs69/rmDLyCNxHeW0XIi5B3jE4RrhMb0BbUOS8RnMecl7y+hnjtmbl3DTIpQ16xAW0RfRjJA/Fhk58FMV3WaXv0M0PnKq7vgJ/Z/uvg2xz2ysHPz43sGNmGWMvzOPfPvOc2+JXnniXyWfK1TtQM8zbFA2UvoaP0VfzEr3+vWZ3HURnmM//bfsuzBPNWbBqDbbLve/ddUVi9AD/Hzo8pzI3VmXOWx+sFcVF9zlO/jIt4Me4x2ZqRt6/qhcH97u0K0WdTd1+64fe6BqcLns3Mq/c4NJzf/mOvS/EKfjv+1R7R3YzoYRbmWBPu9M7rH4zvRktWVuH9oPJ1NLkkuzTYHq4/tPfXHDFr6w9BDXk1cHW1dtWOn0xsv674e5XkGeYb6qPSj6l84zy552LHfGjvhuMdqlyWPMN8Ez3WawQvMq+vZ1YEyLvleGO9ku+ZPC/6x8rbsZ55m1OY5uE9Cv3MkLpGf8Xu2QO478bOyaa4az+3xaMO0Xeogbb9KNWbYneKJ4bjacfuz/3gh7JD+gX22Vgfxj6KvTj13c4c5z7n2lkLP/MYi4es7Zmed9PIJA9j+dPF9x8FmvSw
+   eJy1Vk1LHEEQLSQjHjOzOmFgN5BcgxfJNUoQj4qX5BbB+CfyX5J/EK9+xOQQUOey4rIqbhaSHHNYNhBIrkK6mC76dW/37MyoD4qu6Znu6qp61TVEBcYZ0e+MLLhz44CO3/xw9rgr4Fl8Z3Wf7xvuGf7OFuP7tj36zloHvPZ7ZvRuPPnNoxmij9qejBdpc5uCcc1z39bX0F6540tPx+AcbPniUhfrc0TLWlaUHCi7L2AuJBtz1W1caJ58aJu5Tb3+qfbhIDXPEgd5l8dG36xhV7Drsfskse0i5B2jldjrxAf0BXXmJYJ5zLzk9Tnk61DN7ZfIMLXtig/oi+g9Dw8khmVxFvh0Wef64z4zXK7i+hbEmf2fh9jGsFcMcX6rZEfJNuRangexeeY9tyGuPPcmwGfhax6oGbZblg+Uw4CO0nXyJ3H997DQeeynNp/5bOcV7xLkrfg0AN9k30/6uyQp9ATi7Ls/RjA3cO6cm9hfL4hp9dmkfhnT7GLefbJV027XqRcG97u9BaJjVXcn7ck1WIejW97NbNfd41LZvKrY6z437Eno7x9tf7FDtBQRvYxsjpXhWWdSP1Kx688WsgjvzzJTR8Mpft0V2B+uP/T3V4OcVY2HIAdenekcLT8oxq8qt6cL5r9KeIZ8Q72fmjHEN+bJc507tof+bmi7PYfLwjPkm+i+XiN4Fxl9NSpEgHa3tF1fr+R/aZ4X/Utm/FiNjM8hjGL7PwrjzJC6xnj5/rN5jei+e7Is726cq2KtRXQNNVC1H4V6k++f4pWy8bpV7M/94Jvjh/QL7LO+Pox9FHtx6LudBvc+c+2mQpx59OVD1nZUz3usZBjbufyp8/sfZmTs4w==
   </data>
  </layer>
  <layer id="3" name="Objects_replace" width="30" height="30">
@@ -200,12 +200,17 @@
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVsEOgjAMrSZEjspBgxc9+QP6Rf6Jn6ReiYl69qBe9aDR/3ALLlTC2rEV4kuWAmXtXil7A5DFo0f7n4zfd14npv1dxi89z+A4DJvvU69bCnBPw/Ji3lysXWAuDN/+CAX3nUNrauNF9ceo65/PwMYrtC854Pj4OrQv6+S9NMwRo41cyzgftnvbMw6v/q8tQ/L/lsK/rInSO+m9DMej9C5Us3zjSe8prvWTPnNovplDf0mfOarqx3GrQl2+OK/hzXGrAsfX5DFW75kudeZA9Z32mb15HhXPzwK9qmMvIrsPo3x+oHhTfLhziE2HXOrcpl5SOA0Atmq9azU2X9s03irHSunfbAywV9eHNLdGTyndxe+YOmepm15rXNW7kwRgmhTft67FeX1jaHwAUotjOg==
+   eJzNl80OwUAQx9cmjR6phKwLJy/AE3kTj4RrI8HZAVcOhPewm9p02nRmPyt+yWZr286/M53OLMbcuYvm9Zsozq0H+PDl2cU1FZ2Uvl8/mys8rd7rauc4dNeEYH5T+PoK4SCeJlu7QC2Ij78x4C3ljwbzi8qPEffX02B+healCWgfHofmpYvupWUfIb/QWqbFwH5jayZevepcJ+b3HYt/eaYHUa9i1zJoj+p3plrmiq292DXFNn7UO/BB+Ztb5Jdpz+FKU/xi+2bSzS33UyE6elY10ybOoZq6Ns+Tcv0cIVeV7UWCn4PU9w+U39R3ZNqHYH3IJs6/7JcUpz5jW/U/Qo7Nd26bt9RYyf43GzO2l8cHUcy6n1J9F16j45wLu36tuMprJxlj06x8v64z1PW1ofgAwq9tkw==
+  </data>
+ </layer>
+ <layer id="12" name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAueMiOX/4RAXlaASaOgbF3FIyCUTAKRsEoGAUDA0Zam2Ok+few2MDYOwpGwXADAB/lBJs=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkksKwCAMRD1F738FbyhdCBLy/9lFA4EWp75OMvMZY/7t7rduMDe3g6+tLvbpu5rdnSNunpG9U3pPfZ3Lfbff4Tn37M0pdqdFk53VUxP9X0/B+Vv2ksHlzrUs65403IxcV/cNLjX7bm7X3D35iviTPFdzM3cLZyf5xfjYfZasWPxGudo9YlrsGdNrPEtl1VPc6srOeSQ3lVypF0de1ls=
+   eJzNkl0KACEIhDtF979CN9ynQGTKxj9WEHbJ/BrHNcdYImWsiROdsXHqbaW8y/Tycq33R7REZrC5HfxqT1m21F3N7vRU6830/VTvib9zb/f2vz6/fXv3FPVkarJ3VdZE3+sJPX/Glwzu7fyVxfr0ws3Y6+r0cKOaT7Pv1JrhG8Pt8Bn17dCp+2Z6q2dn6UV81I/ZFUZvlPvqI6pF36j+RbMVbP2JWx3Zex7Zm0qulR9Ut717
   </data>
  </layer>
  <layer id="6" name="layer_replace" width="30" height="30">
@@ -262,6 +267,24 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object id="29" name="church_window" type="mapchange" x="128" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="catacombs1"/>
+    <property name="place" value="window"/>
+   </properties>
+  </object>
+  <object id="26" name="north1" type="mapchange" x="160" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="roadbeforecrossroads2"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object id="27" name="north2" type="mapchange" x="416" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="roadbeforecrossroads2"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
   <object id="9" name="sign_fallhaven_ne_grave1" type="sign" x="544" y="256" width="32" height="32"/>
   <object id="10" name="sign_fallhaven_ne_grave5" type="sign" x="544" y="352" width="32" height="32"/>
   <object id="11" name="sign_fallhaven_ne_grave6" type="sign" x="672" y="352" width="32" height="32"/>
@@ -275,6 +298,24 @@
    <properties>
     <property name="map" value="roadbeforecrossroads5"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="30" name="east1" type="mapchange" x="928" y="0" width="32" height="64">
+   <properties>
+    <property name="map" value="roadbeforecrossroads4"/>
+    <property name="place" value="west1"/>
+   </properties>
+  </object>
+  <object id="31" name="east2" type="mapchange" x="928" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="roadbeforecrossroads4"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object id="32" name="clothes_window" type="mapchange" x="800" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_clothes"/>
+    <property name="place" value="window"/>
    </properties>
   </object>
  </objectgroup>

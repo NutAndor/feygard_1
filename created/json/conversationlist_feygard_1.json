@@ -3208,6 +3208,67 @@
         ]
     },
     {
+        "id":"fallhaven_clothes_coup_10",
+        "replies":[
+            {
+                "nextPhraseID":"fallhaven_clothes_coup_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":73
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":65,
+                        "negate":true
+                    }
+                ]
+            }
+		]
+    },
+    {
+        "id":"fallhaven_clothes_coup_20",
+		"message":"Now look what we have found here! The famous Jewel of Fallhaven.",
+        "replies":[
+            {
+                "text":"Take it.",
+				"nextPhraseID":"fallhaven_clothes_coup_30"
+            },
+            {
+                "text":"Leave it.",
+				"nextPhraseID":"X"
+            }
+		]
+    },
+    {
+        "id":"fallhaven_clothes_coup_30",
+		"message":"Softly, softly now. We don't want to rush the taylor... Got it.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"fallhaven_clothes_coup_40"
+            }
+		],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"jewel_fallhaven",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_coup_40",
+		"message":"Great. Now I should leave quickly."
+    },
+    {
         "id":"village_philippa_initial_phrase",
         "message":"Thank you for rescuing us earlier!",
         "replies":[

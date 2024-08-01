@@ -90,24 +90,40 @@
                 "logText":"1=Stolen from offering to Elythara"
             },
             {
-                "progress":70,
-                "logText":"70=seen"
+                "progress":60,
+                "logText":"60=talked to Arthamyr"
+            },
+            {
+                "progress":61,
+                "logText":"61=ladder"
+            },
+            {
+                "progress":63,
+                "logText":"63=window"
+            },
+            {
+                "progress":65,
+                "logText":"65=jewel taken"
+            },
+            {
+                "progress":68,
+                "logText":"68=seen"
+            },
+            {
+                "progress":69,
+                "logText":"69=closed"
             },
             {
                 "progress":71,
-                "logText":"71=ladder"
+                "logText":"71=ladder-1"
             },
             {
                 "progress":72,
-                "logText":"72=window"
+                "logText":"72=ladder-2"
             },
             {
                 "progress":73,
-                "logText":"73=plant path"
-            },
-            {
-                "progress":75,
-                "logText":"75=jewel taken"
+                "logText":"73=window"
             },
             {
                 "progress":80,

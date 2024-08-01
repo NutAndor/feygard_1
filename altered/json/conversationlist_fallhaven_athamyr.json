@@ -1,0 +1,55 @@
+[
+    {
+        "id":"athamyr_complete_2",
+        "message":"You have my permission to enter the catacombs of Fallhaven Church.",
+        "replies":[
+            {
+                "text":"Do you know a way to climb over the graveyard fence to the south?",
+				"nextPhraseID":"athamyr_coup_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":60,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":61,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I will go and find your ladder.",
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":71
+                    }
+                ]
+            },
+            {
+                "text":"I tried the ladder, but the window is locked.",
+				"nextPhraseID":"athamyr_coup_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":72
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bucus",
+                "value":50
+            }
+        ]
+    }
+]

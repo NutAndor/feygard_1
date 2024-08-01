@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,24 +180,34 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="10" name="Base" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBie4LgUdc07yUld80bBKKAGAACycQG0
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="20" height="12">
   <data encoding="base64" compression="zlib">
-   eJzbLMbAsBkH5uMiHeMyC2bedilUjE0MWY6QecelUDFI7C4rgg9i3wPi+6zEmXeSE4EDWTHFkDEx4YGuB+QvQubhCg8QhvkFpuc4EeahhxEyhqmNYMVtDrp52NR64dBPTPgRshefeXXcDAz1QNzAjQg7UsxDV98HNEeEAYK3S+EPX2wYXf08oHnzgXgBN0TuLScqPsmJKUYKBgC/RKUp
+   eJzbLMbAsBkH5uMiHeMyC2bedilUjE0MWY6QecelUDFI7C4rA8N5GQgfxL4HxPdZiTPvJCcCB7IixM6zosqBMDHhga4H5C90MXTzcIUHCMP8AtNznAjz0MMIGcPURmDxHy7zsKn1wqEfWxigm0fIXnzm1XEzMNQDcQM3IuxIMQ9dfR/QHBEGCN4uhT98sWF09fOA5s0H4gXcELm3nKj4JCemGCkYAOGGpTU=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYcEAGP59Y8Igfgs+j6UfnEws+As36xA+hYeAtK9A8IH7KB2G/A+L3rMSZV0GEOncWTDFwePAjsUkAhWIMDMViqGLI4YHMRvbLRTQ9MLdNBIpPRpP7xQc1C8l/2PTjAsh+tsPif3ygDS1MmaEYBvywmAez4wQ7phv2E4ijOKi6hSwIP4LEQO64gWSeqACERg4TkB5lBgimBQAAitoj0w==
+   eJxjYBgYcEAGP59Y8Igfgs+j6d/PSp55H4FmfeKH0DDwFmjWeSB+ygdhvwPi90SaX0GEOncWTDFwePAjsUkAhWIMDMViqGLI4YPMRvbLRTQ9MLdNBIpPRpP7xQc1C8l/2PTjAsh+tsPif3ygDS1MmaEYBvywmAez4wQ7phsIpZU4qLqFLAg/gsRA7riBZJ6oAIRGDhOQHmUGCKYFAAAZmSOs
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvOCxGnBgp5jEJMDA84kcV289KvnnYxC6S6UZy/ItP/hIWOWxiuMwjN1y+oIUvueGBDeDz7w520tTjkj/CR579IEAofClVTwkAADAEF0U=
+   eJxjYKAvOCxGnBgp5jEJMDA84qeeedjELpJpJjn+xSd/CYscNjFc5u1nxa8WF/iCFr7khgc2gM+/O9hJU49L/ggfefaDAKHwpVQ9JQAA9jwWgQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="12">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEU0xQjA3Q+uhypZmIzjxruJMY8ZPtx6SfWXGIBrjAl5Bdc7iTFPPRwxxYX+MTwmUsuBgA9yYdD
+   eJzbKMbAsHEUE41BgBw9MIDOR5cj1Uxs5lHiN1LchWw/Lv3EmksswBWmhPyCy52kmIce7tjiAp8YtdITMgYAP9GGfA==
+  </data>
+ </layer>
+ <layer id="9" name="Walkable_1" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFUAAAPAAAE=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -207,9 +217,35 @@
     <property name="place" value="clothes"/>
    </properties>
   </object>
+  <object id="4" name="window" type="mapchange" x="448" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_ne"/>
+    <property name="place" value="clothes_window"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="2" name="fallhaven_clothes" type="spawn" x="160" y="96" width="384" height="224"/>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="11" name="Keys">
+  <object id="5" name="andor:1" type="key" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fallhaven_clothes_coup_10"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Replace">
+  <object id="3" name="feygard_nondisplayed:73" type="replace" x="448" y="64" width="32" height="64">
+   <properties>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="feygard_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="73"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -1,0 +1,19 @@
+[
+    {
+        "id":"sign_catacombs1_grave3",
+        "message":"Here lies Sir Karthanir of house Gellir. Son of Sir Anarogas, and the younger brother of Sir Eneryth.",
+        "replies":[
+            {
+                "text":"There is the ladder. [Fetch it]",
+                "nextPhraseID":"sign_catacombs1_grave3_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":71
+                    }
+                ]
+            }
+        ]
+    }
+]

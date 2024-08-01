@@ -1,0 +1,255 @@
+[
+    {
+        "id":"athamyr_coup_10",
+        "message":"No, there is no way over the fence. Why do you ask?",
+        "replies":[
+            {
+                "text":"Oh, nothing.",
+                "nextPhraseID":"athamyr_coup_12"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_12",
+        "message":"You can tell me.",
+        "replies":[
+            {
+                "text":"Well, behind the fence is the shop of the taylor.",
+                "nextPhraseID":"athamyr_coup_14"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_14",
+        "message":"That's right.",
+        "replies":[
+            {
+                "text":"And there is always a window open.",
+                "nextPhraseID":"athamyr_coup_16"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_16",
+        "message":"Ah, I understand. You want to surprise your friend, the taylor.",
+        "replies":[
+            {
+                "text":"Eh, yes. Exactly.",
+                "nextPhraseID":"athamyr_coup_18"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_18",
+        "message":"Then I have a better idea. I am your man.",
+        "replies":[
+            {
+                "text":"Great! I will thank you with a delicious cooked meat loaf.",
+                "nextPhraseID":"athamyr_coup_20"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_20",
+        "message":"Ten.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"athamyr_coup_22"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_22",
+        "message":"Make it ten. Ten.",
+        "replies":[
+            {
+                "text":"Are you crazy?",
+                "nextPhraseID":"athamyr_coup_23"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_23",
+        "message":"I have to smuggle a ladder into the basement of the church, which is very risky for me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"athamyr_coup_24"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_24",
+        "message":"Then you can then climb through a window and reach a path right to the back of the tailor's house.",
+        "replies":[
+            {
+                "text":"OK. Here I have ten deliciously cooked pieces of meat.",
+                "nextPhraseID":"athamyr_coup_26",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I will go for it now.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_26",
+        "message":"I knew you would do that, my friend.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"athamyr_coup_28",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat_cooked",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_28",
+        "message":"I have already hidden the ladder in the basement near the window.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":61
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":71
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_30",
+        "message":"Oh, is that so? Hmm.",
+        "replies":[
+            {
+                "text":"Yes. And you know it perfectly well.",
+                "nextPhraseID":"athamyr_coup_32"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_32",
+        "message":"Well, maybe I could risk borrowing the key and unlocking the window.",
+        "replies":[
+            {
+                "text":"Maybe? What does that mean?!",
+                "nextPhraseID":"athamyr_coup_34"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_34",
+        "message":"Bring twenty more pieces of roast. Yes, twenty should do. That's appropriate for my risk.",
+        "replies":[
+            {
+                "text":"Here I have the twenty cooked pieces of meat.",
+                "nextPhraseID":"athamyr_coup_36",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"I will go for it now.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":20,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_36",
+        "message":"You are a true friend.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"athamyr_coup_38",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat_cooked",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_38",
+        "message":"The window is already unlocked.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I hope for your sake that was all.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":63
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":72
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":73
+            }
+        ]
+    }
+]
