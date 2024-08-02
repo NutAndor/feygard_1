@@ -1,7 +1,21 @@
 [
     {
+        "id":"athamyr_complete_12",
+        "message":"I hope you have behaved well there."
+    },
+    {
         "id":"athamyr_coup_10",
-        "message":"No, there is no way over the fence. Why do you ask?",
+        "message":"No, there is no way over the fence.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"athamyr_coup_11"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_11",
+        "message":"Why do you ask?",
         "replies":[
             {
                 "text":"Oh, nothing.",

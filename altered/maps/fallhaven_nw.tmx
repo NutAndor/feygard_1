@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="34">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="35">
  <properties>
+  <property name="colorfilter" value="none"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
@@ -185,161 +186,237 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlU0KgzAQhUNLLLrNSu2xPIJH8Si9gFDadaG0tyjYvULpBWqIQ2LMj0nqQnDxMQnGvLxncOoYodqBLh2PX6liHTEwrDkTN0xngjPciB5YeyduzMnkkunx9Sv7VuX86PffH1iV8fUr++5U33cGoX59CfXri83XJ0fom0/r0n7REaFdTxOxCvNQXZ0fqE3MqBI+bgI1KXB+XYV1VDdUS6Sx8E+tjZVh6XVe787Yz9brTJh6pW2/a6Zmab/Pod/RKmLdN9Cvb46mrJzyc8mM8Kx00F7wjqT8Au8I+G17CswqjIFTwoBnOl2XzMTcSszHoFkKurZvKWakumfKexdPNQts1xJpBapkPFchv19iju8/7N/9cmOd/ABnR6Jh
+   eJztlksKwjAQhgcFpW67qu2pxAtIr+KFCoJrQfAWQhddKogXsKUpHePMJGMTcOHiY9o0JvzztEoAKsM9A7hmvK2SeIS885DySHe/racCzL3nlIfaP+jEa6eUR6NTq/e45tHolPRSXNrz58ve2oTSO5WQejU8coBn/mlj64UCYFb0tl6M77H11oj9anzG+snfSrWqqN/K3Ev5wa7TDqlWferXxw9UDxRrValXA65Nu2an6J2ES28kf7j0xvKHqz87+/eXPnD1ZyonKH+IcYmRM+bcoX6n1qY2P6S4ULM1VH5QccPxGb6HmqfczObwnqeOPn4z+ObUpp0h25y3dvx8csVn3649u8x728UBv5foXs3/MJ99DaKbbY21JtX3kC9SL6ByygbP1D+/zQsiCaQv
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9Vk1r20AQHUoVcqzkRsVgF5pryCXk2pQSeqzxpb3FkPpP9L8k/yC55qvtodBWF5sYuyWOoc2xB5NAoL0auoN2sk/rXVmyQx8MO1ppd3Zm3uyIKMV1lehGyVlMd5A5fHbp+M0v0O8TeBb7XPYZ/gfsM/xZSse9WnZ0nbUMeO3PqtE74fQ3Tx4QHWh7Mg7i6e/K4rrkuRf11bdXYvnS0zE4B1uuuJTF62WiLS0vlJwou89hzieN5eI2Bpon+zUz19TrV7UPJ7F5ljjIuyQ0erOEXcGhw+6zKGsXIe8YlSi7TnxAX1BnXiKYx8xLXp9Avk7V3HGOjOKsXfEBfRG95+CBxDAvzgKXLutsf+xnhs1VXF+BOLP/jyG2IewVQpzfKWkr2YVcy/MwNM+85y7Eled2PHwWviaemmG7eflAOfXoKB0rfxLXv49Sncd+nOUzn+284F2CvBWfhuCb7Cu9LYpSPYI4u+6PMcwNrTtnErrrBTGrPuepX8Ysu5h3l7RK2u1Y9cLgfne0QvRF1d3X2vQarkOJ93jBu5nt2nt8VzZ/FOx1H+fsSejvrba/XifaCIheBlmO5WGtPq1/ULHrL6WyDu+7VVNHoxl+3RfYH64/9Pf3HDkrGg9BArzq6hxtPUzHzyq331bMf5XwDPmGej82o49vzJNNnTu2h/42tN2exWXhGfJNdFevEbwPjL4dpCJAuy1t19Ur+V+a50X/VDV+bAfGZx/GYfY/CuPMkLrGeLn+s3mN6K57Mi/vdpyL4lWF6AJqoGg/8vUm1z/FG2XjbSXdn++qS8sPub+wz7r6MPZR7MW+79pz3PvMtUmBOPPoyoesraue91TJKMzm8krn9x9VtO6B
+   eJylVstKHEEUlUDLrITGzIhgviMfkI0fEDJrTX5B/IHkK5KduDJrHwxEVw1xSEZFHAhkO4shwoBrJXOcOvTp27eqe/BA0d1Vt+rcOrfurd7urDzj3+ZKI+7FBvb3Zo7t82yI7cA7zOPcOj+11jL40KmvS6AvxfO0/jJfPnbS46Pc7197Xe9rEy/guFe2Qa++X8XD6uJ5vlV9xvxKYZKX+z3plT6D8y6y3mjOt/Fq8QSmYjdt6UNfNCZvP6J7EcYfw9r7Wd3mb0ud3waO227JuxP6oAPei6AJxnfEJ47zXc/Xt6DFzarPq3s77VXjbVtqfGC0+r6V3i/sqBv3C1yZOMViTWAuYktexJ/Qd+rgxbctmL86l+vF/PR0wNxiiZxg/qLWKa/GvEjshWdB98vcRM5edstvD4dZOXds/OZZ5NmkT+CcOvEdGR587zl5AyCfYmcu1m99o/8Aagp1+jzv+xLhtT5b/G7IaW+u9h028P6IrE9tx0FrnAfef9D7MqIT8Chxs/V5Es4V98U6Pgjjw8hZ9erTbqesUVYnW5+5X4thQ+3wwNzkel4+as4p7yyv23v3hVfLmZtNtZNtuGTN0VquOfurW92Hd8dS/0kkfrbWKv7kpV42Z5W3LWzdaALO3EHIk1kkbinY+qq1m3ifLRqQ+h8qQn5wDxcSh7MQh803Vd8J798LnJ8SNUCRqp0x2PxmPoPz2uj31dgA+1mVV+9Rhe2nf9ZP6PYuWzTgbK71kdjoOt6/jQLa2rpjbWd5fQ7wc867G3y4W+Lf5iWN8HxO/csxN9V+bO5Ye+deybfNN/3uB96+rGPh1b9YHdE1/gN3KwMB
   </data>
  </layer>
- <layer id="3" name="Objects_replace" width="30" height="30">
+ <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzcEJACAMBMHrQIxgRxZtCxYg2I2IpgXz2fmE3GclAAAAAIjVijSrtOqfXj8dk0a+f7K3feRtvxE2wGwGlg==
+   eJzFVkkOwjAMDJUquCOB+g54EW/gc1x64QX0XJDoSyASFtbIie0mhbl0cRZ77HESgg9jF8K9c06qvNZjm57/XJf7pa0xMTv5sNrk55zAPjK/KQZtjYbZa8RpxXX3fdd8JGC8czCwfX8ZL2E05FUD5wE5id85u4R/8BBRygMH6VcDrztCDb1PypxB2Bf3nsNHI8ypoRNCigstXvTD49O5TXMhxcvRF54jWrxePqznkRZvzo6at0DjSdKJZJf4wLxbtRmR0gnaOR+R35xmLbVqBe6T02yuVr116ukNWu6WQsyNpXdiPqg+UpxYNGThJ+bDcw+rVVMxH9Z72E0Zq/U/3Ncy5vDut8d2/lpokzS8b/QxEvg47HO4BvadmufgUvDe5Uq+OS4fPUnaon+1ni+6cGRc
   </data>
  </layer>
- <layer id="4" name="Above" width="30" height="30">
+ <layer id="4" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNl80OwUAQx9cmjR6phKwLJy/AE3kTj4RrI8HZAVcOhPewm9p02nRmPyt+yWZr286/M53OLMbcuYvm9Zsozq0H+PDl2cU1FZ2Uvl8/mys8rd7rauc4dNeEYH5T+PoK4SCeJlu7QC2Ij78x4C3ljwbzi8qPEffX02B+healCWgfHofmpYvupWUfIb/QWqbFwH5jayZevepcJ+b3HYt/eaYHUa9i1zJoj+p3plrmiq292DXFNn7UO/BB+Ztb5Jdpz+FKU/xi+2bSzS33UyE6elY10ybOoZq6Ns+Tcv0cIVeV7UWCn4PU9w+U39R3ZNqHYH3IJs6/7JcUpz5jW/U/Qo7Nd26bt9RYyf43GzO2l8cHUcy6n1J9F16j45wLu36tuMprJxlj06x8v64z1PW1ofgAwq9tkw==
+   eJzlk1EOwCAIQz3F7n8Fb7jsg8QsKBSK27Im+1HHK1L70Vr/6XfpCabovlbN0xiVbKtfWWPztZ49qr7rqtwxhXh9CzebScRThjvW8LwTZD+Tkcg9e30whN59pDfUDzJb5juOclFvctbDHc9mM8vWV7izjDO5477XZ5Yb8cl4S9EcspgrrsZg9jurh3Jl3ZqvVSsy99U/O7UzL+h8K+qeWLTHlg==
   </data>
  </layer>
- <layer id="12" name="Top" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAueMiOX/4RAXlaASaOgbF3FIyCUTAKRsEoGAUDA0Zam2Ok+few2MDYOwpGwXADAB/lBJs=
-  </data>
- </layer>
- <layer id="5" name="Walkable" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzNkl0KACEIhDtF979CN9ynQGTKxj9WEHbJ/BrHNcdYImWsiROdsXHqbaW8y/Tycq33R7REZrC5HfxqT1m21F3N7vRU6830/VTvib9zb/f2vz6/fXv3FPVkarJ3VdZE3+sJPX/Glwzu7fyVxfr0ws3Y6+r0cKOaT7Pv1JrhG8Pt8Bn17dCp+2Z6q2dn6UV81I/ZFUZvlPvqI6pF36j+RbMVbP2JWx3Zex7Zm0qulR9Ut717
-  </data>
- </layer>
- <layer id="6" name="layer_replace" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
- </layer>
- <objectgroup id="7" name="Mapevents">
-  <object id="1" name="west1" type="mapchange" x="0" y="416" width="32" height="64">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="east2" type="mapchange" x="928" y="864" width="32" height="32">
    <properties>
-    <property name="map" value="fallhaven_nw"/>
-    <property name="place" value="east1"/>
-   </properties>
-  </object>
-  <object id="2" name="west2" type="mapchange" x="0" y="864" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_nw"/>
-    <property name="place" value="east2"/>
-   </properties>
-  </object>
-  <object id="3" name="clothes" type="mapchange" x="640" y="736" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_clothes"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="4" name="barn" type="mapchange" x="224" y="672" width="64" height="32">
-   <properties>
-    <property name="map" value="fallhaven_barn"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="5" name="potions" type="mapchange" x="512" y="576" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_potions"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="6" name="church" type="mapchange" x="320" y="256" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_church"/>
-    <property name="place" value="southeast"/>
-   </properties>
-  </object>
-  <object id="7" name="gravedigger" type="mapchange" x="704" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_gravedigger"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="8" name="south" type="mapchange" x="416" y="928" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_se"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="29" name="church_window" type="mapchange" x="128" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="catacombs1"/>
-    <property name="place" value="window"/>
-   </properties>
-  </object>
-  <object id="26" name="north1" type="mapchange" x="160" y="0" width="64" height="32">
-   <properties>
-    <property name="map" value="roadbeforecrossroads2"/>
-    <property name="place" value="south1"/>
-   </properties>
-  </object>
-  <object id="27" name="north2" type="mapchange" x="416" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="roadbeforecrossroads2"/>
-    <property name="place" value="south2"/>
-   </properties>
-  </object>
-  <object id="9" name="sign_fallhaven_ne_grave1" type="sign" x="544" y="256" width="32" height="32"/>
-  <object id="10" name="sign_fallhaven_ne_grave5" type="sign" x="544" y="352" width="32" height="32"/>
-  <object id="11" name="sign_fallhaven_ne_grave6" type="sign" x="672" y="352" width="32" height="32"/>
-  <object id="12" name="sign_fallhaven_ne_grave2" type="sign" x="672" y="256" width="32" height="32"/>
-  <object id="13" name="sign_fallhaven_ne_grave3" type="sign" x="768" y="256" width="32" height="32"/>
-  <object id="14" name="sign_fallhaven_ne_grave4" type="sign" x="864" y="256" width="32" height="32"/>
-  <object id="15" name="sign_fallhaven_ne_grave7" type="sign" x="864" y="352" width="32" height="32"/>
-  <object id="16" name="sign_fallhaven_ne_grave9" type="sign" x="832" y="448" width="32" height="32"/>
-  <object id="17" name="sign_fallhaven_ne_grave8" type="sign" x="736" y="448" width="32" height="32"/>
-  <object id="18" name="east" type="mapchange" x="928" y="832" width="32" height="96">
-   <properties>
-    <property name="map" value="roadbeforecrossroads5"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="30" name="east1" type="mapchange" x="928" y="0" width="32" height="64">
-   <properties>
-    <property name="map" value="roadbeforecrossroads4"/>
-    <property name="place" value="west1"/>
-   </properties>
-  </object>
-  <object id="31" name="east2" type="mapchange" x="928" y="544" width="32" height="32">
-   <properties>
-    <property name="map" value="roadbeforecrossroads4"/>
+    <property name="map" value="fallhaven_ne"/>
     <property name="place" value="west2"/>
    </properties>
   </object>
-  <object id="32" name="clothes_window" type="mapchange" x="800" y="544" width="32" height="32">
+  <object id="2" name="east1" type="mapchange" x="928" y="416" width="32" height="64">
    <properties>
-    <property name="map" value="fallhaven_clothes"/>
-    <property name="place" value="window"/>
+    <property name="map" value="fallhaven_ne"/>
+    <property name="place" value="west1"/>
    </properties>
   </object>
-  <object id="33" name="fallhaven_clothes_coup_end" type="script" x="320" y="384" width="32" height="96"/>
- </objectgroup>
- <objectgroup id="8" name="Citizens">
-  <object id="19" name="fallhaven_citizen3" type="spawn" x="672" y="224" width="256" height="288"/>
-  <object id="20" name="fallhaven_citizen6" type="spawn" x="32" y="736" width="608" height="160"/>
-  <object id="21" name="fallhaven_citizen5" type="spawn" x="352" y="448" width="160" height="448"/>
- </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="NPCs">
-  <object id="22" name="fallhaven_priest" type="spawn" x="352" y="320" width="128" height="64"/>
-  <object id="23" name="guard_pathway" type="spawn" x="704" y="864" width="32" height="32"/>
- </objectgroup>
- <objectgroup id="11" name="Replace">
-  <object id="24" name="pathway_fallhaven:50" type="replace" x="768" y="832" width="192" height="96">
+  <object id="3" name="west" type="mapchange" x="0" y="128" width="32" height="32">
    <properties>
-    <property name="Objects" value="Objects_replace"/>
-    <property name="Walkable" value="layer_replace"/>
+    <property name="map" value="gapfiller4"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="25" name="pathway_fallhaven:50" type="replace" x="768" y="800" width="192" height="128">
+  <object id="4" name="sign_fallhaven1" type="sign" x="64" y="224" width="32" height="32"/>
+  <object id="5" name="rigmor" type="mapchange" x="352" y="160" width="32" height="32">
    <properties>
-    <property name="Above" value="layer_replace"/>
+    <property name="map" value="fallhaven_rigmor"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="6" name="church" type="mapchange" x="768" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_church"/>
+    <property name="place" value="southwest"/>
+   </properties>
+  </object>
+  <object id="7" name="tavern" type="mapchange" x="256" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_tavern"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="8" name="burhczyd_check2" type="script" x="224" y="448" width="96" height="32"/>
+  <object id="9" name="prison" type="mapchange" x="416" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_prison"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="10" name="derelict" type="mapchange" x="128" y="832" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_derelict"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="11" name="arcir" type="mapchange" x="800" y="800" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_arcir"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="12" name="athamyr" type="mapchange" x="672" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_athamyr"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="13" name="nocmar" type="mapchange" x="160" y="672" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_nocmar"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="14" name="south" type="mapchange" x="256" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="fallhaven_sw"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="15" name="west2" type="mapchange" x="0" y="448" width="32" height="64">
+   <properties>
+    <property name="map" value="gapfiller4"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="34" name="fallhaven_clothes_coup_end" type="script" x="768" y="352" width="32" height="96"/>
+ </objectgroup>
+ <objectgroup id="6" name="Keys"/>
+ <objectgroup id="7" name="Keys_guild">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object id="16" name="guild03_restkey1" type="key" x="0" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0a"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="17" name="guild03_restkey2" type="key" x="0" y="448" width="32" height="64">
+   <properties>
+    <property name="phrase" value="guild03_rest0a"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="18" name="guild03_restkey3" type="key" x="256" y="928" width="32" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0b"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="19" name="guild03_restkey4" type="key" x="320" y="192" width="96" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="20" name="guild03_restkey5" type="key" x="736" y="288" width="96" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="21" name="guild03_restkey6" type="key" x="128" y="704" width="96" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="22" name="guild03_restkey7" type="key" x="768" y="832" width="96" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="23" name="guild03_restkey8" type="key" x="640" y="576" width="96" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="24" name="guild03_restkey9" type="key" x="928" y="864" width="32" height="32">
+   <properties>
+    <property name="phrase" value="guild03_rest0b"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="25" name="guild03_restkey10" type="key" x="416" y="800" width="32" height="64">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="26" name="guild03_restkey11" type="key" x="928" y="416" width="32" height="64">
+   <properties>
+    <property name="phrase" value="guild03_rest0c"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Citizens" visible="0">
+  <object id="27" name="fallhaven_citizen1" type="spawn" x="32" y="256" width="737" height="317">
+   <properties>
+    <property name="spawngroup" value="fallhaven_citizen1"/>
+   </properties>
+  </object>
+  <object id="28" name="fallhaven_citizen2" type="spawn" x="160" y="256" width="480" height="448">
+   <properties>
+    <property name="spawngroup" value="fallhaven_citizen2"/>
+   </properties>
+  </object>
+  <object id="29" name="fallhaven_citizen4" type="spawn" x="544" y="320" width="352" height="384">
+   <properties>
+    <property name="spawngroup" value="fallhaven_citizen4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="NPCs" visible="0">
+  <object id="30" name="fallhaven_oldman" type="spawn" x="864" y="608" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="fallhaven_oldman"/>
+   </properties>
+  </object>
+  <object id="31" name="fallhaven_guard" type="spawn" x="448" y="832" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="fallhaven_guard"/>
+   </properties>
+  </object>
+  <object id="32" name="fallhaven_drunk" type="spawn" x="320" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="fallhaven_drunk"/>
+   </properties>
+  </object>
+  <object id="33" name="fallhaven_priest" type="spawn" x="672" y="320" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="fallhaven_priest"/>
    </properties>
   </object>
  </objectgroup>

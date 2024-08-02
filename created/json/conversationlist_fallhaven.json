@@ -1,0 +1,75 @@
+[
+    {
+        "id":"fallhaven_clothes_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_clothes_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":68
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_clothes_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_clothes"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_10",
+		"switchToNPC":"feygard_clothes",
+        "message":"Hey! What are you doing here? How did you get in?",
+        "replies":[
+            {
+                "text":"By the door. Why?",
+                "nextPhraseID":"fallhaven_clothes_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":68
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_20",
+        "message":"Nonsense. I would have noticed.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_clothes_30"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_30",
+        "message":"Leave immediatly, or I'll call the guards!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_clothes_32"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_32",
+        "message":"And don't dare to enter my house again!"
+    }
+]

@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="19" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+0OJnYLjKh+Cjs3VkUcXR1RMDeJjIc5uSIAPDRTEIW1EQlQ+TX8SKyj8KdFsOKwNBIMUPob8IoJpJChDlR+W/JDFcbghiih3FYQY2tdQEv0VR+a/YgWJQ/AaIp7JAwhrZHSAxdHXkhiU+AACqWhxN
+   eJxjYKA+0OJnYLjKh+Cjs3VkUcXR1RMDeJjIc5uSIAPDRTEIW1EQlQ8Di1hR1R8Fui2HlYEgkOKH0F8EMM0kFojyo/JfkhguNwQxxY7iMAObWmqC36Ko/FfsQDEofgPEU1kgYY3sDpAYujpywxIfAABJMxwa
   </data>
  </layer>
  <layer id="10" name="Objects_1" width="19" height="10" visible="0">
@@ -195,7 +195,7 @@
    eJxjYBj6gFGMemYpUtGsUTB4AQCeUABP
   </data>
  </layer>
- <layer id="16" name="Objects_2" width="19" height="10" visible="0">
+ <layer id="16" name="Objects_2" width="19" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBjagFGMemYpUtGsUTC4AQCfiABP
   </data>
@@ -207,7 +207,7 @@
  </layer>
  <layer id="3" name="Above" width="19" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuOCw2NM16IoBgX0RTi84fqn4cKLMu4TELPWzpBQCjEgqB
+   eJxjYKAuOCw2NM16IgChlQQZGC6iqUXnD1U/DpRZl/CYhR629AIABEgKtA==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="19" height="10" visible="0">

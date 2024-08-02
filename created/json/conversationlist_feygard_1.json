@@ -3208,8 +3208,105 @@
         ]
     },
     {
+        "id":"fallhaven_clothes_coup_0",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fallhaven_clothes_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":73
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":68,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fallhaven_clothes_coup_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"jewel_fallhaven",
+						"value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fallhaven_clothes_coup_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"jewel_fallhaven",
+						"value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_coup_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":69
+            }
+        ]
+    },
+    {
         "id":"fallhaven_clothes_coup_10",
         "replies":[
+            {
+                "nextPhraseID":"fallhaven_clothes_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":73
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":68,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fallhaven_clothes_coup_20",
                 "requires":[
@@ -3222,6 +3319,12 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":68,
                         "negate":true
                     }
                 ]
@@ -3267,6 +3370,58 @@
     {
         "id":"fallhaven_clothes_coup_40",
         "message":"Great. Now I should leave quickly."
+    },
+    {
+        "id":"fallhaven_clothes_coup_end",
+        "replies":[
+            {
+                "nextPhraseID":"fallhaven_clothes_coup_end_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":65
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fallhaven_clothes_coup_end_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":68
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_coup_end_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":69
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":73
+            }
+        ]
     },
     {
         "id":"village_philippa_initial_phrase",
