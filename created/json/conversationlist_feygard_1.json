@@ -3226,31 +3226,31 @@
                     }
                 ]
             }
-		]
+        ]
     },
     {
         "id":"fallhaven_clothes_coup_20",
-		"message":"Now look what we have found here! The famous Jewel of Fallhaven.",
+        "message":"Now look what we have found here! The famous Jewel of Fallhaven.",
         "replies":[
             {
                 "text":"Take it.",
-				"nextPhraseID":"fallhaven_clothes_coup_30"
+                "nextPhraseID":"fallhaven_clothes_coup_30"
             },
             {
                 "text":"Leave it.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
-		]
+        ]
     },
     {
         "id":"fallhaven_clothes_coup_30",
-		"message":"Softly, softly now. We don't want to rush the taylor... Got it.",
+        "message":"Softly, softly now. We don't want to rush the taylor... Got it.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"fallhaven_clothes_coup_40"
+                "nextPhraseID":"fallhaven_clothes_coup_40"
             }
-		],
+        ],
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -3266,7 +3266,7 @@
     },
     {
         "id":"fallhaven_clothes_coup_40",
-		"message":"Great. Now I should leave quickly."
+        "message":"Great. Now I should leave quickly."
     },
     {
         "id":"village_philippa_initial_phrase",
@@ -5945,6 +5945,88 @@
             {
                 "text":"OK, but what about...",
                 "nextPhraseID":"village_philippa_fd_10"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_helmet_1",
+        "message":"What, do I look like a merchant?",
+        "replies":[
+            {
+                "text":"Well...",
+                "nextPhraseID":"thief_seraphina_helmet_2"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_helmet_2",
+        "message":"Well, I am not. But today is your lucky day.",
+        "replies":[
+            {
+                "text":"It is?",
+                "nextPhraseID":"thief_seraphina_helmet_3"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_helmet_3",
+        "message":"Yes. You see, I recently \"acquired\" this \"beauty\" from a dumb guy trying to cross the bridge before you fixed it. Do you want to take a look",
+        "replies":[
+            {
+                "text":"Yes!",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No, thanks. I'm leaving.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_helmet_selector",
+        "replies":[
+            {
+                "nextPhraseID":"thief_seraphina_helmet_bought",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"armored_helmet",
+                        "value":0,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"thief_seraphina_helmet_bought",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"armored_helmet",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"thief_seraphina_helmet_bought",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":3
             }
         ]
     }

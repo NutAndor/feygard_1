@@ -15,6 +15,7 @@
         "category":"physical",
         "isPositive":1,
         "abilityEffect":{
+            "increaseAttackChance":-10,
             "increaseMaxHP":0,
             "increaseBlockChance":7,
             "increaseDamageResistance":1

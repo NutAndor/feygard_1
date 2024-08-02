@@ -170,6 +170,16 @@
                 }
             ]
         },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"minor_increased_defense",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"3"
+                }
+            ]
+        },
         "killEffect":{
             "increaseCurrentHP":{
                 "min":1,
@@ -353,7 +363,33 @@
                     "condition":"minor_increased_defense",
                     "magnitude":1,
                     "duration":1,
-                    "chance":"5"
+                    "chance":"3"
+                }
+            ]
+        }
+    },
+    {
+        "id":"armored_helmet",
+        "iconID":"items_newb:64",
+        "name":"Armored helmet",
+        "displaytype":"extraordinary",
+        "baseMarketCost":1868,
+        "category":"hd_mtl_hv",
+        "equipEffect":{
+            "increaseMoveCost":1,
+            "increaseAttackCost":2,
+            "increaseAttackChance":-2,
+            "increaseCriticalSkill":-4,
+            "increaseBlockChance":21,
+            "increaseDamageResistance":2
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"minor_increased_defense",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"3"
                 }
             ]
         }

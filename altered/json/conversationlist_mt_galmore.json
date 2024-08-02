@@ -1,0 +1,37 @@
+[
+    {
+        "id":"thief_seraphina_bridge_fixed",
+        "message":"Please move along. There's nothing to see here.",
+        "switchToNPC":"thief_seraphina",
+        "replies":[
+            {
+                "text":"I've been wondering, do you have anything to sell?",
+                "nextPhraseID":"thief_seraphina_helmet_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"armored_helmet",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"armored_helmet",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, ma'am.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

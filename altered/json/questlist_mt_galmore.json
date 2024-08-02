@@ -1,0 +1,28 @@
+[
+    {
+        "id":"sutdover_hidden",
+        "name":"Sutdove_nondisplay",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"PC has completed enough of  'A Wicked witch' to enable mountain teleportation crystals."
+            },
+            {
+                "progress":2,
+                "logText":"The PC has been rewarded by Rennik."
+            },
+            {
+                "progress":3,
+                "logText":"Sly Seraphina has sold the Armored Helmet to the PC."
+            },
+            {
+                "progress":7,
+                "logText":"halloween"
+            },
+            {
+                "progress":8,
+                "logText":"xmas"
+            }
+        ]
+    }
+]
