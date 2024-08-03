@@ -4,7 +4,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"fallhaven_clothes_30",
+                "nextPhraseID":"fallhaven_clothes_40",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -20,7 +20,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":65
+                        "value":73
                     }
                 ]
             },
@@ -32,7 +32,7 @@
     },
     {
         "id":"fallhaven_clothes_10",
-		"switchToNPC":"feygard_clothes",
+		"switchToNPC":"tailor",
         "message":"Hey! What are you doing here? How did you get in?",
         "replies":[
             {
@@ -60,6 +60,7 @@
     },
     {
         "id":"fallhaven_clothes_30",
+		"switchToNPC":"tailor",
         "message":"Leave immediatly, or I'll call the guards!",
         "replies":[
             {
@@ -71,5 +72,55 @@
     {
         "id":"fallhaven_clothes_32",
         "message":"And don't dare to enter my house again!"
+    },
+    {
+        "id":"fallhaven_clothes_40",
+        "message":"I know your face. How dare you to come back?",
+        "replies":[
+            {
+                "text":"Are you sure you don't mix me with my brother?",
+                "nextPhraseID":"fallhaven_clothes_42"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_42",
+        "message":"Andor? I know that boy only too good.",
+        "replies":[
+            {
+                "text":"Let me see your wares.",
+                "nextPhraseID":"fallhaven_clothes_44",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"jewel_fallhaven",
+                        "value":1
+                    }
+                ]
+            },            
+			{
+                "text":"Let me see your wares.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"jewel_fallhaven",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_44",
+        "message":"You wear the stolen valuable necklace and dare lie to my face?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_clothes_30"
+            }
+        ]
     }
 ]

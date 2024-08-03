@@ -3320,12 +3320,6 @@
                         "requireID":"feygard_nondisplayed",
                         "value":65,
                         "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":68,
-                        "negate":true
                     }
                 ]
             }

@@ -75,7 +75,7 @@
     },
     {
         "id":"athamyr_coup_22",
-        "message":"Make it ten. Ten.",
+        "message":"Make it ten. Ten cooked meat.",
         "replies":[
             {
                 "text":"Are you crazy?",
@@ -95,7 +95,7 @@
     },
     {
         "id":"athamyr_coup_24",
-        "message":"Then you can then climb through a window and reach a path right to the back of the tailor's house.",
+        "message":"Then you can climb through a window and reach a path right to the back of the tailor's house.",
         "replies":[
             {
                 "text":"OK. Here I have ten deliciously cooked pieces of meat.",
