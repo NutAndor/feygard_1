@@ -1,0 +1,50 @@
+[
+    {
+        "id":"buceth_25",
+        "message":"Your views match those that I and the other priests from Nor City believe in. Tell me, would you be interested in following the glow of the Shadow?",
+        "replies":[
+            {
+                "text":"I am ready to follow the Shadow.",
+                "nextPhraseID":"buceth_27"
+            },
+            {
+                "text":"How can I agree to something without knowing what it entails?",
+                "nextPhraseID":"buceth_26"
+            },
+            {
+                "text":"No, I will go my own way.",
+                "nextPhraseID":"buceth_decline"
+            },
+            {
+                "text":"No, I will go my own way. Your stupid Shadow is nothing but talk and fancy words.",
+                "nextPhraseID":"buceth_decline"
+            },
+            {
+                "text":"(Lie) I am ready to follow the Shadow.",
+                "nextPhraseID":"buceth_27"
+            }
+        ]
+    },
+    {
+        "id":"buceth_26",
+        "message":"If the answers you gave previously were indeed your views, then I can assure you that the path that is guided by the Shadow is the right one.",
+        "replies":[
+            {
+                "text":"I am ready to follow the Shadow.",
+                "nextPhraseID":"buceth_27"
+            },
+            {
+                "text":"No, I will go my own way.",
+                "nextPhraseID":"buceth_decline"
+            },
+            {
+                "text":"No, I will go my own way. Your stupid Shadow is nothing but talk and fancy words.",
+                "nextPhraseID":"buceth_decline"
+            },
+            {
+                "text":"(Lie) I am ready to follow the Shadow.",
+                "nextPhraseID":"buceth_27"
+            }
+        ]
+    }
+]
