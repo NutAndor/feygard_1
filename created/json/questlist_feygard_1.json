@@ -98,12 +98,24 @@
                 "logText":"61=ladder"
             },
             {
+                "progress":62,
+                "logText":"62=tried window"
+            },
+            {
                 "progress":63,
                 "logText":"63=window"
             },
             {
+                "progress":64,
+                "logText":"64=used window"
+            },
+            {
                 "progress":65,
                 "logText":"65=jewel taken"
+            },
+            {
+                "progress":66,
+                "logText":"66=used window of tailor"
             },
             {
                 "progress":68,

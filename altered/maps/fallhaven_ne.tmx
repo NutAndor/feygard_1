@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="34">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="35">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -319,6 +319,7 @@
    </properties>
   </object>
   <object id="33" name="fallhaven_clothes_coup_end" type="script" x="320" y="384" width="32" height="96"/>
+  <object id="34" name="fallhaven_clothes_window_in" type="script" x="800" y="544" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="8" name="Citizens">
   <object id="19" name="fallhaven_citizen3" type="spawn" x="672" y="224" width="256" height="288"/>

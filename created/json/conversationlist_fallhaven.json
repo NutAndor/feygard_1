@@ -4,23 +4,23 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"fallhaven_clothes_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":66
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"fallhaven_clothes_40",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":68
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"fallhaven_clothes_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":73
                     }
                 ]
             },
@@ -85,7 +85,7 @@
     },
     {
         "id":"fallhaven_clothes_42",
-        "message":"Andor? I know that boy only too good.",
+        "message":"Andor? I know that boy all too well.",
         "replies":[
             {
                 "text":"Let me see your wares.",

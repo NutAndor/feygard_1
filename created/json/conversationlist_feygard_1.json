@@ -3208,6 +3208,17 @@
         ]
     },
     {
+        "id":"fallhaven_coup_62",
+        "message":"Hey, the window won't open. I hope Athamyr has a good excuse for that.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":62
+            }
+        ]
+    },
+    {
         "id":"fallhaven_clothes_coup_0",
         "replies":[
             {
@@ -3341,7 +3352,7 @@
     },
     {
         "id":"fallhaven_clothes_coup_30",
-        "message":"Softly, softly now. We don't want to rush the taylor... Got it.",
+        "message":"Softly, softly now. We don't want to rush the tailor... Got it.",
         "replies":[
             {
                 "text":"N",
@@ -3374,23 +3385,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":65
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":69,
-						"negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"fallhaven_clothes_coup_end_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":68
+                        "value":64
                     },
                     {
                         "requireType":"questProgress",
@@ -3414,6 +3409,31 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":73
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_window_in",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":64
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":66
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_clothes_window_out",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":66
             }
         ]
     },

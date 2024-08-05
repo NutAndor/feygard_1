@@ -1,6 +1,50 @@
 [
     {
+        "id":"sign_catacombs1_grave3_selector",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":73
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sign_catacombs1_grave3"
+            }
+        ]
+    },
+    {
         "id":"sign_catacombs1_grave3_10",
+        "message":"You place the ladder below the tiny window.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":71
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":72
+            }
+        ]
+    },
+    {
+        "id":"",
         "message":"You place the ladder below the tiny window.",
         "rewards":[
             {

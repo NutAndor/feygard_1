@@ -28,7 +28,7 @@
         "message":"You can tell me.",
         "replies":[
             {
-                "text":"Well, behind the fence is the shop of the taylor.",
+                "text":"Well, behind the fence is the shop of the tailor.",
                 "nextPhraseID":"athamyr_coup_14"
             }
         ]
@@ -45,7 +45,7 @@
     },
     {
         "id":"athamyr_coup_16",
-        "message":"Ah, I understand. You want to surprise your friend, the taylor.",
+        "message":"Ah, I understand. You want to surprise your friend, the tailor.",
         "replies":[
             {
                 "text":"Eh, yes. Exactly.",
