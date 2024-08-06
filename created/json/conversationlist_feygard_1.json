@@ -3304,7 +3304,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":73
+                        "value":66
                     },
                     {
                         "requireType":"questProgress",
@@ -3324,7 +3324,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":73
+                        "value":66
                     },
                     {
                         "requireType":"questProgress",
@@ -3385,13 +3385,17 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":64
-                    },
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fallhaven_clothes_coup_end_10",
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":69,
-						"negate":true
+                        "value":66
                     }
                 ]
             }
@@ -3415,11 +3419,6 @@
     {
         "id":"fallhaven_clothes_window_in",
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"feygard_nondisplayed",
-                "value":64
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",

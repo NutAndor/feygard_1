@@ -98,7 +98,7 @@
         "message":"Then you can climb through a window and reach a path right to the back of the tailor's house.",
         "replies":[
             {
-                "text":"OK. Here I have ten deliciously cooked pieces of meat.",
+                "text":"OK. I have ten deliciously cooked pieces of meat now.",
                 "nextPhraseID":"athamyr_coup_26",
                 "requires":[
                     {
@@ -128,10 +128,10 @@
     },
     {
         "id":"athamyr_coup_26",
-        "message":"I knew you would do that, my friend.",
+        "message":"Ohh ...",
         "replies":[
             {
-                "text":"N",
+                "text":"Here, take it.",
                 "nextPhraseID":"athamyr_coup_28",
                 "requires":[
                     {
@@ -145,7 +145,7 @@
     },
     {
         "id":"athamyr_coup_28",
-        "message":"I have already hidden the ladder in the basement near the window.",
+        "message":"I knew you would do that, my friend. So I have already hidden the ladder in the basement near the window.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -187,10 +187,10 @@
     },
     {
         "id":"athamyr_coup_34",
-        "message":"Bring twenty more pieces of roast. Yes, twenty should do. That's appropriate for my risk.",
+        "message":"Bring twenty more pieces of roast. Yes, twenty should do. That's worth my risk of ending up as bonemeal.",
         "replies":[
             {
-                "text":"Here I have the twenty cooked pieces of meat.",
+                "text":"I have bought the twenty cooked pieces of meat.",
                 "nextPhraseID":"athamyr_coup_36",
                 "requires":[
                     {
@@ -220,10 +220,10 @@
     },
     {
         "id":"athamyr_coup_36",
-        "message":"You are a true friend.",
+        "message":"Ohh, that smells delicious! You are a true friend.",
         "replies":[
             {
-                "text":"N",
+                "text":"Here take it. And don't forget to unlock the window.",
                 "nextPhraseID":"athamyr_coup_38",
                 "requires":[
                     {
@@ -265,5 +265,19 @@
                 "value":73
             }
         ]
+    },
+    {
+        "id":"athamyr_coup_40",
+        "message":"Yes. I tidied up a bit again.",
+        "replies":[
+            {
+                "text":"Could you ...",
+                "nextPhraseID":"athamyr_coup_42"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_42",
+        "message":"... unlock the window again for you? No, I have enough cooked meat for long."
     }
 ]

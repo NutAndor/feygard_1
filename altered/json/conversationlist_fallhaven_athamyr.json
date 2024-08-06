@@ -68,6 +68,23 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":62
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":63,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The ladder is gone and the window shut.",
+				"nextPhraseID":"athamyr_coup_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69
                     }
                 ]
             },
