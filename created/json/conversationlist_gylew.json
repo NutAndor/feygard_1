@@ -1,0 +1,28 @@
+[
+    {
+        "id":"gylew_bugfix_spawn",
+        "replies":[
+            {
+                "nextPhraseID":"gylew_bugfix_spawn_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gylew",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew_bugfix_spawn_10",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"gylew",
+                "mapName":"waterway5"
+            }
+        ]
+    }
+]
