@@ -3263,7 +3263,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"jewel_fallhaven",
-						"value":1
+                        "value":1
                     }
                 ]
             },
@@ -3279,7 +3279,7 @@
                     {
                         "requireType":"wear",
                         "requireID":"jewel_fallhaven",
-						"value":1
+                        "value":1
                     }
                 ]
             }
@@ -6195,6 +6195,140 @@
                 "rewardType":"questProgress",
                 "rewardID":"sutdover_hidden",
                 "value":3
+            }
+        ]
+    },
+    {
+        "id":"loneford_well_script_1",
+        "message":"Take a peak down the well?",
+        "replies":[
+            {
+                "text":"Sure. Why not?",
+                "nextPhraseID":"loneford_well_script_peak"
+            },
+            {
+                "text":"That's boring. I need to go now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"loneford_well_script_peak",
+        "message":"While staring down into the dark nothingness, you think to yourself...",
+        "replies":[
+            {
+                "text":"What is Andor is doing right now? I need to find him.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How deep does this thing go? Let's throw something down there and see if I can hear it hit the bottom.",
+                "nextPhraseID":"loneford_well_script_throw_selector"
+            }
+        ]
+    },
+    {
+        "id":"loneford_well_script_throw_selector",
+        "replies":[
+            {
+                "text":"[Throw a small rock.]",
+                "nextPhraseID":"loneford_well_script_throw_object",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Throw a piece of animal hair?]",
+                "nextPhraseID":"loneford_well_script_throw_hair",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hair",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Toss in a piece of that gross rotten meat.]",
+                "nextPhraseID":"loneford_well_script_throw_object",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Lob down an insect shell.]",
+                "nextPhraseID":"loneford_well_script_throw_object",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"shell",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Whip an empty flask down there.]",
+                "nextPhraseID":"loneford_well_script_throw_flask",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty3",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have nothing that I want to waste by throwing down there.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"loneford_well_script_throw_object",
+        "message":"You are not sure if the faint sound that you think you heard can really tell you anything about determining the depth of the well.",
+        "replies":[
+            {
+                "text":"Let's try and throw something else down there.",
+                "nextPhraseID":"loneford_well_script_throw_selector"
+            },
+            {
+                "text":"This is stupid. I'm leaving now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"loneford_well_script_throw_hair",
+        "message":"The hair fails to even come close to going down the well as it simply floats in the air and lands on your shoulder.",
+        "replies":[
+            {
+                "text":"Let's try and throw something else down there.",
+                "nextPhraseID":"loneford_well_script_throw_selector"
+            },
+            {
+                "text":"That's enough of the kid's games, I'm leaving.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"loneford_well_script_throw_flask",
+        "message":"You hear the flask shattering into a million pieces against what you can only presume are rocks.",
+        "replies":[
+            {
+                "text":"Now, that was fun! Let's try something else.",
+                "nextPhraseID":"loneford_well_script_throw_selector"
+            },
+            {
+                "text":"That's enough of that.",
+                "nextPhraseID":"X"
             }
         ]
     }
