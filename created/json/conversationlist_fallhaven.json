@@ -4,6 +4,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"fallhaven_clothes",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"fallhaven_clothes_10",
                 "requires":[
                     {
