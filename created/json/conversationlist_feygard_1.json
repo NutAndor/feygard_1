@@ -6217,7 +6217,7 @@
         "message":"While staring down into the dark nothingness, you think to yourself...",
         "replies":[
             {
-                "text":"What is Andor is doing right now? I need to find him.",
+                "text":"What is Andor doing right now? I need to find him.",
                 "nextPhraseID":"X"
             },
             {
@@ -6332,5 +6332,82 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"road_rondel_blocker_ip",
+        "message":"Halt!",
+        "replies":[
+            {
+                "text":"Wait a minute. Don't I know you from somewhere?",
+                "nextPhraseID":"road_rondel_blocker_halt"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_halt",
+        "message":"I said \"halt\"!",
+        "replies":[
+            {
+                "text":"Yes! I know you. But I am pretty damn sure that I killed you back there [pointing southeast] on the bridge.",
+                "nextPhraseID":"road_rondel_blocker_brother_1"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_brother_1",
+        "message":"You killed my brother?!",
+        "replies":[
+            {
+                "text":"Yes, but I had no choice. You see, he wouldn't get out of my way. Kind of like you.",
+                "nextPhraseID":"road_rondel_blocker_brother_2"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_brother_2",
+        "message":"I am disheartened and full of rage hearing of this.",
+        "replies":[
+            {
+                "text":"Well, if it's any consolation, you are about to join him.",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire"
+                    }
+                ]
+            },
+            {
+                "text":"Step aside before I am forced to reunite you two.",
+                "nextPhraseID":"road_rondel_blocker_brother_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire",
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_brother_3",
+        "message":"Of course.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"road_rondel_blocker_spawn",
+                "mapName":"wayto_feygard_duleian_1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"road_rondel_spawn",
+                "mapName":"wayto_feygard_duleian_1"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_ip",
+        "message":"I'm so saddened by the loss of my brother, all I can do is stand here starring at these flowers."
     }
 ]

@@ -732,5 +732,33 @@
                 }
             ]
         }
+    },
+    {
+        "id":"road_rondel_blocker",
+        "name":"Road rondel",
+        "iconID":"monsters_tometik6:1",
+        "maxHP":120,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":2,
+            "max":4
+        },
+        "phraseID":"road_rondel_blocker_ip",
+        "droplistID":"guynmart_drp_robber",
+        "attackCost":4,
+        "attackChance":60,
+        "blockChance":200,
+        "damageResistance":8
+    },
+    {
+        "id":"road_rondel",
+        "name":"Road rondel",
+        "iconID":"monsters_tometik6:1",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"road_rondel_ip"
     }
 ]
