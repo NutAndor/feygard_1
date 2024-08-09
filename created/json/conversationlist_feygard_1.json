@@ -6228,6 +6228,7 @@
     },
     {
         "id":"loneford_well_script_throw_selector",
+        "message":"What item can you live without?",
         "replies":[
             {
                 "text":"[Throw a small rock.]",
