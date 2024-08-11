@@ -95,7 +95,7 @@
             },
             {
                 "progress":61,
-                "logText":"61=ladder"
+                "logText":"61=ladder placed"
             },
             {
                 "progress":62,
@@ -103,7 +103,7 @@
             },
             {
                 "progress":63,
-                "logText":"63=window"
+                "logText":"63=church window unlocked"
             },
             {
                 "progress":65,
@@ -111,7 +111,7 @@
             },
             {
                 "progress":66,
-                "logText":"66=used window of tailor"
+                "logText":"66=passed window towards tailor"
             },
             {
                 "progress":68,
@@ -123,15 +123,15 @@
             },
             {
                 "progress":71,
-                "logText":"71=ladder-1"
+                "logText":"71=ladder place 1"
             },
             {
                 "progress":72,
-                "logText":"72=ladder-2"
+                "logText":"72=ladder place 2"
             },
             {
                 "progress":73,
-                "logText":"73=window"
+                "logText":"73=windows church unlocked from inside"
             },
             {
                 "progress":80,

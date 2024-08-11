@@ -38,6 +38,35 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
+                        "value":69,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"jewel_fallhaven",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"jewel_fallhaven",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What about the ladder?",
+				"nextPhraseID":"athamyr_coup_24a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
                         "value":61,
 						"negate":true
                     },
@@ -57,6 +86,12 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":71
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69,
+						"negate":true
                     }
                 ]
             },
@@ -74,6 +109,12 @@
                         "requireID":"feygard_nondisplayed",
                         "value":63,
 						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":69,
+						"negate":true
                     }
                 ]
             },
@@ -81,6 +122,11 @@
                 "text":"The ladder is gone and the window shut.",
 				"nextPhraseID":"athamyr_coup_40",
                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":63
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",

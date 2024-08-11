@@ -124,6 +124,42 @@
                 "text":"Forget it.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"athamyr_coup_24a",
+        "message":"What about the cooked meat?",
+        "replies":[
+            {
+                "text":"I have ten deliciously cooked pieces of meat now.",
+                "nextPhraseID":"athamyr_coup_26",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I will go for it now.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
         ]
     },
     {

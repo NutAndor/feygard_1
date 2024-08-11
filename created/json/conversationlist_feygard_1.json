@@ -3237,7 +3237,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":73
+                        "value":66
                     },
                     {
                         "requireType":"questProgress",
@@ -3374,7 +3374,7 @@
     },
     {
         "id":"fallhaven_clothes_coup_40",
-        "message":"Great. Now I should leave quickly."
+        "message":"Great. Now let's leave quickly."
     },
     {
         "id":"fallhaven_clothes_coup_end",
