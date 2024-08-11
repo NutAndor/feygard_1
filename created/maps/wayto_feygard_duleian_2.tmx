@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,10 +183,7 @@
  <tileset firstgid="7865" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_crate_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7993" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_bed_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8121" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7993" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="30" height="15">
@@ -206,7 +203,7 @@
  </layer>
  <layer id="4" name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYIAARRkGBiUZBjiQB7IVkPjoQB8oZ4Akj64fHUQC5aKwyKfKYfJT0MQkgfqkZLCrJxUQcie1ASwcYe6OBbLjiLQ/WIx27sIHnCmwFxR3uOJogTAE9wsj2DDcIEyZvdjAFag7+qF2IrNh+JY8A0MQBfaqA+NSg47pCQbcKMwH5AJ88UtrEDsA+RbmX1UgW41O9qOXfzA3aALt15LBFEcH5KRJmJ3KQH0qMqhmgOyIBrJjZFDLT1hZjUyTC7CV+4QAer2AHke46hxkORgNAIlgKLM=
+   eJxjYIAARRkGBiUZBjiQB7IVkPjoQB8oZ4Akj64fHUQC5aKwyKfKYfJT0MQkgfqkZLCrJxUQcie1ASwcYe6OBbLjiLQ/WIx27sIHnCmwFxR3uOJogTAE9wsj2DDcIEyZvdjAFag7+qF2IrNhOEqegSGIAnvVgXGpQcf0BANuFOYDcgG++KU1iB2AfAvzryqQrUYn+9HLP5gbNIH2a8lgiqMDctIkzE5loD4VGVQzQHZEA9kxMqjlJ6ysRqbJBdjKfUIAvV5AjyNcdQ6yHIwGAIVCKDM=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="15">
