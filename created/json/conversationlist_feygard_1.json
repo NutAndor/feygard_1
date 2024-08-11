@@ -3601,10 +3601,10 @@
     },
     {
         "id":"village_philippa_fd_feygard_1",
-        "message":"[With a not so appreciative look on here face...] Oh, sometimes I miss that magnificent place so much. But I am happier here.",
+        "message":"[With a not so appreciative look on here face...] Oh, sometimes I miss that magnificent place so much. Though, I am happier here.",
         "replies":[
             {
-                "text":"I've never been there, but tell me, is it as great as I've been told?",
+                "text":"I've never been there, so tell me, is it as great as I've been told?",
                 "nextPhraseID":"village_philippa_fd_feygard_2"
             }
         ]
@@ -3631,7 +3631,7 @@
     },
     {
         "id":"village_philippa_fd_6",
-        "message":"Child, they are a delicious fig pie enjoyed by most Feygardians as an after dinner delicacy, but most often reserved for holidays and other celebrations.",
+        "message":"Child, they are a delicious fig pie enjoyed by most Feygardians as an after dinner delicacy, often reserved for holidays and other celebrations.",
         "replies":[
             {
                 "text":"Is that my reward? A fig pie?",
@@ -4053,6 +4053,12 @@
                         "requireType":"inventoryRemove",
                         "requireID":"oegyth",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":2,
+                        "negate":true
                     }
                 ]
             },
@@ -4748,6 +4754,12 @@
                         "requireID":"echoes_of_enchantment",
                         "value":6,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+                        "negate":true
                     }
                 ]
             }
@@ -5266,6 +5278,7 @@
     {
         "id":"gamjee_compromise_5",
         "message":"And what about us? We need water too.",
+        "switchToNPC":"troll_hollow_percival",
         "replies":[
             {
                 "text":"N",
@@ -5328,6 +5341,7 @@
     {
         "id":"gamjee_compromise_9",
         "message":"You human, go back village now.",
+        "switchToNPC":"gamjee_oc",
         "replies":[
             {
                 "text":"So our busy here is done?",
@@ -6217,7 +6231,7 @@
         "message":"While staring down into the dark nothingness, you think to yourself...",
         "replies":[
             {
-                "text":"What is Andor is doing right now? I need to find him.",
+                "text":"What is Andor doing right now? I need to find him.",
                 "nextPhraseID":"X"
             },
             {
@@ -6228,6 +6242,7 @@
     },
     {
         "id":"loneford_well_script_throw_selector",
+        "message":"What item can you live without?",
         "replies":[
             {
                 "text":"[Throw a small rock.]",
@@ -6331,5 +6346,82 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"road_rondel_blocker_ip",
+        "message":"Halt!",
+        "replies":[
+            {
+                "text":"Wait a minute. Don't I know you from somewhere?",
+                "nextPhraseID":"road_rondel_blocker_halt"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_halt",
+        "message":"I said \"halt\"!",
+        "replies":[
+            {
+                "text":"Yes! I know you. But I am pretty damn sure that I killed you back there [pointing southeast] on the bridge.",
+                "nextPhraseID":"road_rondel_blocker_brother_1"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_brother_1",
+        "message":"You killed my brother?!",
+        "replies":[
+            {
+                "text":"Yes, but I had no choice. You see, he wouldn't get out of my way. Kind of like you.",
+                "nextPhraseID":"road_rondel_blocker_brother_2"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_brother_2",
+        "message":"I am disheartened and full of rage hearing of this.",
+        "replies":[
+            {
+                "text":"Well, if it's any consolation, you are about to join him.",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire"
+                    }
+                ]
+            },
+            {
+                "text":"Step aside before I am forced to reunite you two.",
+                "nextPhraseID":"road_rondel_blocker_brother_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire",
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_blocker_brother_3",
+        "message":"Of course.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"road_rondel_blocker_spawn",
+                "mapName":"wayto_feygard_duleian_1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"road_rondel_spawn",
+                "mapName":"wayto_feygard_duleian_1"
+            }
+        ]
+    },
+    {
+        "id":"road_rondel_ip",
+        "message":"I'm so saddened by the loss of my brother, all I can do is stand here starring at these flowers."
     }
 ]

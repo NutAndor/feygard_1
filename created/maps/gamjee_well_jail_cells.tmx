@@ -135,17 +135,17 @@
  </tileset>
  <layer name="Base" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBj+4DjbQLtg+AJQ2MLCl9hwxqWOnvE0mNMELExp7UZke+hhFyXytLRnoNICAHgADzg=
+   eJxjYBj+4DjbQLtg+AJQ2MLCl9hwxqWO2vGEz7zBnCZgYUprNyLbQw+7KJGnpT0DlRYAkjgQBQ==
   </data>
  </layer>
  <layer name="Ground" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJzjZWZguMPGwGAApGWBWA6KeZDYlPJ5kDDILhDWZ4bYSW0si2QXLxAfB9rlJQKhqY1BfuCG2iXPTBs7kDE31E+GBOwiN+yw2UXITU7M2Nn4sJUIdrsi8MTTCSqGISi+MmiUJrDZRUw4DoRd6IBUu3hItItUP4HKCeSyA599MDlQvMLKGGzqFLHEO0wPul3IYYkuh16e4bIPn14AVtLGag==
+   eJzjZWZguMPGwGAApGWBWA6KeZDYlPJ5kDDILhDWZ4bYSW0si2QXLxAfB9rlJQKhqY1BfuCG2iXPTBs7kDE31E+GBOwiN+yw2UXITU7M2Nn4sJUIdrsi8MTTCTLCKwqLebD4yqBRmsBmFzHhOBB2oQNS7eIh0S5S/QQqJ5DLDnz2weRA8QorY7CpU8QS7zA96HYhhyW6HHp5hss+fHoBXVXGCw==
   </data>
  </layer>
  <layer name="Objects" width="27" height="13">
   <data encoding="base64" compression="zlib">
-   eJy1VLFOAzEMda8SUyMVkTAzMcMGXaBlARa6tWUAxsIATHwBEuoKUz+FD0D0B0D8AxMDSIUO2LJN3NwdVJV40tPl7Ngv9jkHANCqwg9ea1CIKxfXjyV7/sII4zp1gCbqDSoAb0vRZ9dluKmU++5d3vaMepue9Vr/wBR91DpDrvhoq+P6KAAcz8mTwHmaBXpdzH3ouU7FduAeE1bDND9w77vP29XXDnxei50q6+whd0WPQDUdiJbtx6y9a0tdHcezQLhzrLOBPJVeak1a1+CXGSjqTd9HLcJQ4imXagxNznPcu2V6WAS9IxrXwBz7clarRUjvyih517qWw2zUGVsIUespydl10zNBWPNc28WcvAzc014yH7ZP1451FJNMziNxPTM/FosFtobYPiWH/n++srhnnLGf+FLjp/XbeX2Qfty6fKyyDOPkDAr6tlaPZkBzkX3dx1j97jbHNx44YeU=
+   eJy1VLFOAzEM9bUSUyMVkTAzMcMGXaBlARa6tWUARmAAJr4ACXWFqZ/CByD6AyB2RiYGkEoZsGWbuLk7qCrxpKfL2bFf7PgOAKBVhR+81qAQly6uH0r2/IUhxnXqAE3U62cAbwvRZ9dluM7KfXcub3tCvXXPeq1/YIpj1DpFLvloq+P6IAAczsijwHmaBXpdzL3vuU7FZuAeE5bDJD9w77vP29XXDnxei60q6+wgt0WPQDXtiZbtx7S9a0tdHcezQLh1rLOGPJFeak1aV/+XGUh785LxnagWYSDxlEs1BibnGe7dMD0sgn4jGtfAHLtyVqtFSL+VYfKudS2G6agzNhei1mOSs+smZ4Kw4rm28xl5EbinvWQ+bJ+uHOsovipyHonrmfmxmC+wNcT2KTn0/zOuxD2jCvuJzzV+Wr+d13vpx43LxyrLMErOoKC7tXo0A5qL7Ks+xuq92xzfVBpiWw==
   </data>
  </layer>
  <layer name="Object_Rope" width="27" height="13">
@@ -175,11 +175,6 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="gamjee_well_discover_villagers_selector" type="script" x="128" y="352" width="64" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
   <object name="troll_hollow_godelieve_selector" type="script" x="384" y="288" width="128" height="32">
    <properties>
     <property name="when" value="enter"/>
@@ -191,8 +186,16 @@
    </properties>
   </object>
   <object name="gamjee_pit_dl" type="container" x="672" y="192" width="32" height="32"/>
+  <object name="Object" type="key" x="128" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="gamjee_well_discover_villagers_selector"/>
+    <property name="requireId" value="echoes_of_enchantment"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="troll_hollow_prisoners" type="spawn" x="608" y="192" width="64" height="64">
    <properties>
     <property name="spawngroup" value="troll_hollow_philippa"/>

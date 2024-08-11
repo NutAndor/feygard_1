@@ -200,15 +200,15 @@
  </layer>
  <layer id="4" name="Above" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEh8WwCCKBS1jkCenBBy6LoZpZyYzd7KVy2PUTsruKGbccAP2/B9o=
+   eJxjYMAEh8WwCBKQRxa7REA/Orgshqqnkhm72UvliHcPMqhixi0HAI2kCLM=
   </data>
  </layer>
  <layer id="5" name="Top" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPOCxGJ4tIBACBwgDa
+   eJxjYCAOXBYjUiEOvYfx6McnR2sAAD1OA4U=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="8" height="8">
+ <layer id="6" name="Walkable" width="8" height="8" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJEMDAOkyuGTJ9dMQvbhwwCdbCht
   </data>

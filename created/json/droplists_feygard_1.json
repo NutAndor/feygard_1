@@ -469,6 +469,14 @@
                     "min":10,
                     "max":12
                 }
+            },
+            {
+                "itemID":"durian",
+                "chance":"85",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
             }
         ]
     },
