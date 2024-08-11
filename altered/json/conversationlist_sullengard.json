@@ -1,0 +1,23 @@
+[
+    {
+        "id":"sullengard_hadena_7",
+        "message":"Thank you so much for helping us. You are just like your brother.",
+        "replies":[
+            {
+                "text":"Of course. He is my brother.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":60
+            }
+        ]
+    }
+]

@@ -3601,10 +3601,10 @@
     },
     {
         "id":"village_philippa_fd_feygard_1",
-        "message":"[With a not so appreciative look on here face...] Oh, sometimes I miss that magnificent place so much. But I am happier here.",
+        "message":"[With a not so appreciative look on here face...] Oh, sometimes I miss that magnificent place so much. Though, I am happier here.",
         "replies":[
             {
-                "text":"I've never been there, but tell me, is it as great as I've been told?",
+                "text":"I've never been there, so tell me, is it as great as I've been told?",
                 "nextPhraseID":"village_philippa_fd_feygard_2"
             }
         ]
@@ -3631,7 +3631,7 @@
     },
     {
         "id":"village_philippa_fd_6",
-        "message":"Child, they are a delicious fig pie enjoyed by most Feygardians as an after dinner delicacy, but most often reserved for holidays and other celebrations.",
+        "message":"Child, they are a delicious fig pie enjoyed by most Feygardians as an after dinner delicacy, often reserved for holidays and other celebrations.",
         "replies":[
             {
                 "text":"Is that my reward? A fig pie?",
@@ -5266,6 +5266,7 @@
     {
         "id":"gamjee_compromise_5",
         "message":"And what about us? We need water too.",
+        "switchToNPC":"troll_hollow_percival",
         "replies":[
             {
                 "text":"N",
@@ -5328,6 +5329,7 @@
     {
         "id":"gamjee_compromise_9",
         "message":"You human, go back village now.",
+        "switchToNPC":"gamjee_oc",
         "replies":[
             {
                 "text":"So our busy here is done?",
