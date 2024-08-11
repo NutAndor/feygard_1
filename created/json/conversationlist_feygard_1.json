@@ -4053,6 +4053,12 @@
                         "requireType":"inventoryRemove",
                         "requireID":"oegyth",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":2,
+                        "negate":true
                     }
                 ]
             },
