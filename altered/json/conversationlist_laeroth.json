@@ -177,5 +177,19 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"forenza_island_100",
+        "message":"I was only allowed to go after mother insisted to father that I go too.",
+        "replies":[
+            {
+                "text":"What happened to skipping the details?",
+                "nextPhraseID":"forenza_island_110"
+            },
+            {
+                "text":"Please continue.",
+                "nextPhraseID":"forenza_island_110"
+            }
+        ]
     }
 ]
