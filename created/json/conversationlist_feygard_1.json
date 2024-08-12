@@ -4956,6 +4956,12 @@
                         "requireID":"echoes_of_enchantment",
                         "value":5,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":13,
+                        "negate":true
                     }
                 ]
             },
