@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="14">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,45 +186,50 @@
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="15">
+ <layer id="1" name="Base" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJzNlEEOgjAQRUl3dMsBPIHxtr0CujSu0CMUti5Zeg5nIhOHMlMHQ40kLyHT8l/aDu1dVfUTA3Cu57RQOzKofm9kLvWSNBMZ3Qstp4Oxq+B+NDJ7v0TyElpOnPaiY94TsPMy5MJ1WrxaDu1JdO+134CDl1nr1XL4nJjpA2Kt18qYcf4LWq+W9mq9Wtqb61Ui949/i6VXf3lWraE3w4f7aQsvOgKrWe4n6Tstj+fyd3z4PczBc6EcTjrPWg9JvTTkfQK5jipC
+   eJxjYBgFo2BwgY2cA+0C2gNa+XEkhN0oGAXUBgAw/QIv
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="15">
+ <layer id="2" name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJy1VFFKw0AQnaa17WdTIVBoA/56AE/hAdSzeI3qUfwRFMS0BUVBUKKo4IeaWosgFv3zDZll13Z3Yys+eMzuZDMvs3kM0U+cdYjOO+TEbmDPvyznca0+y2FElIEDcNQiGrfc9VUdRoZzQ+OsS5sRNIkuQ6IP8Akcg9fQ+4r0mTuPrg1LMVE11vv3ah732zqWoFtu6m9g9EUzkX5fRXfFU+fW0ds28uVavj5p53uOFWiN0OMD4gQxDbXunsTTsLhOCf0FsV0/iWZzfL8V6fMK64261uX/ewDvHIKp8e7AUseE0r4P/OcnyH8aVP+2B72+x7P/BeXVizl95cIxekjm6CMV3Ufcw7MwK7jreWHzaia6PWhtNoi2GtoDNryF7mc2uLx6JBrKBzeRni1FMOeKD0VeVfqsrXruim95Pq17ZtRf0DXqsu95b85H1q2Bq+IfFc33zPn5m7y5np7FCjsL9uuqN627CKbntg+q928ZbmvA
+   eJy9lMEKwjAMhkdv63Xg1ScQ37avMD2KMJg+gXRePe4o+BYmuGDsktqO6uCDkWX/T9I0g6mqYeIKHOpPWojtGBS/NTLHek6oiYzmhabTw7eT4H1vZDZ2juRLaDp+6kXPfPfA2sqQF9aZ4qvpUE+8edd+BrZWJtdX0+E5PjIHRK5vKiPzvKzKaJZGm9UlWl1GjdqsSrmPgr2LzSoRu+NLSZnVf55VG7kPhPuyn0r4oodjsZT9JP2n6XFd/o4P38McPBfS4YR5qXEXxH8N+T4BfIEqvg==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="15">
+ <layer id="3" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFh8Ug9HJZBoYVshD2TUkGhluSCDUP2RlwgkdY5Nw4sKsl1pynQHc8A+KPJNrrgWTvHST34zPnEw45WLigAyYsfvPA4V984CHQf49kibcXXdwVaGcYkr3zgWYtwGIeOrhEpPnEAOQ0Qy7A5R56gqVAPyxD8wexadVSgIHBSoB6biE2rXoC7fSior34ADlpgxpgKhNx6kgtnygFsPKRnHKFXLuIBYTyEzHmrSAy3NEBrNweCgAAuqgvkQ==
+   eJyNVFEvA0EQXqetPvYquaSJXuLVD/AreEfiQbwQD4IXQuJXlH/Ci4QE1SaEpFJKkJDg2mqIaHjzjZ21e+e2Oslk5nZn59vZ+W6ECMtpXoizvP6+cLX/DH/TEaLKazOO3mv0Szuc/qt1T4gAWoY2c0K0csIqKg9JgLi6EbvphGNXjG8nK+/1AX2CtqBXwPvydMxtB1xTVF1JX4iUL/15rL2npL8zoG0PcHuz+g4kJcYscr0v0IaBbeaZc6S9idSmZB3rvX3SP0bcmiNtAlhN1HgP24atuRp3m+2Jq99wLZJnlfP0oD7H1/izxj2KxtspofdNcJ3EjbG0xqX+7oI7e/nwmTLvD8aX+INNvbxj7KIbH9dGnk9DVW+PgFdizCi34mroVqo4W+twXnG1ktN9VlK2nKOcW57k6lYk/yFqKFr+vTipAe8A8Y/I8cy6nOz+/t2I4uo+uHLAvCdOCXDgCLnHM0JMZCQHbHiv/9QR7ZHJ1Qowzxl3H3EJX/Pg2tOzhaQagzPKnDLnioqN65Gtb7dGf9uMrXhfYAyaTyPsT1r+5198nL2AXvKbTeE/WoAuQReh02l5R8IkfgUGt4j3hGnOR8Ltgw4xf5RVd6u64flZMHzbOvmKg9FZTNLA3oalzgfLrK1b8lEuqpP2CzE5o/lUr9+yf2PNuR38wz1V+zd7Ip53
   </data>
  </layer>
- <layer id="4" name="Top" width="30" height="15">
+ <layer id="4" name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwEcFhtoF4yCUTAKRsHIBACwrgDa
+   eJxjYEAFh8Ug9HJZBoYVshD2TUkGhluSCDUP2RlwgkdY5Nw4sKsl1pynQHc8A+KPJNrrAbSXXwjCvgN1P8gf+Mz5hEMOFi7ogAmL3zxw+Bc5DNHBQ6D/HskSby+6uCvQzjAke+cDzVqAxTx0cIlI8/GB03IQGjnN3MXjV3LcQwog124YWAr0wzK0sCOUVpdA1VsKMDBYCVBmPzIgNq16Au30oqK9+AAobTwhIm1RC1QzQeipTJB8TCh+SS2fSAHoZSGyGDnlCrFgKhPCrulMxOsjlJ+w+QcEkMN4BQn2IQNYuT0UAACJzzuv
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="15" visible="0">
+ <layer id="5" name="Top" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBELxgWwqSVGH7H6kc1BN5MSe2H6SfEHse4kxr+k+p+QW8jxLyn2kwvI0U+pvZS6mVR7qBleQ91eWrgDX1ql1O2UuIdUu6hpLznlBjHxhi8+SS0LhzIGAA2zqLA=
+   eJxjYBgFgwEcFqPcjNVylJsxCkbBKBjc4JbkQLtg+AEAD6kClg==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <layer id="6" name="Walkable" width="30" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzFVMkNACAIcwr3X4EN/RoCWCpoE370IlGZY4gxHqxdhIfydx2tyfhafLQHmhPtm+l/4iFgO6H62sfqm83JQPt3ofpunn7WV+9WgXmjVb6R/012Nk/Er/4nOsfzi3K8zPdrFhPdva0=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="wexlow_well_script_selector" type="script" x="32" y="256" width="128" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="128" width="32" height="64">
+  <object id="2" name="west" type="mapchange" x="864" y="0" width="32" height="64">
    <properties>
     <property name="map" value="guynmart_wood_19"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="3" name="wexlow_bed" type="rest" x="32" y="96" width="32" height="32"/>
-  <object id="4" name="wexlow_key_bed" type="key" x="32" y="96" width="32" height="32">
+  <object id="3" name="wexlow_bed" type="rest" x="160" y="160" width="32" height="32"/>
+  <object id="4" name="wexlow_key_bed" type="key" x="160" y="160" width="32" height="32">
    <properties>
     <property name="phrase" value="wexlow_key_bed_not_allowed"/>
     <property name="requireId" value="feygard_nondisplayed"/>
@@ -233,7 +238,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="5" name="wexlow_villagers_spawn" type="spawn" x="384" y="224" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
@@ -288,6 +293,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="9" name="Keys" visible="0"/>
+ <objectgroup id="10" name="Replace"/>
 </map>
