@@ -6378,7 +6378,7 @@
         "message":"You killed my brother?!",
         "replies":[
             {
-                "text":"Yes, but I had no choice. You see, he wouldn't get out of my way. Kind of like you.",
+                "text":"Yes, it appears so, but I had no choice. You see, he wouldn't get out of my way. Kind of like you.",
                 "nextPhraseID":"road_rondel_blocker_brother_2"
             }
         ]
@@ -6393,7 +6393,8 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"gem_fire"
+                        "requireID":"gem_fire",
+                        "value":0
                     }
                 ]
             },
@@ -6404,6 +6405,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"gem_fire",
+                        "value":0,
                         "negate":true
                     }
                 ]
