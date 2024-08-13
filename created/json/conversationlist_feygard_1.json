@@ -4941,6 +4941,21 @@
                 "rewardType":"spawnAll",
                 "rewardID":"wexlow_villagers_spawn",
                 "mapName":"wexlow_village"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wexlow_villagers_spawn",
+                "mapName":"wexlow_village_nw_house"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wexlow_villagers_spawn",
+                "mapName":"wexlow_village_sw_house"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wexlow_villagers_spawn",
+                "mapName":"wexlow_village_se_house"
             }
         ]
     },
