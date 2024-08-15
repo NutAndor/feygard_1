@@ -4956,6 +4956,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"wexlow_villagers_spawn",
                 "mapName":"wexlow_village_se_house"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wexlow_village_ant",
+                "mapName":"wexlow_village"
             }
         ]
     },

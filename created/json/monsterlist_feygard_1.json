@@ -760,5 +760,23 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"road_rondel_ip"
+    },
+    {
+        "id":"village_ant",
+        "name":"Village ant",
+        "iconID":"monsters_insects:0",
+        "maxHP":54,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":1,
+            "max":4
+        },
+        "spawnGroup":"",
+        "droplistID":"beetle2",
+        "attackCost":3,
+        "attackChance":60,
+        "blockChance":109,
+        "damageResistance":9
     }
 ]
