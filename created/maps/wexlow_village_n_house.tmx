@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="12" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="2">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="12" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -168,40 +168,53 @@
  <tileset firstgid="6937" name="map_items_japozero" tilewidth="32" tileheight="32" tilecount="592" columns="16">
   <image source="../drawable/map_items_japozero.png" width="512" height="1184"/>
  </tileset>
- <layer id="9" name="Base" width="12" height="8">
+ <layer id="1" name="Base" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBi5YAXXQLuAgQEAXT4Asw==
+   eJxjYBi5YAUXbdSSAgCaZAFl
   </data>
  </layer>
- <layer id="1" name="Ground" width="12" height="8">
+ <layer id="2" name="Ground" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJwz4GJgMCABKwCxvQRxWAGq3l+COAxTvxyIVxDAK6Fq9UlQrw91O0z9JRb86u2h7iLWfJDaV5wQDBKDsfFhABx+NCY=
+   eJwz4GJgMCABKwCxvQRxWAGq3l+COAxTvxyIVxDAK6Fq9UlQrw91O0z9JRb86u2h7gKpzxAhbD5I7StOCN7MiWDjwwALdTP6
   </data>
  </layer>
- <layer id="2" name="Objects" width="12" height="8">
+ <layer id="3" name="Objects" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdLBXAL98shcpP5GVgSIJiCTYGBkkgbuZFyE9GU1/Ii8AaQLWaQFwMZJ9gZ2Awh6oxZyAMbrDjljvKwsDQBMRPWYgwCAiuEqmOVAAAojULnQ==
+   eJxjYCAdLBXAL98shcpP5GVgSIJiCTYGBkkgbuZFyE9GU1/Ii8AaQLWaQFwMZJ9gZ2Awh6oxZyAMbrAj2ItZUOWOAvlNQPwUKi7Ny4ATpIkwMFwFqssUIcJSEgEAbM8NYw==
   </data>
  </layer>
- <layer id="3" name="Above" width="12" height="8">
+ <layer id="4" name="Above" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPiJdlYCjlhbAXC0DoE+wMDOpQeXWsukgDh1hIUz+VhwqWUggAzcgENg==
+   eJxjYCAdOIuQpn6JAANDvCwDQykvhL9YAEKfYGdgUIeqUUdSj838ZQKE3XOIhTj3wNRP5SFNPS0AAH51B1M=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="12" height="8" visible="0">
+ <layer id="10" name="Top" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJwzFGFgMBxiGATQ+dgAuhw5+vHJ41KPzQ5cGAATkBJV
+   eJxjYKA9cBahgyVDFAAAYfAAWA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <layer id="5" name="Walkable" width="12" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJwzFGFgMBxiGATQ+dgAshy5+vHJ41KPzQ5cGAA8dBKa
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="exit" type="mapchange" x="64" y="224" width="32" height="32">
    <properties>
     <property name="map" value="wexlow_village"/>
     <property name="place" value="n_house_enter"/>
    </properties>
   </object>
+  <object id="2" name="mother_letter" type="key" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="wexlow_mother_letter_prompt"/>
+    <property name="requireId" value="echoes_of_enchantment"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>

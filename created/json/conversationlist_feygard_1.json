@@ -6446,5 +6446,47 @@
     {
         "id":"road_rondel_ip",
         "message":"I'm so saddened by the loss of my brother, all I can do is stand here starring at these flowers."
+    },
+    {
+        "id":"wexlow_mother_letter_prompt",
+        "message":"On the table, you notice a series of papers. Some appear to be letters. Do you want to be nosy and read them?",
+        "replies":[
+            {
+                "text":"I sure do.",
+                "nextPhraseID":"wexlow_mother_letter"
+            },
+            {
+                "text":"I better not. It's none of my business.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_mother_letter",
+        "message":"Dear Theodora,\n\nI\u2019ve come to visit you again today, but once more, I find your home empty. It\u2019s been nearly a month since I last saw you, and my heart grows heavier with each passing day.\n\nWhere have you gone, my dear? The village seems so quiet, as if all life has been drawn away. I\u2019ve knocked on your door, looked through the windows, and even asked the few people I saw on the Duleian Road (do you know Rosmara, the \"fruit lady\"), but no one has seen you or heard a word.\n\nPlease, if you find this letter, send word to me at once. I cannot bear the thought of something having happened to you. If you\u2019ve simply gone away for a time, I understand, but let me know that you are safe. I will return again in a week's time, praying that I find you here.\n\nWith all my love,\nMother"
+    },
+    {
+        "id":"wexlow_godwin_journal_prompt",
+        "message":"As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Maybe you should read the current  page?",
+        "replies":[
+            {
+                "text":"And violate someone's privacy? No way!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I think I should.",
+                "nextPhraseID":"wexlow_godwin_journal"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_godwin_journal",
+        "message":"It's been days since anyone has seen Odilia. At first, we thought she might have gone to visit her sister in Feygard, but she never mentioned leaving. The same happened with Philippa, and now Godelieve too. It\u2019s as if they vanished without a trace, all in their sleep. I remember Godelieve looked troubled the night before she disappeared, as though she was fighting some invisible force, but I dismissed it. I should have known something was wrong.\n\nThe village feels different now, quieter, emptier. The men are on edge, but we can\u2019t make sense of what\u2019s happening. The nights are the worst, filled with a heavy silence that chills the bone. I fear for Leofwyn and Theodora, and I can't help but wonder if something in the night is calling to them.\n\nWe\u2019re losing hope, and I\u2019m terrified of what might happen next.\n\nEnd Entry",
+        "replies":[
+            {
+                "text":"I wonder who these people are?",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
