@@ -404,6 +404,9 @@
     <map area="wexlow_village" id="wexlow_village" x="39" y="128"/>
     <map id="beekeeper1" x="382" y="429"/>
     <map id="beekeeper2" x="382" y="420"/>
+    <map id="way_to_wexlow1" x="19" y="96"/>
+    <map id="way_to_wexlow2" x="39" y="96"/>
+    <map id="way_to_wexlow3" x="55" y="109"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
