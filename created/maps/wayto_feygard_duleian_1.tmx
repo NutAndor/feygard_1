@@ -196,17 +196,17 @@
  </layer>
  <layer name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJx9Vb1KBDEQDtdZKG6KHFcs+iJXaKN3CP7bK95V+gAeaGNre/gK14q+gAjuNrYKiggW6/30h3bOuBnyJRtvICQzSeabny+7vVSpqVHqjQbKmPQe7Z2l5SyyRut1q98m5dwivU3jKXHnsqQcd2BjmddKLehy3aU5s7jPcC6HWDbJ71bqY+82Sv2E5lO7XiH7KsSJ+62Gsx1abM75O8ibcx4Z52uJzi5r32dbV+OS/BkH4xD891o13ixS7xHYCqrHjna+RY603wP0icKxNBtuX+IS3E/IS+rd0VU/LBuB/zzoqcSDsch8b8+GHOM15zyEvGM9DLFZHhOHJfPY4sTqwTlfLlb95EEP9upK7dM4qPv20KfoBcQu+8iL2LsSXOzrMeF1aHQtLr+bsO+IOTEudo9TUgPt84vfVmF8jg2DHjatD+wt1viL7Nc1FxfWfht4E/KahTlQ4bfVC8sBHJOIj1ey/Rif+5IbS+w9i+RwL7N1YIw+5fNi78d4JndZZn1nYnkXxufXHwdrTu/bNdf0nPxdpO47wXJl+frf+/4Pl9811jrWj0lStYlgzIId1pxrNYvbgov5yPqD5gGNB7jLNvkWCL8EW/4/ot/MxbEFd2pcbYtIngOICf85v2IEo7M=
+   eJyFVb1KBDEQDtdZKG6KyBWLvsgV2ugdgv/2ineVPoAH2tjaHr7CtaIvIIK7ja2CIoLFej/9oZ0zboZ8yeZ0ICQzSeabny+73VSpiVHqlQbKiPQu7Z2m5SyySus1q98k5dwkvUXjMXHnsqQct2BjmdVKzely3aE5s7hPcC6HWDbI72bqY+/US/2Y5hO7Xib7CsSJ+826sx1YbM75K8ibcx4a52uRzi5p32dLV+OS/BkH4xD8t1o13ixS7yHYCqrHtna+RQ613wP0icKxNOpuX+IS3A/IS+rd1lU/LOuB/zzoqcSDsch8Z8+GHOM15zyAvGM9DLFZHhKHJfPI4sTqwTlfzFf95EEPdheU2qOxv+DbQ5+iFxC77CMvYu9KcLGvR4TXptGxuPxuwr4j5ti42D1OSQ20zy9+W4XxOTYIetiwPrC3WONPsl/VXFxY+y3gTchrFuZAhd9WLywHcIwjPl7I9m187ktuLLH3LJLDvczWgTF6lM+zvR/jmdz97zsTy7swPr9+OVhzes+uuaZn5O88dd8JlkvL12nvexouv2usdawf46RqE8GYBTusOdfqL24LLuYj63ea+zTu4S7b5Fsg/BJs+f+Ifj0TxxbciXG1LSJ59iEm/Of8AF1upDg=
   </data>
  </layer>
  <layer name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOKmVR+fpAvgFUTB1IayDJx0gyMMRKQtiKQHElNL0weUuomqlMOCxFA9jMQgfI7tIE0lqyEHuQ9SK7DxufGAAzGxnAwiFHEreZMD/D5InxEy5gQ8DNMPcgu4VUf4IANjfishtmFzXCmBAgxg4YHzld4APY4hWfPLKdOkL43UItgC2MYe7CFvbUBtjyK3oZQCwgpA9XOrssBqHxlTOUgOlAP8YCzYtDM/Mw1F5ahvF0LOELsxfZbvSwI1QeEAKgML0shioGsxeWvmB2RwLZUbLUCYdLYqh+BrEvYfEvOqBlHAAA1YMyYA==
+   eJxjYMAOKmVR+fpAvgFUTB1IayDJx0gyMMRKQtiKQHElNL0weUuomqlMOCxFA9jMQgfI7tIE0lqyEHuQ9SK7DxufGAAzGxnAwiFHEreZMD/D5InxEy5gQ8DNMPcgu4VUf4IANjfishtmFzXCmBAgxg4YHzld4APY4hWfPLKdOkL43UItgC2MYe7CFvbUBtjyK3oZQCwgpA9XOrssRricoQRMB/oxFmheHJqZh8UgNC3DeDqW8IXZi2w3etgRKg8IAVCYXhZDFYPZC0tfMLsjgewoWeqEwyUxVD+D2Jew+Bcd0DIOAOmFMtU=
   </data>
  </layer>
  <layer name="Walkable" width="30" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytlFEKwCAMQ3cK738Fb+iXMErSpLUBYRtdX9SSvT6ovfTKalUvV//6+D97Rtz7XmFmXpkv16+rbF9ZT3VnVQ+Ox85Zoz4OW83ipLJ5jz5dvqpz9vV6r7EX8+DmwLTQLHWZTi4p7gs/8piHicxAXPWtkumd+Wb5UDmPSn67dXcd4Pl9KA==
+   eJytVEEKACAM6hX9/wv9sFMQY06tCUHFUqvhmiPFmnxUtYxLxV0fz6N5pnvWjmblFflS/aqo7lVxsj9zPSgeX94641G0WS92our36FPVZ3XKvX7/NXIhD2oOdCP20o+mkktMF/G4Hlh2dundGmzPyfSX/kb54LyHk99q3RkbLsl+tg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -224,8 +224,8 @@
   </object>
   <object name="way_to_wexlow" type="mapchange" x="480" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="wexlow_village"/>
-    <property name="place" value="north"/>
+    <property name="map" value="way_to_wexlow1"/>
+    <property name="place" value="southwest"/>
    </properties>
   </object>
   <object name="east" type="mapchange" x="928" y="128" width="32" height="320">
