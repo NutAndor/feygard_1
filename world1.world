@@ -209,6 +209,27 @@
             "width": 480,
             "x": 0,
             "y": -2496
+        },
+        {
+            "fileName": "created/maps/way_to_wexlow3.tmx",
+            "height": 576,
+            "width": 448,
+            "x": -480,
+            "y": -4608
+        },
+        {
+            "fileName": "created/maps/way_to_wexlow2.tmx",
+            "height": 992,
+            "width": 480,
+            "x": -992,
+            "y": -5024
+        },
+        {
+            "fileName": "created/maps/way_to_wexlow1.tmx",
+            "height": 480,
+            "width": 608,
+            "x": -1632,
+            "y": -5024
         }
     ],
     "onlyShowAdjacentMaps": false,

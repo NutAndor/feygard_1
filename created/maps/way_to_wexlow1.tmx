@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Ground" width="19" height="15">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIrphAHBuc8T
@@ -187,17 +190,17 @@
  </layer>
  <layer id="2" name="Objects" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFxICdYhCMLkaqGdRwByXqqOEGSgGyGwaDe5DBYHQbNncMBreRm8YAtPcMIg==
+   eJx7K8kwKMHbQeaunWIQjC5GqhnUcAc2gB5euNRRww2UAmQ3DJR7/sliFx9ot2FL99jcQW+3EesufOIwAADOSxJb
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL6AQAEdAAB
+   eJxjYKAeuCtJRcNGABgNL9LAPdmBdgF2MFjjkdruWg4M/xVocbASyF9FYrwAAAsoB+o=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL6AQAEdAAB
+   eJzbKMZANbBxkJo1WMFoeJEGBmt4jRSzYBibOCkAAKs/C6o=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
