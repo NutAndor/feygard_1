@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="31" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="15" height="31" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,54 +186,38 @@
  <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
- </tileset>
- <layer id="1" name="Base" width="15" height="31">
+ <layer id="10" name="Base" width="15" height="31">
   <data encoding="base64" compression="zlib">
-   eJxjYMAO1Ljw84nRQ6r+oQyGi/8Gwh8wO4dLGA53sJGT/nopsXMUEA9A4Twa1qQBABYuBSM=
+   eJxjYBgFo2AUjALiwUZO+uulxM5RQDwAhfNoWJMGAPEoA6M=
   </data>
  </layer>
- <layer id="2" name="Ground" width="15" height="31">
+ <layer id="1" name="Ground" width="15" height="31">
   <data encoding="base64" compression="zlib">
-   eJzd0zEOwjAMBdCoW9lYKgZmjswVko4RU8oRgBkJJEYWLkEsYskybhqbjUoeWufV7U8be+d2q++6ruvnULH/VG3NXA9tnJlfKzisnjqtlyz67cZmW+bX7JJfstzTfdJa7VyeHc5utdJ8jf2H2nd2G7IdDf45OOeN9pVtyu6otOCC0hxKPqHTW0/cL3ZS2lQM5HNW2lMxl1wPQ1Zgbjnn+9BueEn5S9exh32+BjOk3wnfT+xLdiw54L0Tc7QfybPQfwIt5OqZpe/8BuzdHEU=
+   eJzbyMnAsHEUj+JRPOLwCiby9D0TY2DYCdS7mwz9r8XIsxOkj1T3bgbiaUwQfaTqXY6kjxK9u0jUuxOqBxS2Z0jUexqq5ywQ3yMjrEB6bgHD+TaRcbQZC8YW/tjEYXIweXQ1sDBETmPo8QmTx6Z3JTQcYGbvRNOHLL8RyS0wOWR3gsJ1OZpeZD8DAH8iUZI=
   </data>
  </layer>
- <layer id="3" name="Objects" width="15" height="31">
+ <layer id="2" name="Objects" width="15" height="31">
   <data encoding="base64" compression="zlib">
-   eJydUstOw0AMNJUKEuLSS0QEqbhCoXwt4lv4gvAFlXIo3PpIK47cQHjEjnAtN9kwkrWb2DPj9a6IyPmlyLXGYiJydyMy07jXqDQeNOYaj27faC1BPnCbctDCHit0gCb98yCf2rYHu4cWNF6KmE9vz7HfhNWw/c9TTWXWqG/PZ56rn5lH5N+4WfG8fbD3B39o8MwR/PwuzNnRMzVyQG/Us9/FkZ69L/n+zQ0B+Fcmcn09cn2hRb0+XZs/VpvTWx+eR8P1zqb/7yHnTVJzpevW7J8G9FprvtXYJF6rvktd3zs0+F07r5yeya+TxlhndDrtro96JtaZnhF3KCJu35tbpdnuit+5ApjttjzMM+w97pz2ic5ppPEZzB/v87U45Nm7QX6vnh9lfJY28SzH4638O0sX/J1aXwvM4asS+a5iHb5B8H8AV7xsjw==
+   eJxjYBh6YKfYwJsx0PqHot3DwV6QWTDzCJmLLI9LLbXDhFjz2OXId8NNQeLd8QxIv0RiT2ViYLgLxPeZCNt7HCj/CohfQPW9wmIvuhkw/nGoHlLcDNN/HGoGKzCM2OTwq8fmZhh4TqSd2PSSCrDpJZTmnkHD9rUYJE5AABQvLyVR5WEYOR5fo5nNCAwnJiD+hiX8pwPpE2Ko+pDjBiT/BmjnO0nsfnkF1YesBx3ck0T4BR9Aj1Nke5EBKBz+yjIw/JPFbs59JoR+AMhrR34=
   </data>
  </layer>
- <layer id="4" name="Above" width="15" height="31">
+ <layer id="3" name="Above" width="15" height="31">
   <data encoding="base64" compression="zlib">
-   eJzVkl0KwkAMhHsFX4SqC77WHzy63sEb6FOhFRTUazhFB0Nw/9Ki+EFotnQyYbZF8cTN38/y1Xew1+/keYF+iVqhpqgZauLppZdkLXyc0uhzCK2TfnLnT3CHjWf/GJzPOTlUQsN8U32J3FnfUQzLziHvXCwawuzqkX3GP3J3w8w5ju3a/Y+0h0TtFRndBsrp2/TJpy7zNWfkdHHp2WoaeLYG3xj6/9R32gQ8W3x3Cty/L+MtNLvIf8OcHiF8Jew=
+   eJxjYBgFo2AUDEXwXHagXcDAcFmMfL2XKNBLLHgKDKNngyCcyAGHKQifm5Kk63kIDKdHsuTHyx2gnXfJsJcQQE9j6HF6B4+dd4Hq7uGJf1xhvB6oZwOBdAMLJwAyPhSo
   </data>
  </layer>
- <layer id="5" name="Top" width="15" height="31">
+ <layer id="9" name="Top" width="15" height="31">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAKQUGBmkgllFgoAqQpJI5tDIPnx2U2kUPt46CUTAKRgEucFhsoF1AP3AZj1/pEQ4AGzQEag==
+   eJxjYBgFo2AUjIJRMJzAYbGBdgH9wGU8fqVHOAAABPACnA==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="15" height="31" visible="0">
+ <layer id="4" name="Walkable" width="15" height="31" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYICAjWKkY1wAXQ7GR6dx6cOlH59efGoJ6cHnBmL8i8scUvSiqyXVPnRzKNFLqX/JtRuZppdedDOGEqAkzAcqvMnVS07aHKj0TI10SI8yh1p60fXjE8NlHza9yDQpduDSi6yekBsIhQeyOgALzl1J
+   eJxjYBgFo2AUDEWwUWzk6AXpI1UvTA+lekkF1AifgfQvuX5G14vPPHT7sOlFpkmxA5deZPWE3EAoPJDVAQCLFjAz
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="448" y="448" width="32" height="32">
-   <properties>
-    <property name="map" value="way_to_wexlow3"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="2" name="southwest" type="mapchange" x="0" y="640" width="32" height="320">
-   <properties>
-    <property name="map" value="wayto_feygard_duleian_1"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="8" name="Spawn"/>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace"/>
+ <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Replace"/>
 </map>
