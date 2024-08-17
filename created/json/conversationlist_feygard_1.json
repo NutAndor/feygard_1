@@ -5862,6 +5862,10 @@
             {
                 "text":"Oh, why didn't you just say so?",
                 "nextPhraseID":"rosmara_cat_5"
+            },
+            {
+                "text":"Well, he's not holding up his end of the deal, because there's a rat behind your tent right now.",
+                "nextPhraseID":"rosmara_cat_rat"
             }
         ]
     },
@@ -6493,5 +6497,9 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"rosmara_cat_rat",
+        "message":"Oh, my!"
     }
 ]
