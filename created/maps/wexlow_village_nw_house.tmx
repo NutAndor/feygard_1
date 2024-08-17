@@ -180,17 +180,17 @@
    eJxjYCAdOIsQVrNMAMHWhNLqQLydnbB+dHkQ34YXwl4INXexAG71QSSajwyEeUlTb4JFPSkAAKZJBpo=
   </data>
  </layer>
- <layer id="9" name="Top" width="12" height="8">
+ <layer id="4" name="Top" width="12" height="8">
   <data encoding="base64" compression="zlib">
    eJxjYKA9cBahgyVDFAAAYfAAWA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="12" height="8" visible="0">
+ <layer id="5" name="Walkable" width="12" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwzFGFgMByEGASIlUMG6HxkcWzqsalD10OqekLuR8YAxfUSEA==
+   eJwzFGFgMByEGARIUQsD6HxkcWzqsalD10OqelLcDwD83RJV
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="exit" type="mapchange" x="64" y="224" width="32" height="32">
    <properties>
     <property name="map" value="wexlow_village"/>
@@ -206,7 +206,7 @@
     <property name="requireValue" value="9"/>
    </properties>
   </object>
-  <object id="4" name="wexlow_godwin_journal" type="key" x="320" y="128" width="32" height="32">
+  <object id="4" name="wexlow_godwin_journal" type="key" x="288" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="wexlow_godwin_journal_prompt"/>
     <property name="requireId" value="echoes_of_enchantment"/>
@@ -215,7 +215,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="5" name="wexlow_villagers_spawn" type="spawn" x="32" y="96" width="288" height="96">
    <properties>
     <property name="active" value="false"/>
@@ -223,6 +223,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
