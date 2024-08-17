@@ -224,8 +224,8 @@
   </object>
   <object name="way_to_wexlow" type="mapchange" x="480" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="wexlow_village"/>
-    <property name="place" value="north"/>
+    <property name="map" value="way_to_wexlow1"/>
+    <property name="place" value="southwest"/>
    </properties>
   </object>
   <object name="east" type="mapchange" x="928" y="128" width="32" height="320">
