@@ -172,7 +172,7 @@
  </layer>
  <layer id="2" name="Objects" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPNEgh2NN4GRhqeRgYenkQcjN4UNVPkGLACqaxQeQ+sSLELKG0ORAfZ2dgyACanwnEKUC8DKg+FUgzsaGaowilr7Njt6efBbt4mgjQbBEIew9QzW5hCD0fST1MHgTKgOxKKP8OUM1tYQiNzVxiAAB/LhR7
+   eJxjYCAPNEgh2NN4GRhqeRgYenkQcjN4UNVPkGLACqaxQeQ+sSLELKG0ORAfZ2dgyACanwnEKUC8DKg+FUgzsaGaowilr7Njt6efBbt4mgjQbBEI+yBQzW5hBobDQHo+knqYPAiUAdmVUP5DoJrbQPWPsZidJoIphg0AAIdeFJM=
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="8">
@@ -190,7 +190,7 @@
    eJwzFGFgMByEGASIlUMG6HxkcWzqsalD10OqekLuR8YAxfUSEA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="exit" type="mapchange" x="64" y="224" width="32" height="32">
    <properties>
     <property name="map" value="wexlow_village"/>
@@ -215,7 +215,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="5" name="wexlow_villagers_spawn" type="spawn" x="32" y="96" width="288" height="96">
    <properties>
     <property name="active" value="false"/>
