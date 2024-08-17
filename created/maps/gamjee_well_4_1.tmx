@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Above" width="16" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYMAODotB6EtQ+jAzDoVo6mEApI+QHmRwiAS12MAlMcJqQOAymrqDaPZWkuhPUvTCQL4cA0OBHHF60d1LLECPP2LVwwCp8bcYyT+k6AMBkB+JdScMbEKyA1+cDHYAAO31Feg=
+   eJxjYMAODotB6EtQ+jAzDoVo6mEApI+QHmRwiAS12MAlMcJqQOAymrqDaPZWkuhPUvTCQL4cA0OBHHF60d1LLECPP2LVwwCp8bcYyT+k6AMBkB+JdScMbECyA1+cDHYAAOxlFeY=
   </data>
  </layer>
  <layer id="4" name="Top" width="16" height="14">
@@ -227,7 +227,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="gamjee_spawn" type="spawn" x="256" y="32" width="128" height="128">
    <properties>
     <property name="spawngroup" value="gamjee"/>
