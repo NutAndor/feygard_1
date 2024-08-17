@@ -778,5 +778,10 @@
         "attackChance":60,
         "blockChance":109,
         "damageResistance":9
+    },
+    {
+        "id":"gamjee_hidden",
+        "name":"Gamjee",
+        "iconID":"monsters_cyclops:0"
     }
 ]

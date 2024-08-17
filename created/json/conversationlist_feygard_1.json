@@ -5315,7 +5315,7 @@
     {
         "id":"gamjee_compromise_6",
         "message":"Gamjee not want hurt. Humans need water. Gamjee need too.",
-        "switchToNPC":"gamjee_oc",
+        "switchToNPC":"gamjee_hidden",
         "replies":[
             {
                 "text":"Is there a way you can share the well? Maybe take turns using it?",
@@ -5337,7 +5337,7 @@
     {
         "id":"gamjee_compromise_8",
         "message":"Gamjee promise. No hurt. Protect well. Humans share. No fight.",
-        "switchToNPC":"gamjee_oc",
+        "switchToNPC":"gamjee_hidden",
         "replies":[
             {
                 "text":"Alright. Let's make this work.",
@@ -5352,7 +5352,7 @@
                 ]
             },
             {
-                "text":"So our busy here is done?",
+                "text":"So our business here is done?",
                 "nextPhraseID":"gamjee_compromise_10_no_ac",
                 "requires":[
                     {
