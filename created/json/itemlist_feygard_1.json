@@ -353,7 +353,8 @@
         "category":"feet_mtl_hv",
         "equipEffect":{
             "increaseMoveCost":1,
-            "increaseUseItemCost":1,
+            "increaseUseItemCost":0,
+            "increaseAttackCost":1,
             "increaseAttackChance":-1,
             "increaseBlockChance":14
         },
@@ -392,6 +393,20 @@
                     "chance":"3"
                 }
             ]
+        }
+    },
+    {
+        "id":"armored_gloves",
+        "iconID":"items_newb:5",
+        "name":"Armored gloves",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":1868,
+        "category":"hnd_mtl_hv",
+        "equipEffect":{
+            "increaseUseItemCost":1,
+            "increaseAttackCost":1,
+            "increaseBlockChance":10
         }
     }
 ]
