@@ -6414,7 +6414,8 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"gem_fire",
-                        "value":0
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -6425,8 +6426,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"gem_fire",
-                        "value":0,
-                        "negate":true
+                        "value":1
                     }
                 ]
             }
