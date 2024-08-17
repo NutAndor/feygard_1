@@ -196,17 +196,17 @@
  </layer>
  <layer name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJx9Vb1KBDEQDtdZKG6KHFcs+iJXaKN3CP7bK95V+gAeaGNre/gK14q+gAjuNrYKiggW6/30h3bOuBnyJRtvICQzSeabny+7vVSpqVHqjQbKmPQe7Z2l5SyyRut1q98m5dwivU3jKXHnsqQcd2BjmddKLehy3aU5s7jPcC6HWDbJ71bqY+82Sv2E5lO7XiH7KsSJ+62Gsx1abM75O8ibcx4Z52uJzi5r32dbV+OS/BkH4xD891o13ixS7xHYCqrHjna+RY603wP0icKxNBtuX+IS3E/IS+rd0VU/LBuB/zzoqcSDsch8b8+GHOM15zyEvGM9DLFZHhOHJfPY4sTqwTlfLlb95EEP9upK7dM4qPv20KfoBcQu+8iL2LsSXOzrMeF1aHQtLr+bsO+IOTEudo9TUgPt84vfVmF8jg2DHjatD+wt1viL7Nc1FxfWfht4E/KahTlQ4bfVC8sBHJOIj1ey/Rif+5IbS+w9i+RwL7N1YIw+5fNi78d4JndZZn1nYnkXxufXHwdrTu/bNdf0nPxdpO47wXJl+frf+/4Pl9811jrWj0lStYlgzIId1pxrNYvbgov5yPqD5gGNB7jLNvkWCL8EW/4/ot/MxbEFd2pcbYtIngOICf85v2IEo7M=
+   eJyFVb1KBDEQDtvZuSlybHHqi1yhjd4h+G8pKN5V+gAeaGNrK77CtaIvIIK3T6CoiGix3k9/aOeMm49MslEHhuxMkvlmJl+y3bpSE6PUM6mUEdldmjuqlyNkkb6XrH2VlmOT7BbpCumqneunpV6Tvs0otZMpdUj6SPZ5Uq7paFpjce9Th5GLXGRMYG9kpX1gY7LMk39B5Cnnm5nz7epy5Jo/g7q55qFxsWZp7Zz2Y7Z0NS/UzzgyD+C/JNV8+5F+D4WvoH6saxcbsqf9M5AxpXAujczNIy/gvou60O+2rsZhWQ7i56lvIx+ZC8YbuzbkGH9zzQNRd+wMQ2yWu9RhYRxZnFg/uObT6WqcPDiDzZpSW6TbNd8fxoRdiNwxL3kRu1fAlee6T3ht0o7F5XsTnrvEHBuXu8cp9ED7/OK7VRifY4PgDBs2hjxb2eMP8l8kLi/Z+zXBm5DXLMyBCr+tXVgOSB1HYjyR78v43EdtLLH7DMnFvr7tA2PwO/Rg98d4hr3/vTOxugvj8+uHg4mz8QZyT48p3kndvRMsZ5avv93v33D5Xstex85jnFZ9EJkzsMOec6/+4jZwZT34fqWxR3or9rIPbwH4BWz8f2BfTsWxgTsxrrdFpM6eyEn+c74Bq5mncQ==
   </data>
  </layer>
  <layer name="Above" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOKmVR+fpAvgFUTB1IayDJx0gyMMRKQtiKQHElNL0weUuomqlMOCxFA9jMQgfI7tIE0lqyEHuQ9SK7DxufGAAzGxnAwiFHEreZMD/D5InxEy5gQ8DNMPcgu4VUf4IANjfishtmFzXCmBAgxg4YHzld4APY4hWfPLKdOkL43UItgC2MYe7CFvbUBtjyK3oZQCwgpA9XOrssBqHxlTOUgOlAP8YCzYtDM/Mw1F5ahvF0LOELsxfZbvSwI1QeEAKgML0shioGsxeWvmB2RwLZUbLUCYdLYqh+BrEvYfEvOqBlHAAA1YMyYA==
+   eJy1VMsNAiEQJZbggYQDB734iYleTWxE41qBDViI2YLsYLchh+BLBhw+RvZdYGbCvDcPglIyHjaM9xQfPrkVrWtWvxqlOuP3C8ovo7OoH02CLAGpVwyua0Pr1noefpbrk+IaoDcHfLibdE/MjHrNTCmcCpqhh2v5dU4HSWOKG1wtPC6hhgMxfxc5SPeaq3PO3TyvpRUkj6FL8r41nrPvXPwH1KJ0LvXORl3+Z/5BTzN21O8W9Xxpv07pcS/4C17OHXtX+g9KcJ6OOsyBF+8L3GfaX2wbHwYdzuz2gzBvjCnv4A0IDjI+
   </data>
  </layer>
  <layer name="Walkable" width="30" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytlFEKwCAMQ3cK738Fb+iXMErSpLUBYRtdX9SSvT6ovfTKalUvV//6+D97Rtz7XmFmXpkv16+rbF9ZT3VnVQ+Ox85Zoz4OW83ipLJ5jz5dvqpz9vV6r7EX8+DmwLTQLHWZTi4p7gs/8piHicxAXPWtkumd+Wb5UDmPSn67dXcd4Pl9KA==
+   eJytVEEKACAM6hX9/wv9sFMQY06tCUHFUqvhmiPFmnxUtYxLxV0fz6N5pnvWjmblFflS/aqo7lVxsj9zPSgeX94641G0WS92our36FPVZ3XKvX7/NXIhD2oOdCP20o+mkktMF/G4Hlh2dundGmzPyfSX/kb54LyHk99q3RkbLsl+tg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -232,6 +232,12 @@
    <properties>
     <property name="map" value="way_to_wexlow2"/>
     <property name="place" value="southwest"/>
+   </properties>
+  </object>
+  <object name="northeast" type="mapchange" x="704" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="way_to_wexlow1"/>
+    <property name="place" value="southeast"/>
    </properties>
   </object>
  </objectgroup>
