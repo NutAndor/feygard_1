@@ -3773,6 +3773,10 @@
             {
                 "text":"You did not have the Shadow with you.",
                 "nextPhraseID":"village_percival_shadow"
+            },
+            {
+                "text":"What about the state of your house? It's a mess now.",
+                "nextPhraseID":"village_percival_cleanup"
             }
         ]
     },
@@ -3809,6 +3813,10 @@
             {
                 "text":"Well, if was fun afterall.",
                 "nextPhraseID":"village_theodora_fun"
+            },
+            {
+                "text":"Right back to the garden I see?",
+                "nextPhraseID":"village_theodora_garden"
             }
         ]
     },
@@ -4437,6 +4445,10 @@
             {
                 "text":"How did the troll manage to capture all of you without anyone noticing?",
                 "nextPhraseID":"wexlow_odilia_explain_capture"
+            },
+            {
+                "text":"What about you? How are you doing?",
+                "nextPhraseID":"village_odilia_cleanup"
             }
         ]
     },
@@ -4487,6 +4499,10 @@
             {
                 "text":"How did the troll manage to capture all of you without anyone noticing?",
                 "nextPhraseID":"wexlow_osric_1"
+            },
+            {
+                "text":"What about the state of your village? How will you repair it?",
+                "nextPhraseID":"wexlow_osric_cleanup"
             }
         ]
     },
@@ -6501,5 +6517,43 @@
     {
         "id":"rosmara_cat_rat",
         "message":"Oh, my!"
+    },
+    {
+        "id":"village_percival_cleanup",
+        "message":"Can you believe it? It\u2019ll take weeks to clear out all the cobwebs. It\u2019s like the spiders moved in the moment we disappeared. And the food... oh, the smell of it all rotting away. It\u2019s a mess.",
+        "replies":[
+            {
+                "text":"Good luck with all that.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_garden",
+        "message":"Our poor garden! It\u2019s been choked by weeds, and what few crops are left are withered. It\u2019ll be a full season\u2019s work just to get it back to where it was. I\u2019ve never seen it this bad before.",
+        "replies":[
+            {
+                "text":"Farming is in my blood, so I could hel you, but I won't. It's time to find my brother, Andor. Have you seen him?",
+                "nextPhraseID":"village_theodora_garden_2"
+            }
+        ]
+    },
+    {
+        "id":"village_theodora_garden_2",
+        "message":"I think we both know the answer to that. Now, leave me to tend to this mess."
+    },
+    {
+        "id":"wexlow_osric_cleanup",
+        "message":"It\u2019s like the village itself fell into a deep sleep, just like us. Now, we have to wake it up again, clean out the overgrowth, and hope the roots haven\u2019t gone too deep. This\u2019ll take every bit of strength we\u2019ve got.",
+        "replies":[
+            {
+                "text":"Oh, it most certainly will.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"village_odilia_cleanup",
+        "message":"Everything\u2019s out of place, left exactly as it was when we... when we vanished. It\u2019s eerie, really. We\u2019ll need everyone\u2019s help to tidy up and get the village back to how it was. But first, we need to clear away the webs and rot."
     }
 ]
