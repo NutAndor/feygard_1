@@ -189,17 +189,17 @@
  </tileset>
  <layer name="Base" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAroDww5B9oFEAAAJc8AOw==
+   eJxjYBgFo2AUjIJRMFSAIScEDwcwWPwBAL7lAK8=
   </data>
  </layer>
  <layer name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJwz5GRgMBzFdMcJwoQxLewtECaMaWGvMRF4KNtLrHnU9icl/qBWWJASttSOB2LiF5/5tEwHxKQFWqb9wWYvNrszxehvLzZ/AwDtNWti
+   eJwz5GRgMBzFdMcJwoQxLewtECaMaWGvMRF4KNtLrHnU9icl/qBWWJASttSOB2LiF5/5tEwHxKQFcuwuE2NgqBQbmDRD7fSaSYE/qBkvAMmibAk=
   </data>
  </layer>
  <layer name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVVU1Lm0EQXlJo7XEtvPTwkvwIT/ViazWJougp2tiLpU016TEGo0b8CYI/xJOgXrWg3ioWTHuyH1KhPfTYS/GZ7Aw7uyaiA8Ps7uzM88zsvvs2ssZUoI3ILkHrt6zf1x/PJeZFasxw6n1DGD9Pb+Z6B30LnYJvOvXrEv/JGvMTSnJmvb8J34rKr3MeQPcjvmQf5Yzpgz5D3KDCItlF7j3GuWRL8gXjrzw/ZfuDbV3xvI+0sz7fEfTYupw7nPdE4V/w+By2bX0fhXcL4/U74j9E7d+jGg5hP9pwn9RZgv0FvYr84jsEh40nrt8kNH6a83tkPcmFsZdRvj+YF6PeL6ge0/kuJF4XoZvAOsX6/6wbi5xlHS9ao30kv5FrAlrgnN+sw3nF889sxyIOdeb/pt/ZMvItd9G5JPQ3oZUk5Ky5S/86fGGnFZcCzrKozpP2VXvkqiUOk/DK1mHWkrC388y9qrDzqv/Ukwq0xLXqmiinxJPMctx2xIkwZ3rcEcGW2t9b1/8PGWO2rD9f4dJQ/SSRvMKj1AUnPhcd/yAT1v46430t1ecqY992vjEm9f0v89mKuAvvIuYtG75/VO8oxvnou520/g5O9eBDmPLtVtnSG1lQHOm+6pr1O04iPR8D/rjiUFFnoUXfSen/P7bxeXV4JR7jJeJGUp9D3txVjNfS8D/R7d+jJX6rpOaBx77XxSTMdQ0brK1D
+   eJyVVU1Lm0EQXiL4cVyFFw8vyY/w1F78ak2Uip5itV4UjRp7TENtjfQnCPkhPRVsr1VovSkWaj35iYIePHoRn3Fn3Nk1kTowzO7O7vM8M/tmU80aU4JXo/gBXnli/bn5eC5n+lNjBlKf68W4L32MNQ+fg48hN576dTm/Y405hZPtWZ9fQe6TwteYP+E/Ir0U23LGtMNf4NxLxUW2AezvzHPGkewfxgc83+V4wrGidD7H9rMe7xf8t3WY3xh3W/Ef8vgv4r71fSTd1I8axmv/yd+K2o+jGjYRt2y4T+osIp7DL6K85Dah4UuX6zcZjbtzfo+sJ7nw7FmEd4V5Ier9ouox3e9i4n0Jvg6uXazfZt1YbC/rdNEa7SO7BNYbeJ4xj6zjmeT5H47DkYYK65/tdHEKeB8b+LskzK/AS0moWWuX/t3rRRxXWvK4y4K6T9pXboK1nDhO4puyjnM5CXs7w9rLintI9Z96UoIXuVZdE2HKebK3fO5rpIk4J5p8I8IttS9Y1//3GWPq1t/vEd9PVfWTTHBFR7EBT3wv+nxLJqx9OuNzNdXnMnM/1N4ET3NS369ZTz3SLroLmNds+P5Rva8xHop+t6PWf4NjSo924pTfbpkjvZF5pZG+V12zfsfJpOfD4B9RGmRfbPqblP7fcIzv615X4jkGce5V6jHkzf2M8Woa/k80+u/RFr9VUnNPh+91IQmx7gCFFK7g
   </data>
  </layer>
  <layer name="Above" width="30" height="15">
@@ -234,6 +234,23 @@
   <object name="rat_spawn" type="spawn" x="384" y="32" width="64" height="32">
    <properties>
     <property name="spawngroup" value="crossroads_rat"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn1" type="spawn" x="480" y="384" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn2" type="spawn" x="480" y="64" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn3" type="spawn" x="672" y="64" width="224" height="224">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
  </objectgroup>
