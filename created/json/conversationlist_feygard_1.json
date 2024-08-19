@@ -6470,7 +6470,13 @@
     },
     {
         "id":"road_rondel_ip",
-        "message":"I'm so saddened by the loss of my brother, all I can do is stand here starring at these flowers."
+        "message":"I'm so saddened by the loss of my brother, all I can do is stand here starring at these flowers.",
+        "replies":[
+            {
+                "text":"Why'd you move so quickly?",
+                "nextPhraseID":"road_rondel_move_hint"
+            }
+        ]
     },
     {
         "id":"wexlow_mother_letter_prompt",
@@ -6555,5 +6561,9 @@
     {
         "id":"village_odilia_cleanup",
         "message":"Everything\u2019s out of place, left exactly as it was when we... when we vanished. It\u2019s eerie, really. We\u2019ll need everyone\u2019s help to tidy up and get the village back to how it was. But first, we need to clear away the webs and rot."
+    },
+    {
+        "id":"road_rondel_move_hint",
+        "message":"[while scanning the you up and down with his eyes...] \"There's something... about you... something warm. Ain't my place to stand in the way of that."
     }
 ]
