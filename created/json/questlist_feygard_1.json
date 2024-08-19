@@ -188,6 +188,10 @@
             {
                 "progress":10,
                 "logText":"PC has learned what the beekeeper, Leofric does for work."
+            },
+            {
+                "progress":11,
+                "logText":"In Wexlow Village, the PC has learned that there are missing residents."
             }
         ]
     },

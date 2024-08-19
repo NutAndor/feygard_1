@@ -6494,7 +6494,14 @@
     },
     {
         "id":"wexlow_mother_letter",
-        "message":"Dear Theodora,\n\nI\u2019ve come to visit you again today, but once more, I find your home empty. It\u2019s been nearly a month since I last saw you, and my heart grows heavier with each passing day.\n\nWhere have you gone, my dear? The village seems so quiet, as if all life has been drawn away. I\u2019ve knocked on your door, looked through the windows, and even asked the few people I saw on the Duleian Road (do you know Rosmara, the \"fruit lady\"), but no one has seen you or heard a word.\n\nPlease, if you find this letter, send word to me at once. I cannot bear the thought of something having happened to you. If you\u2019ve simply gone away for a time, I understand, but let me know that you are safe. I will return again in a week's time, praying that I find you here.\n\nWith all my love,\nMother"
+        "message":"Dear Theodora,\n\nI\u2019ve come to visit you again today, but once more, I find your home empty. It\u2019s been nearly a month since I last saw you, and my heart grows heavier with each passing day.\n\nWhere have you gone, my dear? The village seems so quiet, as if all life has been drawn away. I\u2019ve knocked on your door, looked through the windows, and even asked the few people I saw on the Duleian Road (do you know Rosmara, the \"fruit lady\"), but no one has seen you or heard a word.\n\nPlease, if you find this letter, send word to me at once. I cannot bear the thought of something having happened to you. If you\u2019ve simply gone away for a time, I understand, but let me know that you are safe. I will return again in a week's time, praying that I find you here.\n\nWith all my love,\nMother",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":11
+            }
+        ]
     },
     {
         "id":"wexlow_godwin_journal_prompt",
@@ -6517,6 +6524,13 @@
             {
                 "text":"I wonder who these people are?",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":11
             }
         ]
     },
@@ -6565,5 +6579,13 @@
     {
         "id":"road_rondel_move_hint",
         "message":"[while scanning the you up and down with his eyes...] \"There's something... about you... something warm. Ain't my place to stand in the way of that."
+    },
+    {
+        "id":"wexlow_village_hole",
+        "message":"There's a disgusting smell emanting from that hole in the wall. You think there must be a dead animal inside it."
+    },
+    {
+        "id":"wexlow_village_welcome",
+        "message":"Welcome to Wexlow Village.\n\n~Glory be to Feygard"
     }
 ]
