@@ -6587,5 +6587,84 @@
     {
         "id":"wexlow_village_welcome",
         "message":"Welcome to Wexlow Village.\n\n~Glory be to Feygard"
+    },
+    {
+        "id":"wulfric_ip",
+        "message":"Hey there. I am \"Wulfric the Wonderful\".",
+        "replies":[
+            {
+                "text":"I am wondering...",
+                "nextPhraseID":"wulfric_wonder"
+            }
+        ]
+    },
+    {
+        "id":"wulfric_wonder",
+        "message":"Why I'm so wonderful?",
+        "replies":[
+            {
+                "text":"Well, yeah, but no, not really.",
+                "nextPhraseID":"wulfric_ask_about_andor"
+            },
+            {
+                "text":"Do you know where the residents of Wexlow Village are?",
+                "nextPhraseID":"wulfric_wexlow",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, why are you so wonderful?",
+                "nextPhraseID":"wulfric_wonder_answer"
+            }
+        ]
+    },
+    {
+        "id":"wulfric_ask_about_andor",
+        "message":"What then?",
+        "replies":[
+            {
+                "text":"Whether you've seen my brother, Andor or not. You see, he looks like me, but not as good looking.",
+                "nextPhraseID":"wulfric_andor"
+            }
+        ]
+    },
+    {
+        "id":"wulfric_andor",
+        "message":"Nope. Sorry. Is there anything else?",
+        "replies":[
+            {
+                "text":"I am wondering...",
+                "nextPhraseID":"wulfric_wonder"
+            },
+            {
+                "text":"Nope.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"wulfric_wexlow",
+        "message":"Wexlow Village? Where is that?",
+        "replies":[
+            {
+                "text":"Oh, nevermind.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"wulfric_wonder_answer",
+        "message":"Because all the ladies say that I am."
     }
 ]

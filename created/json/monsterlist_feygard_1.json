@@ -783,5 +783,12 @@
         "id":"gamjee_hidden",
         "name":"Gamjee",
         "iconID":"monsters_cyclops:0"
+    },
+    {
+        "id":"wulfric",
+        "name":"Wulfric",
+        "iconID":"monsters_tometik3:10",
+        "monsterClass":"humanoid",
+        "phraseID":"wulfric_ip"
     }
 ]
