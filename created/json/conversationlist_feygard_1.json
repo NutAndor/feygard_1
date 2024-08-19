@@ -5825,6 +5825,23 @@
                 "nextPhraseID":"rosmara_explain"
             },
             {
+                "text":"Do you know why the village of Wexlow is void of people?",
+                "nextPhraseID":"rosmara_wexlow",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"I would like to make a purchase, please.",
                 "nextPhraseID":"S",
                 "requires":[
@@ -6666,5 +6683,25 @@
     {
         "id":"wulfric_wonder_answer",
         "message":"Because all the ladies say that I am."
+    },
+    {
+        "id":"rosmara_wexlow",
+        "message":"What?! There's nobody in the village?",
+        "replies":[
+            {
+                "text":"Nope. Not a single person, and it looks like there hasn't been for a while.",
+                "nextPhraseID":"rosmara_wexlow2"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_wexlow2",
+        "message":"Hmm, I hope they are all right.",
+        "replies":[
+            {
+                "text":"Me too.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
