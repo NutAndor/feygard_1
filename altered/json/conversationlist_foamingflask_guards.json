@@ -1,0 +1,24 @@
+[
+    {
+        "id":"ff_captain_3",
+        "message":"We are travelling the main road to make sure the merchants and travelers are safe. We keep the peace around here.",
+        "replies":[
+            {
+                "text":"You mentioned Feygard. Where is that?",
+                "nextPhraseID":"ff_captain_4"
+            },
+            {
+                "text":"So when you say \"peace\", you really mean \"law enforcement\"?",
+                "nextPhraseID":"ff_captain_beer_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
