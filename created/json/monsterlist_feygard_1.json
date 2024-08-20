@@ -790,5 +790,80 @@
         "iconID":"monsters_tometik3:10",
         "monsterClass":"humanoid",
         "phraseID":"wulfric_ip"
+    },
+    {
+        "id":"young_murkcrawler",
+        "name":"Young murkcrawler",
+        "iconID":"monsters_newb_1:259",
+        "maxHP":117,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":7,
+            "max":11
+        },
+        "droplistID":"young_murkcrawler_dl",
+        "attackCost":3,
+        "attackChance":159,
+        "criticalSkill":8,
+        "criticalMultiplier":2.0,
+        "blockChance":83,
+        "damageResistance":6
+    },
+    {
+        "id":"murkcrawler",
+        "name":"Murkcrawler",
+        "iconID":"monsters_newb_1:260",
+        "maxHP":122,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":9,
+            "max":11
+        },
+        "droplistID":"murkcrawler_dl",
+        "attackCost":3,
+        "attackChance":159,
+        "criticalSkill":9,
+        "criticalMultiplier":2.0,
+        "blockChance":89,
+        "damageResistance":7
+    },
+    {
+        "id":"grass_spider",
+        "name":"Grass spider",
+        "iconID":"monsters_tometik10:56",
+        "maxHP":79,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":4,
+            "max":6
+        },
+        "spawnGroup":"",
+        "droplistID":"spider",
+        "attackCost":3,
+        "attackChance":100,
+        "blockChance":170,
+        "damageResistance":12,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":4,
+                    "duration":6,
+                    "chance":"40"
+                },
+                {
+                    "condition":"spider_bite",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]

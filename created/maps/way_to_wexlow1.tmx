@@ -189,22 +189,22 @@
  </tileset>
  <layer name="Base" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFlAA1roF2AX0ByL8wPApGATkAAOIbAME=
+   eJxjYBgFlAA1roF2AX0ByL8wPAqGN6BVHAMA8pEA8Q==
   </data>
  </layer>
  <layer name="Ground" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEEYjUu7JhUc36JU88sXOaQYxYhP5JjF0hOWgKB8ZlBjrupaRa9w3MgzcJlHjXzByVmoWMApdOjyQ==
+   eJzbyMnAsHEEYjUu7JhUc36JU88sXOaQYxYhP5JjF0hOWgKB8ZlBjrupaRa9w3MgzcJlHqX5AzmOKTELHQMAps2jzA==
   </data>
  </layer>
  <layer name="Objects" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJxtVElOw0AQ7AsHloOdA17AUS5IhAS4wA+AV/AdTjwEvsCJVYLwAKQoKAeQwmbnAYAQVfI00xlcUmnGPZ5KVaeTKhMpwSk4BiuQOC9ELgr5Qxn7/UkkchrV+5Grb3b8uerwbACNe/CpJXKL9c5pPrp7rBNreb0+uLr6mTo/h3P1+oHz40j+IcX9LPfPqvsW+3ylyfeZiPTSWX4l9dk6dLq590icLdfUfOqL7/Rxt+vyb7n1O5n1YaE19aPrAnRWwSE0C6fDvWqpD2K+jffbvl+a6zX2fVQ97umPmtRir5vyK63nI7On3gY0emAfXExrnab8dj8yfSQm7pkzpXlUvyk//Q8Djfdgfiz0e2vKr/5/Ct87C87XDvqzCw4yX2eGpdTn2u54TQs748QedPbBg2C+1Rvvaz7+hqpg7l+CHllPrHO+2QPV0++GuuNgvhSX8HcFPqN2jfXG+NX+UW/F0N6Xlv98wv5X0B/rk4beMh979ws5DHlX
+   eJxtVEtOAkEUfBsXoguGhcygQ9iYiKBu9AbqKbyOKw+iV9CN30TxACYEwkITFR04gBpjld3PfrTzkkp3Xk8XVTVvmGQiBTAFRsAEYJ3nIhe5/FXhz/qJyHFV5KTq+oPErRut8Kzy8KwHjnvgsSZyi/XOcw79PfZZqw23Pvi+6pl6PQdzbn3H+VFV/lWK+5nnKJLAO06C9sL4+6iLdNJZfNbd2Rp42o2gkXW65PC7h4cz46OLu23vf9OvX/VZf7a0F+uqgGcldRnnnod75VId7M038Xwz5KW+XpOQo/JxT33kJBezLvOvsJoPay5zFvnWwdEBusBC6njK/Nv9wORo8+N70kyVv8w/9fcjjrdofmwNjd7Yv+r/zkN2tuh1G/nsAL0s9OlhMQ2+tlqB05adcdYuePaA/Wi+VRvvqz9+Q5No7l+ijKwm9sd+1pUva7l3Q95RydyzLqHvCnhC7xrrjdGr+VX8O11OHex9qYXfZ9n/Cupj/7kkW2bI7H4AYqx/OQ==
   </data>
  </layer>
  <layer name="Above" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVVMsKwjAQ3F/wIqQazFVBvHn3S32Cj4uCJz/Ds9W7foW7JAvbZNOmA8smpTvMTJcCpDhbgIv15yP2k1VeQtxN8/7Ge218L0E8nwPzPYdl73fxMIwDqLBGWGOs16CboxYczEc8hHnoC6fPfjHHn8hSy2kqZomXuUuz0iA9SsT++dwXmn8+94Xmn3V9MnvIeBhfMaRHmSkjt+PLKn0W+yLuvnvfpk3bL8IW9e2Cxj32g6J35pre2vSscX4TOLTMCPwt2LOWE/8rrlg3RdNqkmbzB23kMg8=
+   eJyVVMsKwjAQzC94EVIt9qoi3rz7mXrxCT4uCp78DM9W7/oVTmgWx3RT24Flk5KdzAyhxpRxSI05psV6h75PlUPAxf7uH9jntuh1EM7HIHy3dr3zGmbwMA982MyYBNVBdVH31n8e8cc+HY/DyPdxps++cP+bNGg59WnW8Qp33aw0sEdG6F/WGrT8mMeB/cu6KTT/ousZuV9wtUWFYI+cqSD2xidJ+Vvoy3E3ffdV2nLiYL4V9K29xg36VtE7wPyQ9FXpWWB+6Tm0zBjiWctJ/hUn1FnRNO19sxGeD4VQNfQ=
   </data>
  </layer>
  <layer name="Top" width="19" height="15">
@@ -212,13 +212,13 @@
    eJxjYBgF1AKSCgPtglEwCqgLpBQYGKQVqGsmAN10AK8=
   </data>
  </layer>
- <layer name="Walkable" width="19" height="15" visible="0">
+ <layer name="Walkable" width="19" height="15">
   <data encoding="base64" compression="zlib">
-   eJytk1EKACAIQz1F97+CN+xXhs5pCULhYy1RP2YuZIyslp07BjWrN7COLGpXNcZE3Y6d/IMF61Gng8yEn3qcROZp25OtF2U+XvrL9qO6q7Op8J1v1SPb759amBcHVFu7
+   eJylUlsKACAI8xTd/wreMPoT2UNpIBRua1l5IvKzHtDacSrQnvE7t3uznuJUX8fd3ENBzcjl7Bx3rsrsdBugTOxtmR713UxYBqSfeKn5sv/NdJu/OeG73NOMatYu48ar1wWLcWEs
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="576" y="32" width="32" height="160">
+  <object name="east" type="mapchange" x="576" y="32" width="32" height="192">
    <properties>
     <property name="map" value="way_to_wexlow2"/>
     <property name="place" value="west"/>
@@ -241,6 +241,49 @@
   <object name="wulfric_spawn" type="spawn" x="192" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="wulfric"/>
+   </properties>
+  </object>
+  <object name="young_murkcrawler_spawn" type="spawn" x="448" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="young_murkcrawler"/>
+   </properties>
+  </object>
+  <object name="young_murkcrawler_spawn2" type="spawn" x="352" y="32" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="young_murkcrawler"/>
+   </properties>
+  </object>
+  <object name="young_murkcrawler_spawn3" type="spawn" x="320" y="192" width="224" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="young_murkcrawler"/>
+   </properties>
+  </object>
+  <object name="duleian_hornet_spawn" type="spawn" x="96" y="384" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object name="grass_spider_spawn1" type="spawn" x="96" y="128" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="grass_spider"/>
+   </properties>
+  </object>
+  <object name="grass_spider_spawn2" type="spawn" x="320" y="224" width="96" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grass_spider"/>
+   </properties>
+  </object>
+  <object name="grass_spider_spawn3" type="spawn" x="32" y="192" width="224" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="grass_spider"/>
+   </properties>
+  </object>
+  <object name="young_murkcrawler_spawn4" type="spawn" x="448" y="256" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="young_murkcrawler"/>
    </properties>
   </object>
  </objectgroup>
