@@ -101,14 +101,14 @@
         "description":"A massive, rugged club, capable of shattering stone and crushing enemies with ease.",
         "equipEffect":{
             "increaseAttackDamage":{
-                "min":7,
+                "min":6,
                 "max":11
             },
             "increaseAttackCost":7,
             "increaseAttackChance":10,
-            "increaseCriticalSkill":8,
+            "increaseCriticalSkill":7,
             "increaseBlockChance":-7,
-            "setCriticalMultiplier":2.25,
+            "setCriticalMultiplier":2.0,
             "setNonWeaponDamageModifier":155
         },
         "hitEffect":{
