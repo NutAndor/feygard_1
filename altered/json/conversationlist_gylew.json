@@ -40,6 +40,27 @@
                 ]
             },
             {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"gylew_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?",
                 "nextPhraseID":"odd_coin_collector_ask_about_locked_chest",
                 "requires":[

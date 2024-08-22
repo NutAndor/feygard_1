@@ -1,5 +1,167 @@
 [
     {
+        "id":"forenza_korhald_cop_20",
+        "message":"Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as it could aid you in your adventures.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"forenza_korhald_cop_30"
+            }
+        ]
+    },
+    {
+        "id":"forenza_korhald_cop_35",
+        "message":"Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport, seek out my family. They will reward you for all of your generosity and hard work.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":115
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"nondisplay",
+                "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_nondisplay",
+                "value":106
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_11e",
+        "message":"Sure. We only want the truth. Nothing more. It is a very prestigious work.",
+        "replies":[
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"lae_torturer_10a"
+            },
+            {
+                "text":"Then why do you wear a mask at public executions?",
+                "nextPhraseID":"lae_torturer_11f"
+            }
+        ]
+    },
+    {
+        "id":"gylew5",
+        "message":"This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves.",
+        "replies":[
+            {
+                "text":"Oh, I see.",
+                "nextPhraseID":"gylew6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":220
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I know this already.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I know this already.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "text":"I am so not interested.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"forenza_waytobrimhaven3_initial_phrase",
         "message":"Hey, kid, nice to see you again.",
         "replies":[
@@ -31,6 +193,27 @@
                     },
                     {
                         "requireType":"inventoryKeep",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"forenza_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65
+                    },
+                    {
+                        "requireType":"wear",
                         "requireID":"shield_of_brave",
                         "value":1
                     },
@@ -134,7 +317,7 @@
                 ]
             },
             {
-                "text":"I hope that having those Korhald coins will enable you to make peace with your father. Take care.",
+                "text":"I hope that these coins will enable you to make peace with your father. Take care.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -175,6 +358,31 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"jewelry_box_1",
+        "message":"This looks interesting. Could be a jewelry box. It has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"laeroth_caretaker",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"brute_creator_sign_2",
+        "message":"Praise is the portal to the presence of Elythara"
+    },
+    {
+        "id":"brute_fisherman_8",
+        "message":"You just came using this path. Do you know why it's been used so little lately?",
+        "replies":[
+            {
+                "text":"Well, yes, I think so.",
+                "nextPhraseID":"brute_fisherman_10"
             }
         ]
     },
