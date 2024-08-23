@@ -497,7 +497,7 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "phraseID":"perciva_int_phrasel"
     },
     {
