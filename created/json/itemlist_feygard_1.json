@@ -71,7 +71,7 @@
     },
     {
         "id":"butter",
-        "iconID":"items_misc:7",
+        "iconID":"items_misc_2:164",
         "name":"Butter",
         "displaytype":"ordinary",
         "hasManualPrice":1,
@@ -86,7 +86,7 @@
     },
     {
         "id":"gamjee_rope",
-        "iconID":"items_misc_2:136",
+        "iconID":"items_misc_2:162",
         "name":"Gamjee's rope",
         "displaytype":"quest",
         "category":"other",
@@ -189,7 +189,7 @@
     },
     {
         "id":"mysterious_coin",
-        "iconID":"items_misc:10",
+        "iconID":"items_misc_2:165",
         "name":"Mysterious coin",
         "displaytype":"rare",
         "category":"money",
