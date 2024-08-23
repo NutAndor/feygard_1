@@ -3811,7 +3811,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Well, if was fun afterall.",
+                "text":"Well, it was fun afterall.",
                 "nextPhraseID":"village_theodora_fun"
             },
             {
@@ -3835,7 +3835,7 @@
         "message":"You kill just for the thrill?",
         "replies":[
             {
-                "text":"Hah, the rhymes.",
+                "text":"Hah, that rhymes.",
                 "nextPhraseID":"X"
             },
             {
@@ -3849,7 +3849,7 @@
         "message":"I see, but with those skills of yours, you should train to be a Feygard soldier.",
         "replies":[
             {
-                "text":"Train? I don't need Feygard soldier training. I am already stringer than them. ",
+                "text":"Train? I don't need Feygard soldier training. I am already stronger than them. ",
                 "nextPhraseID":"village_theodora_soldier_2"
             },
             {
@@ -6570,7 +6570,7 @@
         "message":"Our poor garden! It\u2019s been choked by weeds, and what few crops are left are withered. It\u2019ll be a full season\u2019s work just to get it back to where it was. I\u2019ve never seen it this bad before.",
         "replies":[
             {
-                "text":"Farming is in my blood, so I could hel you, but I won't. It's time to find my brother, Andor. Have you seen him?",
+                "text":"Farming is in my blood, so I could help you, but I won't. It's time to find my brother, Andor. Have you seen him?",
                 "nextPhraseID":"village_theodora_garden_2"
             }
         ]
