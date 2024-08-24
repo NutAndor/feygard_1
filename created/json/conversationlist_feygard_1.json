@@ -6110,7 +6110,7 @@
     },
     {
         "id":"wexlow_key_bed_not_allowed",
-        "message":"Oh, these sleeping quarters stinck so terribly that you don't want to get any closer."
+        "message":"Oh, these sleeping quarters stink so terribly that you don't want to get any closer."
     },
     {
         "id":"leofric_welcome",
@@ -6496,6 +6496,22 @@
         ]
     },
     {
+        "id":"wexlow_mother_letter_key",
+        "replies":[
+            {
+                "nextPhraseID":"wexlow_mother_letter_prompt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"wexlow_mother_letter_prompt",
         "message":"On the table, you notice a series of papers. Some appear to be letters. Do you want to be nosy and read them?",
         "replies":[
@@ -6517,6 +6533,22 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":11
+            }
+        ]
+    },
+    {
+        "id":"wexlow_godwin_journal_key",
+        "replies":[
+            {
+                "nextPhraseID":"wexlow_godwin_journal_prompt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":10,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
