@@ -328,7 +328,7 @@
                 ]
             },
             {
-                "text":"[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
+                "text":"[Lie] I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
                 "nextPhraseID":"coin_collector_thief_coins_10",
                 "requires":[
                     {
