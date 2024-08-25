@@ -202,15 +202,15 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"On the road to Feygard I have met a boy called Tobby. He is looking for his brother Sobby."
+                "logText":"On the road to Feygard I have met a boy named Tobby. He is looking for his brother Sobby."
             },
             {
                 "progress":20,
-                "logText":"I have promised to help Tobby to pass the cobolds to the south."
+                "logText":"I have promised to help Tobby get past the cobolds to the south."
             },
             {
                 "progress":23,
-                "logText":"Tobby has followed me to the beginning of the ravine of the cobolds."
+                "logText":"Tobby has followed me to the beginning of the ravine with the cobolds."
             },
             {
                 "progress":24,

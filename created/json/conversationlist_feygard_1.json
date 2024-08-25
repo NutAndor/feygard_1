@@ -2742,7 +2742,7 @@
     },
     {
         "id":"tobby_12",
-        "message":"Absolutely. Once he was told of a lovely village hidden in the forest to the south east.",
+        "message":"Absolutely. Once he was told of a lovely village hidden in the forest to the southeast.",
         "replies":[
             {
                 "text":"N",
@@ -2752,7 +2752,7 @@
     },
     {
         "id":"tobby_14",
-        "message":"Since then not a single day had passed that he hadn't talked of it.",
+        "message":"Since then not a single day has passed when he hasn't talked about it.",
         "replies":[
             {
                 "text":"N",
@@ -2809,10 +2809,10 @@
     },
     {
         "id":"tobby_22",
-        "message":"I just fetch some bread from the house, just a second ...",
+        "message":"I want to get some bread from the house, just a second ...",
         "replies":[
             {
-                "text":"Go ahead. And then let's go south - follow me!",
+                "text":"Go ahead, I'll wait and when you are ready, you can follow me. We will head south.",
                 "nextPhraseID":"X"
             }
         ],
@@ -4585,7 +4585,7 @@
         "message":"As you begin to traverse the tunnels, the dim light and damp air create an eerie atmosphere. Suddenly, you stop in your tracks.",
         "replies":[
             {
-                "text":"[Thinking]Did I just hear... voices? No, it must be the concussion... or just the echoes playing tricks on me.",
+                "text":"[Thinking] Did I just hear... voices? No, it must be the concussion... or just the echoes playing tricks on me.",
                 "nextPhraseID":"X"
             }
         ],
@@ -4602,7 +4602,7 @@
         "message":"As you begin to traverse the tunnels, the dim light and damp air create an eerie atmosphere. Suddenly, you stop in your tracks.",
         "replies":[
             {
-                "text":"[Thinking]Did I just hear... voices? No, it's just the echoes playing tricks on me.",
+                "text":"[Thinking] Did I just hear... voices? No, it's just the echoes playing tricks on me.",
                 "nextPhraseID":"X"
             }
         ],
@@ -4676,7 +4676,7 @@
         "switchToNPC":"gamjee_well_unknown_male_voice",
         "replies":[
             {
-                "text":"[Thinking]They're real! I must be getting closer to whoever these people are. I need to hurry.",
+                "text":"[Thinking] They're real! I must be getting closer to whoever these people are. I need to hurry.",
                 "nextPhraseID":"X"
             }
         ]
@@ -4753,7 +4753,7 @@
         "switchToNPC":"troll_hollow_godelieve",
         "replies":[
             {
-                "text":"[Thinking]I really need to talk to these people.",
+                "text":"[Thinking] I really need to talk to these people.",
                 "nextPhraseID":"X"
             }
         ]
