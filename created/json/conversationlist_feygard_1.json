@@ -5454,7 +5454,7 @@
         "message":"OK.",
         "replies":[
             {
-                "text":" Let's talk about how you guys can reach a compromise and share the well water.",
+                "text":"Let's talk about how you guys can reach a compromise and share the well water.",
                 "nextPhraseID":"gamjee_compromise_4"
             }
         ]
@@ -6505,7 +6505,7 @@
                         "requireType":"questProgress",
                         "requireID":"echoes_of_enchantment",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -6546,7 +6546,7 @@
                         "requireType":"questProgress",
                         "requireID":"echoes_of_enchantment",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -6554,7 +6554,7 @@
     },
     {
         "id":"wexlow_godwin_journal_prompt",
-        "message":"As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Maybe you should read the current  page?",
+        "message":"As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Maybe you should read the current page?",
         "replies":[
             {
                 "text":"And violate someone's privacy? No way!",
@@ -6568,7 +6568,7 @@
     },
     {
         "id":"wexlow_godwin_journal",
-        "message":"It's been days since anyone has seen Odilia. At first, we thought she might have gone to visit her sister in Feygard, but she never mentioned leaving. The same happened with Philippa, and now Godelieve too. It\u2019s as if they vanished without a trace, all in their sleep. I remember Godelieve looked troubled the night before she disappeared, as though she was fighting some invisible force, but I dismissed it. I should have known something was wrong.\n\nThe village feels different now, quieter, emptier. The men are on edge, but we can\u2019t make sense of what\u2019s happening. The nights are the worst, filled with a heavy silence that chills the bone. I fear for Leofwyn and Theodora, and I can't help but wonder if something in the night is calling to them.\n\nWe\u2019re losing hope, and I\u2019m terrified of what might happen next.\n\nEnd Entry",
+        "message":"It's been days since anyone has seen Odilia. At first, we thought she might have gone to visit her sister in Feygard, but she never mentioned leaving. The same happened with Philippa, and now Godelieve too. It\u2019s as if they vanished without a trace, all in their sleep. I remember Godelieve looked troubled the night before she disappeared, as though she was fighting some invisible force, but I dismissed it. I should have known something was wrong.\n\nThe village feels different now, quieter, emptier. The men are on edge, but we can\u2019t make sense of what\u2019s happening. The nights are the worst, filled with a heavy silence that chills the bone. I fear for Leofwyn and Theobald, and I can't help but wonder if something in the night is calling to them.\n\nWe\u2019re losing hope, and I\u2019m terrified of what might happen next.\n\nEnd Entry",
         "replies":[
             {
                 "text":"I wonder who these people are?",
