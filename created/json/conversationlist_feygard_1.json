@@ -4984,6 +4984,16 @@
         "id":"gamjee_selector",
         "replies":[
             {
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":12
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"gamjee_villagers_unknown_1",
                 "requires":[
@@ -4997,6 +5007,12 @@
                         "requireType":"questProgress",
                         "requireID":"echoes_of_enchantment",
                         "value":13,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":8,
                         "negate":true
                     }
                 ]
@@ -5024,12 +5040,19 @@
                 ]
             },
             {
-                "nextPhraseID":"F",
+                "text":"N",
+                "nextPhraseID":"gamjee_player_left_after_agreeing_to_help",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":3
+                        "requireID":"echoes_of_enchantment",
+                        "value":5,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":8
                     }
                 ]
             }
@@ -5051,7 +5074,26 @@
         "replies":[
             {
                 "text":"I've found the people you captured. You need to let them go.",
-                "nextPhraseID":"gamjee_villagers_known_2"
+                "nextPhraseID":"gamjee_villagers_known_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":8,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want to help you and the villagers.",
+                "nextPhraseID":"gamjee_compromise_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":8
+                    }
+                ]
             }
         ]
     },
@@ -5093,6 +5135,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":12
             }
         ]
     },
@@ -5229,7 +5276,7 @@
             },
             {
                 "text":"It's time to make me righteous!",
-                "nextPhraseID":"F"
+                "nextPhraseID":"gamjee_villagers_known_fight"
             }
         ]
     },
@@ -5243,8 +5290,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":5,
+                        "requireID":"echoes_of_enchantment",
+                        "value":8,
                         "negate":true
                     }
                 ]
@@ -5256,13 +5303,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":5
+                        "value":6,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"feygard_nondisplayed",
-                        "value":6,
-                        "negate":true
+                        "requireID":"echoes_of_enchantment",
+                        "value":8
                     }
                 ]
             },
@@ -5301,8 +5348,8 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"feygard_nondisplayed",
-                "value":5
+                "rewardID":"echoes_of_enchantment",
+                "value":8
             }
         ]
     },
@@ -6733,6 +6780,38 @@
             {
                 "text":"Me too.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"gamjee_villagers_known_fight",
+        "message":"No! Gamjee protect! If humans come back, they take all. Gamjee alone, scared.",
+        "replies":[
+            {
+                "text":"This ends now for you!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"gamjee_player_left_after_agreeing_to_help",
+        "message":"Human, why you leave? Rude.",
+        "replies":[
+            {
+                "text":"I want to help you and the villagers.",
+                "nextPhraseID":"gamjee_compromise_1"
             }
         ]
     }

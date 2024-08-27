@@ -158,16 +158,16 @@
                 "logText":"The PC threw an Oegyth Crystal down the well in Wexlow Village."
             },
             {
+                "progress":12,
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow."
+            },
+            {
                 "progress":3,
-                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow without knowing the Gamjee has those villagers held captive."
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow without knowing that Gamjee has those villagers held captive."
             },
             {
                 "progress":4,
                 "logText":"The PC has attacked Gamjee the troll under the village of Wexlow after learning that Gamjee has those villagers held captive."
-            },
-            {
-                "progress":5,
-                "logText":"Gamjee, the troll under the village of Wexlow has called a human with magic water."
             },
             {
                 "progress":6,
@@ -270,6 +270,10 @@
             {
                 "progress":7,
                 "logText":"I met the troll named Gamjee and listened to what he had to say."
+            },
+            {
+                "progress":8,
+                "logText":"In an attempt to help Gamjee and the villagers, I have facilitated a conversation between Gamjee and one of the villagers."
             },
             {
                 "progress":9,
