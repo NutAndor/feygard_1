@@ -218,7 +218,7 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="wexlow_well_script_selector" type="script" x="32" y="256" width="128" height="96">
+  <object name="wexlow_well_script_selector" type="script" x="64" y="256" width="64" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
