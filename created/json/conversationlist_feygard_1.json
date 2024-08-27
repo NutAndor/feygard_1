@@ -4989,7 +4989,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
-                        "value":12
+                        "value":5
                     }
                 ]
             },
@@ -5139,7 +5139,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
-                "value":12
+                "value":5
             }
         ]
     },
@@ -6801,7 +6801,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
-                "value":12
+                "value":5
             }
         ]
     },
