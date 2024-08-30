@@ -734,6 +734,17 @@
                 ]
             },
             {
+                "text":"Place 10000 gold coins in the bowl.",
+                "nextPhraseID":"feygard_offering_30_10000",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10000
+                    }
+                ]
+            },
+            {
                 "text":"Take 1 gold coin.",
                 "nextPhraseID":"feygard_offering_40_1",
                 "requires":[
@@ -856,6 +867,31 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"feygard_offering_sum",
                 "value":1000
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowbless_heal",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"feygard_offering_30_10000",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_given",
+                "value":10000
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"feygard_offering_sum",
+                "value":10000
             },
             {
                 "rewardType":"actorCondition",
@@ -1346,6 +1382,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"feygard_offering_guard",
                 "mapName":"guynmart_wood_16"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowbless_heal",
+                "value":-99
             }
         ]
     },
