@@ -331,6 +331,13 @@
         }
     },
     {
+        "id":"swamp_witch_shop",
+        "name":"Madame Mim",
+        "iconID":"monsters_ld2:95",
+        "monsterClass":"humanoid",
+        "droplistID":"swamp_witch_shop"
+    },
+    {
         "id":"tobby",
         "name":"Tobby",
         "iconID":"monsters_ld1:65",

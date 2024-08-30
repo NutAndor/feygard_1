@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="19">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="20">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,6 +183,9 @@
  <tileset firstgid="7577" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_ratdom.png" width="576" height="192"/>
  </tileset>
+ <tileset firstgid="7685" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../../../temp/worldmap2world/drawable/map_transition_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="11" height="10">
   <data encoding="base64" compression="zlib">
    eJzj42Jg4CMB75YijGFqT0sRxjC1JzkJ48GiFuRHdPGbWNTuhvqRGHNB6l5y4sYn0fgAS+hLyQ==
@@ -205,7 +208,7 @@
  </layer>
  <layer id="4" name="Walkable" width="11" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGAMAggs5EBPrXY1BOjn5A6UszEJkdILS47SA0rEAYAeHs0Fg==
+   eJzbKMbAsJEIrCVHnDpSMAggs5EBPrXY1BOjn5A6UszEJkdILS47SA0rEAYAsfQzlw==
   </data>
  </layer>
  <objectgroup id="5" name="mapevents" visible="0">
@@ -239,10 +242,15 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="spawn" visible="0">
+ <objectgroup id="7" name="spawn">
   <object id="7" name="swamp_witch" type="spawn" x="64" y="128" width="256" height="96">
    <properties>
     <property name="spawngroup" value="swamp_witch"/>
+   </properties>
+  </object>
+  <object id="19" name="swamp_witch_shop" type="spawn" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="swamp_witch_shop"/>
    </properties>
   </object>
  </objectgroup>

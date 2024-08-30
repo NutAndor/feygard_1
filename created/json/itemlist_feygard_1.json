@@ -14,7 +14,17 @@
             "increaseAttackChance":6,
             "increaseBlockChance":2,
             "setNonWeaponDamageModifier":121
-        }
+        },
+    "hitEffect":{
+        "conditionsTarget":[
+            {
+                "condition":"mind_fog",
+                "magnitude":2,
+                "duration":4,
+                "chance":"33"
+            }
+        ]
+    }
     },
     {
         "id":"coconut",

@@ -97,6 +97,43 @@
         ]
     },
     {
+        "id":"swamp_witch_shop",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"health",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"rat_tail",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"claws",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":8
+                }
+            }
+        ]
+    },
+    {
         "id":"swamp3_l1",
         "items":[
             {

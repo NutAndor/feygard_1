@@ -324,6 +324,11 @@
                 "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"Keys_fog",
                 "mapName":"guynmart_wood_13"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":10
             }
         ]
     },
@@ -355,6 +360,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
                 "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":10
             }
         ]
     },
@@ -386,6 +396,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
                 "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":10
             }
         ]
     },
@@ -417,6 +432,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
                 "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":10
             }
         ]
     },
@@ -448,6 +468,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_fog",
                 "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":10
             }
         ]
     },
@@ -596,7 +621,14 @@
                 "text":"Well, in that case stay here. I'll be back in a minute.",
                 "nextPhraseID":"X"
             }
-        ]
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":20
+            }
+		]
     },
     {
         "id":"feygard_offering",
@@ -824,6 +856,11 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"feygard_offering_sum",
                 "value":1000
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowbless_heal",
+                "value":998
             }
         ]
     },
@@ -1788,7 +1825,14 @@
                 "text":"I am not afraid of you. (You grope for your weapon)",
                 "nextPhraseID":"swamp_witch_20_210"
             }
-        ]
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":30
+            }
+		]
     },
     {
         "id":"swamp_witch_20_10",
@@ -1862,7 +1906,7 @@
     },
     {
         "id":"swamp_witch_20_30",
-        "message":"(Grumbles) Lost, you say? It's your own fault for wandering where you don't belong. I prefer to be left alone, away from the meddling of outsiders.",
+        "message":"[Grumbles] Lost, you say? It's your own fault for wandering where you don't belong. I prefer to be left alone, away from the meddling of outsiders.",
         "replies":[
             {
                 "text":"I understand, and I'm really sorry. I promise I'll leave as soon as you point me in the right direction.",
@@ -1872,7 +1916,7 @@
     },
     {
         "id":"swamp_witch_20_40",
-        "message":"(Grinning wickedly) That is easy. Go outside and far away. As fast as possible.",
+        "message":"[Grinning wickedly] That is easy. Go outside and far away. As fast as possible.",
         "replies":[
             {
                 "text":"Thank you! You're really kind ...",
@@ -1892,7 +1936,7 @@
     },
     {
         "id":"swamp_witch_20_50",
-        "message":"(Gruffly) Kind? Bah! I simply don't want the likes of you lingering around here.",
+        "message":"[Gruffly] Kind? Bah! I simply don't want the likes of you lingering around here.",
         "replies":[
             {
                 "text":"N",
@@ -1922,7 +1966,7 @@
     },
     {
         "id":"swamp_witch_20_70",
-        "message":"(Sighs) Make it quick, then. I don't have all night.",
+        "message":"[Sighs] Make it quick, then. I don't have all night.",
         "replies":[
             {
                 "text":"Why do you live all alone in this swamp? Don't you ever get lonely?",
@@ -2048,7 +2092,7 @@
     },
     {
         "id":"swamp_witch_20_130",
-        "message":"(Eyeing him suspiciously) What?!",
+        "message":"[Eyeing him suspiciously] What?!",
         "replies":[
             {
                 "text":"People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in the north, nobody will bother you anymore.",
@@ -2075,7 +2119,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"(grumbling) Sweets - I am no kid any more.",
+                "text":"[grumbling] Sweets - I am no kid any more.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2114,7 +2158,7 @@
     },
     {
         "id":"swamp_witch_20_140",
-        "message":"(Eyeing him suspiciously) What?!",
+        "message":"[Eyeing him suspiciously] What?!",
         "replies":[
             {
                 "text":"People have trouble that the way to Feygard is barred by your fog. No fog on the road, no reason to visit you.",
@@ -2268,11 +2312,25 @@
     },
     {
         "id":"swamp_witch_20_170",
-        "message":"Here take this stuff. And now go and finally leave me alone. TODO"
+        "message":"Here take this stuff. And now go and finally leave me alone.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":200
+            }
+        ]
     },
     {
         "id":"swamp_witch_20_180",
-        "message":"Shop TODO"
+        "switchToNPC":"swamp_witch_shop",
+        "message":"Well, chose what you want. Of course you'll have to pay for it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"S"
+            }
+        ]
     },
     {
         "id":"swamp_witch_20_190",
@@ -2280,7 +2338,7 @@
     },
     {
         "id":"swamp_witch_20_200",
-        "message":"(Grinning wickedly) I think it's time you learn a lesson, meddling child.",
+        "message":"[Grinning wickedly] I think it's time you learn a lesson, meddling child.",
         "replies":[
             {
                 "text":"What are you going to do?",
@@ -2354,13 +2412,25 @@
                 ]
             },
             {
-                "text":"My Ring of the Lesser Shadow  (TODO)",
+                "text":"My Ring of the Lesser Shadow",
                 "nextPhraseID":"swamp_witch_20_228",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_shadow0",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"My Ring of the Lesser Shadow",
+                "nextPhraseID":"swamp_witch_20_228b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_shadow0",
+                        "value":1,
+						"negate":true
                     }
                 ]
             },
@@ -2385,7 +2455,17 @@
         "message":"I have no need for that. But I will take it nevertheless.",
         "replies":[
             {
-                "text":"N",
+                "text":"NO! I changed my mind.",
+                "nextPhraseID":"swamp_witch_20_222"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_228b",
+        "message":"You don't even have this ring. Don't show off like that!",
+        "replies":[
+            {
+                "text":"Eh ...",
                 "nextPhraseID":"swamp_witch_20_222"
             }
         ]
@@ -2426,7 +2506,8 @@
     },
     {
         "id":"swamp_witch_90_20",
-        "message":"Well, if you promise to finally leave me alone afterwards.  TODO",
+        "message":"Well, if you promise to finally leave me alone afterwards.",
+		"switchToNPC":"swamp_witch_shop",
         "replies":[
             {
                 "text":"Sure",
@@ -2511,12 +2592,32 @@
     },
     {
         "id":"swamp_witch_checkkill_20",
-        "message":"Only the fog won't go away on its own.",
+        "message":"The life of this lonely swamp witch was somehow sad. Fortunately for her, it is now over.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_checkkill_22"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_checkkill_22",
+        "message":"You try not to think about it anymore.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_checkkill_24"
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_checkkill_24",
+        "message":"But you can't stop your heart from feeling heavy.",
         "rewards":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"fogmonster",
-                "value":70
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue_minor",
+                "value":15
             }
         ]
     },
@@ -2594,6 +2695,11 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_fog",
                         "value":9
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1
                     }
                 ]
             }
@@ -2662,6 +2768,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"feygard_fogmonster5",
                 "mapName":"swamp6"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"regen2",
+                "value":5
             }
         ]
     },
