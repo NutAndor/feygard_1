@@ -5,6 +5,10 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":5,
+                "logText":"You had entered a very unnatural looking fog and decided to find the source of it. Maybe you could lift the fog?"
+            },
+            {
                 "progress":10,
                 "logText":"After you chased away a fog monster, the fog suddenly dissipated."
             },
@@ -24,12 +28,19 @@
             {
                 "progress":80,
                 "logText":"You were able to convince Mim to keep the road clear of fog.",
+                "rewardExperience":1000,
                 "finishesQuest":1
             },
             {
                 "progress":90,
                 "logText":"You convinced Mim to replace the fog with a distraction spell.",
+                "rewardExperience":1000,
                 "finishesQuest":1
+            },
+            {
+                "progress":92,
+                "logText":"Madame Mim gave you a bottle of her swamp water.",
+                "rewardExperience":1000
             }
         ]
     },

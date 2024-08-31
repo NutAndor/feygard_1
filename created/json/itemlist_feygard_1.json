@@ -26,6 +26,20 @@
         ]
     }
     },
+	{
+		"id":"swampwitch_health",
+		"iconID":"items_consumables:49",
+		"name":"Madame Mim's Medicine",
+		"baseMarketCost":33,
+		"category":"pot",
+		"useEffect":{
+			"increaseCurrentHP":{
+				"min":13,
+				"max":13
+			}
+		},
+        "description":"A bottle of murky swamp water"
+	},
     {
         "id":"coconut",
         "iconID":"items_japozero:500",

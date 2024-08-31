@@ -20,6 +20,42 @@
         ]
     },
     {
+        "id":"feygard_fogmonster_startquest",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster_startquest_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fogmonster",
+                        "value":5,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster_startquest_10",
+        "message":"This fog seems to be very unnatural.",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_fogmonster_startquest_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"feygard_fogmonster_startquest_20",
+        "message":"Let's look for the source of it. Maybe we can find out how to lift the fog."
+    },
+    {
         "id":"feygard_fogmonster1_check",
         "replies":[
             {
@@ -2359,6 +2395,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":200
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"swampwitch_health",
+                "value":2
             }
         ]
     },
@@ -2375,7 +2416,29 @@
     },
     {
         "id":"swamp_witch_20_190",
-        "message":"You have it. And now go and finally leave me alone. Otherwise I'll turn you into a frog."
+        "message":"You have it. And now go and finally leave me alone. Otherwise I'll turn you into a frog. [Muttering] Here, take this bottle.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"swamp_witch_20_192"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"swampwitch_health",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fogmonster",
+                "value":92
+            }
+        ]
+    },
+    {
+        "id":"swamp_witch_20_192",
+        "message":"Still here? Begone!"
     },
     {
         "id":"swamp_witch_20_200",

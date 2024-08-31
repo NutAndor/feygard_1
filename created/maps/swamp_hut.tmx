@@ -183,9 +183,7 @@
  <tileset firstgid="7577" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_ratdom.png" width="576" height="192"/>
  </tileset>
- <tileset firstgid="7685" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../temp/worldmap2world/drawable/map_transition_1.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="7685" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="0" columns="16"/>
  <layer id="1" name="Ground" width="11" height="10">
   <data encoding="base64" compression="zlib">
    eJzj42Jg4CMB75YijGFqT0sRxjC1JzkJ48GiFuRHdPGbWNTuhvqRGHNB6l5y4sYn0fgAS+hLyQ==
@@ -206,9 +204,9 @@
    eJxjYCANSAmQqAEP2MNPvNpDYtSzdzgAACIFAc4=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="11" height="10" visible="0">
+ <layer id="4" name="Walkable" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEIrCVHnDpSMAggs5EBPrXY1BOjn5A6UszEJkdILS47SA0rEAYAsfQzlw==
+   eJzbKMbAsJEIDALEqCMFI5uJDgjZTwhg009IHSlmYpMjpBaXHeSEPwBBkjNP
   </data>
  </layer>
  <objectgroup id="5" name="mapevents" visible="0">
