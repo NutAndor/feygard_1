@@ -186,7 +186,7 @@
    </properties>
   </object>
   <object name="gamjee_pit_dl" type="container" x="672" y="192" width="32" height="32"/>
-  <object name="Object" type="key" x="128" y="320" width="32" height="32">
+  <object name="Object" type="key" x="96" y="320" width="128" height="32">
    <properties>
     <property name="phrase" value="gamjee_well_discover_villagers_selector"/>
     <property name="requireId" value="echoes_of_enchantment"/>
