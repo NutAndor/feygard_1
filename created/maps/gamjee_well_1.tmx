@@ -189,12 +189,12 @@
  </layer>
  <layer id="3" name="Objects" width="10" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFZxgZ8ILzUPk7BNTdR5N/Q0A9DPwhUh0xANlOZH+dR7MD2U5kfyH7YY8MYfsmAtWcIaAOpMaRj4GhTJCBIUOUgSEcqj5cBlUNDDgA1XqJItRMQJID6c8CYgU+CDsSiDWEGBg0gdgdSV0FUDwCqhbE9gRiC6AaSyHsbowCqRNE2EsOAAD44BmS
+   eJxjYEAFZxgZ8ILzUPk7BNTdR5N/Q0A9DPwhUh0xANlOZH+dR7MD2U5kfyH7YY8MYfsmAtWcIaAOpMaRj4GhTJCBwUuUgSEcqj5cBlUNDDjwQdTB1ExAkssAimcBsQIfhB0JxBpCDAyaQOyOpK4CKB4BVQtiewKxBVCNpRB2N0aB1Aki7CUHAADfGBl0
   </data>
  </layer>
  <layer id="4" name="Above" width="10" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYECA/dIQvFyEASc4Lw3BhNTBzDqPRx3MHEL27kdT18NCnDpi3IZPHbJfiTEPhM8RoQ6fGhA4R4QaUoCnDHZxdyziyGqxyRMLAOjKJTs=
+   eJxjYECA/dIQvFyEASc4Lw3BhNTBzMKn7rw0cer2o6nrYSFOHSG3nSegDtmvxJgHwueIUIdPDQicI0INKcBTBru4OxZxZLXY5IkFAMlKJSs=
   </data>
  </layer>
  <layer id="5" name="Top" width="10" height="15">
@@ -207,7 +207,7 @@
    eJxbK83AsHYUUw2DADFqYIAYNbjUEaMGm3pq+QMfBgBteWl5
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="down" type="mapchange" x="96" y="352" width="32" height="32"/>
   <object id="2" name="gamjee_well_boot_dl" type="container" x="32" y="352" width="32" height="32"/>
   <object id="3" name="gamjee_well_gems_dl" type="container" x="128" y="416" width="32" height="32"/>
