@@ -216,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9VUEOwCAI8xX7/xf2w51MFkZpnUUSE8OU0oJsjDHu67s6DOGgvQMvYqN9B2eFryN2hcn885vDEM/OnsqwEe8/MVfOneD5xjmlbYb59s199GUxdjBZzzuMYZ6cFW4tXdhOO6FxpSHj26FDp9ZMQ3et1bplc5ndyWLEeNW/JptPVc5strA+ZfkwbMYN5YXuobNKzZWaVL20+p5VnREPdkfRhumi9tvKm4icdnTZfcsVvsrLga/01W6vubAjpsq9qp2br5LHXA/h6PpP
+   eJzFVUEOwCAI8xX7/xf2w51MFkJpnZWRmBimlBZkY4xxX/lyG8JAewdexEb7v/g6YleYzD+/OQzxPKUvwka8v8RcOdfB843TpW2G+fbNffRlMXYwWc87jGF2zgq3li5sp3VoXGnI+J7Q4aTWTEN3rdW6ZXOZ3clixHjVvyabT1XObLawPmX5MGzGDeWF7qGzSs2VmlS9tPqeVZ0RD3ZH0YbpovbbypuInHZ02X3LFb7Ky4Gv9NVur7mwI6bKvaqdm6+Sx1wPvj/7Fg==
   </data>
  </layer>
  <layer id="7" name="Walkable_hero" width="30" height="30" visible="0">
