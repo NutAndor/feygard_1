@@ -1,0 +1,30 @@
+[
+    {
+        "id":"sullengrad_finest",
+        "iconID":"items_misc_6:23",
+        "name":"Sullengard's Finest",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A three time winner of the 'Best beer in festival' competition created by the Briwerra family. It as a full-body taste.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":12
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
+    }
+]
