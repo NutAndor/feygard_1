@@ -403,5 +403,15 @@
     {
         "id":"laeroth_tower_south",
         "message":"Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time that tower and this one sent signals to each other."
+    },
+    {
+        "id":"lae_centaur9_12",
+        "message":"There is a foul creature that lurks in the cave to the west. It resembles a human but is far more savage.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lae_centaur9_12a"
+            }
+        ]
     }
 ]
