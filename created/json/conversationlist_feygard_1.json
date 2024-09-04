@@ -890,6 +890,17 @@
         "id":"feygard_offering_30_1000",
         "replies":[
             {
+                "nextPhraseID":"feygard_offering_30_1000_heal",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"feygard_offering_32"
             }
         ],
@@ -903,7 +914,18 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"feygard_offering_sum",
                 "value":1000
-            },
+            }
+        ]
+    },
+    {
+        "id":"feygard_offering_30_1000_heal",
+        "message":"You feel good. Very good, in fact.",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
             {
                 "rewardType":"actorCondition",
                 "rewardID":"shadowbless_heal",
@@ -915,6 +937,17 @@
         "id":"feygard_offering_30_10000",
         "replies":[
             {
+                "nextPhraseID":"feygard_offering_30_10000_heal",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"feygard_offering_32"
             }
         ],
@@ -928,7 +961,18 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"feygard_offering_sum",
                 "value":10000
-            },
+            }
+        ]
+    },
+    {
+        "id":"feygard_offering_30_10000_heal",
+        "message":"You feel good. Extremely good, in fact.",
+        "replies":[
+            {
+                "nextPhraseID":"feygard_offering_32"
+            }
+        ],
+        "rewards":[
             {
                 "rewardType":"actorCondition",
                 "rewardID":"shadowbless_heal",
