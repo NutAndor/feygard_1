@@ -185,17 +185,17 @@
  </tileset>
  <layer id="1" name="Ground" width="17" height="28">
   <data encoding="base64" compression="zlib">
-   eJydlOsJwzAMhAP+ldkTj9BkhKR0mK7TCCqsKrqT3cJRCNKnt9cyTSvQa25CNkzid5amUY7YP6//99x0dHI0b+9vOQvxr9+ckb+V2nueMrx9BTWJHkEu1nYx7KgmyTeqzdpLjO3SntTGGBor6w9j9Ir14x//2jlX5D9aR7RnPf3P+oj2E/XK7wWqIao34sgvYmzlrmhuNh8bey+/74bK27LeoPmi+xmZr2egd4Qx/A32MHzcw+1A9HZkDDaTjMFuMcoFMRAH5cL2NJo/e+cZI7uJEYZ++wCimUzv
+   eJydlH0KgzAMxQX/8uzV3WB6BDd2mF1HAwsN4eUlnfAQ2uTXfLRZ52laA32WrsiGSfxec9coR+zf9/+7dJ1Fjsbt/S2nEf/tF3Pkb6X2nqcMb78FOYmeIBZr2wwb5STxotysvZyx3zqS3BhDz8rqwxhVsXr8478V+xr5j+aB7lml/lkdo/upe6KH61kr5OD3GrivsiYfYuwgP9Q3G4+1O0z8mh+yZbWJ+hu9n5H+ekY0RxjDv8EKw597uhqh2ZExWE8yBnuLKJaIEXGiWNi7RP1nc54xshkwwtC1C6rlTjc=
   </data>
  </layer>
  <layer id="2" name="Objects" width="17" height="28">
   <data encoding="base64" compression="zlib">
-   eJyVVEFOxDAMrBqhCm4gqLQc+hnEC3gFR44tDwAJFtgHFJ6AYPlA230D3PeAQNw5E4uMOk3tsowUpWns8cR2st5LTNy7fgjWE7YA2zwEvyz9neuwft3tbXbC3hP9wz78W9cP8DRkf5jq2uHf+fnF218USXLpR+N07ayL0Rn2wiNatLy8ERf8Sz9XxMXxatI7ip8P1/t0XsTmMz0aPHFMDcIjepmPz7et5NrCMoqFnMzSPlbrxvlFvDhfy6gvYvtbX9u7YnjGKzesxX9RGrEE0P1s8M8oV6JJy93c670phvGqMM4Dv+ivJ2oKG03vPFqDpwv2cf7FH/lbcQ+HHkRfCM91+P4+GGq3wFq4v0R7ZfhCS0a5g5bFxF0W8LvB7wfXUNOMmJ0b35dN3sAjpc5lVFMNzH2y4T3LJuzOiM/Sbd1BPrfV3wLUAvbS41M1Od4a/0PtMU7/6PW4VxC7VXQ2il0Mzg3fWcnJuz/fZz72WSlc2jvz4X2/8n7vB9HQbZg=
+   eJyVVEtOwzAQjWJBRXcgiFQW6WEQJ+ASsGTZ9AAg8e0BAkdAUC6QhjOUfRcIxJ41HuGHX5yxKSNZTuI3b958nNVOFrU745fYKoGFMebe+Q3yn71278ttjxm6s0f6hnP4L4xf4GkIv5/r2uHf2v3Z4s/KLDu3qzG6dtbF1kbwwiNatLq8Ehf8J3aviIvj1aS3F7/ovu9SvojNOT1EeMKYmgmP6GU+zm9LqXXM5kEs1GSU+1gL068v4oX1mgdzEeJvbG9vy26OF6bbi//aJBJLDLqfIvwjqpVo0mp3ZfVel914x25NHb/orxM9BUbTGxp4WocP6y/+SzrDncMMYi6E59I9f+153yqIvzm293/scqUzni/RXim+Ytq8QssscZdZP/IDlnuoaUbM1vTjr/MPPFD6jDjThF7mPlrzng0SuFPii+mO3UHOOzbfYugF8DLjqZ4cbvS/ofdYJ3/McDgrv/Oq6GwUXGhcG76zUpM3m99H0fd5Ubi0/8y79f0s/Nk3dq5tFg==
   </data>
  </layer>
  <layer id="3" name="Above" width="17" height="28">
   <data encoding="base64" compression="zlib">
-   eJxjYBgaIF2OgSFDjr52HhbDFKthxq2+G4scuhkbBSH0ZSxm4wLVOOzE5j58AJudpJqBTf0lCswQZ4LQ+cC4LSAhfkl1NzoAhQWp7kYHuUD35lGYJinxByw+CfkDX1oj1n5caZAY+7G5pRAYbkVkhh2yWybhMANmDyx94VODCxATNoTU0MoMdLcTigNsZlAj7+NLF9gApXmOWAAKn8cU2gXzbyWJfkQ3A1k/AJcdKZw=
+   eJxjYBgaIF2OgSFDjr52HhbDFKthxq2+G4scuhkbBSH0ZSxm4wLVOOzE5j58AJudpJqBTf0lCswQZ4LQ+cC4LSAhfkl1NzoAhQWp7kYHuUD35lGYJinxByw+CfkDX1rDZ/8zoN+eQ/2HKw0SY386kl6YWwqB5haRGXbIbpmEwwyYPbD0hU8NLkBM3BBSQysz0N1OKA6wmUGNvI8vXWADlOY5YgEofB5TaBfMv5Uk+hHdDGT9AJwuLA8=
   </data>
  </layer>
  <layer id="9" name="Top" width="17" height="28">
@@ -203,9 +203,9 @@
    eJxjYBgFo2AUkAMOiw20C0bBKBgFQwkAAJebANo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="17" height="28">
+ <layer id="4" name="Walkable" width="17" height="28" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEEYBCgVD86oMR+UszBpZZUtxAygxS3EAobfOYRawa58UGJGaS4gVpm4AoTfOKkpANSzCAlDZOilxy15LiF2mYQik9ywnU4mYEtjKgR/0MpjZCiHwANzxsE
+   eJzbKMbAsHEEYBCgVD86oMR+UszBpZZUtxAygxS3EAobfOYRawa58UGJGaS4gVpm4AoTfOKkpANSzCAlDZOilxy1+OyllxmE4pOccB1OZmALI2rEP6nxO1jNQNcPAOlkGXY=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -224,7 +224,7 @@
   <object id="3" name="thousand_gold_dl" type="container" x="96" y="192" width="32" height="32"/>
   <object id="4" name="gamjee_well_exit_dl" type="container" x="128" y="768" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="5" name="hardershell_beetle_spawn" type="spawn" x="224" y="608" width="32" height="32">
    <properties>
     <property name="spawngroup" value="hardershell_beetle"/>

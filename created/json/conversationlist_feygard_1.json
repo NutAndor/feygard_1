@@ -29,7 +29,7 @@
                         "requireType":"questProgress",
                         "requireID":"fogmonster",
                         "value":5,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -664,7 +664,7 @@
                 "rewardID":"fogmonster",
                 "value":20
             }
-		]
+        ]
     },
     {
         "id":"feygard_offering",
@@ -1953,7 +1953,7 @@
                 "rewardID":"fogmonster",
                 "value":30
             }
-		]
+        ]
     },
     {
         "id":"swamp_witch_20_10",
@@ -2449,8 +2449,8 @@
     },
     {
         "id":"swamp_witch_20_180",
+        "message":"Well, choose what you want. Of course you'll have to pay for it.",
         "switchToNPC":"swamp_witch_shop",
-        "message":"Well, chose what you want. Of course you'll have to pay for it.",
         "replies":[
             {
                 "text":"N",
@@ -2578,7 +2578,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"ring_shadow0",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2655,7 +2655,7 @@
     {
         "id":"swamp_witch_90_20",
         "message":"Well, if you promise to finally leave me alone afterwards.",
-		"switchToNPC":"swamp_witch_shop",
+        "switchToNPC":"swamp_witch_shop",
         "replies":[
             {
                 "text":"Sure",
@@ -6933,7 +6933,7 @@
     },
     {
         "id":"road_rondel_move_hint",
-        "message":"[while scanning the you up and down with his eyes...] \"There's something... about you... something warm. Ain't my place to stand in the way of that."
+        "message":"[While scanning you up and down with his eyes...] \"There's something... about you... something warm. Ain't my place to stand in the way of that."
     },
     {
         "id":"wexlow_village_hole",
