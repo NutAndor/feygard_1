@@ -47,7 +47,7 @@
     {
         "id":"feygard_fog",
         "name":"feygard fog",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
