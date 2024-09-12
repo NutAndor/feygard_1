@@ -896,7 +896,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -943,7 +943,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -5938,7 +5938,7 @@
         "message":"Um, let me think. Oh, yeah, I remember. It's black, gold and covered in emeralds.",
         "replies":[
             {
-                "text":"\"Oh, yeah, I remember\"? What? Don't you know what it lookis like?",
+                "text":"\"Oh, yeah, I remember\"? What? Don't you know what it looks like?",
                 "nextPhraseID":"village_godwin_lost_ring_3"
             },
             {
@@ -6012,7 +6012,7 @@
     {
         "id":"village_godwin_lost_ring_godelieve",
         "message":"No. What happened?",
-        "switchToNPC":"village_godelieve",
+        "switchToNPC":"village_godelieve_hidden",
         "replies":[
             {
                 "text":"Well, he los...",

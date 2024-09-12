@@ -873,5 +873,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"village_godelieve_hidden",
+        "name":"Godelieve",
+        "iconID":"monsters_ld1:144",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none"
     }
 ]
