@@ -190,17 +190,17 @@
  </layer>
  <layer id="2" name="Objects" width="17" height="28">
   <data encoding="base64" compression="zlib">
-   eJyVVEtOwzAQjWJBRXcgiFQW6WEQJ+ASsGTZ9AAg8e0BAkdAUC6QhjOUfRcIxJ41HuGHX5yxKSNZTuI3b958nNVOFrU745fYKoGFMebe+Q3yn71278ttjxm6s0f6hnP4L4xf4GkIv5/r2uHf2v3Z4s/KLDu3qzG6dtbF1kbwwiNatLq8Ehf8J3aviIvj1aS3F7/ovu9SvojNOT1EeMKYmgmP6GU+zm9LqXXM5kEs1GSU+1gL068v4oX1mgdzEeJvbG9vy26OF6bbi//aJBJLDLqfIvwjqpVo0mp3ZfVel914x25NHb/orxM9BUbTGxp4WocP6y/+SzrDncMMYi6E59I9f+153yqIvzm293/scqUzni/RXim+Ytq8QssscZdZP/IDlnuoaUbM1vTjr/MPPFD6jDjThF7mPlrzng0SuFPii+mO3UHOOzbfYugF8DLjqZ4cbvS/ofdYJ3/McDgrv/Oq6GwUXGhcG76zUpM3m99H0fd5Ubi0/8y79f0s/Nk3dq5tFg==
+   eJyVVEtOwzAQjWJBBTsQRCqL9DCIE3AJWLJsegCQgAIHCBwBQblAEs5Q9l0gEHvWeISf/OKMTRnJyscz77352KvdLGr3xi+xVcIXxj4PLm6U/z5r973c8T7bbu+J/mEf8a3xCzgN+R/kunbEd/b5Yv3Pyyy7sKsxunbWxdZF/AVHtGh1eSMsxE/tsyIs5qtJ74C/6H/vUb7g5pweIzghp2aCI3oZj/PbUmods0XAhZqMc8/VmmF9wRfWaxHMReh/Y3t7W/ZzvDT9XvzXphEuMeh+juCPqVaiSavdtdU7L/t8J27NHL7orxM9hY+mNzTgdM4/rL/EL2kPZw4ziLkQnCv3/r3vY6uAf3Niz//E5Up7PF+ivVJixbR5hZa7xFlm/cgPvtxDTTM4OzPkX+cOPFT6DJ5ZQi9jH695zkYJvzPCi+mOnUHOOzbfYugF/GXGUz052hj+Q++xTv+YYeHU7tFW0dkofqFxbfjMSk3eLddnMYx5VbC0e+bDxn4Vfu8Huittcg==
   </data>
  </layer>
  <layer id="3" name="Above" width="17" height="28">
   <data encoding="base64" compression="zlib">
-   eJxjYBgaIF2OgSFDjr52HhbDFKthxq2+G4scuhkbBSH0ZSxm4wLVOOzE5j58AJudpJqBTf0lCswQZ4LQ+cC4LSAhfkl1NzoAhQWp7kYHuUD35lGYJinxByw+CfkDX1rDZ/8zoN+eQ/2HKw0SY386kl6YWwqB5haRGXbIbpmEwwyYPbD0hU8NLkBM3BBSQysz0N1OKA6wmUGNvI8vXWADlOY5YgEofB5TaBfMv5Uk+hHdDGT9AJwuLA8=
+   eJxjYKAtuCxGuRmXgGakyzEwZMhRbhYpAJvba5hxq+/GIncYzYyNgrjNxgWqcdiJbjYhgM1OUs3Apv4SBWaIM0HofGDcFpAQv6S6Gx2AwoJUd6ODXKB78yhMk5T4Axaf2PyBHNf40ho++58B/fYc6j9caRCX/cjmpyPphbmlEGhuEZ6wQ3YzuvnIbpmEwwxY/MLSFyE7sAFi4oaQGlqZge52QmkZmxnUyPv40gWxZpAKqoiwExQ+jym0C+bWShL9iG4Gsn4AOSIy2Q==
   </data>
  </layer>
  <layer id="9" name="Top" width="17" height="28">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUkAMOiw20C0bBKBgFQwkAAJebANo=
+   eJxjYBgFo2AUkAMOiw20C2gLhrv/RsEooDcAAGnmAbM=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="17" height="28" visible="0">
