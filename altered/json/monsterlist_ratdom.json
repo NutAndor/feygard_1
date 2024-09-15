@@ -1,0 +1,53 @@
+[
+    {
+        "id":"ratdom_skel_dance21",
+        "name":"Angry skeleton",
+        "iconID":"monsters_tometik8:35",
+        "maxHP":80,
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":20
+        },
+        "spawnGroup":"ratdom_skel_dance2_grp",
+        "droplistID":"ratdom_skeleton_bone",
+        "attackCost":5,
+        "attackChance":80
+    },
+    {
+        "id":"ratdom_skel_dance22",
+        "name":"Angry skeleton",
+        "iconID":"monsters_tometik8:36",
+        "maxHP":80,
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":20
+        },
+        "spawnGroup":"ratdom_skel_dance2_grp",
+        "droplistID":"ratdom_skeleton_bone",
+        "attackCost":5,
+        "attackChance":80
+    },
+    {
+        "id":"ratdom_skel_dance23",
+        "name":"Angry skeleton",
+        "iconID":"monsters_tometik8:37",
+        "maxHP":80,
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":20
+        },
+        "spawnGroup":"ratdom_skel_dance2_grp",
+        "droplistID":"ratdom_skeleton_bone",
+        "attackCost":5,
+        "attackChance":80
+    }
+]
