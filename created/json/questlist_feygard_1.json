@@ -27,13 +27,13 @@
             },
             {
                 "progress":80,
-                "logText":"You were able to convince Mim to keep the road clear of fog.",
+                "logText":"You were able to convince the witch Mim to keep the road clear of fog.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             },
             {
                 "progress":90,
-                "logText":"You convinced Mim to replace the fog with a distraction spell.",
+                "logText":"You convinced the witch Mim to replace the fog with a distraction spell.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             },

@@ -108,11 +108,11 @@
                 }
             },
             {
-                "itemID":"health",
+                "itemID":"swampwitch_health",
                 "chance":"100",
                 "quantity":{
-                    "min":10,
-                    "max":20
+                    "min":7,
+                    "max":7
                 }
             },
             {

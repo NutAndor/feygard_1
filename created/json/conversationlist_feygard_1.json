@@ -40,6 +40,7 @@
         "message":"This fog seems to be very unnatural.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"feygard_fogmonster_startquest_20"
             }
         ],
@@ -922,6 +923,7 @@
         "message":"You feel good. Very good, in fact.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"feygard_offering_32"
             }
         ],
@@ -969,6 +971,7 @@
         "message":"You feel good. Extremely good, in fact.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"feygard_offering_32"
             }
         ],

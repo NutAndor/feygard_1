@@ -17,6 +17,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Why?",
+                "nextPhraseID":"guynmart_roadguard_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fogmonster",
+                        "value":80
+                    }
+                ]
             }
         ]
     },
