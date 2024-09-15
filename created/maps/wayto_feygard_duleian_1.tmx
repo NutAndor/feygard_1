@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="13">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -203,7 +203,7 @@
    eJy1VMsNAiEQJZbggYQDB734iYleTWxE41qBDViI2YLsYLchh+BLBhw+RvZdYGbCvDcPglIyHjaM9xQfPrkVrWtWvxqlOuP3C8ovo7OoH02CLAGpVwyua0Pr1noefpbrk+IaoDcHfLibdE/MjHrNTCmcCpqhh2v5dU4HSWOKG1wtPC6hhgMxfxc5SPeaq3PO3TyvpRUkj6FL8r41nrPvXPwH1KJ0LvXORl3+Z/5BTzN21O8W9Xxpv07pcS/4C17OHXtX+g9KcJ6OOsyBF+8L3GfaX2wbHwYdzuz2gzBvjCnv4A0IDjI+
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="15" visible="0">
+ <layer id="5" name="Walkable" width="30" height="15">
   <data encoding="base64" compression="zlib">
    eJytVG0KQCEIe6fo/lfohv0KHqL70AZChblZsr2+FHvxQLmslop/frxfrTPeu3c4kdZKl6pXBeoL1WR/5mpQNHbeOqujcLNZfAk071Gnys/ylL6m/xprVRpUH3iNOEsTTsWXGG+27mhg3jn1jIyXnTme3pnvyh+c93D8W827cQCUVn99
   </data>
@@ -239,6 +239,7 @@
     <property name="place" value="southeast"/>
    </properties>
   </object>
+  <object id="12" name="gold100" type="container" x="896" y="288" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
   <object id="6" name="road_rondel_spawn" type="spawn" x="544" y="96" width="32" height="32">
