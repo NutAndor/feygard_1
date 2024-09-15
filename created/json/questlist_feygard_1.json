@@ -101,6 +101,50 @@
                 "logText":"1=Stolen from offering to Elythara"
             },
             {
+                "progress":2,
+                "logText":"The PC threw an Oegyth Crystal down the well in Wexlow Village."
+            },
+            {
+                "progress":3,
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow without knowing that Gamjee has those villagers held captive."
+            },
+            {
+                "progress":4,
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow after learning that Gamjee has those villagers held captive."
+            },
+            {
+                "progress":5,
+                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow."
+            },
+            {
+                "progress":6,
+                "logText":"Gamjee, the troll under the village of Wexlow has sent the villager back to Wexlow."
+            },
+            {
+                "progress":7,
+                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring."
+            },
+            {
+                "progress":8,
+                "logText":"PC learns that Rosmara sells fruits and vegetables"
+            },
+            {
+                "progress":9,
+                "logText":"PC can sleep in Wexlow Village."
+            },
+            {
+                "progress":10,
+                "logText":"PC has learned what the beekeeper, Leofric does for work."
+            },
+            {
+                "progress":11,
+                "logText":"In Wexlow Village, the PC has learned that there are missing residents."
+            },
+            {
+                "progress":20,
+                "logText":"20=Road to Feygard closed (wayto_feygard_duleian_2)"
+            },
+            {
                 "progress":60,
                 "logText":"60=talked to Arthamyr"
             },
@@ -163,46 +207,6 @@
             {
                 "progress":92,
                 "logText":"92=Ravine free"
-            },
-            {
-                "progress":2,
-                "logText":"The PC threw an Oegyth Crystal down the well in Wexlow Village."
-            },
-            {
-                "progress":5,
-                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow."
-            },
-            {
-                "progress":3,
-                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow without knowing that Gamjee has those villagers held captive."
-            },
-            {
-                "progress":4,
-                "logText":"The PC has attacked Gamjee the troll under the village of Wexlow after learning that Gamjee has those villagers held captive."
-            },
-            {
-                "progress":6,
-                "logText":"Gamjee, the troll under the village of Wexlow has sent the villager back to Wexlow."
-            },
-            {
-                "progress":7,
-                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring."
-            },
-            {
-                "progress":8,
-                "logText":"PC learns that Rosmara sells fruits and vegetables"
-            },
-            {
-                "progress":9,
-                "logText":"PC can sleep in Wexlow Village."
-            },
-            {
-                "progress":10,
-                "logText":"PC has learned what the beekeeper, Leofric does for work."
-            },
-            {
-                "progress":11,
-                "logText":"In Wexlow Village, the PC has learned that there are missing residents."
             }
         ]
     },

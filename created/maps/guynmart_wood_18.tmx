@@ -281,13 +281,13 @@
   <object id="57" name="guynmart18_passage2" type="script" x="544" y="512" width="32" height="32"/>
   <object id="63" name="tobby2_mce" type="script" x="320" y="32" width="224" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="36" name="godoe1" type="spawn" x="192" y="832" width="64" height="32">
+ <objectgroup id="6" name="Spawn">
+  <object id="36" name="godoe1" type="spawn" x="224" y="832" width="32" height="64">
    <properties>
     <property name="active" value="false"/>
    </properties>
   </object>
-  <object id="37" name="godoe2" type="spawn" x="192" y="128" width="64" height="32"/>
+  <object id="37" name="godoe2" type="spawn" x="256" y="128" width="32" height="64"/>
   <object id="51" name="forestwolf1" type="spawn" x="0" y="384" width="320" height="96">
    <properties>
     <property name="quantity" value="2"/>

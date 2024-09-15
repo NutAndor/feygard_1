@@ -2928,6 +2928,27 @@
         ]
     },
     {
+        "id":"tobby_help",
+        "replies":[
+            {
+                "nextPhraseID":"tobby_help_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tobby",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"tobby_help_10",
+		"switchToNPC":"tobby",
+        "message":"Wait! Hey kid, please help me!"
+    },
+    {
         "id":"tobby",
         "replies":[
             {
@@ -6240,6 +6261,10 @@
             {
                 "text":"OK, you sell food. What kind of food?",
                 "nextPhraseID":"rosmara_explain_3"
+            },
+            {
+                "text":"And the fog? No one could take the path anymore.",
+                "nextPhraseID":"rosmara_explain_10"
             }
         ]
     },
@@ -6280,7 +6305,8 @@
     },
     {
         "id":"rosmara_explain_5",
-        "message":"From all over Dhayavar, but mostly from the great farmers in Loneford.",
+        "message":"From all over Dhayavar, but mostly from the great farmers 
+		in Loneford.",
         "replies":[
             {
                 "text":"Oh, yeah. I've seen all of their great farms.",
@@ -6306,6 +6332,55 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"rosmara_explain_10",
+        "message":"What kind of fog are you talking about?",
+        "replies":[
+            {
+                "text":"The fog that the witch had created in the swamp, of course.",
+                "nextPhraseID":"rosmara_explain_11"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_11",
+        "message":"Are you still afraid of witches or fog, child?",
+        "replies":[
+            {
+                "text":"I am not a child anymore!!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I was with the witch! Without me the fog would still be there!",
+                "nextPhraseID":"rosmara_explain_12"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_12",
+        "message":"Yes, of course. Calm down, child.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rosmara_initial_phrase"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_road_closed",
+		"switchToNPC":"rosmara",
+        "message":"Hey, child! You can't go there. You're not ready for the big city of Feygard. Or is Feygard not ready for you?",
+        "replies":[
+            {
+                "text":"I am not a child anymore!!",
+                "nextPhraseID":"rosmara_road_closed_1"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_road_closed_1",
+        "message":"Either way, the road is closed to you."
     },
     {
         "id":"village_philippa_fd_all_items_1",
