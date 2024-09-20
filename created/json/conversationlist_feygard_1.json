@@ -6339,7 +6339,26 @@
         "replies":[
             {
                 "text":"The fog that the witch had created in the swamp, of course.",
-                "nextPhraseID":"rosmara_explain_11"
+                "nextPhraseID":"rosmara_explain_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fogmonster",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"The fog further down the road behind the cobolds, of course.",
+                "nextPhraseID":"rosmara_explain_11a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fogmonster",
+                        "value":30,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -6353,6 +6372,20 @@
             },
             {
                 "text":"I was with the witch! Without me the fog would still be there!",
+                "nextPhraseID":"rosmara_explain_12"
+            }
+        ]
+    },
+    {
+        "id":"rosmara_explain_11a",
+        "message":"Are you still afraid of cobolds or fog, child?",
+        "replies":[
+            {
+                "text":"I am not a child anymore!!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have mastered the fog and survived the cobolds!!",
                 "nextPhraseID":"rosmara_explain_12"
             }
         ]
