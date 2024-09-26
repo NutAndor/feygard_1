@@ -1818,6 +1818,19 @@
         "id":"guynmart18_s3",
         "replies":[
             {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"haste"
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+				]
+			},
+            {
                 "nextPhraseID":"guynmart18_s3_10",
                 "requires":[
                     {
@@ -1826,13 +1839,111 @@
                         "value":25
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"guynmart18_s3_2"
             }
-        ],
+        ]
+    },
+    {
+        "id":"guynmart18_s3_2",
         "rewards":[
             {
                 "rewardType":"alignmentChange",
                 "rewardID":"guynmart18",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"guynmart18a_s3",
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"guynmart18",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"guynmart18b_s3",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"haste"
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+				]
+			},
+            {
+                "nextPhraseID":"guynmart18_s3_10",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"guynmart18",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guynmart18b_s3_2"
+            }
+        ]
+    },
+    {
+        "id":"guynmart18b_s3_2",
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"guynmart18",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"guynmart18c_s3",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"haste"
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+				]
+			},
+            {
+                "nextPhraseID":"guynmart18_s3_10",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"guynmart18",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guynmart18c_s3_2"
+            }
+        ]
+    },
+    {
+        "id":"guynmart18c_s3_2",
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"guynmart18",
+                "value":10
             }
         ]
     },
