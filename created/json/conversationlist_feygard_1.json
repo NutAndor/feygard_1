@@ -1818,35 +1818,33 @@
         "id":"guynmart18_s3",
         "replies":[
             {
-                "nextPhraseID":"X",
+                "nextPhraseID":"guynmart18_s3_1",
                 "requires":[
                     {
                         "requireType":"hasActorCondition",
-                        "requireID":"haste"
-                    },
+                        "requireID":"haste",
+						"negate":true
+                    }
+				]
+			},
+            {
+                "nextPhraseID":"guynmart18_s3_1",
+                "requires":[
                     {
                         "requireType":"random",
                         "requireID":"50"
                     }
 				]
-			},
-            {
-                "nextPhraseID":"guynmart18_s3_10",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"guynmart18",
-                        "value":25
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"guynmart18_s3_2"
-            }
+			}
         ]
     },
     {
-        "id":"guynmart18_s3_2",
+        "id":"guynmart18_s3_1",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s3_2"
+			}
+        ],
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -1869,35 +1867,33 @@
         "id":"guynmart18b_s3",
         "replies":[
             {
-                "nextPhraseID":"X",
+                "nextPhraseID":"guynmart18b_s3_1",
                 "requires":[
                     {
                         "requireType":"hasActorCondition",
-                        "requireID":"haste"
-                    },
+                        "requireID":"haste",
+						"negate":true
+                    }
+				]
+			},
+            {
+                "nextPhraseID":"guynmart18b_s3_1",
+                "requires":[
                     {
                         "requireType":"random",
                         "requireID":"50"
                     }
 				]
-			},
-            {
-                "nextPhraseID":"guynmart18_s3_10",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"guynmart18",
-                        "value":25
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"guynmart18b_s3_2"
-            }
+			}
         ]
     },
     {
-        "id":"guynmart18b_s3_2",
+        "id":"guynmart18b_s3_1",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s3_2"
+			}
+        ],
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -1910,18 +1906,44 @@
         "id":"guynmart18c_s3",
         "replies":[
             {
-                "nextPhraseID":"X",
+                "nextPhraseID":"guynmart18c_s3_1",
                 "requires":[
                     {
                         "requireType":"hasActorCondition",
-                        "requireID":"haste"
-                    },
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
+                        "requireID":"haste",
+						"negate":true
                     }
 				]
 			},
+            {
+                "nextPhraseID":"guynmart18c_s3_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"80"
+                    }
+				]
+			}
+        ]
+    },
+    {
+        "id":"guynmart18c_s3_1",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart18_s3_2"
+			}
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"guynmart18",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"guynmart18_s3_2",
+        "replies":[
             {
                 "nextPhraseID":"guynmart18_s3_10",
                 "requires":[
@@ -1931,19 +1953,6 @@
                         "value":25
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"guynmart18c_s3_2"
-            }
-        ]
-    },
-    {
-        "id":"guynmart18c_s3_2",
-        "rewards":[
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"guynmart18",
-                "value":10
             }
         ]
     },
