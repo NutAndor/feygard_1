@@ -201,12 +201,12 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYICAqUwQmhNIT4eyiQFTsaglRT8MzJNhYHBG0ofPDHQ71wH1sgmTbud9qDliQL13ibT7iRBC30MhhPhdIvyMbC7IDy1A3EpGWEkC9TCJ4TcfHTxGcquQGMIP+NyNTU5JDNXfuMALQeziMDcm4wlv5Ph9gWYXOp8UMB3Jz7C0hi/McIVNMIG0wolkjzia/CMh3OaimwXy6wMS0gdIvzRaPngNDa8ZBMxBTh8gc4qwqL+LFGb40g3MH/jSCTH6sbmNWDNg4ebKCqHvkxHPDESWKcjh8gTq1qlEpC9iAAACdTRO
+   eJxjYICAqUwQmhNIT4eyiQFTsaglRT8MzJNhYHBG0ofPDHQ71wH1sgmTbud9qDliQL13ibT7iRBC30MgO0ScgSEUiMPECdt3WAzBBvkhBagnFYjTiNALAjC7JIF6mcQw5fG5G2YXCAiJIfxwF48ebHJKYhB/EwIvBLGLw9yYjCe8keP3BZpd6HxSwHQkP8PSGr4wwxU2hNIKJ5I94mjyj4Rwm4tuFsivD0jISyD90mj54DU0vGYQMOcxUriCzCnCov4uUpjhSzfTkfIHLkCMfmxuI9YMWLi5skLo+2TEMwORZQpyuDyBunUqEemLGAAAFY42vQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMTGWi0AAoOCxGnr7LYtj1XiZgHkzfJSzqpuPxEz59xNiNTx8I4AsHZHNhbGQxfO5GNhfGJuQWGLiERS8+82FgFYVpA1s4EitGbHrCFma49BJKU/j0kmImtzAqH1c84TJzjyR2cWL04gLEpjNq2IVLLzHhj6yOmHSLzz5S9WIDpIYVOgAAvaArEA==
+   eJxjYKAMTGWi0AAoOCxGnr7LYtj1XiZgHkzfJSzqpuPxEy59d5lQ1WADIHOR9bUA+a1oduELB2RzYeqQxfC5+zAWvdj8jg1cwqIXn/kwsIrCtIEtHIkVIzY9YQszXHph9gQTGc6kmIkMuIVR+bjiCZeZeySxixOjFxcgNp1Rwy5cegnlaXR1xKRbfPaRqhcbIDWs0AEA8Qst2g==
   </data>
  </layer>
  <layer id="11" name="Top" width="15" height="24">
@@ -216,10 +216,10 @@
  </layer>
  <layer id="4" name="Walkable" width="15" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGIYxCgt150QKo+ctyArBedpodebIBYfYTCgJSwIlcvsX7Gp5dSP5OiH6aWlDDHZhc6TW6cE6sXW3ojR/9A6SVHH6npk1gMAAqX2nA=
+   eJzbKMbAsHGIYxCgt150QKo+ctyArBedpqdeYv2NSx2xYUZtvcT6GZ9eSv1Min5ywhybXeg0qembVL240gyp+gdKLzn6SE2fxGIA4Sjb/g==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="39" name="entry" type="mapchange" x="64" y="320" width="32" height="32"/>
   <object id="65" name="exit" type="mapchange" x="32" y="320" width="32" height="32">
    <properties>
