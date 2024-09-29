@@ -1,5 +1,9 @@
 [
     {
+        "id":"sign_feygard_wexlow",
+        "message":"North: feygard\nEast: Wexlow"
+    },
+    {
         "id":"guynmart_fog",
         "message":"You can't get through this dense fog here."
     },
@@ -6425,8 +6429,7 @@
     },
     {
         "id":"rosmara_explain_5",
-        "message":"From all over Dhayavar, but mostly from the great farmers 
-		in Loneford.",
+        "message":"From all over Dhayavar, but mostly from the great farmers in Loneford.",
         "replies":[
             {
                 "text":"Oh, yeah. I've seen all of their great farms.",
