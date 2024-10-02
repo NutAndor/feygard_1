@@ -145,6 +145,10 @@
                 "logText":"20=Road to Feygard closed (wayto_feygard_duleian_2)"
             },
             {
+                "progress":12,
+                "logText":"PC is not being patient while waiting for the Feydelight to be cooked."
+            },
+            {
                 "progress":60,
                 "logText":"60=talked to Arthamyr"
             },

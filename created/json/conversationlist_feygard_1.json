@@ -6609,7 +6609,25 @@
                 ]
             },
             {
-                "nextPhraseID":"village_philippa_fd_complete_no"
+                "nextPhraseID":"village_philippa_fd_complete_no",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":12,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"village_philippa_fd_complete_no_impatient",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":12
+                    }
+                ]
             }
         ]
     },
@@ -6637,7 +6655,14 @@
     },
     {
         "id":"village_philippa_fd_complete_no",
-        "message":"Sorry, no it is not. Please come back later."
+        "message":"Sorry, no it is not. Please come back later.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":12
+            }
+        ]
     },
     {
         "id":"perciva_int_phrasel",
@@ -7372,5 +7397,9 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"village_philippa_fd_complete_no_impatient",
+        "message":"You know, my Feygard customers never pester me like this. They know to be patient and wait for this great delicacy."
     }
 ]
