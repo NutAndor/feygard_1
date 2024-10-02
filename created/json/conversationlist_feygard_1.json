@@ -6616,6 +6616,12 @@
     {
         "id":"village_philippa_fd_complete_yes",
         "message":"Yes. Please enjoy while it's hot.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"village_philippa_try_fd"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7305,6 +7311,65 @@
             {
                 "text":"I want to help you and the villagers.",
                 "nextPhraseID":"gamjee_compromise_1"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_try_fd",
+        "message":"Would you like to try a piece before you dig into yours?",
+        "replies":[
+            {
+                "text":"Nah, thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, please. That would be great.",
+                "nextPhraseID":"village_philippa_try_fd_1"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_try_fd_1",
+        "message":"Here you go. Eat it up while it's hot.",
+        "replies":[
+            {
+                "text":"Oh, man, that was nasty.",
+                "nextPhraseID":"village_philippa_try_fd_nasty"
+            },
+            {
+                "text":"That was delicious! But what...is it...doing to me? I feel so funny.",
+                "nextPhraseID":"village_philippa_try_fd_good"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"food",
+                "value":3
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"haste",
+                "value":2
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"sweet_tooth",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_try_fd_nasty",
+        "message":"What?! You ungrateful little brat."
+    },
+    {
+        "id":"village_philippa_try_fd_good",
+        "message":"Oh, that? That's nothing. Just some side effects of great cooking.",
+        "replies":[
+            {
+                "text":"Umm...OK.",
+                "nextPhraseID":"X"
             }
         ]
     }
