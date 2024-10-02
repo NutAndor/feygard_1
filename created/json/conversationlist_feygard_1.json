@@ -5514,7 +5514,7 @@
             },
             {
                 "text":"I thought I heard somes voices earlier. Have you hurt anybody recently? ",
-                "nextPhraseID":"gamjee_villagers_unknown_attack"
+                "nextPhraseID":"gamjee_villagers_unknown_3"
             }
         ]
     },
@@ -7401,5 +7401,19 @@
     {
         "id":"village_philippa_fd_complete_no_impatient",
         "message":"You know, my Feygard customers never pester me like this. They know to be patient and wait for this great delicacy."
+    },
+    {
+        "id":"gamjee_villagers_unknown_3",
+        "message":"Me alone.",
+        "replies":[
+            {
+                "text":"Really? I'm not so sure about that, but I'll see about that.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I don't believe you! Prove it.",
+                "nextPhraseID":"gamjee_villagers_unknown_attack"
+            }
+        ]
     }
 ]
