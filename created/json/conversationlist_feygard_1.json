@@ -1,7 +1,7 @@
 [
     {
         "id":"sign_feygard_wexlow",
-        "message":"North: feygard\nEast: Wexlow"
+        "message":"North: feygard"
     },
     {
         "id":"guynmart_fog",
@@ -44,7 +44,7 @@
         "message":"This fog seems to be very unnatural.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"feygard_fogmonster_startquest_20"
             }
         ],
@@ -1827,10 +1827,10 @@
                     {
                         "requireType":"hasActorCondition",
                         "requireID":"haste",
-						"negate":true
+                        "negate":true
                     }
-				]
-			},
+                ]
+            },
             {
                 "nextPhraseID":"guynmart18_s3_1",
                 "requires":[
@@ -1838,8 +1838,8 @@
                         "requireType":"random",
                         "requireID":"50"
                     }
-				]
-			}
+                ]
+            }
         ]
     },
     {
@@ -1847,7 +1847,7 @@
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s3_2"
-			}
+            }
         ],
         "rewards":[
             {
@@ -1876,10 +1876,10 @@
                     {
                         "requireType":"hasActorCondition",
                         "requireID":"haste",
-						"negate":true
+                        "negate":true
                     }
-				]
-			},
+                ]
+            },
             {
                 "nextPhraseID":"guynmart18b_s3_1",
                 "requires":[
@@ -1887,8 +1887,8 @@
                         "requireType":"random",
                         "requireID":"50"
                     }
-				]
-			}
+                ]
+            }
         ]
     },
     {
@@ -1896,7 +1896,7 @@
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s3_2"
-			}
+            }
         ],
         "rewards":[
             {
@@ -1915,10 +1915,10 @@
                     {
                         "requireType":"hasActorCondition",
                         "requireID":"haste",
-						"negate":true
+                        "negate":true
                     }
-				]
-			},
+                ]
+            },
             {
                 "nextPhraseID":"guynmart18c_s3_1",
                 "requires":[
@@ -1926,8 +1926,8 @@
                         "requireType":"random",
                         "requireID":"80"
                     }
-				]
-			}
+                ]
+            }
         ]
     },
     {
@@ -1935,7 +1935,7 @@
         "replies":[
             {
                 "nextPhraseID":"guynmart18_s3_2"
-			}
+            }
         ],
         "rewards":[
             {
@@ -3061,7 +3061,7 @@
                         "requireType":"questProgress",
                         "requireID":"tobby",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -3069,8 +3069,8 @@
     },
     {
         "id":"tobby_help_10",
-		"switchToNPC":"tobby",
-        "message":"Wait! Hey kid, please help me!"
+        "message":"Wait! Hey kid, please help me!",
+        "switchToNPC":"tobby"
     },
     {
         "id":"tobby",
@@ -6479,7 +6479,7 @@
                         "requireType":"questProgress",
                         "requireID":"fogmonster",
                         "value":30,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -6525,8 +6525,8 @@
     },
     {
         "id":"rosmara_road_closed",
-		"switchToNPC":"rosmara",
         "message":"Hey, child! You can't go there. You're not ready for the big city of Feygard. Or is Feygard not ready for you?",
+        "switchToNPC":"rosmara",
         "replies":[
             {
                 "text":"I am not a child anymore!!",
