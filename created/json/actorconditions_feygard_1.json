@@ -20,5 +20,19 @@
             "increaseBlockChance":7,
             "increaseDamageResistance":1
         }
-    }
+    },
+	{
+		"id":"elytharabless_heal",
+		"iconID":"actorconditions_1:35",
+		"name":"Elythara's refreshment",
+		"category":"spiritual",
+		"isPositive":1,
+		"roundEffect":{
+			"visualEffectID":"blueSwirl",
+			"increaseCurrentHP":{
+				"min":1,
+				"max":1
+			}
+		}
+	}
 ]

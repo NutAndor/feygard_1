@@ -875,6 +875,17 @@
         "id":"feygard_offering_30_100",
         "replies":[
             {
+                "nextPhraseID":"feygard_offering_30_100_heal",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"feygard_offering_32"
             }
         ],
@@ -888,6 +899,16 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"feygard_offering_sum",
                 "value":100
+            }
+        ]
+    },
+    {
+        "id":"feygard_offering_30_100_heal",
+        "message":"You hear a bodyless voice: \"Thank you.\"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard_offering_32"
             }
         ]
     },
@@ -934,8 +955,8 @@
         "rewards":[
             {
                 "rewardType":"actorCondition",
-                "rewardID":"shadowbless_heal",
-                "value":50
+                "rewardID":"elytharabless_heal",
+                "value":101
             }
         ]
     },
@@ -982,7 +1003,7 @@
         "rewards":[
             {
                 "rewardType":"actorCondition",
-                "rewardID":"shadowbless_heal",
+                "rewardID":"elytharabless_heal",
                 "value":998
             }
         ]
@@ -1029,8 +1050,9 @@
                 "nextPhraseID":"feygard_offering_34_5",
                 "requires":[
                     {
-                        "requireType":"factionScoreEquals",
-                        "requireID":"20"
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "requireID":"10001"
                     }
                 ]
             },
@@ -1038,8 +1060,9 @@
                 "nextPhraseID":"feygard_offering_34_4",
                 "requires":[
                     {
-                        "requireType":"factionScoreEquals",
-                        "requireID":"25"
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "requireID":"1001"
                     }
                 ]
             },
@@ -1047,8 +1070,9 @@
                 "nextPhraseID":"feygard_offering_34_3",
                 "requires":[
                     {
-                        "requireType":"factionScoreEquals",
-                        "requireID":"33"
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "requireID":"101"
                     }
                 ]
             },
@@ -1056,8 +1080,9 @@
                 "nextPhraseID":"feygard_offering_34_2",
                 "requires":[
                     {
-                        "requireType":"factionScoreEquals",
-                        "requireID":"50"
+                        "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
+                        "requireID":"11"
                     }
                 ]
             },
@@ -1472,7 +1497,7 @@
             },
             {
                 "rewardType":"actorCondition",
-                "rewardID":"shadowbless_heal",
+                "rewardID":"elytharabless_heal",
                 "value":-99
             }
         ]
