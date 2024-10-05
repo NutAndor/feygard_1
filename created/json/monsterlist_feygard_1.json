@@ -339,6 +339,21 @@
         "droplistID":"swamp_witch_shop"
     },
     {
+        "id":"tobby_trainingrat",
+        "name":"Tiny rat",
+        "iconID":"monsters_rats:0",
+        "maxHP":2,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":1,
+            "max":1
+        },
+        "spawnGroup":"tobby_trainingrat",
+        "droplistID":"rat",
+        "attackCost":9,
+        "attackChance":50
+    },
+    {
         "id":"tobby",
         "name":"Tobby",
         "iconID":"monsters_ld1:65",

@@ -3241,11 +3241,39 @@
     },
     {
         "id":"tobby_22",
-        "message":"I want to get some bread from the house, just a second ...",
+        "message":"I want to get some provisions from the house, just a second ...",
         "replies":[
             {
                 "text":"Go ahead, I'll wait and when you are ready, you can follow me. We will head south.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"OK. And tell your father that his rat problem is solved.",
+                "nextPhraseID":"tobby_30",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"tobby_trainingrat",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"OK. And bring your father this loaf of bread.",
+                "nextPhraseID":"tobby_32",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"tobby_trainingrat",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bread",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3258,6 +3286,51 @@
                 "rewardType":"spawnAll",
                 "rewardID":"tobby2",
                 "mapName":"guynmart_wood_19"
+            }
+        ]
+    },
+    {
+        "id":"tobby_30",
+        "message":"Oh, how did you know?",
+        "replies":[
+            {
+                "text":"I just had an inspiration.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Also here, bring him a loaf of bread.",
+                "nextPhraseID":"tobby_32",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bread",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":21
+            }
+        ]
+    },
+    {
+        "id":"tobby_32",
+        "message":"Now I'm speechless - thank you!",
+        "replies":[
+            {
+                "text":"Hurry now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"tobby",
+                "value":22
             }
         ]
     },

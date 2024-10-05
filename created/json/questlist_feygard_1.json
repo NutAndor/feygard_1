@@ -228,6 +228,16 @@
                 "logText":"I have promised to help Tobby get past the cobolds to the south."
             },
             {
+                "progress":21,
+                "logText":"I have killed the rat in Tobby's garden.",
+                "rewardExperience":30
+            },
+            {
+                "progress":22,
+                "logText":"I gave Tobby a loaf of bread for his father.",
+                "rewardExperience":30
+            },
+            {
                 "progress":23,
                 "logText":"Tobby has followed me to the beginning of the ravine with the cobolds."
             },
