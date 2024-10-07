@@ -1051,7 +1051,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"10001"
                     }
                 ]
@@ -1061,7 +1060,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"1001"
                     }
                 ]
@@ -1071,7 +1069,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"101"
                     }
                 ]
@@ -1081,7 +1078,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"11"
                     }
                 ]
@@ -3266,7 +3262,7 @@
                         "requireType":"killedMonster",
                         "requireID":"tobby_trainingrat",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
@@ -5938,7 +5934,7 @@
         "switchToNPC":"gamjee_oc",
         "replies":[
             {
-                "text":"So our busy here is done?",
+                "text":"So our business here is done?",
                 "nextPhraseID":"gamjee_compromise_10_no_ac",
                 "requires":[
                     {
@@ -5950,7 +5946,7 @@
                 ]
             },
             {
-                "text":"So our busy here is done?",
+                "text":"So our business here is done?",
                 "nextPhraseID":"gamjee_compromise_10_oc",
                 "requires":[
                     {
