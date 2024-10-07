@@ -5934,7 +5934,7 @@
         "switchToNPC":"gamjee_oc",
         "replies":[
             {
-                "text":"So our busy here is done?",
+                "text":"So our business here is done?",
                 "nextPhraseID":"gamjee_compromise_10_no_ac",
                 "requires":[
                     {
@@ -5946,7 +5946,7 @@
                 ]
             },
             {
-                "text":"So our busy here is done?",
+                "text":"So our business here is done?",
                 "nextPhraseID":"gamjee_compromise_10_oc",
                 "requires":[
                     {
