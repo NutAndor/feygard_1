@@ -1051,6 +1051,7 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
                         "requireID":"10001"
                     }
                 ]
@@ -1060,6 +1061,7 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
                         "requireID":"1001"
                     }
                 ]
@@ -1069,6 +1071,7 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
                         "requireID":"101"
                     }
                 ]
@@ -1078,6 +1081,7 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
+                        "requireID":"feygard_offering_sum",
                         "requireID":"11"
                     }
                 ]
@@ -4105,7 +4109,7 @@
     },
     {
         "id":"village_philippa_fd_8",
-        "message":"Well, as you are aware, we've been capative for so long. But what you are not aware of, is that while gone, all of my supplies have either gone rotten or been stolen.",
+        "message":"Well, as you are aware, we've been captive for so long. But what you are not aware of, is that while gone, all of my supplies have either gone rotten or been stolen.",
         "replies":[
             {
                 "text":"N",
