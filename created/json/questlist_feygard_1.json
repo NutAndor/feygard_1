@@ -94,7 +94,7 @@
     {
         "id":"feygard_nondisplayed",
         "name":"feygard_nondisplayed",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
