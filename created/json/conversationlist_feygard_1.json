@@ -1051,7 +1051,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"10001"
                     }
                 ]
@@ -1061,7 +1060,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"1001"
                     }
                 ]
@@ -1071,7 +1069,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"101"
                     }
                 ]
@@ -1081,7 +1078,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"11"
                     }
                 ]
@@ -3965,64 +3961,6 @@
                         "requireType":"questLatestProgress",
                         "requireID":"feygard_delicacy",
                         "value":1
-                    }
-                ]
-            },
-            {
-                "text":"What do I need to do again to get my \"Feydelight\"?",
-                "nextPhraseID":"village_philippa_fd_8",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"feygard_delicacy",
-                        "value":2
-                    }
-                ]
-            },
-            {
-                "text":"I have everything that you asked for in order to bake the Feydelight.",
-                "nextPhraseID":"village_philippa_fd_all_items_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_delicacy",
-                        "value":4
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"honey",
-                        "value":1
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"butter",
-                        "value":1
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"guynmart_wine",
-                        "value":1
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"dough",
-                        "value":1
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"fig_fruit",
-                        "value":5
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_delicacy",
-                        "value":7,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"eggs",
-                        "value":2
                     }
                 ]
             },
@@ -7511,6 +7449,96 @@
             {
                 "text":"I don't believe you! Prove it.",
                 "nextPhraseID":"gamjee_villagers_unknown_attack"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_initial_selector",
+        "replies":[
+            {
+                "nextPhraseID":"village_philippa_selector_has_ingredients",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":4
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"honey",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"butter",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"guynmart_wine",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"dough",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"fig_fruit",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":7,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"eggs",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"village_philippa_selector_not_all_ingredients",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":7,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"village_philippa_initial_phrase"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_selector_has_ingredients",
+        "message":"Were you successful in finding all of the items that I've requested of you?",
+        "replies":[
+            {
+                "text":"Yes, I have everything that you asked for in order to bake the Feydelight.",
+                "nextPhraseID":"village_philippa_fd_all_items_1"
+            }
+        ]
+    },
+    {
+        "id":"village_philippa_selector_not_all_ingredients",
+        "message":"Did you find all the ingredients?",
+        "replies":[
+            {
+                "text":"What do I need to do again to get my \"Feydelight\"?",
+                "nextPhraseID":"village_philippa_fd_8"
             }
         ]
     }

@@ -604,7 +604,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "phraseID":"village_philippa_initial_phrase"
+        "phraseID":"village_philippa_initial_selector"
     },
     {
         "id":"village_theobald",
