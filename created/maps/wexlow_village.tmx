@@ -214,7 +214,7 @@
  </layer>
  <layer name="Walkable" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJzNU0EOwCAI4xX7/xf84a4GKWs7TWxCYgylFSQiYjxrIFS5TKj8OZfhdj7zHeOD9Yp0kQ+3d6ou4jjz6sDMaK7DeFRR6eyG2jdUozpnDVUbafyBu6PdW9geff1V1n9VQ+FmT85sun1ie7EznNqnvNwUL67z0eM=
+   eJy1U0EOwCAI4xX+/wv74a6EUdZWbUJiDKUVJCLiWd9A6HKZUPk5l+FOPusd44P1inSRD7d3qi7iOPOawMwo12E8quh0TkPtG6rRnauGqo00duDu6PQWtkd/f5X139VQuNWTM5tpn9henAynds5nccP7zXgBrFHKHQ==
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -340,6 +340,11 @@
   <object name="village_godelieve_hidden_spawn" type="spawn" x="0" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="village_godelieve_hidden"/>
+   </properties>
+  </object>
+  <object name="crossroads_rat_spawn" type="spawn" x="192" y="416" width="320" height="32">
+   <properties>
+    <property name="spawngroup" value="crossroads_rat"/>
    </properties>
   </object>
  </objectgroup>
