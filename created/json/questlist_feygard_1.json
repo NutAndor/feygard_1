@@ -268,7 +268,7 @@
     },
     {
         "id":"echoes_of_enchantment",
-        "name":"Echoes of Enchantment",
+        "name":"Echoes of enchantment",
         "showInLog":1,
         "stages":[
             {
@@ -278,11 +278,11 @@
             },
             {
                 "progress":2,
-                "logText":"After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices. Were they even real? Maybe as symptom of the concussion perhaps?"
+                "logText":"After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices? Were they even real? Maybe a symptom of the concussion perhaps?"
             },
             {
                 "progress":3,
-                "logText":"After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices. Were they even real? Are they the voices of something more sinister?"
+                "logText":"After I landed with a thud at the bottom of the well and being concussed, I began to hear sounds off in the distance. Were they voices? Were they even real? Are they the voices of something more sinister?"
             },
             {
                 "progress":4,
@@ -306,12 +306,12 @@
             },
             {
                 "progress":9,
-                "logText":"I killed gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit.",
+                "logText":"I killed Gamjee and in doing so, I found a rope that I think might be helpful in freeing those people in that pit.",
                 "rewardExperience":1200
             },
             {
                 "progress":11,
-                "logText":"I killed gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier.",
+                "logText":"I killed Gamjee and in doing so, I realized that I really should go investigate the voices I heard earlier.",
                 "rewardExperience":1000
             },
             {
@@ -328,8 +328,8 @@
                 "logText":"After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit."
             },
             {
-                "progress":14,
-                "logText":"I've visited the people of Wexlow Village after the made it home. They are happy to sleep in their own beds now.",
+                "progress":1,
+                "logText":"I've visited the people of Wexlow Village after they made it home. They are happy to sleep in their own beds now.",
                 "rewardExperience":500,
                 "finishesQuest":1
             }

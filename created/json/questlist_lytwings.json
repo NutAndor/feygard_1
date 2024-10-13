@@ -1,7 +1,7 @@
 [
     {
         "id":"fallhaven_lytwings",
-        "name":"It's Knot Funny",
+        "name":"It's knot funny",
         "showInLog":1,
         "stages":[
             {
@@ -38,7 +38,7 @@
             },
             {
                 "progress":31,
-                "logText":"They took the mead, and turned around saying they want something else. I can now see why Rigmor said they are full of mischief! But I have no other choice but to continue this fool's errand, if I want to help Arensia."
+                "logText":"They took the mead, and turned around saying they want something else. I can now see why Rigmor said they are full of mischief! But I have no other choice but to continue this fool's errand if I want to help Arensia."
             },
             {
                 "progress":40,
