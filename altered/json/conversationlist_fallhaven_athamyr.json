@@ -16,48 +16,48 @@
                         "requireType":"questProgress",
                         "requireID":"bucus",
                         "value":100,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"May I ask you a question? Do you know a way to climb over the graveyard fence to the south?",
-				"nextPhraseID":"athamyr_coup_10",
+                "nextPhraseID":"athamyr_coup_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"bucus",
                         "value":100
-                    }
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":60,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":69,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"jewel_fallhaven",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"wear",
                         "requireID":"jewel_fallhaven",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"What about the ladder?",
-				"nextPhraseID":"athamyr_coup_24a",
+                "nextPhraseID":"athamyr_coup_24a",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -68,19 +68,19 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":61,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":69,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"I will go and find your ladder.",
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -91,13 +91,13 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":69,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"I tried the ladder, but the window is locked.",
-				"nextPhraseID":"athamyr_coup_30",
+                "nextPhraseID":"athamyr_coup_30",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -108,19 +108,19 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":63,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":69,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"The ladder is gone and the window shut.",
-				"nextPhraseID":"athamyr_coup_40",
+                "nextPhraseID":"athamyr_coup_40",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -136,7 +136,17 @@
             },
             {
                 "text":"The catacombs were interesting.",
-				"nextPhraseID":"athamyr_complete_12"
+                "nextPhraseID":"athamyr_complete_12"
+            }
+        ]
+    },
+    {
+        "id":"athamyr_2",
+        "message":"But I'm the only one that has both the permission and the bravery to go down there.",
+        "replies":[
+            {
+                "text":"How can I get permission to go down there?",
+                "nextPhraseID":"athamyr_3"
             }
         ]
     }

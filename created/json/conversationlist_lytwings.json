@@ -512,7 +512,7 @@
         "message":"You can buy apples at the Fallhaven tavern. Not sure about strawberries though.",
         "replies":[
             {
-                "text":"Okay, thanks anyway.",
+                "text":"OK, thanks anyway.",
                 "nextPhraseID":"X"
             }
         ]
@@ -837,7 +837,7 @@
     },
     {
         "id":"arensia_lytwing_35",
-        "message":"But I see you are wearing the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you.",
+        "message":"But I see you have the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you.",
         "replies":[
             {
                 "text":"But, I ... um ....",
@@ -847,7 +847,7 @@
     },
     {
         "id":"arensia_lytwing_36",
-        "message":"I see you are wearing my magical ring. I hope it serves you well, you derserved it.",
+        "message":"I see you have my magical ring. I hope it serves you well, you deserve it.",
         "replies":[
             {
                 "text":"I keep it safe, and it keeps me safe in return.",
@@ -864,7 +864,7 @@
         "message":"I don't, but I believe the potion merchant here in Fallhaven has some.",
         "replies":[
             {
-                "text":"Okay.",
+                "text":"OK.",
                 "nextPhraseID":"bela"
             }
         ]
@@ -1441,7 +1441,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"wild_flower",
                         "value":12,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
