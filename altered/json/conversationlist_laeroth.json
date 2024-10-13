@@ -413,5 +413,127 @@
                 "nextPhraseID":"lae_centaur9_12a"
             }
         ]
+    },
+    {
+        "id":"gylew_korhald_10",
+        "message":"Did you find them?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"gylew_korhald_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_coins",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"forenza_key",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes and I already gave them to you.",
+                "nextPhraseID":"gylew_korhald_25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":105
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I found the Korhald coins, but you are not getting them...[Attack]",
+                "nextPhraseID":"gylew_attack",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I don't have them on me. I will go get them.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"korhald_coins",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":62,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_25",
+        "message":"You did? Oh, yes, I remember now.",
+        "replies":[
+            {
+                "text":"You're a crazy old man.",
+                "nextPhraseID":"gylew_korhald_27"
+            }
+        ]
+    },
+    {
+        "id":"gylew_korhald_20",
+        "message":"Great! Let me have them.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"gylew_korhald_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"korhald_coins",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"coin_collector_thief_coins_50",
+        "message":"[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past,\na glimpse into the underground world where alliances were forged in secrecy. I'd be willing to make you an offer for these intriguing\ntokens of history, should you be interested in parting with them.",
+        "replies":[
+            {
+                "text":"So you want to buy them all?",
+                "nextPhraseID":"coin_collector_thief_coins_55"
+            }
+        ]
+    },
+    {
+        "id":"lae_torturer_30",
+        "message":"OK, then let's get started. This is a very important job, you know?",
+        "replies":[
+            {
+                "text":"Why?",
+                "nextPhraseID":"lae_torturer_32"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lae_torturer",
+                "value":30
+            }
+        ]
     }
 ]
