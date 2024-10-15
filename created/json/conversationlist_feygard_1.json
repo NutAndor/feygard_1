@@ -2105,7 +2105,7 @@
     },
     {
         "id":"swamp_witch_20_10",
-        "message":"Oh, how touching. The brave little hero got himself lost, did he?",
+        "message":"Oh, how touching. The brave little hero got themselves lost, did they?",
         "replies":[
             {
                 "text":"N",
@@ -2115,7 +2115,7 @@
     },
     {
         "id":"swamp_witch_20_12",
-        "message":"And now he expects me to help him? Ha!",
+        "message":"And now they expect me to help them? Ha!",
         "replies":[
             {
                 "text":"Yes, please.",
@@ -2283,7 +2283,7 @@
     },
     {
         "id":"swamp_witch_20_90",
-        "message":"Yes, it is. At least one person who knows beauty when he sees it.",
+        "message":"Yes, it is. At least one person who knows beauty when they see it.",
         "replies":[
             {
                 "text":"N",
@@ -2361,7 +2361,7 @@
     },
     {
         "id":"swamp_witch_20_130",
-        "message":"[Eyeing him suspiciously] What?!",
+        "message":"[Eyeing them suspiciously] What?!",
         "replies":[
             {
                 "text":"People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in the north, nobody will bother you anymore.",
@@ -2388,7 +2388,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"[grumbling] Sweets - I am no kid any more.",
+                "text":"[grumbling] Sweets - I am no kid anymore.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2427,7 +2427,7 @@
     },
     {
         "id":"swamp_witch_20_140",
-        "message":"[Eyeing him suspiciously] What?!",
+        "message":"[Eyeing them suspiciously] What?!",
         "replies":[
             {
                 "text":"People have trouble that the way to Feygard is barred by your fog. No fog on the road, no reason to visit you.",
@@ -2684,7 +2684,7 @@
     },
     {
         "id":"swamp_witch_20_220",
-        "message":"Oh, the heroic little braveheart, off to save his own skin.",
+        "message":"Oh, the heroic little braveheart, off to save their own skin.",
         "replies":[
             {
                 "text":"N",
