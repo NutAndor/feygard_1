@@ -1051,7 +1051,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"10001"
+						"requireID":"feygard_offering_sum",
+                        "value":"10001"
                     }
                 ]
             },
@@ -1060,7 +1061,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"1001"
+						"requireID":"feygard_offering_sum",
+                        "value":"1001"
                     }
                 ]
             },
@@ -1069,7 +1071,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"101"
+						"requireID":"feygard_offering_sum",
+                        "value":"101"
                     }
                 ]
             },
@@ -1078,7 +1081,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"11"
+						"requireID":"feygard_offering_sum",
+                        "value":"11"
                     }
                 ]
             },
