@@ -1051,7 +1051,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"10001"
                     }
                 ]
@@ -1061,7 +1060,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"1001"
                     }
                 ]
@@ -1071,7 +1069,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"101"
                     }
                 ]
@@ -1081,7 +1078,6 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"feygard_offering_sum",
                         "requireID":"11"
                     }
                 ]
@@ -2158,7 +2154,7 @@
                 "nextPhraseID":"swamp_witch_20_24"
             },
             {
-                "text":"Not much of a protection they were.",
+                "text":"Not much of a protection, were they.",
                 "nextPhraseID":"swamp_witch_20_200"
             }
         ]
@@ -2202,7 +2198,7 @@
         "message":"What?",
         "replies":[
             {
-                "text":"... despite what I always have heard about witches in the swamp.",
+                "text":"... despite what I have always heard about witches in the swamp.",
                 "nextPhraseID":"swamp_witch_20_50"
             }
         ]
@@ -2219,7 +2215,7 @@
     },
     {
         "id":"swamp_witch_20_60",
-        "message":"Now, listen carefully, child. I will wait a few minutes before I create new fog again.",
+        "message":"Now, listen carefully, child. I will wait a few minutes before I create fog again.",
         "replies":[
             {
                 "text":"N",
@@ -2249,7 +2245,7 @@
     },
     {
         "id":"swamp_witch_20_80",
-        "message":"Men used to laugh at me. They threw stones at me and at last tried to burn my house.",
+        "message":"Men used to laugh at me. They threw stones at me and finally tried to burn my house.",
         "replies":[
             {
                 "text":"N",
@@ -2259,7 +2255,7 @@
     },
     {
         "id":"swamp_witch_20_82",
-        "message":"All I want is peace and enjoy my lovely garden outside.",
+        "message":"All I want is peace and to enjoy my lovely garden outside.",
         "replies":[
             {
                 "text":"You mean the swamp?",
@@ -2663,7 +2659,7 @@
         "switchToNPC":"swamp_witch",
         "replies":[
             {
-                "text":"I won't let you curse me! (Draws his sword)",
+                "text":"I won't let you curse me! (Draws their sword)",
                 "nextPhraseID":"swamp_witch_20_214"
             },
             {
