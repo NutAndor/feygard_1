@@ -2119,7 +2119,7 @@
     },
     {
         "id":"swamp_witch_20_12",
-        "message":"And now they expect me to help them? Ha!",
+        "message":"And now you expect me to help you? Ha!",
         "replies":[
             {
                 "text":"Yes, please.",
@@ -2365,7 +2365,7 @@
     },
     {
         "id":"swamp_witch_20_130",
-        "message":"[Eyeing them suspiciously] What?!",
+        "message":"[Eyeing you suspiciously] What?!",
         "replies":[
             {
                 "text":"People have trouble that the way to Feygard goes through your fog. If you make your fog a little smaller in the north, nobody will bother you anymore.",
@@ -2431,7 +2431,7 @@
     },
     {
         "id":"swamp_witch_20_140",
-        "message":"[Eyeing them suspiciously] What?!",
+        "message":"[Eyeing you suspiciously] What?!",
         "replies":[
             {
                 "text":"People have trouble that the way to Feygard is barred by your fog. No fog on the road, no reason to visit you.",
@@ -2663,7 +2663,7 @@
         "switchToNPC":"swamp_witch",
         "replies":[
             {
-                "text":"I won't let you curse me! (Draws their sword)",
+                "text":"I won't let you curse me! (Draws the weapon)",
                 "nextPhraseID":"swamp_witch_20_214"
             },
             {
