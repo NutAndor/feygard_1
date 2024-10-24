@@ -15,31 +15,31 @@
             "increaseBlockChance":2,
             "setNonWeaponDamageModifier":121
         },
-    "hitEffect":{
-        "conditionsTarget":[
-            {
-                "condition":"mind_fog",
-                "magnitude":2,
-                "duration":4,
-                "chance":"33"
-            }
-        ]
-    }
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"33"
+                }
+            ]
+        }
     },
-	{
-		"id":"swampwitch_health",
-		"iconID":"items_consumables:49",
-		"name":"Madame Mim's Medicine",
-		"baseMarketCost":33,
-		"category":"pot",
-		"useEffect":{
-			"increaseCurrentHP":{
-				"min":13,
-				"max":13
-			}
-		},
-        "description":"A bottle of murky swamp water"
-	},
+    {
+        "id":"swampwitch_health",
+        "iconID":"items_consumables:49",
+        "name":"Madame Mim's Medicine",
+        "baseMarketCost":33,
+        "category":"pot",
+        "description":"A bottle of murky swamp water",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":13,
+                "max":13
+            }
+        }
+    },
     {
         "id":"coconut",
         "iconID":"items_japozero:500",
@@ -431,6 +431,16 @@
             "increaseUseItemCost":1,
             "increaseAttackCost":1,
             "increaseBlockChance":10
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"minor_increased_defense",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"3"
+                }
+            ]
         }
     }
 ]
