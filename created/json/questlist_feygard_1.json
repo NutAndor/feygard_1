@@ -149,6 +149,18 @@
                 "logText":"PC is not being patient while waiting for the Feydelight to be cooked."
             },
             {
+                "progress":30,
+                "logText":"boat0 clear"
+            },
+            {
+                "progress":31,
+                "logText":"boat0 sunk"
+            },
+            {
+                "progress":31,
+                "logText":"boat0 save"
+            },
+            {
                 "progress":60,
                 "logText":"60=talked to Arthamyr"
             },

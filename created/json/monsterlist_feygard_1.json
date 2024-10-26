@@ -415,6 +415,14 @@
         "phraseID":"tobby6"
     },
     {
+        "id":"boat0",
+        "name":"Beldric",
+        "iconID":"monsters_ld1:14",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "phraseID":"boat0"
+    },
+    {
         "id":"gamjee",
         "name":"Gamjee",
         "iconID":"monsters_cyclops:0",
