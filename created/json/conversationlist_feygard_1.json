@@ -6579,7 +6579,7 @@
     },
     {
         "id":"coin_collector_troll_coins",
-        "message":"Ah, these are Enchanted Coins, crafted by ancient wizards who once drew magic from the well\u2019s waters. The runes on these coins change patterns, a sign of their magical origin. Such artifacts are rare indeed.",
+        "message":"Ah, these are Enchanted Coins, crafted by ancient wizards who once drew magic from the well's waters. The runes on these coins change patterns, a sign of their magical origin. Such artifacts are rare indeed.",
         "replies":[
             {
                 "text":"What can you tell me about their enchantment?",
@@ -7067,7 +7067,7 @@
                 "nextPhraseID":"leofric_job"
             },
             {
-                "text":"If you\u2019re a master of bees, why do you wear a helmet and mask?",
+                "text":"If you're a master of bees, why do you wear a helmet and mask?",
                 "nextPhraseID":"leofric_explain"
             }
         ]
@@ -7463,7 +7463,7 @@
     },
     {
         "id":"wexlow_mother_letter",
-        "message":"Dear Theodora,\n\nI\u2019ve come to visit you again today, but once more, I find your home empty. It\u2019s been nearly a month since I last saw you, and my heart grows heavier with each passing day.\n\nWhere have you gone, my dear? The village seems so quiet, as if all life has been drawn away. I\u2019ve knocked on your door, looked through the windows, and even asked the few people I saw on the Duleian Road (do you know Rosmara, the \"fruit lady\"), but no one has seen you or heard a word.\n\nPlease, if you find this letter, send word to me at once. I cannot bear the thought of something having happened to you. If you\u2019ve simply gone away for a time, I understand, but let me know that you are safe. I will return again in a week's time, praying that I find you here.\n\nWith all my love,\nMother",
+        "message":"Dear Theodora,\n\nI've come to visit you again today, but once more, I find your home empty. It's been nearly a month since I last saw you, and my heart grows heavier with each passing day.\n\nWhere have you gone, my dear? The village seems so quiet, as if all life has been drawn away. I've knocked on your door, looked through the windows, and even asked the few people I saw on the Duleian Road (do you know Rosmara, the \"fruit lady\"), but no one has seen you or heard a word.\n\nPlease, if you find this letter, send word to me at once. I cannot bear the thought of something having happened to you. If you've simply gone away for a time, I understand, but let me know that you are safe. I will return again in a week's time, praying that I find you here.\n\nWith all my love,\nMother",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7504,7 +7504,7 @@
     },
     {
         "id":"wexlow_godwin_journal",
-        "message":"It's been days since anyone has seen Odilia. At first, we thought she might have gone to visit her sister in Feygard, but she never mentioned leaving. The same happened with Philippa, and now Godelieve too. It\u2019s as if they vanished without a trace, all in their sleep. I remember Godelieve looked troubled the night before she disappeared, as though she was fighting some invisible force, but I dismissed it. I should have known something was wrong.\n\nThe village feels different now, quieter, emptier. The men are on edge, but we can\u2019t make sense of what\u2019s happening. The nights are the worst, filled with a heavy silence that chills the bone. I fear for Leofwyn and Theobald, and I can't help but wonder if something in the night is calling to them.\n\nWe\u2019re losing hope, and I\u2019m terrified of what might happen next.\n\nEnd Entry",
+        "message":"It's been days since anyone has seen Odilia. At first, we thought she might have gone to visit her sister in Feygard, but she never mentioned leaving. The same happened with Philippa, and now Godelieve too. It's as if they vanished without a trace, all in their sleep. I remember Godelieve looked troubled the night before she disappeared, as though she was fighting some invisible force, but I dismissed it. I should have known something was wrong.\n\nThe village feels different now, quieter, emptier. The men are on edge, but we can't make sense of what's happening. The nights are the worst, filled with a heavy silence that chills the bone. I fear for Leofwyn and Theobald, and I can't help but wonder if something in the night is calling to them.\n\nWe're losing hope, and I'm terrified of what might happen next.\n\nEnd Entry",
         "replies":[
             {
                 "text":"I wonder who these people are?",
@@ -7525,7 +7525,7 @@
     },
     {
         "id":"village_percival_cleanup",
-        "message":"Can you believe it? It\u2019ll take weeks to clear out all the cobwebs. It\u2019s like the spiders moved in the moment we disappeared. And the food... oh, the smell of it all rotting away. It\u2019s a mess.",
+        "message":"Can you believe it? It'll take weeks to clear out all the cobwebs. It's like the spiders moved in the moment we disappeared. And the food... oh, the smell of it all rotting away. It's a mess.",
         "replies":[
             {
                 "text":"Good luck with all that.",
@@ -7535,7 +7535,7 @@
     },
     {
         "id":"village_theodora_garden",
-        "message":"Our poor garden! It\u2019s been choked by weeds, and what few crops are left are withered. It\u2019ll be a full season\u2019s work just to get it back to where it was. I\u2019ve never seen it this bad before.",
+        "message":"Our poor garden! It's been choked by weeds, and what few crops are left are withered. It'll be a full season's work just to get it back to where it was. I've never seen it this bad before.",
         "replies":[
             {
                 "text":"Farming is in my blood, so I could help you, but I won't. It's time to find my brother, Andor. Have you seen him?",
@@ -7549,7 +7549,7 @@
     },
     {
         "id":"wexlow_osric_cleanup",
-        "message":"It\u2019s like the village itself fell into a deep sleep, just like us. Now, we have to wake it up again, clean out the overgrowth, and hope the roots haven\u2019t gone too deep. This\u2019ll take every bit of strength we\u2019ve got.",
+        "message":"It's like the village itself fell into a deep sleep, just like us. Now, we have to wake it up again, clean out the overgrowth, and hope the roots haven't gone too deep. This'll take every bit of strength we've got.",
         "replies":[
             {
                 "text":"Oh, it most certainly will.",
@@ -7559,7 +7559,7 @@
     },
     {
         "id":"village_odilia_cleanup",
-        "message":"Everything\u2019s out of place, left exactly as it was when we... when we vanished. It\u2019s eerie, really. We\u2019ll need everyone\u2019s help to tidy up and get the village back to how it was. But first, we need to clear away the webs and rot."
+        "message":"Everything's out of place, left exactly as it was when we... when we vanished. It's eerie, really. We'll need everyone's help to tidy up and get the village back to how it was. But first, we need to clear away the webs and rot."
     },
     {
         "id":"road_rondel_move_hint",
