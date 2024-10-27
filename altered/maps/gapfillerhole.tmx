@@ -191,14 +191,9 @@
    eJzbyMnAsBELPgHFuMRPoKmhljgAAfgcIw==
   </data>
  </layer>
- <layer id="1" name="Ground" width="6" height="6" visible="0">
+ <layer id="1" name="Ground" width="6" height="6">
   <data encoding="base64" compression="zlib">
    eJx7IcbA8AKIXwIxMrgF5N8G4ldQeZiaE0D8DYh/QPFtqNgJNP3HCYi/gorDzH4NFQcAUoUYug==
-  </data>
- </layer>
- <layer id="25" name="Ground_9" width="6" height="6">
-  <data encoding="base64" compression="zlib">
-   eJx7IcbA8AKIXwIxMrgF5N8G4ldQeZiaE0D8DYh/QPFtqNgJNP3HCYiDzJ0lhzD7NVQcAGDHGXI=
   </data>
  </layer>
  <layer id="26" name="Ground_5" width="6" height="6" visible="0">
@@ -206,7 +201,12 @@
    eJx7IcbA8AKIXwIxMrgF5N8G4ldQeZiaE0D8DYh/QPFtqNgJNP3HCYiDzJ0lhzD7NVQcAGDHGXI=
   </data>
  </layer>
- <layer id="2" name="Objects" width="6" height="6" visible="0">
+ <layer id="25" name="Ground_9" width="6" height="6" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7IcbA8AKIXwIxMrgF5N8G4ldQeZiaE0D8DYh/QPFtqNgJNP3HCYiDzJ0lhzD7NVQcAGDHGXI=
+  </data>
+ </layer>
+ <layer id="2" name="Objects" width="6" height="6">
   <data encoding="base64" compression="zlib">
    eJxjYECAt5IMDG8kITQu0CWHXXwWDnFSAQD7WARy
   </data>
@@ -241,12 +241,12 @@
    eJxjYECAt5IMDG8kITQtQJccdvFZSOIAqNgEcg==
   </data>
  </layer>
- <layer id="16" name="Objects_9" width="6" height="6">
+ <layer id="16" name="Objects_9" width="6" height="6" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYECAt5IMDG8kITQ1QZccdvFrsphiALh1BK0=
   </data>
  </layer>
- <layer id="3" name="Above" width="6" height="6" visible="0">
+ <layer id="3" name="Above" width="6" height="6">
   <data encoding="base64" compression="zlib">
    eJxjYBg48EIMUwwAFFIA/w==
   </data>
@@ -256,7 +256,7 @@
    eJxjYKAeuCaLwMSIvxDDNAMAO9sGsQ==
   </data>
  </layer>
- <layer id="21" name="Above_9" width="6" height="6">
+ <layer id="21" name="Above_9" width="6" height="6" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAeuCaLwMSIvxDDNAMAO9sGsQ==
   </data>
@@ -340,6 +340,7 @@
   <object id="5" name="boat0_9" type="replace" x="0" y="32" width="160" height="160">
    <properties>
     <property name="Above" value="Above_9"/>
+    <property name="Ground" value="Ground_5"/>
     <property name="Objects" value="Objects_9"/>
     <property name="Walkable" value="Walkable_9"/>
     <property name="requireId" value="boat0"/>
@@ -366,6 +367,7 @@
   <object id="9" name="boat0_5" type="replace" x="0" y="32" width="160" height="160">
    <properties>
     <property name="Above" value="Above_5"/>
+    <property name="Ground" value="Ground_5"/>
     <property name="Objects" value="Objects_5"/>
     <property name="Walkable" value="Walkable_5"/>
     <property name="requireId" value="boat0"/>
