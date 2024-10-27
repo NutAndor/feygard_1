@@ -22,7 +22,7 @@
             },
             {
                 "progress":70,
-                "logText":"You defeated the old witch in battle. So she can't create a new fog.",
+                "logText":"You defeated the old witch in battle, so she can't create a new fog.",
                 "finishesQuest":1
             },
             {
@@ -259,7 +259,7 @@
             },
             {
                 "progress":25,
-                "logText":"And he followed me further to the south."
+                "logText":"Tobby followed me further to the south."
             },
             {
                 "progress":30,
@@ -366,7 +366,7 @@
             },
             {
                 "progress":4,
-                "logText":"I need to find dough, two eggs, a splash of wine, butter, honey and five Feygard fig fruits. I can find the figs in Feygard, but maybe I could find some along the Duleian Road too?"
+                "logText":"I need to find dough, two eggs, wine, butter, honey and five Feygard fig fruits. I can find the figs in Feygard, but maybe I could find some along the Duleian Road too?"
             },
             {
                 "progress":5,

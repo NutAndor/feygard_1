@@ -1209,7 +1209,7 @@
         "message":"Hmmm, let us discuss this amongst ourselves. Can you give us a minute alone?",
         "replies":[
             {
-                "text":"Okay, I will wait nearby.",
+                "text":"OK, I will wait nearby.",
                 "nextPhraseID":"X"
             }
         ],
@@ -1277,7 +1277,7 @@
                 "nextPhraseID":"lytwing_fallhaven_13"
             },
             {
-                "text":"Okay, I will chop it down.",
+                "text":"OK, I will chop it down.",
                 "nextPhraseID":"lytwing_fallhaven_39"
             }
         ],
@@ -1503,7 +1503,7 @@
         "message":"We have decided what would make this right ...",
         "replies":[
             {
-                "text":"Okay?",
+                "text":"OK?",
                 "nextPhraseID":"lytwing_fallhaven_28"
             }
         ]
@@ -1600,7 +1600,7 @@
         "message":"We have discussed this matter and made a final decision ...",
         "replies":[
             {
-                "text":"Okay, I hope this turns out well.",
+                "text":"OK, I hope this turns out well.",
                 "nextPhraseID":"lytwing_fallhaven_36"
             }
         ]
@@ -1646,7 +1646,7 @@
         "message":"It is important that you use an iron axe. That tree is cursed, and only an iron axe will work.",
         "replies":[
             {
-                "text":"Okay, I understand.",
+                "text":"OK, I understand.",
                 "nextPhraseID":"X"
             }
         ]

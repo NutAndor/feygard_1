@@ -267,7 +267,7 @@
         "name":"Feydelight",
         "displaytype":"extraordinary",
         "category":"food",
-        "description":"A popular, but rare holiday Feygardian treat filled with fig fruit. It provides a rush of sweetness and has been know to cause a burst of energy.",
+        "description":"A popular, but rare, holiday Feygardian treat filled with fig fruit. It provides a rush of sweetness and has been known to cause a burst of energy.",
         "useEffect":{
             "conditionsSource":[
                 {

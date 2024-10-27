@@ -1051,8 +1051,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-						"requireID":"feygard_offering_sum",
-                        "value":"10001"
+                        "requireID":"feygard_offering_sum",
+                        "value":10001
                     }
                 ]
             },
@@ -1061,8 +1061,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-						"requireID":"feygard_offering_sum",
-                        "value":"1001"
+                        "requireID":"feygard_offering_sum",
+                        "value":1001
                     }
                 ]
             },
@@ -1071,8 +1071,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-						"requireID":"feygard_offering_sum",
-                        "value":"101"
+                        "requireID":"feygard_offering_sum",
+                        "value":101
                     }
                 ]
             },
@@ -1081,8 +1081,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-						"requireID":"feygard_offering_sum",
-                        "value":"11"
+                        "requireID":"feygard_offering_sum",
+                        "value":11
                     }
                 ]
             },
@@ -3947,11 +3947,11 @@
         "replies":[
             {
                 "text":"Sure.",
-				"nextPhraseID":"boat0_a"
+                "nextPhraseID":"boat0_a"
             },
             {
                 "text":"No, I rather stay dry.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -3989,7 +3989,7 @@
                 "rewardID":"boat0",
                 "mapName":"gapfillerhole"
             }
-		]
+        ]
     },
     {
         "id":"boat0_0",
@@ -4001,7 +4001,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":30,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -4032,7 +4032,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":31,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -4071,7 +4071,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":31,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -4100,7 +4100,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":31,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -4129,7 +4129,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":31,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -4154,11 +4154,11 @@
                 "rewardID":"boat0",
                 "value":5
             },
-			{
-				"rewardType":"actorCondition",
-				"rewardID":"drowning",
-				"value":998
-			},
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"drowning",
+                "value":998
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
@@ -4176,7 +4176,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":31,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -4205,7 +4205,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":31,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -4239,7 +4239,7 @@
                         "requireType":"questProgress",
                         "requireID":"feygard_nondisplayed",
                         "value":32,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -4254,11 +4254,11 @@
                 "rewardID":"boat0",
                 "value":9
             },
-			{
-				"rewardType":"actorCondition",
-				"rewardID":"drowning",
-				"value":-99
-			},
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"drowning",
+                "value":-99
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
@@ -4271,7 +4271,7 @@
         "message":"Thank you for rescuing us earlier!",
         "replies":[
             {
-                "text":"Your welcome, but I was hoping for more than gratitude.",
+                "text":"You're welcome, but I was hoping for more than gratitude.",
                 "nextPhraseID":"village_philippa_fd_1",
                 "requires":[
                     {
@@ -4283,7 +4283,7 @@
                 ]
             },
             {
-                "text":"Your welcome, but I wanted to talk about the \"Feydelight\" again.",
+                "text":"You're welcome, but I wanted to talk about the \"Feydelight\" again.",
                 "nextPhraseID":"village_philippa_fd_5",
                 "requires":[
                     {
@@ -4461,7 +4461,7 @@
                 "nextPhraseID":"village_philippa_fd_11"
             },
             {
-                "text":"I've been across great amount of Dhayavar and I've not seen honey anywhere.",
+                "text":"I've been across a great amount of Dhayavar and I've not seen honey anywhere.",
                 "nextPhraseID":"village_philippa_fd_12",
                 "requires":[
                     {
@@ -4507,7 +4507,7 @@
         "message":"How about trying a beekeeper? Geez, you are not the smartest are you?",
         "replies":[
             {
-                "text":"You know what? Now that you mention it, I have met a beekeeper before. But where? Any way, what about...",
+                "text":"You know what? Now that you mention it, I have met a beekeeper before. But where? Anyway, what about...",
                 "nextPhraseID":"village_philippa_fd_10",
                 "requires":[
                     {
@@ -4543,7 +4543,7 @@
                 "nextPhraseID":"village_percival_rude"
             },
             {
-                "text":"You did not have the Shadow with you.",
+                "text":"You did not have The Shadow with you.",
                 "nextPhraseID":"village_percival_shadow"
             },
             {
@@ -4583,7 +4583,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Well, it was fun afterall.",
+                "text":"Well, it was fun after all.",
                 "nextPhraseID":"village_theodora_fun"
             },
             {
@@ -4662,7 +4662,7 @@
     },
     {
         "id":"village_theobald_start",
-        "message":"We are indebted to you now. Your heroicism will never be forgotten by the members of this tiny village.",
+        "message":"We are indebted to you now. Your heroism will never be forgotten by the members of this tiny village.",
         "replies":[
             {
                 "text":"Why do you live in this \"tiny village\" anyway?",
@@ -5649,7 +5649,7 @@
         "switchToNPC":"troll_hollow_theobald",
         "replies":[
             {
-                "text":"Matter a fact, I have. But what I have will require a lot of effort on you guys' end.",
+                "text":"Matter of fact, I have. But what I have will require a lot of effort on you guys' end.",
                 "nextPhraseID":"gamjee_well_post_troll_rescue_1",
                 "requires":[
                     {
@@ -5678,7 +5678,7 @@
         "message":"What is it?",
         "replies":[
             {
-                "text":"It's a rope. I will tie one end to this here rock and throw down the other end to you. I hope you guys have the strength to do it.",
+                "text":"It's a rope. I will tie one end to this rock here and throw down the other end to you. I hope you guys have the strength to do it.",
                 "nextPhraseID":"gamjee_well_post_troll_rescue_2"
             }
         ]
@@ -6438,7 +6438,7 @@
     },
     {
         "id":"village_godwin_lost_ring_1",
-        "message":"Have you by any chance seen my weeding ring? Oh my, Godelieve is going to kill me when she sees it's missing.",
+        "message":"Have you by any chance seen my wedding ring? Oh my, Godelieve is going to kill me when she sees it's missing.",
         "replies":[
             {
                 "text":"What does it look like?",
