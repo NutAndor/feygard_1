@@ -16,7 +16,21 @@
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
-        "damageResistance":10
+        "damageResistance":10,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"feygard_fogmonster2",
@@ -35,7 +49,21 @@
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
-        "damageResistance":10
+        "damageResistance":10,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"feygard_fogmonster3",
@@ -54,7 +82,21 @@
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
-        "damageResistance":10
+        "damageResistance":10,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"feygard_fogmonster4",
@@ -73,7 +115,21 @@
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
-        "damageResistance":10
+        "damageResistance":10,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"feygard_fogmonster5",
@@ -92,7 +148,21 @@
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
-        "damageResistance":10
+        "damageResistance":10,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"feygard_fogmonster9",
@@ -112,7 +182,21 @@
         "attackCost":6,
         "attackChance":140,
         "blockChance":150,
-        "damageResistance":10
+        "damageResistance":10,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"mind_fog",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"feygard_offering_guard",
