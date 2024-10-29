@@ -4933,6 +4933,7 @@
     },
     {
         "id":"wexlow_well_throw_something_2",
+		"switchtoNPC": "none",
         "message":"You are thinking to yourself now. Trying to decide what else you want to throw down into the well...",
         "replies":[
             {
@@ -6202,7 +6203,6 @@
     {
         "id":"gamjee_compromise_9",
         "message":"You human, go back village now.",
-        "switchToNPC":"gamjee_oc",
         "replies":[
             {
                 "text":"So our business here is done?",
