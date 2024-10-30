@@ -278,13 +278,6 @@
                 "text":"N",
                 "nextPhraseID":"arensia_lytwing_33"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fallhaven_lytwings",
-                "value":1
-            }
         ]
     },
     {
@@ -804,6 +797,13 @@
             {
                 "text":"Okay.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fallhaven_lytwings",
+                "value":1
             }
         ]
     },
