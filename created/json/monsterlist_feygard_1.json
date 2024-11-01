@@ -535,6 +535,16 @@
                     "chance":"5"
                 }
             ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"soaked_vision",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"7"
+                }
+            ]
         }
     },
     {
@@ -564,6 +574,16 @@
                     "magnitude":1,
                     "duration":2,
                     "chance":"5"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"soaked_vision",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"7"
                 }
             ]
         }
