@@ -3947,7 +3947,15 @@
         "replies":[
             {
                 "text":"Sure.",
-                "nextPhraseID":"boat0_a"
+                "nextPhraseID":"boat0_a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"No, I rather stay dry.",
