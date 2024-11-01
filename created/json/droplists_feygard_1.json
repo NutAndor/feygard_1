@@ -230,6 +230,14 @@
                     "min":5,
                     "max":8
                 }
+            },
+            {
+                "itemID":"pink_potion",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":4
+                }
             }
         ]
     },
