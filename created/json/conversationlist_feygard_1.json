@@ -5019,6 +5019,7 @@
     {
         "id":"wexlow_well_throw_polished_gem",
         "message":"Shiny gem! Nice, but not enough for Gamjee!",
+        "switchToNPC":"well_voice",
         "replies":[
             {
                 "text":"N",
@@ -5040,6 +5041,7 @@
     {
         "id":"wexlow_well_throw_something_3",
         "message":"You are thinking to yourself now. Trying to decide what else you want to throw down into the well...",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Throw a piece of rotten meat into the well]",
@@ -5127,6 +5129,7 @@
     {
         "id":"wexlow_well_throw_something_4",
         "message":"You are thinking to yourself now. Trying to decide what else you want to throw down into the well...",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Throw a bone into the well]",
@@ -5181,6 +5184,7 @@
     {
         "id":"wexlow_well_throw_coin_4",
         "message":"Again, shiny coin? Gamjee not need your shiny trash! Keep your gold!",
+        "switchToNPC":"well_voice",
         "replies":[
             {
                 "text":"N",
@@ -5191,6 +5195,7 @@
     {
         "id":"wexlow_well_map_change",
         "message":"Suddenly, a powerful force grabs you and drags you down into the darkness of the well. You find yourself dazed, confused in a dank, underground cavern while bleeding for what feels like every part of your body.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"questProgress",
