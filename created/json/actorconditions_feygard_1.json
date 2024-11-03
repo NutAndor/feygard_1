@@ -41,8 +41,11 @@
         "name":"Soaked vision",
         "category":"physical",
         "abilityEffect":{
-            "increaseAttackChance":-10,
-            "increaseAttackCost":-1
+            "increaseAttackChance":-20,
+            "increaseAttackCost":1,
+            "increaseReequipCost":1,
+            "increaseUseItemCost":1,
+            "increaseMoveCost":1
         }
     }
 ]

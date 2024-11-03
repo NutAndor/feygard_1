@@ -542,7 +542,7 @@
                     "condition":"soaked_vision",
                     "magnitude":1,
                     "duration":2,
-                    "chance":"7"
+                    "chance":"30"
                 }
             ]
         }
@@ -583,7 +583,7 @@
                     "condition":"soaked_vision",
                     "magnitude":1,
                     "duration":2,
-                    "chance":"7"
+                    "chance":"30"
                 }
             ]
         }
