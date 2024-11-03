@@ -3217,7 +3217,7 @@
         "message":"You have come from the south, so you know how to pass these nasty cobolds, right?",
         "replies":[
             {
-                "text":"Well, OK. I'll help you",
+                "text":"Well, OK. I'll help you.",
                 "nextPhraseID":"tobby_20"
             }
         ]
@@ -4941,8 +4941,8 @@
     },
     {
         "id":"wexlow_well_throw_something_2",
-		"switchToNPC": "none",
         "message":"You are thinking to yourself now. Trying to decide what else you want to throw down into the well...",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Throw a leather boot into the well]",
