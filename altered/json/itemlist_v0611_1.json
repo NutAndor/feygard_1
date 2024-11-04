@@ -1,0 +1,14 @@
+[
+    {
+        "id":"hat_crit",
+        "iconID":"items_armours_3:0",
+        "name":"Woodcutter's feathered hat",
+        "displaytype":"extraordinary",
+        "hasManualPrice":0,
+        "baseMarketCost":1,
+        "category":"hd_cloth",
+        "equipEffect":{
+            "increaseCriticalSkill":4
+        }
+    }
+]
