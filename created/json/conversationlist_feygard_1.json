@@ -6527,7 +6527,14 @@
         "replies":[
             {
                 "text":"Sounds good.",
-                "nextPhraseID":"village_godwin_lost_ring_take_ring"
+                "nextPhraseID":"village_godwin_lost_ring_take_ring",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"godwin_ring",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"Hey Godelieve, did you hear what happened to Godwin?",
@@ -6553,7 +6560,14 @@
         "replies":[
             {
                 "text":"3000 gold or no ring.",
-                "nextPhraseID":"village_godwin_lost_ring_3k"
+                "nextPhraseID":"village_godwin_lost_ring_3k",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"godwin_ring",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -6563,14 +6577,7 @@
         "replies":[
             {
                 "text":"I will put them to good use.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"godwin_ring",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
