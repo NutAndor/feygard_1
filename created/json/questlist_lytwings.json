@@ -67,8 +67,7 @@
             {
                 "progress":100,
                 "logText":"Arensia was elated to hear that the lytwings will no longer taunt her.",
-                "rewardExperience":300,
-                "finishesQuest":1
+                "rewardExperience":300
             },
             {
                 "progress":101,
@@ -82,7 +81,8 @@
             },
             {
                 "progress":103,
-                "logText":"Arensia gave me her magical promise ring as reward for helping her."
+                "logText":"Arensia gave me her magical promise ring as reward for helping her.",
+                "finishesQuest":1
             }
         ]
     }

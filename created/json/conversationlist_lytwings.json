@@ -222,17 +222,39 @@
                 ]
             },
             {
-                "nextPhraseID":"arensia_lytwing_23",
+                "nextPhraseID":"arensia_lytwing_24",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"fallhaven_lytwings",
-                        "value":99
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":102,
+                        "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_lytwing_9"
+                "nextPhraseID":"arensia_lytwing_24",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":103,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"arensia_lytwing_23"
             }
         ]
     },
