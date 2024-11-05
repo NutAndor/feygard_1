@@ -6489,8 +6489,8 @@
         "message":"Your messing with me, right? Give it to me, please.",
         "replies":[
             {
-                "text":"Sure. Here it's yours.",
-                "nextPhraseID":"village_godwin_lost_ring_take_ring",
+                "text":"Sure. Here, it's yours.",
+                "nextPhraseID":"village_godwin_lost_ring_give_ring_free",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6518,6 +6518,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":14
             }
         ]
     },
@@ -6590,6 +6595,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":15
             }
         ]
     },
@@ -7888,6 +7898,27 @@
             {
                 "text":"What do I need to do again to get my \"Feydelight\"?",
                 "nextPhraseID":"village_philippa_fd_8"
+            }
+        ]
+    },
+    {
+        "id":"village_godwin_lost_ring_give_ring_free",
+        "message":"Thank you so much! I really appreciate you just giving it to me. Here are a few coins for your trouble.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":7
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":13
             }
         ]
     }

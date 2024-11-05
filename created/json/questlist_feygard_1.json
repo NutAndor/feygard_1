@@ -122,7 +122,22 @@
             },
             {
                 "progress":7,
-                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring."
+                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring. [wrapper for 13, 14, 15]"
+            },
+            {
+                "progress":13,
+                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring for free.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":14,
+                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring for 2k gold.",
+                "rewardExperience":100
+            },
+            {
+                "progress":15,
+                "logText":"PC gave Godwin, a villager from Wexlow, his lost ring for 3k gold.",
+                "rewardExperience":1
             },
             {
                 "progress":8,
