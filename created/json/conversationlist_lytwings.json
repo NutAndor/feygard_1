@@ -1241,7 +1241,7 @@
     },
     {
         "id":"lytwing_fallhaven_12",
-        "message":"But you have to do something for us first *giggle*.",
+        "message":"But you have to do something for us first [giggle].",
         "replies":[
             {
                 "text":"Oh please just let Arensia be, she meant no ill will.",
@@ -1307,7 +1307,7 @@
     },
     {
         "id":"lytwing_fallhaven_17",
-        "message":"We are having a celebration, please get us four bottles of mead. *giggle*",
+        "message":"We are having a celebration, please get us four bottles of mead. [giggle]",
         "replies":[
             {
                 "text":"I don't think so. Your demands are getting ridiculous.",
