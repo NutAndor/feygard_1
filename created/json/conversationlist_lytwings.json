@@ -871,7 +871,7 @@
     },
     {
         "id":"rigmor_lytwing_1",
-        "message":"I take it you spoke to Arensia.",
+        "message":"I take it you spoke to Arensia?",
         "replies":[
             {
                 "text":"N",
