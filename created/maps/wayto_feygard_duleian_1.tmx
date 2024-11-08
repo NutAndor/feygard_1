@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="14">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJx9Vb1KA0EQPq6zELwFL1wR9UVSaKMJAf+jNkI0CQr6AAa0sbUVXyGt6AuIYK61UVREtDhj0gftnHH3Y+fuNg4MezOzO9/M7Mxeu+h5w9DzXogl9Uluk+2oqFfQPH0vGPkq0GuZ5ArxIvGSsXUDzdfE71Oetx153iHxE8nnvt7TUrTH4D4EFiMmXUPpb+kT2KuRlg+MT6ZZ0s+JOKW9HFld3fjlnL8zeXPOX6H1NU17Z1TaZ8URF/JnHBkH8F/9fLxdR70Z+35SywnVY0VZ36Adlb4D6VMSx1KKrB1xAfdD5BUbXVPl/TBVjf8a2TeI4yBtRzwyFqw3tHdd5XuMvznnnsmbCTEuiziA3RK6u8BiYe0H7nqgx04n8nnFmTtYK1CsxDXiXYGX9Qk5EbHDLvvCNVfAxb1ybRqE1yRuFbSd5yZ77xJzEGof4yrTU6iBSvcXz1YS2h5j6ok75FkrGR+427pK1/iT9Be+jUvWXt5Xtq+ZuAckNhNql5gekDxw+Hgm3U+Y7n3khlpn51nWG+e6pg6Mwe/QozlfdcwQzo56ZzYp7y3lzjsJ03P114O+teMN5Joek7+Ton0nmM5Mv7rme4/87Y/A5bmWtXbdxyDI62S+IGBna861+q+3gSvzwfcbrR3iW3GWdXgL0F/Axv8H8uWYGxu4w9DWNnHk2RExyX/OL/INr30=
+   eJx9Vb1KA0EQPq6zELwFL6SI+iIptNGEgP9RGyGaBAV9AAPa2NqKr5BW9AVEMGltFBURLc6Y9EE7Z9z92Lm9jQPD7c7uzjfz7cxeqxAEwzgIXkil9GneorWjgv5C5mm8YOZXkf6WaF4mXSRdMmudSOs16ftUEGzng+CQ9Inm56He01S0x+A+RBajS7a60mPpE9ireT0/MD5ZZsk+J+KU66W8tdWMX87528mbc/6Kra9p2juj0j7LnriQP+PIOID/Gmbj7Xj4Zuz7ST1PiI8VZX1DdlT6DqRPKSWHI8QF3A+RV9fYGk6ukIrxVaX1DdJulF5HPMAqiphuaO+6ytYYjznnnsmbBTEuiziA3RS2u8hi4duP/Hygxk4nsnl1nTtYy1GspFXSXYHn+sQ8EbFjXdaFr6+Ai3tlbuqE1yBt5vQ694177xJzEGsf48qpKXCg0vXFvZXEtsZYeuIOudeKxgfutqbSHH+S/SK0cUnu5X25dc3CNSCxWcBdYmpA6sDj45lsP3G69pEbuHb7WfKNcx3DA2PwO/Rozlc8PYSzo96ZTcp7S/nzTuJ0X/3VYGjX8QYyp8fk76Rg3wmWM1Ovvv7eI3/7I3C5ryXXvvsYRFmbzBcCbJdz5uq/2gauzAfjN/q2SW/FWbbhLUB9ARv/H8wvx/zYwB3GltvEk2dbxCT/Ob/Jva99
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="15">
@@ -203,9 +203,9 @@
    eJxjYMAOKmVR+fpAvgFUTB1IayDJx0gyMMRKQtiKQHElNL0weUtJHJbhANjMQgfI7tIE0lqyEHuQ9SK7DxufGAAzGxnAwiFHEreZMD/D5An5SZQJt5wNATfD3IPsFlL9CQLY3IjLbphd1AhjQoAYO2B85HSBD2CLV3zyyHbqCOF3C7UAtjCGuQtb2FMbTMWSJtHLAGIBIX240tllMcLlDCVgOtCPsUDz4tDMPCwGoWkZxtOxhC/MXmS70cOOUHlACIDC9LIYqhjMXlj6gtkdCWRHyRIfDp+EcMtdEkP1M4h9CYt/0QEt4wAAOJEzWQ==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="15">
+ <layer id="5" name="Walkable" width="30" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytVG0KQCEIe6fo/lfohv0KHqL70AZChblZsr2+FHvxQLmslop/frxfrTPeu3c4kdZKl6pXBeoL1WR/5mpQNHbeOqujcLNZfAk071Gnys/ylL6m/xprVRpUH3iNOEsTTsWXGG+27mhg3jn1jIyXnTme3pnvyh+c93D8W827cQCUVn99
+   eJy1VNsJACEMcwr3X8EN70uQ0jxavYBwStuk2suaI8WaerFYVcvFGR/z0XfGu/cVTqYV6XL1umB9sZpIWwcqT81HhSfr1eFkNW7B5j3qdPlVnNPX7bvGWkiD6wOvEf/bP2ZLvWXM7fhJxoc0vPCMjFedVTy9M9/Iiyv3UfFvN26vDzcOf30=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -227,7 +227,7 @@
     <property name="place" value="southwest"/>
    </properties>
   </object>
-  <object id="4" name="east" type="mapchange" x="928" y="128" width="32" height="320">
+  <object id="4" name="east" type="mapchange" x="928" y="160" width="32" height="288">
    <properties>
     <property name="map" value="way_to_wexlow2"/>
     <property name="place" value="southwest"/>
@@ -239,38 +239,38 @@
     <property name="place" value="southeast"/>
    </properties>
   </object>
-  <object id="12" name="gold100" type="container" x="896" y="288" width="32" height="32"/>
+  <object id="6" name="gold100" type="container" x="896" y="288" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
-  <object id="6" name="road_rondel_spawn" type="spawn" x="544" y="96" width="32" height="32">
+  <object id="7" name="road_rondel_spawn" type="spawn" x="544" y="96" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="road_rondel"/>
    </properties>
   </object>
-  <object id="7" name="road_rondel_blocker_spawn" type="spawn" x="512" y="32" width="32" height="32">
+  <object id="8" name="road_rondel_blocker_spawn" type="spawn" x="512" y="32" width="32" height="32">
    <properties>
     <property name="spawngroup" value="road_rondel_blocker"/>
    </properties>
   </object>
-  <object id="8" name="duleian_hornet_spawn1" type="spawn" x="0" y="64" width="64" height="32">
+  <object id="9" name="duleian_hornet_spawn1" type="spawn" x="0" y="64" width="64" height="32">
    <properties>
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="9" name="duleian_hornet_spawn3" type="spawn" x="64" y="160" width="96" height="256">
+  <object id="10" name="duleian_hornet_spawn3" type="spawn" x="64" y="160" width="96" height="256">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="10" name="duleian_hornet_spawn4" type="spawn" x="384" y="128" width="352" height="160">
+  <object id="11" name="duleian_hornet_spawn4" type="spawn" x="384" y="128" width="352" height="160">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="11" name="murkcrawler_spawn" type="spawn" x="864" y="224" width="32" height="32">
+  <object id="12" name="murkcrawler_spawn" type="spawn" x="864" y="224" width="32" height="32">
    <properties>
     <property name="spawngroup" value="murkcrawler"/>
    </properties>
