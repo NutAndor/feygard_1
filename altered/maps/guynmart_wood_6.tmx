@@ -301,7 +301,7 @@
     <property name="spawngroup" value="forestboar4"/>
    </properties>
   </object>
-  <object id="4" name="forestbeetle" type="spawn" x="192" y="0" width="160" height="64">
+  <object id="4" name="forestbeetle" type="spawn" x="256" y="0" width="96" height="64">
    <properties>
     <property name="spawngroup" value="forestbeetle"/>
    </properties>
