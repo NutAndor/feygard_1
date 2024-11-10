@@ -1682,12 +1682,12 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"cobold4a",
+                "rewardID":"kobold4a",
                 "mapName":"guynmart_wood_18"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"cobold4b",
+                "rewardID":"kobold4b",
                 "mapName":"guynmart_wood_18"
             }
         ]
@@ -3164,7 +3164,7 @@
     },
     {
         "id":"tobby_10",
-        "message":"My father had sent me to look for him. But I dare not pass the cobolds in the ravine.",
+        "message":"My father had sent me to look for him. But I dare not pass the kobolds in the ravine.",
         "replies":[
             {
                 "text":"You are sure your brother went that way?",
@@ -3197,7 +3197,7 @@
         "message":"And now he is gone.",
         "replies":[
             {
-                "text":"And you neither dare pass the cobolds, nor tell your father that you give up.",
+                "text":"And you neither dare pass the kobolds, nor tell your father that you give up.",
                 "nextPhraseID":"tobby_18"
             }
         ]
@@ -3214,7 +3214,7 @@
     },
     {
         "id":"tobby_19",
-        "message":"You have come from the south, so you know how to pass these nasty cobolds, right?",
+        "message":"You have come from the south, so you know how to pass these nasty kobolds, right?",
         "replies":[
             {
                 "text":"Well, OK. I'll help you.",
@@ -6867,7 +6867,7 @@
                 ]
             },
             {
-                "text":"The fog further down the road behind the cobolds, of course.",
+                "text":"The fog further down the road behind the kobolds, of course.",
                 "nextPhraseID":"rosmara_explain_11a",
                 "requires":[
                     {
@@ -6896,14 +6896,14 @@
     },
     {
         "id":"rosmara_explain_11a",
-        "message":"Are you still afraid of cobolds or fog, child?",
+        "message":"Are you still afraid of kobolds or fog, child?",
         "replies":[
             {
                 "text":"I am not a child anymore!!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I have mastered the fog and survived the cobolds!!",
+                "text":"I have mastered the fog and survived the kobolds!!",
                 "nextPhraseID":"rosmara_explain_12"
             }
         ]

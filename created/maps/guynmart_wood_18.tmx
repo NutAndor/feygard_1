@@ -301,37 +301,37 @@
     <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object id="45" name="cobold1" type="spawn" x="224" y="192" width="736" height="640">
+  <object id="45" name="kobold1" type="spawn" x="224" y="192" width="736" height="640">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="4"/>
-    <property name="spawngroup" value="cobold1"/>
+    <property name="spawngroup" value="kobold1"/>
    </properties>
   </object>
-  <object id="58" name="cobold2" type="spawn" x="224" y="192" width="736" height="640">
+  <object id="58" name="kobold2" type="spawn" x="224" y="192" width="736" height="640">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="8"/>
-    <property name="spawngroup" value="cobold2"/>
+    <property name="spawngroup" value="kobold2"/>
    </properties>
   </object>
-  <object id="59" name="cobold3" type="spawn" x="224" y="192" width="736" height="640">
+  <object id="59" name="kobold3" type="spawn" x="224" y="192" width="736" height="640">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="cobold3"/>
+    <property name="spawngroup" value="kobold3"/>
    </properties>
   </object>
-  <object id="60" name="cobold4b" type="spawn" x="512" y="256" width="32" height="32">
+  <object id="60" name="kobold4b" type="spawn" x="512" y="256" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="cobold4"/>
+    <property name="spawngroup" value="kobold4"/>
    </properties>
   </object>
-  <object id="61" name="cobold4a" type="spawn" x="672" y="800" width="32" height="32">
+  <object id="61" name="kobold4a" type="spawn" x="672" y="800" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="cobold4"/>
+    <property name="spawngroup" value="kobold4"/>
    </properties>
   </object>
   <object id="64" name="tobby3" type="spawn" x="384" y="0" width="96" height="32">

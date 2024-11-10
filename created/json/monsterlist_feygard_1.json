@@ -233,8 +233,8 @@
         "phraseID":"godoe"
     },
     {
-        "id":"cobold1",
-        "name":"Quick cobold",
+        "id":"kobold1",
+        "name":"Quick kobold",
         "iconID":"monsters_karvis1:0",
         "maxHP":70,
         "maxAP":10,
@@ -245,7 +245,7 @@
             "min":1,
             "max":10
         },
-        "droplistID":"cobold",
+        "droplistID":"kobold",
         "attackCost":2,
         "attackChance":140,
         "criticalSkill":10,
@@ -270,8 +270,8 @@
         }
     },
     {
-        "id":"cobold2",
-        "name":"Cobold",
+        "id":"kobold2",
+        "name":"Kobold",
         "iconID":"monsters_karvis1:0",
         "maxHP":70,
         "maxAP":10,
@@ -282,7 +282,7 @@
             "min":1,
             "max":10
         },
-        "droplistID":"cobold",
+        "droplistID":"kobold",
         "attackCost":2,
         "attackChance":140,
         "criticalSkill":10,
@@ -307,8 +307,8 @@
         }
     },
     {
-        "id":"cobold4",
-        "name":"Tough cobold",
+        "id":"kobold4",
+        "name":"Tough kobold",
         "iconID":"monsters_karvis1:0",
         "maxHP":300,
         "maxAP":10,
@@ -317,15 +317,15 @@
             "min":1,
             "max":10
         },
-        "droplistID":"cobold",
+        "droplistID":"kobold",
         "attackCost":5,
         "attackChance":140,
         "blockChance":120,
         "damageResistance":12
     },
     {
-        "id":"cobold3",
-        "name":"Ancient cobold",
+        "id":"kobold3",
+        "name":"Ancient kobold",
         "iconID":"monsters_karvis1:0",
         "maxHP":70,
         "maxAP":10,
@@ -336,7 +336,7 @@
             "min":1,
             "max":10
         },
-        "droplistID":"cobold",
+        "droplistID":"kobold",
         "attackCost":3,
         "attackChance":140,
         "criticalSkill":10,

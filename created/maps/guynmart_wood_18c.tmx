@@ -234,18 +234,18 @@
   <object id="72" name="guynmart18b_s3" type="script" x="64" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
-  <object id="45" name="cobold1" type="spawn" x="64" y="96" width="32" height="32">
+  <object id="45" name="kobold1" type="spawn" x="64" y="96" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
-    <property name="spawngroup" value="cobold1"/>
+    <property name="spawngroup" value="kobold1"/>
    </properties>
   </object>
-  <object id="58" name="cobold2" type="spawn" x="64" y="224" width="32" height="32">
+  <object id="58" name="kobold2" type="spawn" x="64" y="224" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
-    <property name="spawngroup" value="cobold2"/>
+    <property name="spawngroup" value="kobold2"/>
    </properties>
   </object>
  </objectgroup>
