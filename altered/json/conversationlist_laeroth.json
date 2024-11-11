@@ -567,5 +567,63 @@
                 "value":11
             }
         ]
+    },
+    {
+        "id":"gylew7a_2",
+        "message":"Here is 500 gold.",
+        "replies":[
+            {
+                "text":"Now that's funny. A coin collector traded me his gold coins for my coins.",
+                "nextPhraseID":"gylew8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":13,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Now that's funny. A coin collector traded me his gold coins for my coins.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":500
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"odd_coin_collector",
+                "value":10
+            }
+        ]
     }
 ]
